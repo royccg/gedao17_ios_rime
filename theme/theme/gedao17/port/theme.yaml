@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 config_version: "1.0"
-name: gedao17 #方案名称
+name: 格道17 #方案名称
 author: Roy
 
 #键盘高度等
@@ -46,7 +46,7 @@ style:
   vertical_gap: *jpgd6 #键盘行距
 
 
-#默认26键盘布局
+#键盘布局
 preset_keyboards:
   default:
     ascii_mode: 0
@@ -57,6 +57,20 @@ preset_keyboards:
     round_corner: *jpgd4
     #现在只支持配置click,swipe_up,swipe_down键盘
     keys: 
+      - {click: "1", label: Zh, width: 18}
+      - {click: "2", label: Sh, width: 18}
+      - {click: "3", label: Ch, width: 18}
+      - {click: "4", label: fz, width: 16}
+      - {click: "5", label: ws, width: 16}
+      - {click: "6", label: mc, width: 14}
+    
+      - {click: "7", label: Zh, width: 18}
+      - {click: "8", label: Sh, width: 18}
+      - {click: "9", label: Ch, width: 18}
+      - {click: "10", label: fz, width: 16}
+      - {click: "5", label: ws, width: 16}
+      - {click: "6", label: mc, width: 14}
+
       - {click: number2, width: 20}
       - {click: 1, label: "1?!", swipe_up: "?",  swipe_down: "!", width: 20}
       - {click: 2, label: ABC, width: 20}
