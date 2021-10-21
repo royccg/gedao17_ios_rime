@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 config_version: "0.9"
-name: 苹果内置五笔键盘 #方案名称
-author: 筋斗云#作者资讯
+name: 苹果内置五笔键盘1 #方案名称
+author: 筋斗云#作者资讯1
 
 #键盘高度等
 height:
