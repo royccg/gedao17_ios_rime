@@ -2,7 +2,8 @@
 
 config_version: "1.0"
 name: 格道17 #方案名称
-author: Roy
+author:
+    - Roy <roy.chen.cc@outlook.com>
 
 #键盘高度等
 height:
@@ -57,43 +58,49 @@ preset_keyboards:
     round_corner: *jpgd4
     #现在只支持配置click,swipe_up,swipe_down键盘
     keys: 
-      - {click: "1", label: Zh, width: 18}
-      - {click: "2", label: Sh, width: 18}
-      - {click: "3", label: Ch, width: 18}
-      - {click: "4", label: fz, width: 16}
-      - {click: "5", label: ws, width: 16}
-      - {click: "6", label: mc, width: 14}
+      - {click: 1, label: Zh, width: 18}
+      - {click: 2, label: Sh, width: 18}
+      - {click: 3, label: Ch, width: 18}
+      - {click: 4, label: fz, width: 16}
+      - {click: 5, label: ws, width: 16}
+      - {click: 6, label: mc, width: 14}
     
-      - {click: "7", label: Zh, width: 18}
-      - {click: "8", label: Sh, width: 18}
-      - {click: "9", label: Ch, width: 18}
-      - {click: "10", label: fz, width: 16}
-      - {click: "5", label: ws, width: 16}
-      - {click: "6", label: mc, width: 14}
+      - {click: 7, label: L, width: 18}
+      - {click: 8, label: d, width: 18}
+      - {click: 9, label: y, width: 18}
+      - {click: q, label: nh, width: 16}
+      - {click: w, label: j, width: 16}
+      - {click: e, label: tr, width: 14}
 
-      - {click: number2, width: 20}
-      - {click: 1, label: "1?!", swipe_up: "?",  swipe_down: "!", width: 20}
-      - {click: 2, label: ABC, width: 20}
-      - {click: 3, label: DEF, width: 20}
-      - {click: BackSpace, width: 20}
+      - {click: r, label: pk, width: 18}
+      - {click: t, label: q~, width: 18}
+      - {click: y, label: g, width: 18}
+      - {click: u, label: b, width: 16}
+      - {click: i, label: x, width: 16}
+      - {click: BackSpace, width: 14}
 
-      - {click: english, width: 20}
-      - {click: 4, label: GHI, width: 20}
-      - {click: 5, label: JKL, width: 20}
-      - {click: 6, label: MNO, width: 20}
-      - {click: commit@, width: 20}
-
-      - {click: .symbols, width: 20}
-      - {click: 7, label: PQRS, width: 20}
-      - {click: 8, label: TUV, width: 20}
-      - {click: 9, label: WXYZ, width: 20}
-      - {click: symbols2, width: 20}
-
-      - {click: DefaultKeyboard2, width: 20}
-      - {click: ",", width: 20}
-      - {click: space, width: 20}
-      - {click: "。", width: 20} # 。
+      - {click: number2, width: 18}
+      - {click: english, width: 18}
+      - {click: space, width: 44}
       - {click: Return, width: 20}
+
+      # - {click: english, width: 20}
+      # - {click: 4, label: GHI, width: 20}
+      # - {click: 5, label: JKL, width: 20}
+      # - {click: 6, label: MNO, width: 20}
+      # - {click: commit@, width: 20}
+
+      # - {click: .symbols, width: 20}
+      # - {click: 7, label: PQRS, width: 20}
+      # - {click: 8, label: TUV, width: 20}
+      # - {click: 9, label: WXYZ, width: 20}
+      # - {click: symbols2, width: 20}
+
+      # - {click: DefaultKeyboard2, width: 20}
+      # - {click: ",", width: 20}
+      # - {click: space, width: 20}
+      # - {click: "。", width: 20} # 。
+      # - {click: Return, width: 20}
 
     name: "自定义数字键盘"
     width: 10
