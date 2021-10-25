@@ -30,8 +30,8 @@ engine:
     - ascii_composer
     - recognizer
     - key_binder
-    - speller
-    - punctuator
+    - speller              # ※ 拼写处理器，接受字符按键，编辑输入码
+    - punctuator           # ※ 句读处理器，将单个字符按键直接映射为文字符号
     - selector
     - navigator
     - express_editor
@@ -79,8 +79,8 @@ speller:
     - xform/^m|^c/6/
     - xform/^l/7/
     - xform/^d/8/
-    - xform/^y|^n/9/
-    - xform/^h/q/
+    - xform/^y/9/
+    - xform/^h|^n/q/
     - xform/^j/w/
     - xform/^t|^r/e/
     - xform/^p|^k/r/
@@ -219,7 +219,7 @@ reverse_lookup:
     - xform/iü/iv/
     - xform/uü/uv/
 
-punctuator:
+           # ※ 句读处理器，将单个字符按键直接映射为文字符号:
   import_preset: symbols
 
 key_binder:
