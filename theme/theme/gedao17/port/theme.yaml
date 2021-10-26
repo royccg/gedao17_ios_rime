@@ -23,7 +23,7 @@ hide:
 style:
   candidate_font: han.ttf #候选字型
   candidate_padding: 2 #候选项内边距  5
-  candidate_spacing: 12 #候选间距 15
+  candidate_spacing: 15 #候选间距 15
   candidate_text_size: 24 #候选字号  18
   candidate_use_cursor: true #高亮候选项
   candidate_view_height: *jpgd5 #候选区高度
@@ -65,18 +65,18 @@ preset_keyboards:
       - {click: 5, label: ws, width: 16}
       - {click: 6, label: mc, width: 14}
     
-      - {click: 7, label: L, width: 18}
-      - {click: 8, label: d, width: 18}
-      - {click: 9, label: y, width: 18}
-      - {click: q, label: nh, width: 16}
-      - {click: w, label: j, width: 16}
-      - {click: e, label: tr, width: 14}
+      - {click: l, label: L, width: 18}
+      - {click: d, label: d, width: 18}
+      - {click: y, label: y, width: 18}
+      - {click: 7, label: nh, width: 16}
+      - {click: j, label: j, width: 16}
+      - {click: 8, label: tr, width: 14}
 
-      - {click: r, label: pk, width: 18}
-      - {click: t, label: q~, width: 18}
-      - {click: y, label: g, width: 18}
-      - {click: u, label: b, width: 16}
-      - {click: i, label: x, width: 16}
+      - {click: 9, label: pk, width: 18}
+      - {click: q, label: q~, width: 18}
+      - {click: g, label: g, width: 18}
+      - {click: b, label: b, width: 16}
+      - {click: x, label: x, width: 16}
       - {click: BackSpace, width: 14}
 
       - {click: number2, width: 18}
