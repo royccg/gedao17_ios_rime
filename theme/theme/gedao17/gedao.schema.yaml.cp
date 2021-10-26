@@ -92,14 +92,14 @@ speller:
     - xform/ang$|ua$|er$/4/     # [iu]ang 在 ang 前面
     - xform/an$/5/              # [iu]an 在 an 前面
     - xform/e$/7/
-    - xform/iong$|ao$/B/
-    - xform/iao$|ou$/X/
     - xform/iu$|ong$/8/
     - xform/ue$|ai$/L/
     - xform/u$/D/
     - xform/uo$|ing$/Y/
     - xform/i$/J/
-    - xform/^~(en|ang|a|ang|er|an|o|ai|e|ei|ao)$/O$1/  # 添上固定的零声母 o，先标记为大写 O
+    - xform/iong$|ao$/B/
+    - xform/iao$|ou$/X/
+    - xform/^~(en|ang|a|ang|er|an|o|ai|e|ei|ao)$/~$1/  # 添上固定的零声母 o，先标记为大写 O
     # 最後把雙拼碼全部改写
     - xlit/QWERTYOPASDFGHJKLZXCVBNM/qwertyopasdfghjklzxcvbnm/
     # xform --改寫〔不保留原形〕
@@ -128,7 +128,7 @@ translator:
     # - xform/([jqxy])v/$1u/
     # - xform/eh/ê/
     # - xform/^t([1234567qr])$/$1/   # q 开头 单韵母，实现需要其他的方式
-    - xform/o(\w)/0$1/        # 零声母先改为 0，以方便后面的转换
+    - xform/~(\w)/0$1/        # 零声母先改为 0，以方便后面的转换
     - xform/^q1$/en/
     - xform/^q2$/eng/
     - xform/^q3$/a/
