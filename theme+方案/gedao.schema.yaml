@@ -95,6 +95,7 @@ speller:
     - xform/iao$/X/
     - xform/ao$/B/
     - xform/uo$/Y/
+    - xform/ue$/L/
     - xform/uai$|un$|ei$/9/     # uai 在 ai 前面
     - xform/ui$|in$/G/          
     - xform/uang$|ian$/Q/       # ian 在 an 前面
@@ -108,7 +109,7 @@ speller:
     - xform/ou$/X/
     - xform/ao$/B/ # ao 在iao之后
     - xform/iu$|ong$/8/
-    - xform/ue$|ai$/L/
+    - xform/ai$/L/
     - xform/u$/D/
     - xform/ing$/Y/
     - xform/i$/J/

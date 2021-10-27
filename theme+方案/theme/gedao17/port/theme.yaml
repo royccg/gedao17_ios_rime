@@ -8,15 +8,15 @@ author:
 #键盘高度等
 height:
   1: &jpgd1 43.6 #符号键盘 43.6
-  2: &jpgd2 50 #主键盘  45.5
+  2: &jpgd2 48 #主键盘  45.5
   3: &jpgd3 41.5 #数字键盘  41.5
-  4: &jpgd4 12 #主键盘圆角  12
+  4: &jpgd4 15 #主键盘圆角  12
   5: &jpgd5 32 #候选区高度  36
   6: &jpgd6 0.5 #符号键盘行间距  0.5
   7: &jpgd7 0.5 #符号键盘水平间距  0.5
   8: &jpgd8 0.0 #符号键盘圆角  0
-  9: &jpgd9 4 #主键盘数字键盘行间距  3.1
-  10: &jpgd10 4 #主键盘数字键盘水平间距  1.6
+  9: &jpgd9 6 #主键盘数字键盘行间距  3.1
+  10: &jpgd10 5 #主键盘数字键盘水平间距  1.6
 hide:
   &hide true # false不显示候选窗或true显示候选窗
 
@@ -33,8 +33,8 @@ style:
   key_font: symbol.ttf #键盘字型
   key_height: *jpgd2 #键高
   key_long_text_size: 14 #长标签字号  14
-  key_text_size: 19 #键字号  19
-  key_width: 10.0 #键宽，占银幕宽的百分比  10
+  key_text_size: 30 #键字号  19
+  key_width: 10 #键宽，占银幕宽的百分比  10
   keyboards: [default, number, symbols, symbols2, symbols3, .symbols, english, .number, number2] #键盘配置
   label_text_size: 22 #标签字号  22
   preview_text_size: 40 #按键提示字号  40
