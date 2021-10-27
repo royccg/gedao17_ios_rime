@@ -1,8 +1,24 @@
-# irime-themes
-收集的 irime 主题布局
+# irime-themes+方案
+## 方案：格道17
+
+```tree
+├─theme+方案        
+│  ├─opencc
+│  └─theme       
+│      ├─14key   
+│      │  ├─land 
+│      │  ├─port 
+│      │  └─res  
+│      └─gedao17 
+│          └─port
+```
+`theme`中是格道17的 主题布局
+![格道17](码表对应.png)
+
+`gedao.schema.yaml`文件内是 方案
 
 # themes
-
+收集的 irime 主题布局
 xunfei.theme.yaml
 
 ![xunfei](https://user-images.githubusercontent.com/26682806/123727149-cc22ff00-d8c3-11eb-9333-18e1412a08e5.jpg)

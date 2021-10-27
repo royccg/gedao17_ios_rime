@@ -1,0 +1,23 @@
+customization:
+  rime_version: 1.7.3
+patch:
+  schema_list:
+    - schema: gedao
+    - schema: wubi_pinyin
+    - schema: double_pinyin_abc
+    - schema: double_pinyin_flypy
+    - schema: double_pinyin_mspy
+    - schema: double_pinyin_pyjj
+    - schema: wubi86
+    - schema: wubi091
+    - schema: wubi98
+    - schema: flypy
+    - schema: jyutping
+    - schema: quick5
+    - schema: xqzm
+    - schema: easy_en
+    - schema: clover
+    - schema: clover_jiugong
+    - schema: luna_pinyin_14
+    - schema: bopomofo
+

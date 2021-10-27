@@ -1,0 +1,12 @@
+patch:
+  app_setting:
+    candidate_tool_bar_is_show_pasteboard: 0
+    is_hide_mode_change: false
+    is_open_word_association: true
+    is_text_replacement_on: false
+    play_key_voice_volume: 0.4168917
+    candidate_tool_bar_is_show_schema_switcher: false
+    monitor_paste: 0
+    is_show_select_input_icon: true
+    candidate_tool_bar_is_show_emoji: 0
+    theme_name: gedao
