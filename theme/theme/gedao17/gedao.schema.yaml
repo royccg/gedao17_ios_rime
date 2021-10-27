@@ -51,14 +51,14 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba1234567890    # 定义本方案输入键
+  alphabet: zyxwvutsrqponmlkjihgfedcba123456789   # 定义本方案输入键
   delimiter: " '"
   algebra:                                          # 拼寫運算規則，由之算出的拼寫匯入prism中
     # - "xlit|12345|+_*^0|"
-    - erase/^xx$/
-    # - abbrev/^([zcs]h).+$/$1/
-    # - derive/^([nl])ve$/$1ue/
-    - derive/^([jqxy])u/$1v/
+    # - erase/^xx$/
+    # - abbrev/^([zcs]h).+$/$1/              # z(h) 、c(h) 、s(h) 
+    # - derive/^([nl])ve$/$1ue/  
+    # - derive/^([jqxy])u/$1v/
     # - derive/un$/uen/
     # - derive/ui$/uei/
     # - derive/iu$/iou/
@@ -74,32 +74,43 @@ speller:
     - xform/^zh/1/            # 替换声母键
     - xform/^sh/2/
     - xform/^ch/3/
-    - xform/^q|^~/Q/
-    # - xform/^~([aoe].*)$/O$1/  # 添上固定的零声母 o，先标记为大写 O
     - xform/^z|^f/4/
     - xform/^s|^w/5/
     - xform/^m|^c/6/
     - xform/^h|^n/7/
     - xform/^t|^r/8/
     - xform/^p|^k/9/
+    # 手写 单韵母的
+    - xform/^en$/q1/
+    # - xform/^eng$/q2/
+    - xform/^a$/q3/
+    - xform/^ang$|^er$/q4/
+    - xform/^an$/q5/
+    - xform/^o$/q6/
+    - xform/^ai$/qL/
+    - xform/^e$/q7/
+    - xform/^ei$/q9/
+    - xform/^ao$/qb/
+    - xform/ua$/4/
+    - xform/iao$/X/
+    - xform/ao$/B/
     - xform/uai$|un$|ei$/9/     # uai 在 ai 前面
-    - xform/ui$|in$/G/         # iao 在 ao 前面
+    - xform/ui$|in$/G/          
     - xform/uang$|ian$/Q/       # ian 在 an 前面
     - xform/uan$|v$|o$/6/       # uan 在 an 前面
     - xform/en$|iang$/1/        # 對應兩種韻母的；音節er現在變爲OR了
     - xform/eng$|ie$/2/
     - xform/a$|ia$/3/
-    - xform/ang$|ua$|er$/4/     # [iu]ang 在 ang 前面
+    - xform/ang$/4/     # [iu]ang 在 ang 前面
     - xform/an$/5/              # [iu]an 在 an 前面
     - xform/e$/7/
-    - xform/iong$|ao$/B/
-    - xform/iao$|ou$/X/
+    - xform/ou$/X/
+    - xform/ao$/B/ # ao 在iao之后
     - xform/iu$|ong$/8/
     - xform/ue$|ai$/L/
     - xform/u$/D/
     - xform/uo$|ing$/Y/
     - xform/i$/J/
-    - xform/^~(en|ang|a|ang|er|an|o|ai|e|ei|ao)$/O$1/  # 添上固定的零声母 o，先标记为大写 O
     # 最後把雙拼碼全部改写
     - xlit/QWERTYOPASDFGHJKLZXCVBNM/qwertyopasdfghjklzxcvbnm/
     # xform --改寫〔不保留原形〕
@@ -128,18 +139,18 @@ translator:
     # - xform/([jqxy])v/$1u/
     # - xform/eh/ê/
     # - xform/^t([1234567qr])$/$1/   # q 开头 单韵母，实现需要其他的方式
-    - xform/o(\w)/0$1/        # 零声母先改为 0，以方便后面的转换
+    # - xform/~(\w)/~$1/        # 零声母先改为 0，以方便后面的转换
+    - xform/q7$/e/
     - xform/^q1$/en/
-    - xform/^q2$/eng/
-    - xform/^q3$/a/
-    - xform/^q4$/ang/
-    - xform/^q4$/er/
-    - xform/^q5$/an/
-    - xform/^q6$/o/
-    - xform/^ql$/ai/
-    - xform/^q7$/e/
-    - xform/^q9$/ei/
-    - xform/^qb$/ao/
+    # - xform/^q2$/eng/
+    # - xform/^q3$/a/
+    # - xform/^q4$/ang/
+    # - xform/^q4$/er/
+    # - xform/^q5$/an/
+    # - xform/^q6$/o/
+    # - xform/^ql$/ai/
+    # - xform/^q9$/ei/
+    # - xform/^qb$/ao/
     # 双拼第二码 转换韵母
     - xform/([6ld7j89qbx])x/$1iao/ # 提前转换双拼码i，因为iao中存在i;也可以通过 双拼码 变成大写的方式 避免错误
     - xform/([l7jqbx])1/$1iang/  # 对应多种韵母的 双拼码，按搭配的声母的方式做区分，对于移动端则全部如此
@@ -201,19 +212,19 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
 
-reverse_lookup:
-  dictionary: stroke
-  enable_completion: true
-  prefix: "`"
-  suffix: "'"
-  tips: 〔笔画〕
-  preedit_format:
-    - "xlit|v|ü|"
-    - xform/iü/iv/
-    - xform/uü/uv/
+# reverse_lookup:
+#   dictionary: stroke
+#   enable_completion: true
+#   prefix: "`"
+#   suffix: "'"
+#   tips: 〔笔画〕
+#   preedit_format:
+#     - "xlit|v|ü|"
+#     - xform/iü/iv/
+#     - xform/uü/uv/
 
-           # ※ 句读处理器，将单个字符按键直接映射为文字符号:
-  import_preset: symbols
+#            # ※ 句读处理器，将单个字符按键直接映射为文字符号:
+#   import_preset: symbols
 
 key_binder:
   import_preset: default

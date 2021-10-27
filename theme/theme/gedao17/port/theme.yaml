@@ -11,20 +11,20 @@ height:
   2: &jpgd2 50 #主键盘  45.5
   3: &jpgd3 41.5 #数字键盘  41.5
   4: &jpgd4 12 #主键盘圆角  12
-  5: &jpgd5 36 #候选区高度  36
+  5: &jpgd5 32 #候选区高度  36
   6: &jpgd6 0.5 #符号键盘行间距  0.5
   7: &jpgd7 0.5 #符号键盘水平间距  0.5
   8: &jpgd8 0.0 #符号键盘圆角  0
   9: &jpgd9 4 #主键盘数字键盘行间距  3.1
   10: &jpgd10 4 #主键盘数字键盘水平间距  1.6
 hide:
-  &hide true #false不显示候选窗或true显示候选窗
+  &hide true # false不显示候选窗或true显示候选窗
 
 style:
   candidate_font: han.ttf #候选字型
-  candidate_padding: 2 #候选项内边距  5
-  candidate_spacing: 15 #候选间距 15
-  candidate_text_size: 24 #候选字号  18
+  candidate_padding: 10 #候选项内边距  5
+  candidate_spacing: 20 #候选间距 15
+  candidate_text_size: 22 #候选字号  18
   candidate_use_cursor: true #高亮候选项
   candidate_view_height: *jpgd5 #候选区高度
   comment_height: 12 #编码提示区高度  12
@@ -58,26 +58,26 @@ preset_keyboards:
     round_corner: *jpgd4
     #现在只支持配置click,swipe_up,swipe_down键盘
     keys: 
-      - {click: 1, label: Zh, width: 18, swipe_up: "en,iang"}
-      - {click: 2, label: Sh, width: 18}
-      - {click: 3, label: Ch, width: 18}
-      - {click: 4, label: fz, width: 16}
-      - {click: 5, label: ws, width: 16}
-      - {click: 6, label: mc, width: 14}
+      - {click: 1, label: Zh, width: 17, swipe_up: "en,iang"}
+      - {click: 2, label: Sh, width: 17}
+      - {click: 3, label: Ch, width: 17}
+      - {click: 4, label: fz, width: 17}
+      - {click: 5, label: ws, width: 17}
+      - {click: 6, label: mc, width: 15}
     
-      - {click: l, label: L, width: 18}
-      - {click: d, label: d, width: 18}
-      - {click: y, label: y, width: 18}
-      - {click: 7, label: nh, width: 16}
-      - {click: j, label: j, width: 16}
-      - {click: 8, label: tr, width: 14}
+      - {click: l, label: L, width: 17}
+      - {click: d, label: d, width: 17}
+      - {click: y, label: y, width: 17}
+      - {click: 7, label: nh, width: 17}
+      - {click: j, label: j, width: 17}
+      - {click: 8, label: tr, width: 15}
 
-      - {click: 9, label: pk, width: 18}
-      - {click: q, label: q~, width: 18}
-      - {click: g, label: g, width: 18}
-      - {click: b, label: b, width: 16}
-      - {click: x, label: x, width: 16}
-      - {click: BackSpace, width: 14}
+      - {click: 9, label: pk, width: 17}
+      - {click: q, label: q~, width: 17}
+      - {click: g, label: g, width: 17}
+      - {click: b, label: b, width: 17}
+      - {click: x, label: x, width: 17}
+      - {click: BackSpace, width: 15}
 
       - {click: number2, width: 18}
       - {click: english, width: 18}
