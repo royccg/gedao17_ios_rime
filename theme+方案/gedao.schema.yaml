@@ -4,12 +4,12 @@
 schema:
   schema_id: gedao
   name: 格道17
-  version: "0.1"
+  version: "0.2"
   author:
     - Roy <roy.chen.cc@outlook.com>
   description: |
-    格道17方案：
-    以🍀️四叶草简体拼音为基础所配置的一款适合在手机格道17布局上的输入方案。
+    格道17方案
+    以🍀️四叶草简体拼音为基础所配置的一款适合在手机 格道17布局 上的输入方案。
   dependencies:
     - emoji
 
@@ -56,21 +56,26 @@ speller:
   algebra:                                          # 拼寫運算規則，由之算出的拼寫匯入prism中
     # - "xlit|12345|+_*^0|"
     - erase/^xx$/
-    - abbrev/^([zcs]h).+$/$1/              # z(h) 、c(h) 、s(h) 
-    - derive/^([nl])ve$/$1ue/  
-    - derive/^([jqxy])u/$1v/
-    - derive/un$/uen/
-    - derive/ui$/uei/
-    - derive/iu$/iou/
-    - derive/([aeiou])ng$/$1gn/
-    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+
+    - abbrev/^([a-z]).+$/$1/ 
+    - abbrev/^([zcs]h).+$/$1/ 
+
+    - derive/^([jqxy])u$/$1v/    # 处理 v 和 u
     - derive/ong$/on/
-    - derive/ao$/oa/
-    - derive/([iu])a(o|ng?)$/a$1$2/
-    # - xlit/abcdefghijklmnopqrstuvwxyz/22233344455566677778889999/
+
+    # 以下对双拼方案 ，无用         
+    # - derive/^([nl])ve$/$1ue/  
+    # - derive/un$/uen/
+    # - derive/ui$/uei/
+    # - derive/iu$/iou/
+    # - derive/([aeiou])ng$/$1gn/
+    # - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    # - derive/ao$/oa/
+    # - derive/([iu])a(o|ng?)$/a$1$2/
     # - derive/[+_*^0]//
     # - derive/([+_*^0])$//
     # - derive/^(.*)$/\U$1/
+
     - xform/^zh/1/            # 替换声母键
     - xform/^sh/2/
     - xform/^ch/3/
@@ -91,27 +96,22 @@ speller:
     - xform/^e$/q7/
     - xform/^ei$/q9/
     - xform/^ao$/qb/
-    - xform/ua$/4/
-    - xform/iao$/X/
-    - xform/ao$/B/
-    - xform/uo$/Y/
-    - xform/ue$/L/
+    - xform/iao$|ou$/X/
+    - xform/ao$|iong$/B/             # ao 在iao之后
+    - xform/uo$|ing/Y/
     - xform/uai$|un$|ei$/9/     # uai 在 ai 前面
     - xform/ui$|in$/G/          
     - xform/uang$|ian$/Q/       # ian 在 an 前面
-    - xform/uan$|v$|o$/6/       # uan 在 an 前面
+    - xform/uan$|v$|o$/6/       # uan 在 an 前面  o在[\w]o 之前
     - xform/en$|iang$/1/        # 對應兩種韻母的；音節er現在變爲OR了
     - xform/eng$|ie$/2/
-    - xform/a$|ia$/3/
-    - xform/ang$/4/     # [iu]ang 在 ang 前面
+    - xform/ang$|ua$/4/     # [iu]ang 在 ang 前面
     - xform/an$/5/              # [iu]an 在 an 前面
-    - xform/e$/7/
-    - xform/ou$/X/
-    - xform/ao$/B/ # ao 在iao之后
+    - xform/a$|ia$/3/
     - xform/iu$|ong$/8/
-    - xform/ai$/L/
+    - xform/ai$|ue$/L/
+    - xform/e$/7/               # e 要在所有的 [\w]e 后面
     - xform/u$/D/
-    - xform/ing$/Y/
     - xform/i$/J/
     # 最後把雙拼碼全部改写
     - xlit/QWERTYOPASDFGHJKLZXCVBNM/qwertyopasdfghjklzxcvbnm/
@@ -132,16 +132,15 @@ translator:
   encode_commit_history: true          
   max_phrase_length: 10     
   user_dict: user                                                      
-  db_class: tabledb                     
+  db_class: tabledb                # 设定用户词典类型，可设 tabledb(文本) 或者 userdb (二进制)        
   disable_user_dict_for_patterns:       
     - "^z.*$"
-  preedit_format:
-    # - xform/([nl])v/$1ü/
-    # - xform/([nl])ue/$1üe/
-    # - xform/([jqxy])v/$1u/
+  preedit_format:                  # 上屏码 自定义
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
     # - xform/eh/ê/
-    # - xform/^t([1234567qr])$/$1/   # q 开头 单韵母，实现需要其他的方式
-    # - xform/~(\w)/~$1/        # 零声母先改为 0，以方便后面的转换
+
     - xform/q7$/e/
     - xform/^q1$/en/
     - xform/^q2$/eng/
@@ -214,19 +213,19 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
 
-# reverse_lookup:
-#   dictionary: stroke
-#   enable_completion: true
-#   prefix: "`"
-#   suffix: "'"
-#   tips: 〔笔画〕
-#   preedit_format:
-#     - "xlit|v|ü|"
-#     - xform/iü/iv/
-#     - xform/uü/uv/
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔笔画〕
+  preedit_format:
+    - "xlit|v|ü|"
+    - xform/iü/iv/
+    - xform/uü/uv/
 
-#            # ※ 句读处理器，将单个字符按键直接映射为文字符号:
-#   import_preset: symbols
+punctuator:
+  import_preset: symbols
 
 key_binder:
   import_preset: default
