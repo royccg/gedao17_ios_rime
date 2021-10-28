@@ -21,3 +21,65 @@ patch:
     opencc_config: symbol.json
     option_name: symbol_support
     tips: all
+
+  # "speller/algebra/+":   # 补在后面 没有用
+  "speller/algebra/":
+
+    - erase/^xx$/
+    - derive/^([jqxy])u$/$1v/    # 处理 v 和 u
+
+    # 模糊音，简拼会破坏双拼的美感
+    - abbrev/^([az]).+$/$1/ #简拼（首字母）
+    - abbrev/^([zcs]h).+$/$1/ #简拼（zh, ch, sh）
+    - derive/^([zcs])h/$1/ # zh, ch, sh => z, c, s
+    - derive/^([zcs])([^h])/$1h$2/ # z, c, s => zh, ch, sh
+    # - derive/^r/l/  # r => l
+    # - derive/^l/r/  # l => r
+    # - derive/^n/l/  # n => l
+    # - derive/^l/n/  # l => n
+    - derive/([aei])n$/$1ng/ # en => eng, in => ing, an => ang
+    - derive/([aei])ng$/$1n/ # eng => en, ing => in, ang => an
+    - derive/([iu])an$/$lang/ # ian => iang, uan => uang
+    - derive/([iu])ang$/$lan/ # iang => ian, uang => uan
+    - derive/ong$/on/
+
+    - xform/^zh/1/            # 替换声母键
+    - xform/^sh/2/
+    - xform/^ch/3/
+    - xform/^z|^f/4/
+    - xform/^s|^w/5/
+    - xform/^m|^c/6/
+    - xform/^h|^n/7/
+    - xform/^t|^r/8/
+    - xform/^p|^k/9/
+    # 手写 单韵母的
+    - xform/^en$/q1/
+    # - xform/^eng$/q2/
+    - xform/^a$/q3/
+    - xform/^ang$|^er$/q4/
+    - xform/^an$/q5/
+    - xform/^o$/q6/
+    - xform/^ai$/qL/
+    - xform/^e$/q7/
+    - xform/^ei$/q9/
+    - xform/^ao$/qb/
+    - xform/^ou$/qx/
+    - xform/iao$|ou$/X/
+    - xform/ao$|iong$/B/             # ao 在iao之后
+    - xform/uo$|ing/Y/
+    - xform/uai$|un$|ei$/9/     # uai 在 ai 前面
+    - xform/ui$|in$/G/          
+    - xform/uang$|ian$/Q/       # ian 在 an 前面
+    - xform/uan$|v$|o$/6/       # uan 在 an 前面  o在[\w]o 之前
+    - xform/en$|iang$/1/        # 對應兩種韻母的；音節er現在變爲OR了
+    - xform/eng$|ie$/2/
+    - xform/ang$|ua$/4/     # [iu]ang 在 ang 前面
+    - xform/an$/5/              # [iu]an 在 an 前面
+    - xform/a$|ia$/3/
+    - xform/iu$|ong$/8/
+    - xform/ai$|ue$/L/
+    - xform/e$/7/               # e 要在所有的 [\w]e 后面
+    - xform/u$/D/
+    - xform/i$/J/
+    # 最後把雙拼碼全部改写
+    - xlit/QWERTYOPASDFGHJKLZXCVBNM/qwertyopasdfghjklzxcvbnm/

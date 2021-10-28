@@ -96,6 +96,7 @@ speller:
     - xform/^e$/q7/
     - xform/^ei$/q9/
     - xform/^ao$/qb/
+    - xform/^ou$/qx/
     - xform/iao$|ou$/X/
     - xform/ao$|iong$/B/             # ao 在iao之后
     - xform/uo$|ing/Y/

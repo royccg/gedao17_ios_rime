@@ -84,8 +84,8 @@ preset_keyboards:
       - {click: commaFull, width: 12}     # ,
       - {click: space, width: 26}
       - {click: periodFull, width: 12}   # 。
-      - {click: english, width: 12}
       - {click: Return, width: 12}
+      - {click: english, width: 12}
     name: "自定义数字键盘"
     width: 10
 
