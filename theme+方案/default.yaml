@@ -131,7 +131,6 @@ schema_list:
   - schema: wubi86
   - schema: wubi091
   - schema: wubi98
-  - schema: flypy
   - schema: jyutping
   - schema: quick5
   - schema: xqzm
