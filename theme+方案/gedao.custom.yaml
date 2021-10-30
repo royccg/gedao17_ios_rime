@@ -22,17 +22,15 @@ patch:
     option_name: symbol_support
     tips: all
 
-  # "speller/algebra/+":   # 补在后面 没有用
-  "speller/algebra/":
-
+  'speller/algebra/':      #"speller/algebra/+":  补在后面 没有用
     - erase/^xx$/
     - derive/^([jqxy])u$/$1v/    # 处理 v 和 u
 
     # 模糊音，简拼会破坏双拼的美感
     - abbrev/^([az]).+$/$1/ #简拼（首字母）
     - abbrev/^([zcs]h).+$/$1/ #简拼（zh, ch, sh）
-    - derive/^([zcs])h/$1/ # zh, ch, sh => z, c, s
-    - derive/^([zcs])([^h])/$1h$2/ # z, c, s => zh, ch, sh
+    # - derive/^([zcs])h/$1/ # zh, ch, sh => z, c, s
+    # - derive/^([zcs])([^h])/$1h$2/ # z, c, s => zh, ch, sh
     # - derive/^r/l/  # r => l
     # - derive/^l/r/  # l => r
     # - derive/^n/l/  # n => l

@@ -22,9 +22,9 @@ hide:
 
 style:
   candidate_font: han.ttf #候选字型
-  candidate_padding: 5 #候选项内边距  5
-  candidate_spacing: 20 #候选间距 15
-  candidate_text_size: 22 #候选字号  18
+  candidate_padding: 8 #候选项内边距  5
+  candidate_spacing: 22 #候选间距 15
+  candidate_text_size: 25 #候选字号  18
   candidate_use_cursor: true #高亮候选项
   candidate_view_height: *jpgd5 #候选区高度
   comment_height: 12 #编码提示区高度  12
@@ -79,12 +79,13 @@ preset_keyboards:
       - {click: x, label: x, width: 17}
       - {click: BackSpace, width: 15}
 
-      - {click: symbols, width: 14}
-      - {click: .number, width: 12}
+      - {click: symbols, width: 14, swipe_up: "123"}
+      # - {click: .number, width: 12}
       - {click: commaFull, width: 12}     # ,
-      - {click: space, width: 26}
+      - {click: space, width: 32}
+      # - {click: Return, width: 18}
       - {click: periodFull, width: 12}   # 。
-      - {click: Return, width: 12}
+      - {click: Return, width: 18}
       - {click: english, width: 12}
     name: "自定义数字键盘"
     width: 10
