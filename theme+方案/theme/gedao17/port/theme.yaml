@@ -79,14 +79,16 @@ preset_keyboards:
       - {click: x, label: x, width: 17}
       - {click: BackSpace, width: 15}
 
-      - {click: symbols, width: 14, swipe_up: "123"}
+      - {click: symbols, width: 13, swipe_up: "123"}
+      - {click: english, width: 13}
       # - {click: .number, width: 12}
-      - {click: commaFull, width: 12}     # ,
-      - {click: space, width: 32}
+      # - {click: commaFull, width: 12}     # ,
+      - {click: "，", label: "，", swipe_up: "。", width: 12}     # ,
+      - {click: space, width: 37}
       # - {click: Return, width: 18}
-      - {click: periodFull, width: 12}   # 。
-      - {click: Return, width: 18}
-      - {click: english, width: 12}
+      # - {click: periodFull, width: 12}   # 。
+      - {click: Return, width: 25}
+
     name: "自定义数字键盘"
     width: 10
 
