@@ -66,9 +66,9 @@ preset_keyboards:
       - {click: 6, label: mc, width: 15}
     
       - {click: l, label: L, width: 17}
-      - {click: d, label: d, width: 17}
+      - {click: d, label: d, width: 17, swipe_up: "u"}
       - {click: y, label: y, width: 17}
-      - {click: 7, label: nh, width: 17}
+      - {click: 7, label: nh, width: 17, swipe_up: "e"}
       - {click: j, label: j, width: 17}
       - {click: 8, label: tr, width: 15}
 
