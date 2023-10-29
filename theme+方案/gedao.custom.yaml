@@ -77,7 +77,7 @@ patch:
     - xform/an$/5/              # [iu]an 在 an 前面
     - xform/a$|ia$/3/
     - xform/iu$|ong$/8/
-    - xform/ai$|ue$/L/
+    - xform/ai$|ue$|ve$/L/
     - xform/e$/7/               # e 要在所有的 [\w]e 后面
     - xform/u$/D/
     - xform/i$/J/
