@@ -45,6 +45,8 @@ style:
   text_size: 14 #编码区字号  16
   vertical_correction: -5 # -5
   vertical_gap: *jpgd6 #键盘行距
+  background_folder: gedao_back
+  color_scheme: default
 
 
 #键盘布局
@@ -58,25 +60,25 @@ preset_keyboards:
     round_corner: *jpgd4
     #现在只支持配置click,swipe_up,swipe_down键盘
     keys: 
-      - {click: 1, label: Zh, width: 17, swipe_up: "en,iang"}
-      - {click: 2, label: Sh, width: 17}
-      - {click: 3, label: Ch, width: 17}
-      - {click: 4, label: fz, width: 17}
-      - {click: 5, label: ws, width: 17}
-      - {click: 6, label: mc, width: 15}
+      - {click: 1, label: Zh, width: 17, swipe_up: "1"}
+      - {click: 2, label: Sh, width: 17, swipe_up: "2"}
+      - {click: 3, label: Ch, width: 17, swipe_up: "3"}
+      - {click: 4, label: fz, width: 17, swipe_up: "@"}
+      - {click: 5, label: ws, width: 17, swipe_up: "｛"}
+      - {click: 6, label: mc, width: 15, swipe_up: "｝"}
     
-      - {click: l, label: L, width: 17}
-      - {click: d, label: d, width: 17, swipe_up: "u"}
-      - {click: y, label: y, width: 17}
-      - {click: 7, label: nh, width: 17, swipe_up: "e"}
-      - {click: j, label: j, width: 17}
-      - {click: 8, label: tr, width: 15}
+      - {click: l, label: L, width: 17, swipe_up: "4"}
+      - {click: d, label: d, width: 17, swipe_up: "5"}
+      - {click: y, label: y, width: 17, swipe_up: "6"}
+      - {click: 7, label: nh, width: 17, swipe_up: "0"}
+      - {click: j, label: j, width: 17, swipe_up: "："}
+      - {click: 8, label: tr, width: 15, swipe_up: "..."}
 
-      - {click: 9, label: pk, width: 17}
-      - {click: q, label: q~, width: 17}
-      - {click: g, label: g, width: 17}
-      - {click: b, label: b, width: 17}
-      - {click: x, label: x, width: 17}
+      - {click: 9, label: pk, width: 17, swipe_up: "7"}
+      - {click: q, label: q~, width: 17, swipe_up: "8"}
+      - {click: g, label: g, width: 17, swipe_up: "9"}
+      - {click: b, label: b, width: 17, swipe_up: "!"}
+      - {click: x, label: x, width: 17, swipe_up: "?"}
       - {click: BackSpace, width: 15}
 
       - {click: symbols, width: 13, swipe_up: "123"}
@@ -378,3 +380,11 @@ preset_keys:
   commit，: {label: "，", commit: "，"}
   commit。: {label: "。", commit: "。"}
   commit”: {label: "”", commit: "”"}
+
+preset_color_schemes:
+  default:
+    # back_color: 0xEEF1E7
+    # text_color: 0x000000
+    # key_back_color: 0x60DEEDB1
+    keyboard_back_color: 11.png
+    

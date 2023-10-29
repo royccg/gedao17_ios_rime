@@ -2,6 +2,7 @@
 name: clover
 version: "1"
 sort: by_weight
+use_preset_vocabulary: true
 
 import_tables:
   - clover.base

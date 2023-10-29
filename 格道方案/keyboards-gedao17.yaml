@@ -1,0 +1,223 @@
+keyboards:
+  - name: 格道17
+    rows:
+      - keys:
+          - action: character(1)
+            width: percentage(0.17)
+            label: Zh
+            swipe:
+              - action: symbol(1)
+                label: "1"
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(2)
+            width: percentage(0.17)
+            label: Sh
+            swipe:
+              - action: symbol(2)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(3)
+            width: percentage(0.17)
+            label: Ch
+            swipe:
+              - action: symbol(3)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(4)
+            width: percentage(0.17)
+            label: Z F
+            swipe:
+              - action: character(@)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(5)
+            width: percentage(0.16)
+            label: S W
+            swipe:
+              - action: character()
+                label: "{"
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(6)
+            width: percentage(0.16)
+            label: C M
+            swipe:
+              - action: character()
+                label: "}"
+                display: true
+                processByRIME: true
+                direction: up
+      - keys:
+          - action: character(l)
+            width: percentage(0.17)
+            label: L
+            swipe:
+              - action: symbol(4)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(d)
+            width: percentage(0.17)
+            label: D
+            swipe:
+              - action: symbol(5)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(y)
+            width: percentage(0.17)
+            label: Y
+            swipe:
+              - action: symbol(6)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(7)
+            width: percentage(0.17)
+            label: N H
+            swipe:
+              - action: symbol(0)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(j)
+            width: percentage(0.17)
+            label: J
+            swipe:
+              - action: character(：)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(8)
+            width: percentage(0.15)
+            label: T R
+            swipe:
+              - action: character(...)
+                display: true
+                processByRIME: true
+                direction: up
+      - keys:
+          - action: character(9)
+            width: percentage(0.17)
+            label: P K
+            swipe:
+              - action: symbol(7)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(q)
+            width: percentage(0.17)
+            label: Q
+            swipe:
+              - action: symbol(8)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(g)
+            width: percentage(0.17)
+            label: G
+            swipe:
+              - action: symbol(9)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(b)
+            width: percentage(0.17)
+            label: B
+            swipe:
+              - action: character(!)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(x)
+            width: percentage(0.17)
+            label: X
+            swipe:
+              - action: character(?)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: backspace
+            width: percentage(0.15)
+      - keys:
+          - action: character(、)
+            width: percentage(0.08)
+          - action: character(？)
+            width: percentage(0.08)
+          - action: character(！)
+            width: percentage(0.09)
+          - action: character(，)
+            width: percentage(0.08)
+          - action: character(。)
+            width: percentage(0.08)
+          - action: keyboardType(custom(numericNineKeys))
+            width: percentage(0.15)
+            label: "123"
+          - action: space
+            width: percentage(0.16)
+            label: "——"
+            swipe:
+              - action: keyboardType(alphabetic)
+                label: En
+                display: true
+                processByRIME: true
+                direction: up
+          - action: keyboardType(classifySymbolic)
+            width: percentage(0.14)
+          - action: enter
+            width: percentage(0.14)
+    buttonInsets: left(3),bottom(4),top(4),right(3)
+  - name: numericNineKeys
+    rows:
+      - keys:
+          - action: character(+)
+            width: percentage(0.17)
+          - action: symbol(1)
+            width: percentage(0.22)
+          - action: symbol(2)
+            width: percentage(0.22)
+          - action: symbol(3)
+            width: percentage(0.22)
+          - action: character(:)
+            width: percentage(0.17)
+      - keys:
+          - action: character(-)
+            width: percentage(0.17)
+          - action: symbol(4)
+            width: percentage(0.22)
+          - action: symbol(5)
+            width: percentage(0.22)
+          - action: symbol(6)
+            width: percentage(0.22)
+          - action: character(.)
+            width: percentage(0.17)
+      - keys:
+          - action: character(*)
+            width: percentage(0.17)
+          - action: symbol(7)
+            width: percentage(0.22)
+          - action: symbol(8)
+            width: percentage(0.22)
+          - action: symbol(9)
+            width: percentage(0.22)
+          - action: backspace
+            width: percentage(0.17)
+      - keys:
+          - action: character(/)
+            width: percentage(0.17)
+          - action: keyboardType(custom(格道17))
+            width: percentage(0.22)
+            label: "Chinese"
+          - action: symbol(0)
+            width: percentage(0.22)
+          - action: space
+            width: percentage(0.22)
+          - action: enter
+            width: percentage(0.17)
+    buttonInsets: left(3),bottom(4),top(8),right(3)
