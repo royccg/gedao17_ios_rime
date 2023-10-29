@@ -53,6 +53,7 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+        rowHeight: 52
       - keys:
           - action: character(l)
             width: percentage(0.17)
@@ -102,6 +103,7 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+        rowHeight: 52
       - keys:
           - action: character(9)
             width: percentage(0.17)
@@ -145,34 +147,38 @@ keyboards:
                 direction: up
           - action: backspace
             width: percentage(0.15)
+        rowHeight: 52
       - keys:
           - action: character(、)
             width: percentage(0.08)
           - action: character(？)
             width: percentage(0.08)
           - action: character(！)
-            width: percentage(0.09)
+            width: percentage(0.08)
           - action: character(，)
-            width: percentage(0.08)
-          - action: character(。)
-            width: percentage(0.08)
+            width: percentage(0.09)
+            swipe:
+              - action: character(。)
+                display: true
+                processByRIME: true
+                direction: up
           - action: keyboardType(custom(numericNineKeys))
             width: percentage(0.15)
             label: "123"
           - action: space
-            width: percentage(0.16)
+            width: percentage(0.18)
             label: "——"
             swipe:
               - action: keyboardType(alphabetic)
-                label: En
+                label: "英"
                 display: true
                 processByRIME: true
                 direction: up
           - action: keyboardType(classifySymbolic)
-            width: percentage(0.14)
+            width: percentage(0.17)
           - action: enter
-            width: percentage(0.14)
-    buttonInsets: left(3),bottom(4),top(4),right(3)
+            width: percentage(0.17)
+    buttonInsets: left(3),bottom(4),top(0),right(3)
   - name: numericNineKeys
     rows:
       - keys:
