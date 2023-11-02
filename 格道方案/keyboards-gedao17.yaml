@@ -38,21 +38,9 @@ keyboards:
           - action: character(5)
             width: percentage(0.16)
             label: S W
-            swipe:
-              - action: character()
-                label: "{"
-                display: true
-                processByRIME: true
-                direction: up
           - action: character(6)
             width: percentage(0.16)
             label: C M
-            swipe:
-              - action: character()
-                label: "}"
-                display: true
-                processByRIME: true
-                direction: up
         rowHeight: 52
       - keys:
           - action: character(l)
@@ -150,34 +138,38 @@ keyboards:
         rowHeight: 52
       - keys:
           - action: character(、)
-            width: percentage(0.08)
-          - action: character(？)
-            width: percentage(0.08)
-          - action: character(！)
-            width: percentage(0.08)
-          - action: character(，)
             width: percentage(0.09)
+          - action: character(？)
+            width: percentage(0.09)
+          - action: character(！)
+            width: percentage(0.09)
+          - action: character(，)
+            width: percentage(0.1)
             swipe:
               - action: character(。)
                 display: true
                 processByRIME: true
                 direction: up
           - action: keyboardType(custom(numericNineKeys))
-            width: percentage(0.15)
+            width: percentage(0.17)
             label: "123"
-          - action: space
-            width: percentage(0.18)
-            label: "——"
             swipe:
-              - action: keyboardType(alphabetic)
-                label: "英"
+              - action: keyboardType(classifySymbolic)
+                label: "#+-"
                 display: true
                 processByRIME: true
                 direction: up
-          - action: keyboardType(classifySymbolic)
-            width: percentage(0.17)
+          - action: space
+            width: percentage(0.23)
+            label: ——
+            swipe:
+              - action: keyboardType(alphabetic)
+                label: "EN"
+                display: true
+                processByRIME: true
+                direction: up
           - action: enter
-            width: percentage(0.17)
+            width: percentage(0.23)
     buttonInsets: left(3),bottom(4),top(0),right(3)
   - name: numericNineKeys
     rows:
@@ -219,11 +211,18 @@ keyboards:
             width: percentage(0.17)
           - action: keyboardType(custom(格道17))
             width: percentage(0.22)
-            label: "Chinese"
+            label: Chinese
           - action: symbol(0)
             width: percentage(0.22)
           - action: space
             width: percentage(0.22)
+            label: ———
+            swipe:
+              - action: keyboardType(alphabetic)
+                label: "En"
+                display: true
+                processByRIME: true
+                direction: up
           - action: enter
             width: percentage(0.17)
     buttonInsets: left(3),bottom(4),top(8),right(3)
