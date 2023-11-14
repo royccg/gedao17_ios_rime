@@ -38,9 +38,27 @@ keyboards:
           - action: character(5)
             width: percentage(0.16)
             label: S W
+            swipe:
+              - action: symbol(｛)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: symbol(『)
+                display: true
+                processByRIME: true
+                direction: down
           - action: character(6)
             width: percentage(0.16)
             label: C M
+            swipe:
+              - action: symbol(｝)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: symbol(』)
+                display: true
+                processByRIME: true
+                direction: down
         rowHeight: 52
       - keys:
           - action: character(l)
@@ -87,7 +105,7 @@ keyboards:
             width: percentage(0.15)
             label: T R
             swipe:
-              - action: character(...)
+              - action: symbol(.)
                 display: true
                 processByRIME: true
                 direction: up
@@ -193,7 +211,7 @@ keyboards:
             width: percentage(0.22)
           - action: symbol(6)
             width: percentage(0.22)
-          - action: character(.)
+          - action: symbol(.)
             width: percentage(0.17)
       - keys:
           - action: character(*)
