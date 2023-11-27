@@ -1,5 +1,5 @@
 keyboards:
-  - name: 格道17
+  - name: gedao17
     rows:
       - keys:
           - action: character(1)
@@ -181,8 +181,8 @@ keyboards:
             width: percentage(0.23)
             label: ——
             swipe:
-              - action: keyboardType(alphabetic)
-                label: "EN"
+              - action: keyboardType(custom(English_26))
+                label: EN
                 display: true
                 processByRIME: true
                 direction: up
@@ -227,20 +227,263 @@ keyboards:
       - keys:
           - action: character(/)
             width: percentage(0.17)
-          - action: keyboardType(custom(格道17))
+          - action: keyboardType(custom(gedao17))
             width: percentage(0.22)
-            label: Chinese
+            label: 中
           - action: symbol(0)
             width: percentage(0.22)
           - action: space
             width: percentage(0.22)
             label: ———
             swipe:
-              - action: keyboardType(alphabetic)
-                label: "En"
+              - action: keyboardType(custom(English_26))
+                label: En
                 display: true
                 processByRIME: true
                 direction: up
           - action: enter
             width: percentage(0.17)
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: English_26
+    rows:
+      - keys:
+          - action: character(q)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(1)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(w)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(2)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(e)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(3)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(r)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(4)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(t)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(5)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(y)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(6)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(u)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(7)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(i)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(8)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(o)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(9)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(p)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(0)
+                display: true
+                processByRIME: false
+                direction: up
+      - keys:
+          - action: none
+            width: available
+          - action: character(a)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(~)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(s)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(/)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(d)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(:)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(f)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(;)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(g)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(()
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(h)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol())
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(j)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(@)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(k)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(")
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(l)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(")
+                display: true
+                processByRIME: true
+                direction: up
+          - action: none
+            width: available
+      - keys:
+          - action: shift
+            width: percentage(0.13)
+          - action: none
+            width: available
+          - action: character(z)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(-)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(x)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(_)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(c)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(#)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(v)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(?)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(b)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(!)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(n)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(,)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: character(m)
+            width: percentage(0.1)
+            processByRIME: false
+            swipe:
+              - action: symbol(.)
+                display: true
+                processByRIME: false
+                direction: up
+          - action: none
+            width: available
+          - action: backspace
+            width: percentage(0.13)
+      - keys:
+          - action: keyboardType(custom(numericNineKeys))
+            width: percentage(0.2)
+            label: "123"
+          - action: character(,)
+            width: percentage(0.1)
+          - action: space
+            width: percentage(0.4)
+            swipe:
+              - action: keyboardType(custom(gedao17))
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(.)
+            width: percentage(0.1)
+          - action: enter
+            width: percentage(0.2)
     buttonInsets: left(3),bottom(4),top(8),right(3)
