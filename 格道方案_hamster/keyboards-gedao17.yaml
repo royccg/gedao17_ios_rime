@@ -475,6 +475,7 @@ keyboards:
             label: "123"
           - action: character(,)
             width: percentage(0.1)
+            processByRIME: false
           - action: space
             width: percentage(0.4)
             swipe:
@@ -484,6 +485,7 @@ keyboards:
                 direction: up
           - action: character(.)
             width: percentage(0.1)
+            processByRIME: false
           - action: enter
             width: percentage(0.2)
     buttonInsets: left(3),bottom(4),top(8),right(3)
