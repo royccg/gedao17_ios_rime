@@ -2,4 +2,3 @@
 patch:
   "schema_list/+":
     - schema: gedao
-
