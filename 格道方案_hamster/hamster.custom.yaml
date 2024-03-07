@@ -23,11 +23,11 @@ patch:
           name: 微信-dark／wechat-dark
           author: Roy <roy.chen.cc@outlook.com>
           back_color: 0xFFFFFF # 键盘背景色
-          button_back_color: 0xB40A0800 # 按键背景色
+          button_back_color: 0xFFFFFF # 按键背景色
           button_pressed_back_color: 0x202121 # 按下时按键背景色
-          # button_front_color: 0x7389FF # 按键上文字颜色
-          # button_pressed_front_color: 0x7389FF # 按下时按键上文字颜色
-          # button_swipe_front_color: 0x7389FF # 按键上划动手势文字的颜色
+          button_foreground_color: 0xB40A0800 # 按键上文字颜色
+          button_pressed_foreground_color: 0xB40A0800 # 按下时按键上文字颜色
+          button_swipe_foreground_color: 0xB40A0800 # 按键上划动手势文字的颜色
           corner_radius: 5 # 按键圆角半径
           border_color: 0x9F9F9F # 按键边框颜色
           text_color: 0x202121 # 组字区域文字颜色
