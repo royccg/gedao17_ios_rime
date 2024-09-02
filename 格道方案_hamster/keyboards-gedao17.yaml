@@ -2,8 +2,10 @@ keyboards:
   - name: gedao17
     rows:
       - keys:
-          - action: character(1)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: 1
+            width: available
             label: Zh
             swipe:
               - action: symbol(1)
@@ -11,32 +13,40 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(2)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: 2
+            width: available
             label: Sh
             swipe:
               - action: symbol(2)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(3)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: 3
+            width: available
             label: Ch
             swipe:
               - action: symbol(3)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(4)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: 4
+            width: available
             label: Z F
             swipe:
               - action: character(@)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(5)
-            width: percentage(0.16)
+          - action: 
+              character:
+                char: 5
+            width: available
             label: S W
             swipe:
               - action: symbol(｛)
@@ -47,8 +57,10 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: down
-          - action: character(6)
-            width: percentage(0.16)
+          - action: 
+              character:
+                char: 6
+            width: available
             label: C M
             swipe:
               - action: symbol(｝)
@@ -61,48 +73,60 @@ keyboards:
                 direction: down
         rowHeight: 52
       - keys:
-          - action: character(l)
-            width: percentage(0.17)
+          - action:
+              character:
+                char: l
+            width: available
             label: L
             swipe:
               - action: symbol(4)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(d)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: d
+            width: available
             label: D
             swipe:
               - action: symbol(5)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(y)
-            width: percentage(0.17)
+          - action:
+              character:
+                char: y
+            width: available
             label: Y
             swipe:
               - action: symbol(6)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(7)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: 7
+            width: available
             label: N H
             swipe:
               - action: symbol(0)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(j)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: j
+            width: available
             label: J
             swipe:
               - action: character(：)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(8)
-            width: percentage(0.15)
+          - action:
+              character:
+                char: 8
+            width: available
             label: T R
             swipe:
               - action: symbol(.)
@@ -111,40 +135,50 @@ keyboards:
                 direction: up
         rowHeight: 52
       - keys:
-          - action: character(9)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: 9
+            width: available
             label: P K
             swipe:
               - action: symbol(7)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(q)
-            width: percentage(0.17)
+          - action:
+              character:
+                char: q
+            width: available
             label: Q
             swipe:
               - action: symbol(8)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(g)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: g
+            width: available
             label: G
             swipe:
               - action: symbol(9)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(b)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: b
+            width: available
             label: B
             swipe:
               - action: character(!)
                 display: true
                 processByRIME: true
                 direction: up
-          - action: character(x)
-            width: percentage(0.17)
+          - action: 
+              character:
+                char: x
+            width: available
             label: X
             swipe:
               - action: character(?)
@@ -169,7 +203,7 @@ keyboards:
                 processByRIME: true
                 direction: up
           - action: keyboardType(custom(numericNineKeys))
-            width: percentage(0.17)
+            width: available
             label: "123"
             swipe:
               - action: keyboardType(classifySymbolic)
@@ -178,7 +212,7 @@ keyboards:
                 processByRIME: true
                 direction: up
           - action: space
-            width: percentage(0.23)
+            width: available
             label: ——
             swipe:
               - action: keyboardType(custom(English_26))
@@ -187,7 +221,7 @@ keyboards:
                 processByRIME: true
                 direction: up
           - action: enter
-            width: percentage(0.23)
+            width: available
     buttonInsets: left(3),bottom(4),top(0),right(3)
   - name: numericNineKeys
     rows:
