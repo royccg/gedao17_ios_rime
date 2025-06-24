@@ -1,0 +1,238 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: gedao
+  name: 格道17
+  version: "0.3"
+  author:
+    - Roy <roy.chen.cc@outlook.com>
+  description: |
+    格道17方案
+    以🍀️四叶草简体拼音为基础所配置的一款适合在手机 格道17布局 上的输入方案。
+  dependencies:
+    - emoji
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中, 英 ]
+  - name: full_shape
+    states: [ 半, 全 ]
+  - name: simplification
+    states: [ 简, 繁 ]
+    reset: 0
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller              # ※ 拼写处理器，接受字符按键，编辑输入码
+    - punctuator           # ※ 句读处理器，将单个字符按键直接映射为文字符号
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - reverse_lookup_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba123456789   # 定义本方案输入键
+  delimiter: " '"
+  algebra:                                          # 拼寫運算規則，由之算出的拼寫匯入prism中
+    # - "xlit|12345|+_*^0|"
+    - erase/^xx$/
+
+    - abbrev/^([a-z]).+$/$1/ 
+    - abbrev/^([zcs]h).+$/$1/ 
+
+    - derive/^([jqxy])u$/$1v/    # 处理 v 和 u
+    - derive/ong$/on/
+
+    # 以下对双拼方案 ，无用         
+    # - derive/^([nl])ve$/$1ue/  
+    # - derive/un$/uen/
+    # - derive/ui$/uei/
+    # - derive/iu$/iou/
+    # - derive/([aeiou])ng$/$1gn/
+    # - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    # - derive/ao$/oa/
+    # - derive/([iu])a(o|ng?)$/a$1$2/
+    # - derive/[+_*^0]//
+    # - derive/([+_*^0])$//
+    # - derive/^(.*)$/\U$1/
+
+    - xform/^zh/1/            # 替换声母键
+    - xform/^sh/2/
+    - xform/^ch/3/
+    - xform/^z|^f/4/
+    - xform/^s|^w/5/
+    - xform/^m|^c/6/
+    - xform/^h|^n/7/
+    - xform/^t|^r/8/
+    - xform/^p|^k/9/
+    # 手写 单韵母的
+    - xform/^en$/q1/
+    # - xform/^eng$/q2/
+    - xform/^a$/q3/
+    - xform/^ang$|^er$/q4/
+    - xform/^an$/q5/
+    - xform/^o$/q6/
+    - xform/^ai$/qL/
+    - xform/^e$/q7/
+    - xform/^ei$/q9/
+    - xform/^ao$/qb/
+    - xform/^ou$/qx/
+    - xform/iao$|ou$/X/
+    - xform/ao$|iong$/B/             # ao 在iao之后
+    - xform/uo$|ing/Y/
+    - xform/uai$|un$|ei$/9/     # uai 在 ai 前面
+    - xform/ui$|in$/G/          
+    - xform/uang$|ian$/Q/       # ian 在 an 前面
+    - xform/uan$|v$|o$/6/       # uan 在 an 前面  o在[\w]o 之前
+    - xform/en$|iang$/1/        # 對應兩種韻母的；音節er現在變爲OR了
+    - xform/eng$|ie$/2/
+    - xform/ang$|ua$/4/     # [iu]ang 在 ang 前面
+    - xform/an$/5/              # [iu]an 在 an 前面
+    - xform/a$|ia$/3/
+    - xform/iu$|ong$/8/
+    - xform/ai$|ue$|ve$/L/
+    - xform/e$/7/               # e 要在所有的 [\w]e 后面
+    - xform/u$/D/
+    - xform/i$/J/
+    # 最後把雙拼碼全部改写
+    - xlit/QWERTYOPASDFGHJKLZXCVBNM/qwertyopasdfghjklzxcvbnm/
+    # xform --改寫〔不保留原形〕
+    # derive --衍生〔保留原形〕
+    # abbrev --簡拼〔出字優先級較上兩組更低〕
+    # fuzz --畧拼〔此種簡拼僅組詞，不出單字〕
+    # xlit --變換〔適合大量一對一變換〕
+    # erase --刪除
+
+translator:
+  dictionary: clover    # 與【四叶草】共用詞典
+  prism: gedao
+  spelling_hints: 16 # ～字以內候選標註完整帶調拼音
+  enable_sentence: true               
+  enable_user_dict: true               
+  enable_encoder: true                 
+  encode_commit_history: true          
+  max_phrase_length: 10     
+  user_dict: user                                                      
+  db_class: tabledb                # 设定用户词典类型，可设 tabledb(文本) 或者 userdb (二进制)        
+  disable_user_dict_for_patterns:       
+    - "^z.*$"
+  preedit_format:                  # 上屏码 自定义
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+    # - xform/eh/ê/
+
+    - xform/q7$/e/
+    - xform/^q1$/en/
+    - xform/^q2$/eng/
+    - xform/^q3$/a/
+    - xform/^q4$/ang/
+    - xform/^q4$/er/
+    - xform/^q5$/an/
+    - xform/^q6$/o/
+    - xform/^ql$/ai/
+    - xform/^q9$/ei/
+    - xform/^qb$/ao/
+    # 双拼第二码 转换韵母
+    - xform/([6ld7j89qbx])x/$1iao/ # 提前转换双拼码i，因为iao中存在i;也可以通过 双拼码 变成大写的方式 避免错误
+    - xform/([l7jqbx])1/$1iang/  # 对应多种韵母的 双拼码，按搭配的声母的方式做区分，对于移动端则全部如此
+    - xform/([123456ldn89gb])1/$1en/           
+    - xform/([123456ld789gb])2/$1eng/
+    - xform/([6ld7j89qbx])2/$1ie/
+    - xform/([123456ldy789gb])3/$1a/
+    - xform/([jqx])3/$1ia/
+    - xform/([123456ldy789gb])4/$1ang/
+    - xform/([12379g])4/$1ua/
+    - xform/([123456ldy789gb])5/$1an/
+    - xform/([123456ldy7j89qgb])6/$1uan/
+    - xform/([7ljqxy])6/$1ü/ 
+    - xform/([456y9b])6/$1o/
+    - xform/([y7jqx])l/$1ue/
+    - xform/([123456ld789gb])l/$1ai/
+    - xform/([123456ldy7j89qgbx])d/$1u/
+    - xform/([123456ld789g])y/$1uo/
+    - xform/([6ldy7j89qbx])y/$1ing/
+    - xform/([123456ldy789g])7/$1e/
+    - xform/(\w)j/$1i/
+    - xform/([6ld7jqx])8/$1iu/   
+    - xform/([123456ldy789g])8/$1ong/
+    - xform/([12379g])9/$1uai/
+    - xform/([123456ldy7j89qgx])9/$1un/
+    - xform/([123456ldy7j89qgx])9/$1ei/
+    - xform/([123456d79g])q/$1uang/
+    - xform/([6ld7j89qbx])q/$1ian/
+    - xform/([123456d789g])g/$1ui/
+    - xform/([6ldy7j9qbx])g/$1in/
+    - xform/([jqx])b/$1iong/
+    - xform/([1234567dy789gb])b/$1ao/
+    - xform/([123456ldy789g])x/$1ou/
+    - "xform/(^|[ '])1/$1zh/"  # 復原聲母，音節開始處的雙拼字母a改寫爲zh；其他位置的才真正是a
+    - "xform/(^|[ '])2/$1sh/"
+    - "xform/(^|[ '])3/$1ch/"
+    - "xform/(^|[ '])4/$1z/"
+    - "xform/(^|[ '])4/$1f/"
+    - "xform/(^|[ '])5/$1s/"
+    - "xform/(^|[ '])5/$1w/"
+    - "xform/(^|[ '])6/$1c/"
+    - "xform/(^|[ '])6/$1m/"
+    - "xform/(^|[ '])7/$1n/"
+    - "xform/(^|[ '])7/$1h/"
+    - "xform/(^|[ '])8/$1t/"
+    - "xform/(^|[ '])8/$1r/"
+    - "xform/(^|[ '])9/$1p/"
+    - "xform/(^|[ '])9/$1k/"
+    - xform/0(\w)/$1/          # 好了，現在可以把零聲母拿掉啦
+    # - xform/([q7])6/$1ü/       # 這樣纔是漢語拼音 :-)
+    # - xform/([jqxy])v/$1u/
+
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔笔画〕
+  preedit_format:
+    - "xlit|v|ü|"
+    - xform/iü/iv/
+    - xform/uü/uv/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"

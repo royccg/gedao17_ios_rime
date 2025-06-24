@@ -1,0 +1,12 @@
+var:
+  last_build_time: 1750674606
+  option:
+    ascii_punct: false
+    full_shape: false
+    simplification: true
+    traditionalization: false
+  previously_selected_schema: rime_ice
+  schema_access_time:
+    clover: 1721717621
+    luna_pinyin: 1702368525
+    rime_ice: 1721717636

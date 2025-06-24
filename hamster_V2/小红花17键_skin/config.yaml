@@ -1,0 +1,116 @@
+author: 1
+name: 小红花17键
+
+# 字体设置
+# 皮肤中的字体设置级别大于应用中的字体设置
+# fontFace:
+  # - url: "Hamster-Regular.otf"
+
+
+
+# 中文键盘
+pinyin:
+  iPhone:
+    portrait: pinyin_17_portrait
+    landscape: pinyin_26_landscape
+  iPad:
+    portrait: pinyin_26_portrait
+    landscape: pinyin_26_landscape
+    floating: pinyin_26_portrait
+
+# 自定义键盘-九宫拼音键盘
+pinyin26:
+  iPhone:
+    portrait: pinyin_26_portrait
+    landscape: pinyin_26_landscape
+
+# 英文键盘
+alphabetic:
+  iPhone:
+    portrait: alphabetic_26_portrait
+    landscape: alphabetic_26_landscape
+  iPad:
+    portrait: alphabetic_26_landscape
+    landscape: alphabetic_26_landscape
+    floating: alphabetic_26_portrait
+
+# 数字键盘
+numeric:
+  iPhone:
+    portrait: numeric_9_portrait
+    landscape: numeric_9_landscape
+  iPad:
+    portrait: numeric_9_portrait
+    landscape: numeric_9_landscape
+    floating: numeric_9_portrait
+
+# 浮动数字键盘
+floatnumeric:
+  iPhone:
+    portrait: floatnumeric_portrait
+    landscape: numeric_9_landscape
+  iPad:
+    portrait: floatnumeric_portrait
+    landscape: numeric_9_landscape
+    floating: numeric_9_portrait
+
+# 符号键盘
+symbolic:
+  iPhone:
+    portrait: floatsymbolic_portrait
+    landscape: symbolic_landscape
+  iPad:
+    portrait: floatsymbolic_portrait
+    landscape: symbolic_landscape
+    floating: symbolic_portrait
+
+# emoji键盘
+emoji:
+  iPhone:
+    portrait: floatemoji_portrait
+    landscape: floatemoji_portrait
+  iPad:
+    portrait: floatemoji_portrait
+    landscape: floatemoji_portrait
+    floating: floatemoji_portrait
+
+# 设置面板
+panel:
+  iPhone:
+    portrait: setups_portrait
+    landscape: setups_portrait
+  iPad:
+    portrait: setups_portrait
+    landscape: setups_portrait
+    floating: setups_portrait
+
+
+# 功能面板
+功能panel:
+  iPhone:
+    portrait: 功能_portrait
+    landscape: 功能_portrait
+  iPad:
+    portrait: 功能_portrait
+    landscape: 功能_portrait
+    floating: 功能_portrait
+
+# 搜索浮动键盘
+floatsearch:
+  iPhone:
+    portrait: floatsearch_portrait
+    landscape: floatsearch_portrait
+  iPad:
+    portrait: floatsearch_portrait
+    landscape: floatsearch_portrait
+    floating: floatsearch_portrait
+
+# switch键盘
+floatswitch:
+  iPhone:
+    portrait: floatswitch_portrait
+    landscape: floatswitch_portrait
+  iPad:
+    portrait: floatswitch_portrait
+    landscape: floatswitch_portrait
+    floating: floatswitch_portrait

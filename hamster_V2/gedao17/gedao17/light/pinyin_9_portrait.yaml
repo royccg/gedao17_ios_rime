@@ -1,0 +1,2181 @@
+rimeSchema: wanxiang_9
+
+未展开候选字体选中字体大小: &f1 19
+未展开comment字体大小: &f2 14
+展开候选字体选中字体大小: &f3 19
+展开comment字体大小: &f4 13
+
+preedit区字体大小: &preedit_fontsize 16
+
+未展开候选字体选中字体颜色: &cand_select_color 4D6357
+未展开候选字体未选中字体颜色: &cand_unselect_color 271D25
+
+toolbar按键颜色: &toolbar_button_color 575757
+
+划动字符颜色: &swipe_color 575757
+
+# 按键-前景
+普通按键前景样式: &xxxButtonFgStyle
+  normalColor: 271D25
+  highlightColor: 271D25
+  fontSize: 16
+  fontWeight: regular
+  center:
+    y: 0.7
+    
+字母键长按前景: &xxxHoldFgStyle
+  fontSize: 20
+  fontWeight: medium
+  normalColor: 3f3ba6
+  highlightColor: FAFFF5
+  center:
+    y: 0.68
+
+FStyle:
+  text: "🌸"
+  <<: *xxxHoldFgStyle
+    
+字母键下划角标1: &xxxSwipeDownStyle
+  normalColor: ff4418
+  highlightColor: 3f3ba6
+  fontSize: 20
+  fontWeight: black
+  center:
+    y: 0.9
+    
+空格上划样式: &spaceSwipeUpStyle
+  normalColor: ff4418
+  highlightColor: ff4418
+  fontSize: 15
+  fontWeight: regular
+  center:
+    x: 0.75
+    y: 0.56
+
+    
+toolbar前景偏移量: &toolbar_button_offset
+  center:
+    x: 0.5
+    y: 0.55
+
+上划字符样式: &swipe_up_style
+  normalColor: *swipe_color
+  highlightColor: *swipe_color
+  center:
+    x: 0.85
+    y: 0.3
+  targetScale: 0.33
+
+下划字符样式: &swipe_down_style
+  fontSize: 12
+  center:
+    x: 0.5
+    y: 1.1
+  normalColor: *swipe_color
+  highlightColor: *swipe_color
+
+按键前景偏移: &button_fore_offset
+  center:
+    y: 0.5
+
+preeditHeight: 22
+toolbarHeight: 40
+keyboardHeight: 26.8vh
+
+preedit:
+  insets: { left: 8, top: 2 }
+  backgroundStyle: preeditBackgroundStyle
+  foregroundStyle: preeditForegroundStyle
+
+preeditBackgroundStyle:
+  normalImage:
+    file: bj
+    image: IMG3
+
+preeditForegroundStyle:
+  textColor: *cand_unselect_color
+  fontSize: 16
+  fontWeight: 0
+
+toolbar:
+  backgroundStyle: toolbarBackgroundStyle
+  primaryButtonStyle: primaryButtonStyle
+  secondaryButtonStyle:
+    - toolbarButton1Style
+    - toolbarButton2Style
+    - toolbarButton3Style
+    - toolbarButton4Style
+    - toolbarButton5Style
+    - toolbarButton6Style
+    - toolbarButton7Style
+  horizontalCandidateStyle: horizontalCandidateStyle
+  verticalCandidateStyle: verticalCandidateStyle
+
+toolbarBackgroundStyle:
+  normalImage:
+    file: bj
+    image: IMG1
+
+primaryButtonStyle:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: primaryButtonFgStyle
+  action: { floatKeyboardType: panel }
+
+
+toolbarButton1Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton1FgStyle
+  action: dismissKeyboard
+
+toolbarButton2Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton2FgStyle
+  action: { shortcutCommand: "#showPasteboardView" } #常用语
+
+toolbarButton3Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("ascii_mode") ? "toolbarButton3FgStyle_English" : "toolbarButton3FgStyle_Chinese";
+    }
+  action: { shortcutCommand: "#中英切换" } #中英
+
+
+toolbarButton4Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton4FgStyle
+  action: { runTranslateScript: "有道翻译" } #脚本
+  
+toolbarButton5Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("ascii_punct") ? "toolbarButton5FgStyle_Y" : "toolbarButton5FgStyle_Z";
+    }
+  action: { sendKeys: Control+period } #中英标点
+
+toolbarButton6Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton6FgStyle
+  action: { floatKeyboardType: floatswitch } #浮动数字键盘
+
+toolbarButton7Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton7FgStyle
+  action: { floatKeyboardType: floatsearch } #emoji键盘
+
+#工具栏样式>>>>>>>>>>
+
+#工具栏按键背景样式
+toolbarButtonBgStyle:
+  normalColor: 00000000
+  highlightColor: 00000000
+
+#工具栏主按钮样式
+primaryButtonFgStyle:
+  systemImageName: "gear"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+  
+#工具栏按钮1-7样式
+toolbarButton1FgStyle:
+  systemImageName: "chevron.down.circle"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton2FgStyle:
+  systemImageName: "scissors.circle"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton3FgStyle_Chinese:
+    assetImageName: "chineseState"
+    normalColor: BA4438
+    highlightColor: BA4438
+    fontSize: 16
+
+toolbarButton3FgStyle_English:
+    assetImageName: "englishState"
+    normalColor: BA4438
+    highlightColor: BA4438
+    fontSize: 16
+
+toolbarButton4FgStyle:
+  systemImageName: "shoeprints.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton5FgStyle_Z:
+  systemImageName: "microbe.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+
+toolbarButton5FgStyle_Y:
+  systemImageName: "moon.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton6FgStyle:
+  systemImageName: "hand.thumbsup.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton7FgStyle:
+  systemImageName: "magnifyingglass.circle"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+#工具栏样式<<<<<<<<<<
+
+horizontalCandidateStyle:
+  insets: { top: 5, left: 5 }
+  candidateStateButtonStyle: candidateStateButtonStyle
+  highlightBackgroundColor: 00000000
+  preferredBackgroundColor: ffffff00
+  preferredIndexColor: *cand_select_color
+  preferredTextColor: *cand_select_color
+  preferredCommentColor: *cand_select_color
+  indexColor: *cand_unselect_color
+  textColor: *cand_unselect_color
+  commentColor: *cand_unselect_color
+  indexFontSize: *f1
+  indexFontWeight: 0
+  textFontSize: *f1
+  textFontWeight: 0
+  commentFontSize: *f2
+  commentFontWeight: 0
+  itemSpacing: 10 # 调整水平候选字之间间隙，默认为6
+
+candidateStateButtonStyle:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle: candidateStateButtonForegroundStyle
+
+# 有候选时，展开候选的按键 前景
+candidateStateButtonForegroundStyle:
+  normalImage:
+    file: cand
+    image: IMG3
+  highlightImage:
+    file: cand2
+    image: IMG3
+  targetScale: 1.2
+
+# 展开候选页样式
+verticalCandidateStyle:
+  insets: { top: 3, bottom: 3, left: 4, right: 4 }
+  bottomRowHeight: 50
+  # 背景
+  backgroundStyle: verticalCandidateBackgroundStyle
+  # 候选项
+  candidateStyle: verticalCandidateOfCandidateStyle
+  # 上一页按键
+  pageUpButtonStyle: verticalCandidatePageUpButtonStyle
+  # 下一页按键
+  pageDownButtonStyle: verticalCandidatePageDownButtonStyle
+  # 返回
+  returnButtonStyle: verticalCandidateReturnButtonStyle
+  # 退格
+  backspaceButtonStyle: verticalCandidateBackspaceButtonStyle
+
+verticalCandidateBackgroundStyle:
+  normalImage:
+    file: anjian
+    image: IMG13
+
+verticalCandidateOfCandidateStyle:
+  insets: { top: 8, bottom: 8, left: 8, right: 8 }
+  cornerRadius: 15
+  backgroundColor: 00000000
+  separatorColor: 00000000
+  highlightBackgroundColor: 00000000
+  preferredBackgroundColor: ffffff00
+  preferredIndexColor: *cand_select_color
+  preferredTextColor: *cand_select_color
+  preferredCommentColor: *cand_select_color
+  indexColor: *cand_unselect_color
+  textColor: *cand_unselect_color
+  commentColor: *cand_unselect_color
+  indexFontSize: *f3
+  indexFontWeight: 0
+  textFontSize: *f3
+  textFontWeight: 0
+  commentFontSize: *f4
+  commentFontWeight: 0
+
+# 展开候选上一页按键样式 前景+背景
+verticalCandidatePageUpButtonStyle:
+  backgroundStyle: systemButtonBackgroundStyle # 用systembutton
+  foregroundStyle: verticalCandidatePageUpButtonForegroundStyle
+
+# 展开候选下一页按键样式 前景+背景
+verticalCandidatePageDownButtonStyle:
+  backgroundStyle: systemButtonBackgroundStyle
+  foregroundStyle: verticalCandidatePageDownButtonForegroundStyle
+
+# 展开候选页背景（不用）
+verticalCandidateButtonBackgroundStyle:
+  normalImage:
+    file: anjian123
+    image: IMG16
+  highlightImage:
+    file: anjian123ax
+    image: IMG16
+
+# 展开候选上一页按键前景
+verticalCandidatePageUpButtonForegroundStyle:
+  normalImage:
+    file: sym
+    image: IMG2
+  highlightImage:
+    file: sym2
+    image: IMG2
+  targetScale: 0.6
+
+# 展开候选下一页按键前景
+verticalCandidatePageDownButtonForegroundStyle:
+  normalImage:
+    file: sym
+    image: IMG3
+  highlightImage:
+    file: sym2
+    image: IMG3
+  targetScale: 0.6
+
+# 展开候选返回按键样式
+verticalCandidateReturnButtonStyle:
+  backgroundStyle: systemButtonBackgroundStyle # 背景用systembutton的
+  foregroundStyle: verticalCandidateReturnButtonForegroundStyle
+
+# # 展开候选返回按键前景
+verticalCandidateReturnButtonForegroundStyle:
+  normalImage:
+    file: letter
+    image: IMG73
+  highlightImage:
+    file: letter2
+    image: IMG73
+  targetScale: 0.6
+
+# # 展开候选退格按键样式 前景+背景
+verticalCandidateBackspaceButtonStyle:
+  backgroundStyle: verticalCandidateBackspaceButtonBackgroundStyle
+  foregroundStyle: backspaceButtonForegroundStyle # 用键盘上的退格的前景
+
+# 展开候选退格按键背景样式
+verticalCandidateBackspaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian
+    image: IMG9
+  highlightImage:
+    file: anjian
+    image: IMG10
+
+# 展开候选退格按键前景样式
+verticalCandidateBackspaceButtonForegroundStyle:
+  normalImage:
+    file: sym
+    image: IMG10
+  highlightImage:
+    file: sym2
+    image: IMG10
+  targetScale: 0.6
+
+keyboard:
+  style: keyboardStyle
+  subviews:
+    - VStack:
+        style: VStackStyle1
+        subviews:
+          - Cell: collection
+          - Cell: symbolButton
+    - VStack:
+        # style: VStackStyle2
+        subviews:
+          - HStack:
+              style: HStackStyle1
+              subviews:
+                - VStack:
+                    style: VStackStyle2
+                    subviews:
+                      - Cell: number1Button
+                      - Cell: number4Button
+                      - Cell: number7Button
+                - VStack:
+                    style: VStackStyle2
+                    subviews:
+                      - Cell: number2Button
+                      - Cell: number5Button
+                      - Cell: number8Button
+                - VStack:
+                    style: VStackStyle2
+                    subviews:
+                      - Cell: number3Button
+                      - Cell: number6Button
+                      - Cell: number9Button
+          - HStack:
+              style: HStackStyle2
+              subviews:
+                - Cell: 123Button
+                - Cell: spaceButton
+                - Cell: keyboardSwitchButton
+    - VStack:
+        style: VStackStyle1
+        subviews:
+          - Cell: backspaceButton
+          - Cell: clearButton
+          - Cell: enterButton
+
+keyboardStyle:
+  # 键盘内距
+  insets: { top: 3, bottom: 3, left: 4, right: 4 }
+  backgroundStyle: keyboardBackgroundStyle
+
+keyboardBackgroundStyle:
+  normalImage:
+    file: bj
+    image: IMG2
+
+VStackStyle1:
+  size:
+    width: 29/183
+VStackStyle2:
+  size:
+    width: 1/3
+
+HStackStyle1:
+  size:
+    height: 3/4
+
+HStackStyle2:
+  size:
+    height: 1/4
+
+collection:
+  size:
+    height: 3/4
+  backgroundStyle: collectionBackgroundStyle
+  type: symbols
+  dataSource: symbols
+  cellStyle: collectionCellStyle
+
+collectionBackgroundStyle:
+  normalImage:
+    file: anjian123
+    image: IMG1
+
+collectionCellStyle:
+  # backgroundStyle: collectionCellBackgroundStyle
+  foregroundStyle: collectionCellForegroundStyle
+
+# collectionCellBackgroundStyle:
+#   highlightImage:
+#     file: anjian26
+#     image: IMG13
+
+collectionCellForegroundStyle:
+  textColor: 000000
+  fontSize: 16
+  fontWeight: 0
+
+symbolButton:
+  size:
+    height: 1/4
+  backgroundStyle: symbolButtonBackgroundStyle
+  foregroundStyle:
+    - symbolButtonForegroundStyle
+  backgroundAnimation: animation
+  action: { floatKeyboardType: symbolic }
+
+symbolButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG13
+  highlightImage:
+    file: anjian9ax
+    image: IMG13
+
+symbolButtonForegroundStyle:
+  normalImage:
+    file: more
+    image: IMG3
+  highlightImage:
+    file: more2
+    image: IMG3
+  targetScale: 0.5
+
+number1Button:
+  backgroundStyle: number1ButtonBackgroundStyle
+  foregroundStyle:
+    - number1ButtonForegroundStyle
+    - number1UpButtonForegroundStyle
+    - qweButtonDownFgStyle    
+  holdSymbolsStyle: asdButtonHoldSymbolsStyle
+  backgroundAnimation: animation
+  action: { character: "q" }
+  swipeUpAction: { symbol: "1" }
+  swipeDownAction: { symbol: "w" }
+  swipeLeftAction: { symbol: "q" }
+  swipeRightAction: { symbol: "e" }
+
+# 按键1背景
+number1ButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG2
+  highlightImage:
+    file: anjian9ax
+    image: IMG2
+    
+number1ButtonForegroundStyle:
+#  animation: ButtonForegroundAnimation
+#  normalImage:
+#    file: letter
+#    image: IMG55
+#  highlightImage:
+#    file: letter
+#    image: IMG55
+#  targetScale: 0.5
+#  <<: *button_fore_offset
+  text: "QWE"
+  <<: *xxxButtonFgStyle
+
+number1UpButtonForegroundStyle:
+  normalImage:
+    file: sym
+    image: IMG12
+  highlightImage:
+    file: sym2
+    image: IMG12
+  <<: *swipe_up_style
+
+number1ButtonPreeditForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG82
+  highlightImage:
+    file: letter2
+    image: IMG82
+  targetScale: 0.7
+
+
+number4Button:
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle:
+    - number4ButtonForegroundStyle
+    - number4UpButtonForegroundStyle
+    - asdButtonDownForegroundStyle
+  action: { character: a }
+  swipeUpAction: { symbol: "4" }
+  swipeDownAction: { symbol: "s" }
+  swipeLeftAction: { symbol: "a" }
+  swipeRightAction: { symbol: "d" }
+  holdSymbolsStyle: 行首
+
+行首:
+# 长按符号列表内距
+  foregroundStyle: FStyle
+  actions:
+    - { shortcutCommand: "#行首" }
+
+number4ButtonForegroundStyle:
+#  animation: ButtonForegroundAnimation
+#  normalImage:
+#    file: letter
+#    image: IMG55
+#  highlightImage:
+#    file: letter
+#    image: IMG55
+#  targetScale: 0.5
+#  <<: *button_fore_offset
+  text: "ASD"
+  <<: *xxxButtonFgStyle
+
+number4UpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG15
+  highlightImage:
+    file: sym2
+    image: IMG15
+  <<: *swipe_up_style
+
+number7Button:
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle:
+    - number7ButtonForegroundStyle
+    - number7UpButtonForegroundStyle
+    - zpButtonDownForegroundStyle
+  action: { character: z }
+  swipeUpAction: { symbol: "7" }
+  swipeLeftAction: { symbol: "z" }
+  swipeRightAction: { symbol: "p" }
+  holdSymbolsStyle: 复制
+
+复制:
+# 长按符号列表内距
+  foregroundStyle: FStyle
+  actions:
+    - { shortcutCommand: "#复制" }
+
+number7ButtonForegroundStyle:
+#  animation: ButtonForegroundAnimation
+#  normalImage:
+#    file: letter
+#    image: IMG58
+#  highlightImage:
+#    file: letter
+#    image: IMG58
+#  targetScale: 0.65
+#  <<: *button_fore_offset
+
+  text: "ZP"
+  <<: *xxxButtonFgStyle
+
+number7UpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG18
+  highlightImage:
+    file: sym2
+    image: IMG18
+  <<: *swipe_up_style
+
+123Button:
+  size:
+    width: 200/750
+  backgroundStyle: 123ButtonBackgroundStyle
+  foregroundStyle:
+    - 123ButtonForegroundStyle
+  action: { floatKeyboardType: floatnumeric }
+  swipeUpAction: { floatKeyboardType: emoji }
+
+
+123ButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG14
+  highlightImage:
+    file: anjian9ax
+    image: IMG14
+
+123ButtonForegroundStyle:
+  normalImage:
+    file: more
+    image: IMG9
+  highlightImage:
+    file: more2
+    image: IMG9
+  targetScale: 0.65
+
+number2Button:
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle:
+    - number2ButtonForegroundStyle
+    - number2UpButtonForegroundStyle
+    - rtyButtonDownForegroundStyle
+  action: { character: r }
+  swipeUpAction: { symbol: "2" }
+  swipeDownAction: { symbol: "t" }
+  swipeLeftAction: { symbol: "r" }
+  swipeRightAction: { symbol: "y" }
+  holdSymbolsStyle: 功能
+
+功能:
+# 长按符号列表内距
+  foregroundStyle: FStyle
+  actions:
+    - { floatKeyboardType: 功能panel }
+
+number2ButtonForegroundStyle:
+#  animation: ButtonForegroundAnimation
+#  normalImage:
+#    file: letter
+#    image: IMG53
+#  highlightImage:
+#    file: letter
+#    image: IMG53
+#  targetScale: 0.5
+#  <<: *button_fore_offset
+  text: "RTY"
+  <<: *xxxButtonFgStyle
+  
+number2UpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG13
+  highlightImage:
+    file: sym2
+    image: IMG13
+  <<: *swipe_up_style
+
+
+number5Button:
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle:
+    - number5ButtonForegroundStyle
+    - number5UpButtonForegroundStyle
+    - fghButtonDownForegroundStyle
+  action: { character: f }
+  swipeUpAction: { symbol: "5" }
+  swipeDownAction: { symbol: "g" }
+  swipeLeftAction: { symbol: "f" }
+  swipeRightAction: { symbol: "h" }
+  holdSymbolsStyle: 全选
+
+全选:
+# 长按符号列表内距
+  foregroundStyle: FStyle
+  actions:
+    - { shortcutCommand: "#selectText" }
+
+number5ButtonForegroundStyle:
+#  animation: ButtonForegroundAnimation
+#  normalImage:
+#    file: letter
+#    image: IMG56
+#  highlightImage:
+#    file: letter
+#    image: IMG56
+#  targetScale: 0.5
+#  <<: *button_fore_offset
+  text: "FGH"
+  <<: *xxxButtonFgStyle
+
+number5UpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG16
+  highlightImage:
+    file: sym2
+    image: IMG16
+  <<: *swipe_up_style
+
+number8Button:
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle:
+    - number8ButtonForegroundStyle
+    - number8UpButtonForegroundStyle
+    - xcvButtonDownForegroundStyle
+  action: { character: x }
+  swipeUpAction: { symbol: "8" }
+  swipeDownAction: { symbol: "c" }
+  swipeLeftAction: { symbol: "x" }
+  swipeRightAction: { symbol: "v" }
+  holdSymbolsStyle: 剪切
+
+剪切:
+# 长按符号列表内距
+  foregroundStyle: FStyle
+  actions:
+    - { shortcutCommand: "#剪切" }
+
+number8ButtonForegroundStyle:
+#  animation: ButtonForegroundAnimation
+#  normalImage:
+#    file: letter
+#    image: IMG59
+#  highlightImage:
+#    file: letter
+#    image: IMG59
+#  targetScale: 0.5
+#  <<: *button_fore_offset
+  text: "XCV"
+  <<: *xxxButtonFgStyle
+
+number8UpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG19
+  highlightImage:
+    file: sym2
+    image: IMG19
+  <<: *swipe_up_style
+
+number3Button:
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle:
+    - number3ButtonForegroundStyle
+    - number3UpButtonForegroundStyle
+    - uioButtonDownForegroundStyle
+  action: { character: u }
+  swipeUpAction: { symbol: "3" }
+  swipeDownAction: { symbol: "i" }
+  swipeLeftAction: { symbol: "u" }
+  swipeRightAction: { symbol: "o" }
+  holdSymbolsStyle: switch
+
+switch:
+# 长按符号列表内距
+  foregroundStyle: FStyle
+  actions:
+    - { floatKeyboardType: floatswitch }
+
+
+number3ButtonForegroundStyle:
+#  animation: ButtonForegroundAnimation
+#  normalImage:
+#    file: letter
+#    image: IMG54
+#  highlightImage:
+#    file: letter
+#    image: IMG54
+#  targetScale: 0.5
+#  <<: *button_fore_offset
+  text: "UIO"
+  <<: *xxxButtonFgStyle
+  
+number3UpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG14
+  highlightImage:
+    file: sym2
+    image: IMG14
+  <<: *swipe_up_style
+
+number6Button:
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle:
+    - number6ButtonForegroundStyle
+    - number6UpButtonForegroundStyle
+    - jklButtonDownForegroundStyle
+  action: { character: j }
+  swipeUpAction: { symbol: "6" }
+  swipeDownAction: { symbol: "k" }
+  swipeLeftAction: { symbol: "j" }
+  swipeRightAction: { symbol: "l" }
+  holdSymbolsStyle: 行尾
+
+行尾:
+# 长按符号列表内距
+  foregroundStyle: FStyle
+  actions:
+    - { shortcutCommand: "#行尾" }
+
+
+number6ButtonForegroundStyle:
+#  animation: ButtonForegroundAnimation
+#  normalImage:
+#    file: letter
+#    image: IMG57
+#  highlightImage:
+#    file: letter
+#    image: IMG57
+#  targetScale: 0.5
+#  <<: *button_fore_offset
+  text: "JKL"
+  <<: *xxxButtonFgStyle
+  
+number6UpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG17
+  highlightImage:
+    file: sym2
+    image: IMG17
+  <<: *swipe_up_style
+
+
+number9Button:
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle:
+    - number9ButtonForegroundStyle
+    - number9UpButtonForegroundStyle
+    - bnmButtonDownForegroundStyle
+  action: { character: b }
+  swipeUpAction: { symbol: "9" }
+  swipeDownAction: { symbol: "n" }
+  swipeLeftAction: { symbol: "b" }
+  swipeRightAction: { symbol: "m" }
+  holdSymbolsStyle: 粘贴
+
+粘贴:
+# 长按符号列表内距
+  foregroundStyle: FStyle
+  actions:
+    - { shortcutCommand: "#粘贴" }
+
+
+number9ButtonForegroundStyle:
+#  animation: ButtonForegroundAnimation
+#  normalImage:
+#    file: letter
+#    image: IMG60
+#  highlightImage:
+#    file: letter
+#    image: IMG60
+#  targetScale: 0.65
+#  <<: *button_fore_offset
+  text: "BNM"
+  <<: *xxxButtonFgStyle
+
+number9UpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG20
+  highlightImage:
+    file: sym2
+    image: IMG20
+  <<: *swipe_up_style
+
+
+
+spaceButton:
+  size:
+    width: 350/750
+  backgroundStyle: spaceButtonBackgroundStyle
+  foregroundStyle: 
+    - spaceButtonForegroundStyle
+    - spaceButtonForegroundStyle1
+    - spaceButtonUpForegroundStyle
+  action: space
+  swipeUpAction: { shortcutCommand: "#次选上屏" }
+  swipeDownAction: { shortcutCommand: "#三选上屏" }
+  
+spaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG15
+  highlightImage:
+    file: anjian9ax
+    image: IMG15
+
+spaceButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  #normalImage:
+    #file: letter
+    #image: IMG74
+  systemImageName: "apple.logo"
+  highlightImage:
+    file: letter2
+    image: IMG74
+  targetScale: 0.52
+
+spaceButtonForegroundStyle1:
+  animation: ButtonForegroundAnimation
+  text: |-
+    // JavaScript
+    function getText() {
+      const candidate = $getRimeCandidates()
+      if (candidate && candidate.length > 0) {
+        return candidate[0].comment;
+      }
+      const preedit = $getRimePreedit();
+      return preedit;
+    }
+
+# 键盘切换键
+keyboardSwitchButton:
+  size:
+    width: 200/750
+  backgroundStyle: keyboardSwitchButtonBackgroundStyle
+  foregroundStyle: 
+      - keyboardSwitchButtonForegroundStyle
+      - keyboardSwitchUpButtonForegroundStyle
+  action: { keyboardType: alphabetic }
+  swipeUpAction: {  character: "," }
+  swipeDownAction: {shortcutCommand: '#RimeSwitcher'}
+  swipeLeftAction: {keyboardType: pinyin26}
+
+keyboardSwitchButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG16
+  highlightImage:
+    file: anjian9ax
+    image: IMG16
+
+keyboardSwitchButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG10
+  highlightImage:
+    file: more2
+    image: IMG10
+  targetScale: 0.54
+
+keyboardSwitchUpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG14
+  highlightImage:
+    file: more2
+    image: IMG14
+  <<: *swipe_up_style
+
+backspaceButton:
+  size:
+    height: 1/4
+  backgroundStyle: backspaceButtonBackgroundStyle
+  foregroundStyle:
+    - backspaceButtonForegroundStyle
+    - backspaceButtonForegroundStyle2
+  action: backspace
+  repeatAction: backspace
+  swipeLeftAction: { shortcutCommand: "#重输" }
+  swipeUpAction: { shortcutCommand: "#deleteText" }
+
+backspaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG11
+  highlightImage:
+    file: anjian9ax
+    image: IMG11
+
+backspaceButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG2
+  highlightImage:
+    file: more2
+    image: IMG2
+  targetScale: 0.6
+
+backspaceButtonForegroundStyle2:
+  normalImage:
+    file: slj
+    image: IMG2
+  highlightImage:
+    file: slj2
+    image: IMG2
+  targetScale: 0.7
+  offset:
+    x: 20
+    y: 8
+
+clearButton:
+  size:
+    height: 1/4
+  backgroundStyle: clearButtonBackgroundStyle
+  foregroundStyle: 
+    - clearButtonForegroundStyle
+    - tabButtonUpForegroundStyle
+  action: tab
+  swipeUpAction: { character: "0" }
+
+clearButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG12
+  highlightImage:
+    file: anjian9ax
+    image: IMG12
+
+clearButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG28
+  highlightImage:
+    file: more2
+    image: IMG28
+  targetScale: 0.7
+
+tabButtonUpForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG71
+  highlightImage:
+    file: letter
+    image: IMG71
+  <<: *swipe_up_style
+
+enterButton:
+  size:
+    height: 1/2
+  backgroundStyle: enterButtonBackgroundStyle
+  foregroundStyle:
+    - enterButtonForegroundStyle
+    - enterButtonForegroundStyle2
+  action: enter
+  swipeUpAction: { shortcutCommand: "#换行" }
+  
+enterButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG17
+  highlightImage:
+    file: anjian9ax
+    image: IMG17
+
+enterButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG25
+  highlightImage:
+    file: more2
+    image: IMG25
+  targetScale: 0.66
+  offset:
+    x: 0
+    y: 20
+
+enterButtonForegroundStyle2:
+  normalImage:
+    file: more
+    image: IMG29
+  highlightImage:
+    file: more2
+    image: IMG29
+  targetScale: 0.5
+  offset:
+    x: 0
+    y: -15
+
+numberButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG3
+  highlightImage:
+    file: anjian9ax
+    image: IMG3
+
+systemButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG17
+  highlightImage:
+    file: anjian123ax
+    image: IMG17
+
+# 字母按键背景动画
+alphabeticBackgroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 40 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.87
+  - type: bounds
+    duration: 40
+    repeatCount: 1
+    fromScale: 0.87
+    toScale: 1
+  - type: apng
+    file: animation
+
+# 按键前景动画
+ButtonForegroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 40 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.82
+  - type: bounds
+    duration: 40
+    repeatCount: 1
+    fromScale: 0.82
+    toScale: 1
+
+qweButtonDownFgStyle: 
+  text: |-
+    // JavaScript
+    function getText() {
+        switch ($getRimePreedit().slice($getRimePreedit().lastIndexOf(" ")+1)) {
+          case 'qq':
+            return "qiu";
+          case 'qr':
+            return "quan";
+          case 'qu':
+            return "qu";
+          case 'qx':
+            return "qia";
+          case 'qb':
+            return "qin";
+          case 'rr':
+            return "ruan";
+          case 'ru':
+            return "ru";
+          case 'rf':
+            return "ren";
+          case 'rj':
+            return "ran";
+          case 'rz':
+            return "rou";
+          case 'rx':
+            return "rua";
+          case 'shr':
+            return "shuan";
+          case 'shu':
+            return "shu";
+          case 'sha':
+            return "sha";
+          case 'shf':
+            return "shen";
+          case 'shj':
+            return "shan";
+          case 'shz':
+            return "shou";
+          case 'shx':
+            return "shua";
+          case 'aa':
+            return "a";
+          case 'aj':
+            return "an";
+          case 'fu':
+            return "fu";
+          case 'fa':
+            return "fa";
+          case 'ff':
+            return "fen";
+          case 'fj':
+            return "fan";
+          case 'fz':
+            return "fou";
+          case 'jq':
+            return "jiu";
+          case 'jr':
+            return "juan";
+          case 'ju':
+            return "ju";
+          case 'jx':
+            return "jia";
+          case 'jb':
+            return "jin";
+          case 'zr':
+            return "zuan";
+          case 'zu':
+            return "zu";
+          case 'za':
+            return "za";
+          case 'zf':
+            return "zen";
+          case 'zj':
+            return "zan";
+          case 'zz':
+            return "zou";
+          case 'xq':
+            return "xiu";
+          case 'xr':
+            return "xuan";
+          case 'xu':
+            return "xu";
+          case 'xx':
+            return "xia";
+          case 'xb':
+            return "xin";
+          case 'bu':
+            return "bu";
+          case 'ba':
+            return "ba";
+          case 'bf':
+            return "ben";
+          case 'bj':
+            return "ban";
+          case 'bb':
+            return "bin";
+          default:
+            return "";
+        }
+    }
+  <<: *swipe_down_style
+
+rtyButtonDownForegroundStyle: 
+  text: |-
+    // JavaScript
+    function getText() {
+        switch ($getRimePreedit().slice($getRimePreedit().lastIndexOf(" ")+1)) {
+          case 'qu':
+            return "wu";
+          case 'qa':
+            return "wa";
+          case 'qf':
+            return "wen";
+          case 'qj':
+            return "wan";
+          case 'rr':
+            return "tuan";
+          case 'ru':
+            return "tu";
+          case 'ra':
+            return "ta";
+          case 'rj':
+            return "tan";
+          case 'rz':
+            return "tou";
+          case 'shr':
+            return "chuan";
+          case 'shu':
+            return "chu";
+          case 'sha':
+            return "cha";
+          case 'shf':
+            return "chen";
+          case 'shj':
+            return "chan";
+          case 'shz':
+            return "chou";
+          case 'shx':
+            return "chua";
+          case 'ar':
+            return "suan";
+          case 'au':
+            return "su";
+          case 'aa':
+            return "sa";
+          case 'af':
+            return "sen";
+          case 'aj':
+            return "san";
+          case 'az':
+            return "sou";
+          case 'fr':
+            return "guan";
+          case 'fu':
+            return "gu";
+          case 'fa':
+            return "ga";
+          case 'ff':
+            return "gen";
+          case 'fj':
+            return "gan";
+          case 'fz':
+            return "gou";
+          case 'fx':
+            return "gua";
+          case 'jr':
+            return "kuan";
+          case 'ju':
+            return "ku";
+          case 'ja':
+            return "ka";
+          case 'jf':
+            return "ken";
+          case 'jj':
+            return "kan";
+          case 'jz':
+            return "kou";
+          case 'jx':
+            return "kua";
+          case 'zu':
+            return "pu";
+          case 'za':
+            return "pa";
+          case 'zf':
+            return "pen";
+          case 'zj':
+            return "pan";
+          case 'zz':
+            return "pou";
+          case 'zb':
+            return "pin";
+          case 'xr':
+            return "cuan";
+          case 'xu':
+            return "cu";
+          case 'xa':
+            return "ca";
+          case 'xf':
+            return "cen";
+          case 'xj':
+            return "can";
+          case 'xz':
+            return "cou";
+          case 'bq':
+            return "niu";
+          case 'br':
+            return "nuan";
+          case 'bu':
+            return "nu";
+          case 'ba':
+            return "na";
+          case 'bf':
+            return "nen";
+          case 'bj':
+            return "nan";
+          case 'bz':
+            return "nou";
+          case 'bb':
+            return "nin";
+          default:
+            return "功能";
+        }
+    }
+  <<: *swipe_down_style
+
+uioButtonDownForegroundStyle: 
+  text: |-
+    // JavaScript
+    function getText() {
+        switch ($getRimePreedit().slice($getRimePreedit().lastIndexOf(" ")+1)) {
+          case 'qr':
+            return "er";
+          case 'qf':
+            return "en";
+          case 'rr':
+            return "yuan";
+          case 'ru':
+            return "yu";
+          case 'ra':
+            return "ya";
+          case 'rj':
+            return "yan";
+          case 'rz':
+            return "you";
+          case 'rb':
+            return "yin";
+          case 'shu':
+            return "ou";
+          case 'shz':
+            return "ou";
+          case 'aq':
+            return "diu";
+          case 'ar':
+            return "duan";
+          case 'au':
+            return "du";
+          case 'aa':
+            return "da";
+          case 'af':
+            return "den";
+          case 'aj':
+            return "dan";
+          case 'az':
+            return "dou";
+          case 'ax':
+            return "dia";
+          case 'fr':
+            return "huan";
+          case 'fu':
+            return "hu";
+          case 'fa':
+            return "ha";
+          case 'ff':
+            return "hen";
+          case 'fj':
+            return "han";
+          case 'fz':
+            return "hou";
+          case 'fx':
+            return "hua";
+          case 'jq':
+            return "liu";
+          case 'jr':
+            return "luan";
+          case 'ju':
+            return "lu";
+          case 'ja':
+            return "la";
+          case 'jj':
+            return "lan";
+          case 'jz':
+            return "lou";
+          case 'jb':
+            return "lin";
+          case 'jx':
+            return "lia";
+          case 'xr':
+            return "zhuan";
+          case 'xu':
+            return "zhu";
+          case 'xa':
+            return "zha";
+          case 'xf':
+            return "zhen";
+          case 'xj':
+            return "zhan";
+          case 'xz':
+            return "zhou";
+          case 'xx':
+            return "zhua";
+          case 'bq':
+            return "miu";
+          case 'bu':
+            return "mu";
+          case 'ba':
+            return "ma";
+          case 'bf':
+            return "men";
+          case 'bj':
+            return "man";
+          case 'bz':
+            return "mou";
+          case 'bb':
+            return "min";
+          default:
+            return "switch";
+        }
+    }
+  <<: *swipe_down_style
+
+asdButtonDownForegroundStyle: 
+  text: |-
+    // JavaScript
+    function getText() {
+        switch ($getRimePreedit().slice($getRimePreedit().lastIndexOf(" ")+1)) {
+          case 'qr':
+            return "que";
+          case 'qu':
+            return "qi";
+          case 'qa':
+            return "qiong";
+          case 'qj':
+            return "qing";
+          case 'qz':
+            return "qie";
+          case 'qb':
+            return "qiao";
+          case 'ru':
+            return "ri";
+          case 'ra':
+            return "rong";
+          case 'rf':
+            return "reng";
+          case 'rx':
+            return "rao";
+          case 'shq':
+            return "shei";
+          case 'shu':
+            return "shi";
+          case 'shf':
+            return "sheng";
+          case 'shj':
+            return "shuai";
+          case 'shx':
+            return "shao";
+          case 'au':
+            return "ai";
+          case 'ax':
+            return "ao";
+          case 'ab':
+            return "an";
+          case 'fq':
+            return "fei";
+          case 'ff':
+            return "feng";
+          case 'jr':
+            return "jue";
+          case 'ju':
+            return "ji";
+          case 'ja':
+            return "jiong";
+          case 'jj':
+            return "jing";
+          case 'jb':
+            return "jiao";
+          case 'jz':
+            return "jie";
+          case 'zq':
+            return "zei";
+          case 'zu':
+            return "zi";
+          case 'za':
+            return "zong";
+          case 'zf':
+            return "zeng";
+          case 'zx':
+            return "zao";
+          case 'xr':
+            return "xue";
+          case 'xu':
+            return "xi";
+          case 'xa':
+            return "xiong";
+          case 'xj':
+            return "xing";
+          case 'xz':
+            return "xie";
+          case 'xb':
+            return "xiao";
+          case 'bq':
+            return "bei";
+          case 'bu':
+            return "bi";
+          case 'bf':
+            return "beng";
+          case 'bj':
+            return "bing";
+          case 'bz':
+            return "bie";
+          case 'bx':
+            return "bao";
+          case 'bb':
+            return "biao";
+          default:
+            return "行首";
+        }
+    }
+  <<: *swipe_down_style
+
+fghButtonDownForegroundStyle: 
+  text: |-
+    // JavaScript
+    function getText() {
+        switch ($getRimePreedit().slice($getRimePreedit().lastIndexOf(" ")+1)) {
+          case 'qq':
+            return "wei";
+          case 'qf':
+            return "weng";
+          case 'rq':
+            return "tei";
+          case 'ru':
+            return "ti";
+          case 'ra':
+            return "tong";
+          case 'rf':
+            return "teng";
+          case 'rj':
+            return "ting";
+          case 'rz':
+            return "tie";
+          case 'rx':
+            return "tao";
+          case 'rb':
+            return "tiao";
+          case 'shu':
+            return "chi";
+          case 'sha':
+            return "chong";
+          case 'shf':
+            return "cheng";
+          case 'shj':
+            return "chuai";
+          case 'shx':
+            return "chao";
+          case 'au':
+            return "si";
+          case 'aa':
+            return "song";
+          case 'af':
+            return "seng";
+          case 'ax':
+            return "sao";
+          case 'fq':
+            return "gei";
+          case 'fa':
+            return "gong";
+          case 'ff':
+            return "geng";
+          case 'fj':
+            return "guai";
+          case 'fx':
+            return "gao";
+          case 'jq':
+            return "kei";
+          case 'ja':
+            return "kong";
+          case 'jf':
+            return "keng";
+          case 'jj':
+            return "kuai";
+          case 'jx':
+            return "kao";
+          case 'zq':
+            return "pei";
+          case 'zu':
+            return "pi";
+          case 'zf':
+            return "peng";
+          case 'zj':
+            return "ping";
+          case 'zz':
+            return "pie";
+          case 'zx':
+            return "pao";
+          case 'zb':
+            return "piao";
+          case 'xq':
+            return "cei";
+          case 'xu':
+            return "ci";
+          case 'xa':
+            return "cong";
+          case 'xf':
+            return "ceng";
+          case 'xx':
+            return "cao";
+          case 'bq':
+            return "nei";
+          case 'br':
+            return "nue";
+          case 'bu':
+            return "ni";
+          case 'ba':
+            return "nong";
+          case 'bf':
+            return "neng";
+          case 'bj':
+            return "ning";
+          case 'bz':
+            return "nie";
+          case 'bx':
+            return "nao";
+          case 'bb':
+            return "niao";
+          default:
+            return "全选";
+        }
+    }
+  <<: *swipe_down_style
+
+jklButtonDownForegroundStyle: 
+  text: |-
+    // JavaScript
+    function getText() {
+        switch ($getRimePreedit().slice($getRimePreedit().lastIndexOf(" ")+1)) {
+          case 'qq':
+            return "ei";
+          case 'qu':
+            return "ei";
+          case 'qf':
+            return "eng";
+          case 'qb':
+            return "en";
+          case 'rr':
+            return "yue";
+          case 'ru':
+            return "yi";
+          case 'ra':
+            return "yong";
+          case 'rj':
+            return "ying";
+          case 'rx':
+            return "yao";
+          case 'aq':
+            return "dei";
+          case 'au':
+            return "di";
+          case 'aa':
+            return "dong";
+          case 'af':
+            return "deng";
+          case 'aj':
+            return "ding";
+          case 'az':
+            return "die";
+          case 'ax':
+            return "dao";
+          case 'ab':
+            return "diao";
+          case 'fq':
+            return "hei";
+          case 'fa':
+            return "hong";
+          case 'ff':
+            return "heng";
+          case 'fj':
+            return "huai";
+          case 'fx':
+            return "hao";
+          case 'jq':
+            return "lei";
+          case 'jr':
+            return "lue";
+          case 'ju':
+            return "li";
+          case 'ja':
+            return "long";
+          case 'jf':
+            return "leng";
+          case 'jj':
+            return "ling";
+          case 'jz':
+            return "lie";
+          case 'jx':
+            return "lao";
+          case 'jb':
+            return "liao";
+          case 'xu':
+            return "zhi";
+          case 'xa':
+            return "zhong";
+          case 'xf':
+            return "zheng";
+          case 'xj':
+            return "zhuai";
+          case 'xx':
+            return "zhao";
+          case 'bq':
+            return "mei";
+          case 'bu':
+            return "mi";
+          case 'bf':
+            return "meng";
+          case 'bj':
+            return "ming";
+          case 'bz':
+            return "mie";
+          case 'bx':
+            return "mao";
+          case 'bb':
+            return "miao";
+          default:
+            return "行尾";
+        }
+    }
+  <<: *swipe_down_style
+
+zpButtonDownForegroundStyle: 
+  text: |-
+    // JavaScript
+    function getText() {
+        switch ($getRimePreedit().slice($getRimePreedit().lastIndexOf(" ")+1)) {
+          case 'qr':
+            return "qun";
+          case 'qj':
+            return "qiang";
+          case 'qx':
+            return "qu";
+          case 'qb':
+            return "qian";
+          case 'rq':
+            return "re";
+          case 'rr':
+            return "run";
+          case 'ru':
+            return "ruo";
+          case 'rf':
+            return "rang";
+          case 'rx':
+            return "rui";
+          case 'shq':
+            return "she";
+          case 'shr':
+            return "shun";
+          case 'shu':
+            return "shuo";
+          case 'sha':
+            return "shai";
+          case 'shf':
+            return "shang";
+          case 'shx':
+            return "shui";
+          case 'shj':
+            return "shuang";
+          case 'au':
+            return "ao";
+          case 'aa':
+            return "ai";
+          case 'af':
+            return "ang";
+          case 'fu':
+            return "fo";
+          case 'ff':
+            return "fang";
+          case 'jr':
+            return "jun";
+          case 'jj':
+            return "jiang";
+          case 'jb':
+            return "jian";
+          case 'jx':
+            return "ju";
+          case 'zq':
+            return "ze";
+          case 'zr':
+            return "zun";
+          case 'zu':
+            return "zuo";
+          case 'za':
+            return "zai";
+          case 'zf':
+            return "zang";
+          case 'zx':
+            return "zui";
+          case 'xr':
+            return "xun";
+          case 'xj':
+            return "xiang";
+          case 'xx':
+            return "xu";
+          case 'xb':
+            return "xian";
+          case 'bu':
+            return "bo";
+          case 'ba':
+            return "bai";
+          case 'bf':
+            return "bang";
+          case 'bb':
+            return "bian";
+          case 'bj':
+            return "biang";
+          default:
+            return "复制";
+        }
+    }
+  <<: *swipe_down_style
+
+
+xcvButtonDownForegroundStyle: 
+  text: |-
+    // JavaScript
+    function getText() {
+        switch ($getRimePreedit().slice($getRimePreedit().lastIndexOf(" ")+1)) {
+          case 'qu':
+            return "wo";
+          case 'qa':
+            return "wai";
+          case 'qf':
+            return "wang";
+          case 'rq':
+            return "te";
+          case 'rr':
+            return "tun";
+          case 'ru':
+            return "tuo";
+          case 'ra':
+            return "tai";
+          case 'rf':
+            return "tang";
+          case 'rx':
+            return "tui";
+          case 'rb':
+            return "tian";
+          case 'shq':
+            return "che";
+          case 'shr':
+            return "chun";
+          case 'shu':
+            return "chuo";
+          case 'sha':
+            return "chai";
+          case 'shf':
+            return "chang";
+          case 'shj':
+            return "chuang";
+          case 'shx':
+            return "chui";
+          case 'aq':
+            return "se";
+          case 'ar':
+            return "sun";
+          case 'au':
+            return "suo";
+          case 'aa':
+            return "sai";
+          case 'af':
+            return "sang";
+          case 'ax':
+            return "sui";
+          case 'fq':
+            return "ge";
+          case 'fr':
+            return "gun";
+          case 'fu':
+            return "guo";
+          case 'fa':
+            return "gai";
+          case 'ff':
+            return "gang";
+          case 'fj':
+            return "guang";
+          case 'fx':
+            return "gui";
+          case 'jq':
+            return "ke";
+          case 'jr':
+            return "kun";
+          case 'ju':
+            return "kuo";
+          case 'ja':
+            return "kai";
+          case 'jf':
+            return "kang";
+          case 'jj':
+            return "kuang";
+          case 'jx':
+            return "kui";
+          case 'zu':
+            return "po";
+          case 'za':
+            return "pai";
+          case 'zf':
+            return "pang";
+          case 'zb':
+            return "pian";
+          case 'xq':
+            return "ce";
+          case 'xr':
+            return "cun";
+          case 'xu':
+            return "cuo";
+          case 'xa':
+            return "cai";
+          case 'xf':
+            return "cang";
+          case 'xx':
+            return "cui";
+          case 'bq':
+            return "ne";
+          case 'bu':
+            return "nuo";
+          case 'ba':
+            return "nai";
+          case 'bf':
+            return "nang";
+          case 'bj':
+            return "niang";
+          case 'bx':
+            return "nv";
+          case 'bb':
+            return "nian";
+          default:
+            return "剪切";
+        }
+    }
+  <<: *swipe_down_style
+
+
+bnmButtonDownForegroundStyle: 
+  text: |-
+    // JavaScript
+    function getText() {
+        switch ($getRimePreedit().slice($getRimePreedit().lastIndexOf(" ")+1)) {
+          case 'qq':
+            return "e";
+          case 'rq':
+            return "ye";
+          case 'rr':
+            return "yun";
+          case 'ru':
+            return "yuo";
+          case 'rf':
+            return "yang";
+          case 'rx':
+            return "yu";
+          case 'shu':
+            return "o";
+          case 'aq':
+            return "de";
+          case 'ar':
+            return "dun";
+          case 'au':
+            return "duo";
+          case 'aa':
+            return "dai";
+          case 'af':
+            return "dang";
+          case 'ax':
+            return "dui";
+          case 'ab':
+            return "dian";
+          case 'fq':
+            return "he";
+          case 'fr':
+            return "hun";
+          case 'fu':
+            return "huo";
+          case 'fa':
+            return "hai";
+          case 'ff':
+            return "hang";
+          case 'fj':
+            return "huang";
+          case 'fx':
+            return "hui";
+          case 'jq':
+            return "le";
+          case 'jr':
+            return "lun";
+          case 'ju':
+            return "luo";
+          case 'ja':
+            return "lai";
+          case 'jf':
+            return "lang";
+          case 'jj':
+            return "liang";
+          case 'jx':
+            return "lv";
+          case 'jb':
+            return "lian";
+          case 'xq':
+            return "zhe";
+          case 'xr':
+            return "zhun";
+          case 'xu':
+            return "zhuo";
+          case 'xa':
+            return "zhai";
+          case 'xf':
+            return "zhang";
+          case 'xj':
+            return "zhuang";
+          case 'xx':
+            return "zhui";
+          case 'bq':
+            return "me";
+          case 'bu':
+            return "mo";
+          case 'ba':
+            return "mai";
+          case 'bf':
+            return "mang";
+          case 'bb':
+            return "mian";
+          default:
+            return "粘贴";
+        }
+    }
+  <<: *swipe_down_style
+
+spaceButtonUpForegroundStyle: 
+  text: |-
+    // JavaScript
+    function getText() {
+      let  test=$getRimePreedit().slice($getRimePreedit().lastIndexOf(" ")+1);
+      return test;
+    }
+  <<: *swipe_down_style
+
+dataSource:
+  symbols:
+  - ","
+  - "."
+  - "?"
+  - "!"
+  - "@"
+  - ":"
+  - ";"
+  - "()"
+  - "#"
+  - "="
+  - "+"
+  - "-"
+  - "*"
+  - "/"
+  - "\uFFE5"
+  - "$"
+  - "\\"
+  - "_"  

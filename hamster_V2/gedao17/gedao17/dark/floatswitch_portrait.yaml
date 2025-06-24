@@ -1,0 +1,252 @@
+按键文字前景样式: &py
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 14
+  offset:
+    x: 0
+    y: 18
+
+keyboard:
+  style: keyboardStyle
+  subviews:
+  - HStack:
+      subviews:
+      - Cell: 简繁
+      - Cell: 全半
+      - Cell: 中英标点
+      - Cell: 拼音
+      - Cell: 内嵌
+  - HStack:
+      subviews:
+      - Cell: 提示
+      - Cell: 声调
+      - Cell: 表情
+      - Cell: 翻译
+      - Cell: 联想
+
+floatTargetScale:
+  x: 0.8
+  y: 0.5
+
+keyboardStyle:
+  #insets: {top: 8, left: 8, bottom: 8, right: 8}
+  backgroundStyle: keyboardBackgroundStyle
+
+keyboardBackgroundStyle:
+  type: original
+  normalColor: 211c1c99
+  cornerRadius: 15
+  borderSize: 0.5
+  normalBorderColor: 22222255
+  normalLowerEdgeColor: 55555555
+
+简繁:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("traditionalization") ? "FgStyle_J" : "FgStyle_F";
+    }
+  <<: *py
+  action: {sendKeys: Control+Shift+f}
+
+
+FgStyle_F:
+  normalImage:
+    file: pop_menu_icons
+    image: IMG11
+  highlightImage:
+    file: pop_menu_icons
+    image: IMG11
+  targetScale: 0.4
+
+
+FgStyle_J:
+  normalImage:
+    file: pop_menu_icons
+    image: IMG10
+  highlightImage:
+    file: pop_menu_icons
+    image: IMG10
+  targetScale: 0.4
+
+
+全半:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+  - 全半ForegroundStyle
+  action: {sendKeys: Shift+space}
+
+全半ForegroundStyle:
+  text: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("full_shape") ? "全角" : "半角";
+    }
+  <<: *py
+
+中英标点:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+  - 中英标点ForegroundStyle
+  action: {sendKeys: Control+period}
+
+中英标点ForegroundStyle:
+  text: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("ascii_punct") ? "英标" : "中标";
+    }
+  <<: *py
+
+拼音:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+  - 拼音ForegroundStyle
+  action: {sendKeys: Control+a}
+
+拼音ForegroundStyle:
+  text: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("pinyinhint") ? "pīnyīn" : "拼音";
+    }
+  <<: *py
+
+内嵌:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+  - 内嵌ForegroundStyle
+  action: { shortcutCommand: "#toggleEmbeddedInputMode" }
+
+内嵌ForegroundStyle:
+  text: "内嵌"
+  <<: *py
+
+提示:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+  - 提示ForegroundStyle
+  action: {sendKeys: Control+t}
+
+提示ForegroundStyle:
+  text: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("super_tips") ? "tips" : "off";
+    }
+  <<: *py
+
+声调:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+  - 声调ForegroundStyle
+  action: {sendKeys: Control+s}
+
+声调ForegroundStyle:
+  text: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("tone_display") ? "调" : "声";
+    }
+  <<: *py
+
+表情:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+  - 表情ForegroundStyle
+  action: {sendKeys: Control+i}
+
+表情ForegroundStyle:
+  text: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("emoji") ? "😄" : "💀";
+    }
+  <<: *py
+
+翻译:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+  - 翻译ForegroundStyle
+  action: {sendKeys: Control+e}
+
+翻译ForegroundStyle:
+  text: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("chinese_english") ? "译" : "翻";
+    }
+  <<: *py
+
+联想:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+  - 联想ForegroundStyle
+  action: {sendKeys: Control+g}
+
+联想ForegroundStyle:
+  text: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("prediction") ? "测" : "预";
+    }
+  <<: *py
+
+# 按键背景
+ButtonBackgroundStyle:
+  animation: BackgroundAnimation
+  normalImage:
+    file: anjian26
+    image: IMG1
+  highlightImage:
+    file: anjian26ax
+    image: IMG1
+  targetScale: 0.89
+  contentMode: scaleToFill
+
+# 按键背景动画
+ButtonBackgroundAnimation:
+- type: bounds
+  duration: 60   # 动画时长，单位毫秒
+  repeatCount: 1
+  fromScale: 1
+  toScale: 0.87
+- type: bounds
+  duration: 80
+  repeatCount: 1
+  fromScale: 0.87
+  toScale: 1
+
+# 按键前景动画
+ButtonForegroundAnimation:
+- type: bounds
+  duration: 60   # 动画时长，单位毫秒
+  repeatCount: 1
+  fromScale: 1
+  toScale: 0.87
+- type: bounds
+  duration: 80
+  repeatCount: 1
+  fromScale: 0.87
+  toScale: 1

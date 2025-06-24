@@ -1,0 +1,211 @@
+IMG1:
+  rect:
+    x: 0
+    y: 0
+    width: 168
+    height: 314
+  insets:
+    top: 148
+    bottom: 149
+    left: 83
+    right: 83
+IMG2:
+  rect:
+    x: 168
+    y: 0
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG3:
+  rect:
+    x: 408
+    y: 0
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG4:
+  rect:
+    x: 648
+    y: 0
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG5:
+  rect:
+    x: 168
+    y: 157
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG6:
+  rect:
+    x: 408
+    y: 157
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG7:
+  rect:
+    x: 648
+    y: 157
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG8:
+  rect:
+    x: 168
+    y: 314
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG9:
+  rect:
+    x: 408
+    y: 314
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG10:
+  rect:
+    x: 648
+    y: 314
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG11:
+  rect:
+    x: 408
+    y: 471
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG12:
+  rect:
+    x: 888
+    y: 0
+    width: 168
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG13:
+  rect:
+    x: 888
+    y: 157
+    width: 168
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG14:
+  rect:
+    x: 888
+    y: 314
+    width: 168
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG15:
+  rect:
+    x: 0
+    y: 471
+    width: 168
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG16:
+  rect:
+    x: 168
+    y: 471
+    width: 240
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG17:
+  rect:
+    x: 648
+    y: 471
+    width: 240
+    height: 157
+
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG18:
+  rect:
+    x: 888
+    y: 471
+    width: 168
+    height: 157
+
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35
+IMG19:
+  rect:
+    x: 0
+    y: 314
+    width: 168
+    height: 157
+  insets:
+    top: 40
+    bottom: 40
+    left: 35
+    right: 35

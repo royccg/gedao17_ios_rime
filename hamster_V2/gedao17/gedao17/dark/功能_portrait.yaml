@@ -1,0 +1,390 @@
+按键文字前景偏移: &button_fore_text_offset
+  center:
+    y: 1.1
+
+按键符号前景偏移: &button_fore_symbol_offset
+  center:
+    y: 0.4
+
+按键颜色: &button_fore_color b6b7b9
+键盘背景颜色: &keyboard_back_color 211c1c99
+
+按键符号大小: &button_symbol_fontsize 16
+按键文字大小: &button_text_fontsize 13
+
+keyboard:
+  style: keyboardStyle
+  subviews:
+    - HStack:
+        subviews:
+          - Cell: 问候Button
+          - Cell: 日期Button
+          - Cell: 时间Button
+          - Cell: 星期Button
+          - Cell: 农历Button
+    - HStack:
+        subviews:
+          - Cell: 节气Button
+          - Cell: 节日Button
+          - Cell: 金额Button
+          - Cell: 计算器Button
+          - Cell: 算农历Button
+#          - Cell: 发票Button
+#          - Cell: 坚果云Button
+#          - Cell: 八嘎云Button
+
+floatTargetScale: 
+  x: 0.8
+  y: 0.5
+
+keyboardStyle:
+  insets: {top: 8, left: 8, bottom: 8, right: 8}
+  backgroundStyle: keyboardBackgroundStyle
+
+keyboardBackgroundStyle:
+  type: original
+  normalColor: *keyboard_back_color
+  cornerRadius: 15
+  borderSize: 0.5
+  normalBorderColor: 22222255
+  normalLowerEdgeColor: 55555555
+
+问候Button:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStylec
+    - ButtonForegroundStylecc
+  action: { sendKeys: "/day" }
+
+ButtonForegroundStylec:
+  systemImageName: "figure.wave"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStylecc:
+  text: "问候"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+日期Button:
+  size:
+    height: 1/5
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyle1
+    - ButtonForegroundStyle11
+  action: { sendKeys: "/rq" }
+
+ButtonForegroundStyle1:
+  systemImageName: "d.square"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyle11:
+  text: "日期"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+时间Button:
+  size:
+    height: 1/5
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyle2
+    - ButtonForegroundStyle22
+  action: { sendKeys: "/sj" }
+
+ButtonForegroundStyle2:
+  systemImageName: "timer"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyle22:
+  text: "时间"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+星期Button:
+  size:
+    height: 1/5
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyle3
+    - ButtonForegroundStyle33
+  action: { sendKeys: "/xq" }
+
+ButtonForegroundStyle3:
+  systemImageName: "w.square"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyle33:
+  text: "星期"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+农历Button:
+  size:
+    height: 1/5
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyle4
+    - ButtonForegroundStyle44
+  action: { sendKeys: "/nl" }
+
+ButtonForegroundStyle4:
+  systemImageName: "n.square"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyle44:
+  text: "农历"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+算农历Button:
+  size:
+    height: 1/5
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyle5
+    - ButtonForegroundStyle55
+  action: { sendKeys: "N" }
+
+ButtonForegroundStyle5:
+  systemImageName: "moon"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyle55:
+  text: "算农历"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+金额Button:
+  size:
+    height: 1/5
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyle6
+    - ButtonForegroundStyle66
+  action: { sendKeys: "R" }
+
+ButtonForegroundStyle6:
+  systemImageName: "yensign"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyle66:
+  text: "金额"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+计算器Button:
+  size:
+    height: 1/5
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyle7
+    - ButtonForegroundStyle77
+  action: { sendKeys: "V" }
+
+ButtonForegroundStyle7:
+  systemImageName: "candybarphone"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyle77:
+  text: "计算器"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+节气Button:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStylea
+    - ButtonForegroundStyleaa
+  action: { sendKeys: " /jq" }
+
+ButtonForegroundStylea:
+  systemImageName: "leaf"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyleaa:
+  text: "节气"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+节日Button:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyleb
+    - ButtonForegroundStylebb
+  action: { sendKeys: "/jr" }
+
+ButtonForegroundStyleb:
+  systemImageName: "30.square.fill"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStylebb:
+  text: "节日"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+发票Button:
+  size:
+    height: 1/5
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyle8
+    - ButtonForegroundStyle88
+  action: { sendKeys: "FPTT" }
+
+ButtonForegroundStyle8:
+  systemImageName: "map.fill"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyle88:
+  text: "发票"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+坚果云Button:
+  size:
+    height: 1/5
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyle9
+    - ButtonForegroundStyle99
+  action: { sendKeys: "JGY" }
+
+ButtonForegroundStyle9:
+  systemImageName: "cloud.fill"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyle99:
+  text: "坚果云"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+八嘎云Button:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle:
+    - ButtonForegroundStyle0
+    - ButtonForegroundStyle00
+  action: { sendKeys: "TRY" }
+
+ButtonForegroundStyle0:
+  systemImageName: "cloud.bolt.fill"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+ButtonForegroundStyle00:
+  text: "八嘎云"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+# 按键背景
+ButtonBackgroundStyle:
+  animation: BackgroundAnimation
+  normalImage:
+    file: anjian
+    image: IMG5
+  highlightImage:
+    file: anjian123
+    image: IMG16
+  targetScale: 0.95
+
+# 按键背景动画
+ButtonBackgroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 60 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.87
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.87
+    toScale: 1
+
+# 按键前景动画
+ButtonForegroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 60 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.82
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.82
+    toScale: 1

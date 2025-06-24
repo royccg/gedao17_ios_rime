@@ -1,0 +1,7484 @@
+name: pingyin_add_structure
+version: "1"
+sort: by_weight
+
+...
+阿尔托	a er tuo	1
+阿拉伯花饰	a la bo hua shi	1
+阿拉伯式柱头	a la bo shi zhu tou	1
+爱奥尼亚柱式	ai ao ni ya zhu shi	1
+埃特板	ai te ban	1
+暗藏灯带	an cang deng dai	1
+暗插销	an cha xiao	1
+暗撑	an cheng	1
+暗灯	an deng	1
+按地电阻值	an di dian zu zhi	1
+暗敷	an fu	1
+暗管	an guan	1
+暗涵	an han	1
+暗合页	an he ye	1
+暗间	an jian	1
+安静休息区	an jing xiu xi qu	1
+暗梁	an liang	1
+暗炉片	an lu pian	1
+按摩室	an mo shi	1
+安全出口	an quan chu kou	1
+安全出口灯	an quan chu kou deng	1
+安全出口灯出线口	an quan chu kou deng chu xian kou	1
+安全岛	an quan dao	1
+安全阀门调试记录	an quan fa men tiao shi ji lu	1
+安全防范设施	an quan fang fan she shi	1
+安全管理	an quan guan li	1
+安全接地	an quan jie di	1
+安全警报系统	an quan jing bao xi tong	1
+安全设施	an quan she shi	1
+安全疏散线路	an quan shu san xian lu	1
+安全梯	an quan ti	1
+安全性	an quan xing	1
+安全照明	an quan zhao ming	1
+暗室	an shi	1
+暗视觉	an shi jue	1
+暗适应	an shi ying	1
+安藤忠雄	an teng zhong xiong	1
+暗线	an xian	1
+按效果图	an xiao guo tu	1
+暗轴	an zhou	1
+暗柱	an zhu	1
+暗装	an zhuang	1
+暗装空调器	an zhuang kong tiao qi	1
+安装容量	an zhuang rong liang	1
+暗装散热器	an zhuang san re qi	1
+凹入式顶灯	ao ru shi ding deng	1
+芭蕾舞剧院	ba lei wu ju yuan	1
+扒梁	ba liang	1
+巴洛克建筑	ba luo ke jian zhu	1
+巴洛克式园林	ba luo ke shi yuan lin	1
+八铺作	ba pu zuo	1
+拔气罩	ba qi zhao	1
+拔磉	ba sang	1
+扒山廊	ba shan lang	1
+八掾袱	ba yuan fu	1
+白炽灯	bai chi deng	1
+白炽灯头	bai chi deng tou	1
+白炽灯照明	bai chi deng zhao ming	1
+百分比收费	bai fen bi shou fei	1
+百货商店	bai huo shang dian	1
+白水泥	bai shui ni	1
+百页窗	bai ye chuang	1
+百叶窗	bai ye chuang	1
+百叶式出气口	bai ye shi chu qi kou	1
+百叶式进气口	bai ye shi jin qi kou	1
+百叶型风口	bai ye xing feng kou	1
+白噪声	bai zao sheng	1
+拜占庭建筑	bai zhan ting jian zhu	1
+板材吊顶	ban cai diao ding	1
+半常绿植物	ban chang lv zhi wu	1
+半岛园	ban dao yuan	1
+板底	ban di	1
+板底钢筋	ban di gang jin	1
+半地下室	ban di xia shi	1
+板吊顶	ban diao ding	1
+板顶	ban ding	1
+板顶钢筋	ban ding gang jin	1
+办公建筑	ban gong jian zhu	1
+办公楼	ban gong lou	1
+办公区	ban gong qu	1
+办公桌	ban gong zhuo	1
+板厚	ban hou	1
+半间接照明	ban jian jie zhao ming	1
+板筋	ban jin	1
+板面	ban mian	1
+板面筋	ban mian jin	1
+半耐寒植物	ban nai han zhi wu	1
+板配筋	ban pei jin	1
+板配筋图	ban pei jin tu	1
+板墙筋	ban qiang jin	1
+半穹顶	ban qiong ding	1
+半球形穹顶	ban qiu xing qiong ding	1
+伴热管	ban re guan	1
+板上铁	ban shang tie	1
+板石	ban shi	1
+板式换热器	ban shi huan re qi	1
+板式楼梯	ban shi lou ti	1
+板式散热器	ban shi san re qi	1
+板式住宅	ban shi zhu zhai	1
+板条	ban tiao	1
+板条吊顶	ban tiao diao ding	1
+板条抹灰	ban tiao mo hui	1
+板条抹灰吊顶	ban tiao mo hui diao ding	1
+板瓦	ban wa	1
+板岩	ban yan	1
+斑叶植物	ban ye zhi wu	1
+半硬质塑料	ban ying zhi su liao	1
+半永久性建筑	ban yong jiu xing jian zhu	1
+半圆券	ban yuan quan	1
+半圆形壁龛	ban yuan xing bi kan	1
+半直接照明	ban zhi jie zhao ming	1
+板柱结构	ban zhu jie gou	1
+绑筋	bang jin	1
+邦克楼	bang ke lou	1
+棒球场	bang qiu chang	1
+棒影图	bang ying tu	1
+绑扎	bang za	1
+保安系统	bao an xi tong	1
+薄壁杆系	bao bi gan xi	1
+薄壁钢管	bao bi gang guan	1
+薄壁型钢	bao bi xing gang	1
+抱鼓石	bao gu shi	1
+饱和空气温度	bao he kong qi wen du	1
+饱和水蒸气压力	bao he shui zheng qi ya li	1
+饱和土	bao he tu	1
+刨痕	bao hen	1
+保护层	bao hu ceng	1
+保护防爆灯具	bao hu fang bao deng ju	1
+保护平板法	bao hu ping ban fa	1
+保护区	bao hu qu	1
+保护热箱法	bao hu re xiang fa	1
+刨花板	bao hua ban	1
+抱角石	bao jiao shi	1
+包金属皮	bao jin shu pi	1
+报警阀	bao jing fa	1
+报警蜂鸣器	bao jing feng ming qi	1
+报警设备	bao jing she bei	1
+抱框	bao kuang	1
+宝丽板	bao li ban	1
+保龄球场	bao ling qiu chang	1
+保留地	bao liu di	1
+保密工程	bao mi gong cheng	1
+保姆室	bao mu shi	1
+刨平	bao ping	1
+刨平顶紧	bao ping ding jin	1
+保税区	bao shui qu	1
+抱头梁	bao tou liang	1
+保温	bao wen	1
+保温板	bao wen ban	1
+保温材料	bao wen cai liao	1
+保温层	bao wen ceng	1
+保温门	bao wen men	1
+保险电梯	bao xian dian ti	1
+报验申请表	bao yan shen qing biao	1
+保养间	bao yang jian	1
+包子铺	bao zi pu	1
+备餐间	bei can jian	1
+备餐室	bei can shi	1
+被动式太阳房	bei dong shi tai yang fang	1
+被抚养人口	bei fu yang ren kou	1
+杯架	bei jia	1
+碑碣	bei jie	1
+背景噪声	bei jing zao sheng	1
+背景照明	bei jing zhao ming	1
+背景种植	bei jing zhong zhi	1
+背立面	bei li mian	1
+北立面	bei li mian	1
+北配楼	bei pei lou	1
+备用电源	bei yong dian yuan	1
+备用发电机	bei yong fa dian ji	1
+备用房间	bei yong fang jian	1
+备用照明	bei yong zhao ming	1
+苯磺酰氯	ben huang xian lv	1
+泵房	beng fang	1
+泵坑	beng keng	1
+壁板	bi ban	1
+壁橱	bi chu	1
+壁灯	bi deng	1
+壁灯架	bi deng jia	1
+壁挂	bi gua	1
+壁挂式小便器	bi gua shi xiao bian qi	1
+壁柜	bi gui	1
+壁柜吊挂装置	bi gui diao gua zhuang zhi	1
+闭合电器	bi he dian qi	1
+闭架管理	bi jia guan li	1
+壁龛	bi kan	1
+避雷	bi lei	1
+避雷带	bi lei dai	1
+避雷器	bi lei qi	1
+避雷设计	bi lei she ji	1
+避雷系统	bi lei xi tong	1
+避雷针	bi lei zhen	1
+比例尺	bi li chi	1
+壁炉	bi lu	1
+闭路电视系统	bi lu dian shi xi tong	1
+闭门器	bi men qi	1
+壁球场	bi qiu chang	1
+壁泉	bi quan	1
+比热	bi re	1
+壁上拱廊	bi shang gong lang	1
+比湿	bi shi	1
+壁毯	bi tan	1
+必要生活空间	bi yao sheng huo kong jian	1
+壁柱	bi zhu	1
+变标高	bian biao gao	1
+变电间	bian dian jian	1
+变电所	bian dian suo	1
+变风量系统	bian feng liang xi tong	1
+扁钢	bian gang	1
+变更通告单	bian geng tong gao dan	1
+变更通知	bian geng tong zhi	1
+变截面	bian jie mian	1
+边界条件	bian jie tiao jian	1
+边界种植	bian jie zhong zhi	1
+边框梁	bian kuang liang	1
+边框柱	bian kuang zhu	1
+边篱	bian li	1
+边梁	bian liang	1
+边幕	bian mu	1
+编目室	bian mu shi	1
+变配电室	bian pei dian shi	1
+变配电站	bian pei dian zhan	1
+边挺	bian ting	1
+边梃	bian ting	1
+变形缝	bian xing feng	1
+变形集中	bian xing ji zhong	1
+变压器容量	bian ya qi rong liang	1
+变压器室	bian ya qi shi	1
+变压器组	bian ya qi zu	1
+边缘构件	bian yuan gou jian	1
+边缘吻合	bian yuan wen he	1
+边缘效应	bian yuan xiao ying	1
+边缘种植	bian yuan zhong zhi	1
+变赭	bian zhe	1
+编制依据	bian zhi yi ju	1
+边支座	bian zhi zuo	1
+边柱	bian zhu	1
+标高	biao gao	1
+裱糊与软包	biao hu yu ruan bao	1
+表面剥落	biao mian bo luo	1
+表面结露	biao mian jie lu	1
+表面片落	biao mian pian luo	1
+表面起泡	biao mian qi pao	1
+表面温度	biao mian wen du	1
+标枪投掷区	biao qiang tou zhi qu	1
+表现主义	biao xian zhu yi	1
+表演区	biao yan qu	1
+表演艺术中心	biao yan yi shu zhong xin	1
+标语牌	biao yu pai	1
+标志照明系统	biao zhi zhao ming xi tong	1
+标准层	biao zhun ceng	1
+标准层平面	biao zhun ceng ping mian	1
+标准大样	biao zhun da yang	1
+标准冻深	biao zhun dong shen	1
+标准分项	biao zhun fen xiang	1
+标准构件	biao zhun gou jian	1
+标准光源	biao zhun guang yuan	1
+标准截面	biao zhun jie mian	1
+标准设计	biao zhun she ji	1
+标准时	biao zhun shi	1
+标准图	biao zhun tu	1
+标准一览表	biao zhun yi lan biao	1
+标准有效温度	biao zhun you xiao wen du	1
+标准噪声源	biao zhun zao sheng yuan	1
+标准值	biao zhun zhi	1
+标准住宅	biao zhun zhu zhai	1
+标准撞击器	biao zhun zhuang ji qi	1
+标准组合	biao zhun zu he	1
+濒危植物	bin wei zhi wu	1
+病床电梯	bing chuang dian ti	1
+冰球场	bing qiu chang	1
+病兽隔离室	bing shou ge li shi	1
+泊车换乘	bo che huan cheng	1
+波动声学	bo dong sheng xue	1
+搏缝板	bo feng ban	1
+搏缝版	bo feng ban	1
+薄腹梁	bo fu liang	1
+薄钢板	bo gang ban	1
+博古架	bo gu jia	1
+博脊	bo ji	1
+波浪式浴盆	bo lang shi yu pen	1
+玻璃窗	bo li chuang	1
+玻璃钢	bo li gang	1
+玻璃马赛克	bo li ma sai ke	1
+玻璃门	bo li men	1
+玻璃幕	bo li mu	1
+玻璃幕墙	bo li mu qiang	1
+玻璃丝	bo li si	1
+玻璃丝布	bo li si bu	1
+玻璃制品	bo li zhi pin	1
+玻璃砖	bo li zhuan	1
+薄弱层	bo ruo ceng	1
+波纹管	bo wen guan	1
+博物馆	bo wu guan	1
+波形瓦	bo xing wa	1
+薄质涂料	bo zhi tu liao	1
+播种草坪	bo zhong cao ping	1
+播种盘	bo zhong pan	1
+播种器	bo zhong qi	1
+布层间梁	bu ceng jian liang	1
+补偿柜	bu chang gui	1
+补偿器	bu chang qi	1
+补偿器安装记录	bu chang qi an zhuang ji lu	1
+补偿收缩混凝土	bu chang shou suo hun ning tu	1
+不等边角钢	bu deng bian jiao gang	1
+不等肢角钢	bu deng zhi jiao gang	1
+布店	bu dian	1
+不对称平衡	bu dui chen ping heng	1
+不发火地面	bu fa huo di mian	1
+不封闭楼梯	bu feng bi lou ti	1
+不封闭室外楼梯	bu feng bi shi wai lou ti	1
+布告窗	bu gao chuang	1
+不合格项处置记录	bu he ge xiang chu zhi ji lu	1
+不击舟	bu ji zhou	1
+步架	bu jia	1
+补间铺作	bu jian pu zuo	1
+部件图库	bu jian tu ku	1
+不可预见项目	bu ke yu jian xiang mu	1
+不耐寒植物	bu nai han zhi wu	1
+补强	bu qiang	1
+不燃结构	bu ran jie gou	1
+哺乳室	bu ru shi	1
+不上人屋面	bu shang ren wu mian	1
+布饰	bu shi	1
+步石	bu shi	1
+不同标高	bu tong biao gao	1
+布纹玻璃	bu wen bo li	1
+步行街	bu xing jie	1
+步行上楼式公寓	bu xing shang lou shi gong yu	1
+不锈钢板	bu xiu gang ban	1
+不锈钢扶手	bu xiu gang fu shou	1
+不锈钢管	bu xiu gang guan	1
+布置图	bu zhi tu	1
+擦窗机	ca chuang ji	1
+踩步金	cai bu jin	1
+彩度	cai du	1
+采光	cai guang	1
+采光板	cai guang ban	1
+采光带	cai guang dai	1
+采光井	cai guang jing	1
+采光均匀度	cai guang jun yun du	1
+采光口	cai guang kou	1
+采光塔	cai guang ta	1
+采光天窗	cai guang tian chuang	1
+采光系数	cai guang xi shu	1
+采光罩	cai guang zhao	1
+彩画	cai hua	1
+材料分配存放	cai liao fen pei cun fang	1
+材料计算蓄热系数	cai liao ji suan xu re xi shu	1
+材料进场检验记录	cai liao jin chang jian yan ji lu	1
+材料设备表	cai liao she bei biao	1
+彩铝推拉窗	cai lv tui la chuang	1
+裁判席	cai pan xi	1
+彩色涂料	cai se tu liao	1
+菜市场	cai shi chang	1
+财务管理	cai wu guan li	1
+参见详图	can jian xiang tu	1
+餐具柜	can ju gui	1
+餐具室	can ju shi	1
+餐室	can shi	1
+残值	can zhi	1
+仓储用地	cang chu yong di	1
+苍古	cang gu	1
+仓库搭建	cang ku da jian	1
+仓库区	cang ku qu	1
+草地喷水器	cao di pen shui qi	1
+草栿	cao fu	1
+槽钢	cao gang	1
+槽沟	cao gou	1
+槽口	cao kou	1
+草坪岛	cao ping dao	1
+草坪加肥器	cao ping jia fei qi	1
+草坪区	cao ping qu	1
+草坪植物	cao ping zhi wu	1
+槽升子	cao sheng zi	1
+槽铁	cao tie	1
+草图阶段	cao tu jie duan	1
+槽形板	cao xing ban	1
+草药花坛	cao yao hua tan	1
+草原景观	cao yuan jing guan	1
+草原生态系统	cao yuan sheng tai xi tong	1
+操作电源	cao zuo dian yuan	1
+操作走廊	cao zuo zou lang	1
+侧挂折叠门	ce gua zhe die men	1
+侧光	ce guang	1
+测绘	ce hui	1
+侧击雷	ce ji lei	1
+侧脚	ce jiao	1
+侧廊	ce lang	1
+侧力	ce li	1
+侧立面	ce li mian	1
+测量吊杆	ce liang diao gan	1
+测量放线	ce liang fang xian	1
+侧面采光	ce mian cai guang	1
+侧面垂直度	ce mian chui zhi du	1
+侧喷式喷洒头	ce pen shi pen sa tou	1
+侧墙式自动喷洒头	ce qiang shi zi dong pen sa tou	1
+测试卡子	ce shi qia zi	1
+侧视图	ce shi tu	1
+侧台	ce tai	1
+侧天窗	ce tian chuang	1
+侧向传声	ce xiang chuan sheng	1
+侧向反射声	ce xiang fan she sheng	1
+侧向刚度	ce xiang gang du	1
+侧向刚度比	ce xiang gang du bi	1
+侧向送风	ce xiang song feng	1
+侧向位移	ce xiang wei yi	1
+侧向照明	ce xiang zhao ming	1
+侧移	ce yi	1
+层顶	ceng ding	1
+层高	ceng gao	1
+层高表	ceng gao biao	1
+层间梁	ceng jian liang	1
+层间位移	ceng jian wei yi	1
+层间位移比	ceng jian wei yi bi	1
+层数	ceng shu	1
+层压材料	ceng ya cai liao	1
+插板	cha ban	1
+茶厂	cha chang	1
+插接管	cha jie guan	1
+插筋	cha jin	1
+插口接头	cha kou jie tou	1
+插入损失	cha ru sun shi	1
+叉手	cha shou	1
+茶亭	cha ting	1
+插头板	cha tou ban	1
+叉柱造	cha zhu zao	1
+插座	cha zuo	1
+拆除费用	chai chu fei yong	1
+拆建比	chai jian bi	1
+拆模	chai mo	1
+拆模试块	chai mo shi kuai	1
+拆模板	chai mu ban	1
+柴油机发电站	chai you ji fa dian zhan	1
+颤动回声	chan dong hui sheng	1
+掺合料	chan he liao	1
+缠绕植物	chan rao zhi wu	1
+产业结构	chan ye jie gou	1
+缠柱造	chan zhu zao	1
+场地边线	chang di bian xian	1
+场地测量	chang di ce liang	1
+场地地貌	chang di di mao	1
+场地地形	chang di di xing	1
+场地方位	chang di fang wei	1
+场地分析	chang di fen xi	1
+场地工程	chang di gong cheng	1
+场地规划	chang di gui hua	1
+场地红线	chang di hong xian	1
+场地类别	chang di lei bie	1
+场地面积	chang di mian ji	1
+场地平面图	chang di ping mian tu	1
+场地设施	chang di she shi	1
+场地通达度	chang di tong da du	1
+场地土	chang di tu	1
+场地位置	chang di wei zhi	1
+场地准备	chang di zhun bei	1
+厂房	chang fang	1
+长弧氙灯	chang hu xian deng	1
+长跨	chang kua	1
+长宽比	chang kuan bi	1
+长螺旋灌注桩	chang luo xuan guan zhu zhuang	1
+常绿绿篱	chang lv lv li	1
+常绿植物	chang lv zhi wu	1
+长期刚度	chang qi gang du	1
+厂前区	chang qian qu	1
+常设人工辅助照明	chang she ren gong fu zhu zhao ming	1
+场所感	chang suo gan	1
+场外工程	chang wai gong cheng	1
+长细比	chang xi bi	1
+场致发光灯	chang zhi fa guang deng	1
+场址选择	chang zhi xuan ze	1
+常住人口	chang zhu ren kou	1
+超长	chao chang	1
+超长结构	chao chang jie gou	1
+超高	chao gao	1
+超高层建筑	chao gao ceng jian zhu	1
+超级市场	chao ji shi chang	1
+超筋	chao jin	1
+超筋超限	chao jin chao xian	1
+超筋梁	chao jin liang	1
+超配筋	chao pei jin	1
+超配筋信息	chao pei jin xin xi	1
+超声波控制自动门	chao sheng bo kong zhi zi dong men	1
+超五类对双绞线	chao wu lei dui shuang jiao xian	1
+超限	chao xian	1
+朝向	chao xiang	1
+坼架子	che jia zi	1
+车库	che ku	1
+车库翻门	che ku fan men	1
+车流量	che liu liang	1
+车台	che tai	1
+车行道绿化	che xing dao lv hua	1
+沉淀池	chen dian chi	1
+沉降	chen jiang	1
+沉降差	chen jiang cha	1
+沉降缝	chen jiang feng	1
+沉降观测	chen jiang guan ce	1
+沉降观测点	chen jiang guan ce dian	1
+沉降系数	chen jiang xi shu	1
+陈列品照明	chen lie pin zhao ming	1
+陈列室	chen lie shi	1
+陈设	chen she	1
+沉头木螺栓	chen tou mu luo shuan	1
+城邦	cheng bang	1
+承包工程	cheng bao gong cheng	1
+成本附加收费	cheng ben fu jia shou fei	1
+成本计划	cheng ben ji hua	1
+成本控制	cheng ben kong zhi	1
+承插管	cheng cha guan	1
+承插接头	cheng cha jie tou	1
+承插连接	cheng cha lian jie	1
+承德避暑山庄	cheng de bi shu shan zhuang	1
+承发包方式	cheng fa bao fang shi	1
+撑竿跳高场地	cheng gan tiao gao chang di	1
+城濠	cheng hao	1
+乘客电梯	cheng ke dian ti	1
+程控电源	cheng kong dian yuan	1
+程控台	cheng kong tai	1
+程懋堃	cheng mao kun	1
+成品库	cheng pin ku	1
+城市边缘	cheng shi bian yuan	1
+城市病	cheng shi bing	1
+城市布局	cheng shi bu ju	1
+城市测量	cheng shi ce liang	1
+城市重建	cheng shi chong jian	1
+城市道路	cheng shi dao lu	1
+城市道路系统	cheng shi dao lu xi tong	1
+城市地理学	cheng shi di li xue	1
+城市电力网	cheng shi dian li wang	1
+城市电力系统	cheng shi dian li xi tong	1
+城市发展战略	cheng shi fa zhan zhan lue	1
+城市防洪	cheng shi fang hong	1
+城市防灾	cheng shi fang zai	1
+城市防震	cheng shi fang zhen	1
+城市防震设计	cheng shi fang zhen she ji	1
+城市分类	cheng shi fen lei	1
+城市风貌	cheng shi feng mao	1
+城市辐射力	cheng shi fu she li	1
+城市改建	cheng shi gai jian	1
+城市给水	cheng shi gei shui	1
+城市给水设计	cheng shi gei shui she ji	1
+城市给水系统	cheng shi gei shui xi tong	1
+城市更新	cheng shi geng xin	1
+城市供电	cheng shi gong dian	1
+城市供电设计	cheng shi gong dian she ji	1
+城市公共交通	cheng shi gong gong jiao tong	1
+城市公共交通系统	cheng shi gong gong jiao tong xi tong	1
+城市功能分区	cheng shi gong neng fen qu	1
+城市供热	cheng shi gong re	1
+城市供热设计	cheng shi gong re she ji	1
+城市供热系统	cheng shi gong re xi tong	1
+城市公园	cheng shi gong yuan	1
+城市公园设计	cheng shi gong yuan she ji	1
+城市公园系统	cheng shi gong yuan xi tong	1
+城市广场	cheng shi guang chang	1
+城市规划	cheng shi gui hua	1
+城市规划标准	cheng shi gui hua biao zhun	1
+城市规划法规	cheng shi gui hua fa gui	1
+城市规划纲要	cheng shi gui hua gang yao	1
+城市规划管理	cheng shi gui hua guan li	1
+城市规划理论	cheng shi gui hua li lun	1
+城市规划区	cheng shi gui hua qu	1
+城市规划设计	cheng shi gui hua she ji	1
+城市规划设计院	cheng shi gui hua she ji yuan	1
+城市规划实施	cheng shi gui hua shi shi	1
+城市规模	cheng shi gui mo	1
+城市核心	cheng shi he xin	1
+城市化	cheng shi hua	1
+城市化水平	cheng shi hua shui ping	1
+城市环境	cheng shi huan jing	1
+城市环境保护	cheng shi huan jing bao hu	1
+城市环境设计	cheng shi huan jing she ji	1
+城市环境卫生	cheng shi huan jing wei sheng	1
+城市肌理	cheng shi ji li	1
+城市建成区	cheng shi jian cheng qu	1
+城市建设管理	cheng shi jian she guan li	1
+城市建筑法规	cheng shi jian zhu fa gui	1
+城市建筑小品	cheng shi jian zhu xiao pin	1
+城市交通	cheng shi jiao tong	1
+城市结构	cheng shi jie gou	1
+城市景观	cheng shi jing guan	1
+城市经济	cheng shi jing ji	1
+城市经济学	cheng shi jing ji xue	1
+城市勘察	cheng shi kan cha	1
+城市科学	cheng shi ke xue	1
+城市空间	cheng shi kong jian	1
+城市历史保护	cheng shi li shi bao hu	1
+城市绿地	cheng shi lv di	1
+城市绿地系统规划	cheng shi lv di xi tong gui hua	1
+城市绿化覆盖率	cheng shi lv hua fu gai lv	1
+城市美学	cheng shi mei xue	1
+城市排水	cheng shi pai shui	1
+城市排水系统	cheng shi pai shui xi tong	1
+城市评价	cheng shi ping jia	1
+城市气候	cheng shi qi hou	1
+城市群	cheng shi qun	1
+城市燃气供应系统	cheng shi ran qi gong ying xi tong	1
+城市人口	cheng shi ren kou	1
+城市人口分布	cheng shi ren kou fen bu	1
+城市人口规模	cheng shi ren kou gui mo	1
+城市人口流动	cheng shi ren kou liu dong	1
+城市人口学	cheng shi ren kou xue	1
+城市人口预测	cheng shi ren kou yu ce	1
+城市社会学	cheng shi she hui xue	1
+城市设计	cheng shi she ji	1
+城市社区	cheng shi she qu	1
+城市生态	cheng shi sheng tai	1
+城市生态设计	cheng shi sheng tai she ji	1
+城市生态系统	cheng shi sheng tai xi tong	1
+城市史	cheng shi shi	1
+城市首位度	cheng shi shou wei du	1
+城市衰退	cheng shi shuai tui	1
+城市通信系统	cheng shi tong xin xi tong	1
+城市问题	cheng shi wen ti	1
+城市吸引力	cheng shi xi yin li	1
+城市详细规划	cheng shi xiang xi gui hua	1
+城市形式	cheng shi xing shi	1
+城市形态	cheng shi xing tai	1
+城市形体环境	cheng shi xing ti huan jing	1
+城市形象	cheng shi xing xiang	1
+城市性质	cheng shi xing zhi	1
+城市选址	cheng shi xuan zhi	1
+城市艺术	cheng shi yi shu	1
+城市用地	cheng shi yong di	1
+城市用地选择	cheng shi yong di xuan ze	1
+城市用电负荷	cheng shi yong dian fu he	1
+城市用水	cheng shi yong shui	1
+城市职能	cheng shi zhi neng	1
+城市总体规划	cheng shi zong ti gui hua	1
+城市组团	cheng shi zu tuan	1
+承台	cheng tai	1
+撑头	cheng tou	1
+承载力	cheng zai li	1
+承载龙骨	cheng zai long gu	1
+城镇集聚区	cheng zhen ji ju qu	1
+城镇体系	cheng zhen ti xi	1
+城镇体系规划	cheng zhen ti xi gui hua	1
+承重	cheng zhong	1
+承重隔墙	cheng zhong ge qiang	1
+承重结构	cheng zhong jie gou	1
+承重墙	cheng zhong qiang	1
+承重墙结构	cheng zhong qiang jie gou	1
+承重砖墙	cheng zhong zhuan qiang	1
+池壁	chi bi	1
+池边坐人矮墙	chi bian zuo ren ai qiang	1
+尺寸线	chi cun xian	1
+迟到席	chi dao xi	1
+持力	chi li	1
+持力层	chi li ceng	1
+齿轮厂	chi lun chang	1
+鸱尾	chi wei	1
+池座层	chi zuo ceng	1
+池座前排	chi zuo qian pai	1
+充电站	chong dian zhan	1
+重分配	chong fen pei	1
+重复接地	chong fu jie di	1
+虫胶	chong jiao	1
+冲切	chong qie	1
+冲切破坏	chong qie po huai	1
+冲压车间	chong ya che jian	1
+重檐	chong yan	1
+重檐庑殿	chong yan wu dian	1
+抽查射钉	chou cha she ding	1
+筹建项目	chou jian xiang mu	1
+抽气风道检查记录	chou qi feng dao jian cha ji lu	1
+抽气风扇	chou qi feng shan	1
+抽气通风	chou qi tong feng	1
+初步草图	chu bu cao tu	1
+初步方案	chu bu fang an	1
+初步设计	chu bu she ji	1
+初步设计阶段	chu bu she ji jie duan	1
+初步设计图	chu bu she ji tu	1
+初步设计图及说明	chu bu she ji tu ji shuo ming	1
+储藏室	chu cang shi	1
+橱窗照明	chu chuang zhao ming	1
+触点压力	chu dian ya li	1
+厨房拔气罩	chu fang ba qi zhao	1
+厨房排烟机	chu fang pai yan ji	1
+厨房设备布置	chu fang she bei bu zhi	1
+厨房设施	chu fang she shi	1
+出际	chu ji	1
+初建费用	chu jian fei yong	1
+出口加工区	chu kou jia gong qu	1
+畜力剪草机	chu li jian cao ji	1
+出纳处	chu na chu	1
+初凝	chu ning	1
+出平面	chu ping mian	1
+出入口	chu ru kou	1
+初设	chu she	1
+出水孔	chu shui kong	1
+出水口	chu shui kou	1
+出跳	chu tiao	1
+出线盒	chu xian he	1
+出线口	chu xian kou	1
+出行分布	chu xing fen bu	1
+出行生成	chu xing sheng cheng	1
+出行吸引	chu xing xi yin	1
+除锈	chu xiu	1
+储蓄所	chu xu suo	1
+除油池	chu you chi	1
+厨园	chu yuan	1
+出租汽车	chu zu qi che	1
+出租汽车停车场	chu zu qi che ting che chang	1
+出租汽车站	chu zu qi che zhan	1
+串并联电路	chuan bing lian dian lu	1
+穿插枋	chuan cha fang	1
+传递比	chuan di bi	1
+传递窗	chuan di chuang	1
+穿斗式构架	chuan dou shi gou jia	1
+穿管	chuan guan	1
+穿孔板	chuan kong ban	1
+穿孔率	chuan kong lv	1
+穿孔铝扣板	chuan kong lv kou ban	1
+串联电池组	chuan lian dian chi zu	1
+串联线圈	chuan lian xian quan	1
+穿梁	chuan liang	1
+传染病院	chuan ran bing yuan	1
+传热	chuan re	1
+传热系数	chuan re xi shu	1
+传统园林建筑	chuan tong yuan lin jian zhu	1
+穿线工程	chuan xian gong cheng	1
+穿越通风	chuan yue tong feng	1
+传质	chuan zhi	1
+椽子	chuan zi	1
+窗玻璃	chuang bo li	1
+窗插销	chuang cha xiao	1
+窗撑头	chuang cheng tou	1
+窗磁报警	chuang ci bao jing	1
+窗地面积比	chuang di mian ji bi	1
+窗轨	chuang gui	1
+窗间墙	chuang jian qiang	1
+窗井	chuang jing	1
+窗框	chuang kuang	1
+窗框墙	chuang kuang qiang	1
+窗帘盒	chuang lian he	1
+窗楣	chuang mei	1
+窗墙比	chuang qiang bi	1
+窗扇	chuang shan	1
+床上用品店	chuang shang yong pin dian	1
+窗式空调器	chuang shi kong tiao qi	1
+窗锁	chuang suo	1
+窗台	chuang tai	1
+窗台绿化	chuang tai lv hua	1
+床头桌	chuang tou zhuo	1
+窗眩光指数	chuang xuan guang zhi shu	1
+窗园	chuang yuan	1
+垂带	chui dai	1
+垂带石	chui dai shi	1
+垂脊	chui ji	1
+垂台钩栏	chui tai gou lan	1
+锤印	chui yin	1
+垂直绿化	chui zhi lv hua	1
+垂枝盆景	chui zhi pen jing	1
+垂直遮阳	chui zhi zhe yang	1
+垂枝植物	chui zhi zhi wu	1
+纯林	chun lin	1
+纯受弯	chun shou wan	1
+醇酸清漆	chun suan qing qi	1
+纯音	chun yin	1
+次干路	ci gan lu	1
+瓷夹	ci jia	1
+瓷夹板	ci jia ban	1
+瓷夹布线	ci jia bu xian	1
+次间	ci jian	1
+磁卡锁	ci ka suo	1
+刺篱	ci li	1
+磁力起重机	ci li qi zhong ji	1
+瓷漆	ci qi	1
+磁石发电机	ci shi fa dian ji	1
+磁性烟感器	ci xing yan gan qi	1
+次要入口	ci yao ru kou	1
+瓷砖	ci zhuan	1
+磁砖壁画	ci zhuan bi hua	1
+瓷砖胶	ci zhuan jiao	1
+葱花穹顶	cong hua qiong ding	1
+葱花券	cong hua quan	1
+丛植	cong zhi	1
+粗砂	cu sha	1
+粗野主义	cu ye zhu yi	1
+攒尖	cuan jian	1
+存水管	cun shui guan	1
+存水弯	cun shui wan	1
+存衣柜	cun yi gui	1
+错层	cuo ceng	1
+错层式车库	cuo ceng shi che ku	1
+错列排管	cuo lie pai guan	1
+错排座席	cuo pai zuo xi	1
+错铺路	cuo pu lu	1
+大板结构	da ban jie gou	1
+大板结构体系	da ban jie gou ti xi	1
+大比例详图	da bi li xiang tu	1
+大便器	da bian qi	1
+大城市	da cheng shi	1
+大城市地区	da cheng shi di qu	1
+大城市连绵区	da cheng shi lian mian qu	1
+打底	da di	1
+大底盘	da di pan	1
+大斗	da dou	1
+大额枋	da e fang	1
+搭架子	da jia zi	1
+搭接	da jie	1
+搭接长度	da jie chang du	1
+大街坊	da jie fang	1
+大空间布局	da kong jian bu ju	1
+大理石	da li shi	1
+大理石板	da li shi ban	1
+大理石板贴面	da li shi ban tie mian	1
+大理石厂	da li shi chang	1
+大理石面层	da li shi mian ceng	1
+大理石拼花	da li shi pin hua	1
+大理石拼花工艺	da li shi pin hua gong yi	1
+大理石铺切	da li shi pu qie	1
+大理石墙面	da li shi qiang mian	1
+大梁	da liang	1
+大陆性气候	da lu xing qi hou	1
+大面	da mian	1
+大幕	da mu	1
+大木	da mu	1
+大木作	da mu zuo	1
+大偏拉	da pian la	1
+大偏心	da pian xin	1
+大偏心受压	da pian xin shou ya	1
+大偏压	da pian ya	1
+大平锹	da ping qiao	1
+大气透明度	da qi tou ming du	1
+搭设	da she	1
+搭设脚手架	da she jiao shou jia	1
+搭设排架	da she pai jia	1
+大式	da shi	1
+大使官邸	da shi guan di	1
+大树移植	da shu yi zhi	1
+大堂吧	da tang ba	1
+大堂天花	da tang tian hua	1
+大屋顶	da wu ding	1
+大学城	da xue cheng	1
+大学建筑	da xue jian zhu	1
+大样	da yang	1
+大样图	da yang tu	1
+大众捷运系统	da zhong jie yun xi tong	1
+打字室	da zi shi	1
+带沥水板洗涤盆	dai li shui ban xi di pen	1
+带型城市	dai xing cheng shi	1
+代用材料	dai yong cai liao	1
+带植	dai zhi	1
+带状花坛	dai zhuang hua tan	1
+单步梁	dan bu liang	1
+单材拱	dan cai gong	1
+单槽	dan cao	1
+单层厂房	dan ceng chang fang	1
+单层窗	dan ceng chuang	1
+单层建筑	dan ceng jian zhu	1
+单床间	dan chuang jian	1
+单床客房	dan chuang ke fang	1
+单方造价	dan fang zao jia	1
+单风道	dan feng dao	1
+单风道空调系统	dan feng dao kong tiao xi tong	1
+单风道系统	dan feng dao xi tong	1
+单栱	dan gong	1
+单钩栏	dan gou lan	1
+单勾阑	dan gou lan	1
+单管热水供暖系统	dan guan re shui gong nuan xi tong	1
+单管上行下给供暖系统	dan guan shang xing xia gei gong nuan xi tong	1
+单管卫生管道系统	dan guan wei sheng guan dao xi tong	1
+单管系统	dan guan xi tong	1
+单极开关	dan ji kai guan	1
+单间式布局	dan jian shi bu ju	1
+弹街石	dan jie shi	1
+单孔插座出线口	dan kong cha zuo chu xian kou	1
+单面自行车架	dan mian zi xing che jia	1
+单面走廊式	dan mian zou lang shi	1
+单跑楼梯	dan pao lou ti	1
+单人床	dan ren chuang	1
+单色谐调	dan se xie tiao	1
+单扇窗	dan shan chuang	1
+单扇门	dan shan men	1
+单扇推拉门	dan shan tui la men	1
+蛋市	dan shi	1
+单式吊杆	dan shi diao gan	1
+弹塑	dan su	1
+单投开关	dan tou kai guan	1
+单外廊布局	dan wai lang bu ju	1
+单位绿地	dan wei lv di	1
+单位面积收费	dan wei mian ji shou fei	1
+弹线分格	dan xian fen ge	1
+单线图	dan xian tu	1
+单向板	dan xiang ban	1
+单向电路	dan xiang dian lu	1
+单相负荷	dan xiang fu he	1
+单项工程验收	dan xiang gong cheng yan shou	1
+单行道	dan xing dao	1
+单行道路	dan xing dao lu	1
+单一材料	dan yi cai liao	1
+单元板分配	dan yuan ban fen pei	1
+单元板块	dan yuan ban kuai	1
+单元式幕墙	dan yuan shi mu qiang	1
+单砖墙	dan zhuan qiang	1
+单桩承载力	dan zhuang cheng zai li	1
+单桩承载力特征值	dan zhuang cheng zai li te zheng zhi	1
+单走道布局	dan zou dao bu ju	1
+档案室	dang an shi	1
+挡板	dang ban	1
+档板式遮阳	dang ban shi zhe yang	1
+当地可用材料	dang di ke yong cai liao	1
+挡墩	dang dun	1
+挡墙	dang qiang	1
+挡水墙	dang shui qiang	1
+挡土墙	dang tu qiang	1
+道板砖	dao ban zhuan	1
+倒槽式拱	dao cao shi gong	1
+导轨	dao gui	1
+导荷载	dao he zai	1
+导流墙	dao liu qiang	1
+倒楼盖	dao lou gai	1
+倒楼盖模型	dao lou gai mo xing	1
+道路	dao lu	1
+道路断面	dao lu duan mian	1
+道路面积率	dao lu mian ji lv	1
+道路面积密度	dao lu mian ji mi du	1
+道路容量	dao lu rong liang	1
+道路设计	dao lu she ji	1
+道路网	dao lu wang	1
+道路网密度	dao lu wang mi du	1
+道路系统	dao lu xi tong	1
+道路用地	dao lu yong di	1
+导墙	dao qiang	1
+导温系数	dao wen xi shu	1
+导线穿管敷设	dao xian chuan guan fu she	1
+倒影池	dao ying chi	1
+导游解说	dao you jie shuo	1
+导游图	dao you tu	1
+岛园	dao yuan	1
+岛状冻土	dao zhuang dong tu	1
+灯槽	deng cao	1
+等电位	deng dian wei	1
+等电位联结安装	deng dian wei lian jie an zhuang	1
+等分平衡法	deng fen ping heng fa	1
+等高线	deng gao xian	1
+灯光渡桥	deng guang du qiao	1
+灯光控制室	deng guang kong zhi shi	1
+灯光平台	deng guang ping tai	1
+灯光天桥	deng guang tian qiao	1
+灯光指示器	deng guang zhi shi qi	1
+登机口	deng ji kou	1
+等截面	deng jie mian	1
+灯具	deng ju	1
+灯具亮度限制曲线	deng ju liang du xian zhi qu xian	1
+灯具效率	deng ju xiao lv	1
+灯盘	deng pan	1
+等视图	deng shi tu	1
+灯箱片	deng xiang pian	1
+等响曲线	deng xiang qu xian	1
+等效连续	deng xiao lian xu	1
+等效连续声级	deng xiao lian xu sheng ji	1
+等效吸声面积	deng xiao xi sheng mian ji	1
+灯罩	deng zhao	1
+等照度曲线	deng zhao du qu xian	1
+低矮墙	di ai qiang	1
+堤岸种植	di an zhong zhi	1
+地板	di ban	1
+底板	di ban	1
+地被植物	di bei zhi wu	1
+底标高	di biao gao	1
+地表面	di biao mian	1
+底部加强	di bu jia qiang	1
+底部加强部位	di bu jia qiang bu wei	1
+底部加强区	di bu jia qiang qu	1
+底层	di ceng	1
+低层建筑	di ceng jian zhu	1
+底层抹灰	di ceng mo hui	1
+底层平面	di ceng ping mian	1
+第二产业	di er chan ye	1
+地方时	di fang shi	1
+地方性	di fang xing	1
+地方性气候	di fang xing qi hou	1
+地袱	di fu	1
+地伏	di fu	1
+地沟管	di gou guan	1
+滴灌	di guan	1
+地基	di ji	1
+地基承载力	di ji cheng zai li	1
+地基承载力特征值	di ji cheng zai li te zheng zhi	1
+地基处理	di ji chu li	1
+地基处理记录	di ji chu li ji lu	1
+地基检测报告	di ji jian ce bao gao	1
+地基梁	di ji liang	1
+地基钎探记录	di ji qian tan ji lu	1
+地基验槽检查记录	di ji yan cao jian cha ji lu	1
+地基应力	di ji ying li	1
+地基与基础	di ji yu ji chu	1
+地价	di jia	1
+递匠司	di jiang si	1
+地脚	di jiao	1
+底脚螺栓	di jiao luo shuan	1
+地堪	di kan	1
+底坑	di keng	1
+底框	di kuang	1
+地理景观	di li jing guan	1
+地沥青	di li qing	1
+地梁	di liang	1
+地梁平面布置图	di liang ping mian bu zhi tu	1
+地垄墙	di long qiang	1
+地漏	di lou	1
+地漏排水试验记录	di lou pai shui shi yan ji lu	1
+涤纶无纺布	di lun wu fang bu	1
+地貌	di mao	1
+地面	di mian	1
+地面暗管道	di mian an guan dao	1
+地面标高	di mian biao gao	1
+地面波化	di mian bo hua	1
+地面插座	di mian cha zuo	1
+地面插座出线口	di mian cha zuo chu xian kou	1
+地面出线盒	di mian chu xian he	1
+地面出线口	di mian chu xian kou	1
+地面粗糙度	di mian cu cao du	1
+地面地砖铺砌	di mian di zhuan pu qi	1
+地面电话出线口	di mian dian hua chu xian kou	1
+地面工程	di mian gong cheng	1
+地面隆起	di mian long qi	1
+地面升起	di mian sheng qi	1
+地面砖	di mian zhuan	1
+地面专用插座	di mian zhuan yong cha zuo	1
+低能耗建筑	di neng hao jian zhu	1
+低频变压器	di pin bian ya qi	1
+低频扬声器	di pin yang sheng qi	1
+地坪	di ping	1
+地热能源	di re neng yuan	1
+第三产业	di san chan ye	1
+滴水喷头	di shui pen tou	1
+滴水兽	di shui shou	1
+低水位	di shui wei	1
+低水位报警器	di shui wei bao jing qi	1
+低水位保险装置	di shui wei bao xian zhuang zhi	1
+滴水线	di shui xian	1
+低水箱	di shui xiang	1
+地弹簧	di tan huang	1
+地铁车站	di tie che zhan	1
+底瓦	di wa	1
+帝王宫苑	di wang gong yuan	1
+地文分析	di wen fen xi	1
+地下仓库	di xia cang ku	1
+地下车库	di xia che ku	1
+地下车站	di xia che zhan	1
+地下电梯	di xia dian ti	1
+地下定线	di xia ding xian	1
+地下防水	di xia fang shui	1
+地下辐射	di xia fu she	1
+地下工程	di xia gong cheng	1
+地下工程防水	di xia gong cheng fang shui	1
+地下工程防水技术	di xia gong cheng fang shui ji shu	1
+地下工程防水技术规范	di xia gong cheng fang shui ji shu gui fan	1
+地下管道	di xia guan dao	1
+地下管道工程	di xia guan dao gong cheng	1
+地下管网	di xia guan wang	1
+地下建筑	di xia jian zhu	1
+地下街	di xia jie	1
+地下金库	di xia jin ku	1
+地下冷库	di xia leng ku	1
+地下粮仓	di xia liang cang	1
+地下商场	di xia shang chang	1
+地下室	di xia shi	1
+地下室层	di xia shi ceng	1
+地下室平面	di xia shi ping mian	1
+地下试验	di xia shi yan	1
+地下试验室	di xia shi yan shi	1
+地下铁道	di xia tie dao	1
+地下铁道车站	di xia tie dao che zhan	1
+地下通道	di xia tong dao	1
+地下通风道	di xia tong feng dao	1
+地下窑居	di xia yao ju	1
+地下珍宝馆	di xia zhen bao guan	1
+地下贮热	di xia zhu re	1
+地形地貌修正系数	di xing di mao xiu zheng xi shu	1
+地形改造	di xing gai zao	1
+地形改造设计	di xing gai zao she ji	1
+地形图	di xing tu	1
+低压电缆	di ya dian lan	1
+低压电器设备	di ya dian qi she bei	1
+低压开关	di ya kai guan	1
+低压开关柜	di ya kai guan gui	1
+低压开关设备	di ya kai guan she bei	1
+低压钠灯	di ya na deng	1
+低压配电盘	di ya pei dian pan	1
+低压配电系统	di ya pei dian xi tong	1
+低压照明控制	di ya zhao ming kong zhi	1
+第一产业	di yi chan ye	1
+地役权	di yi quan	1
+地震组合	di zhen zu he	1
+地质景观	di zhi jing guan	1
+地质资料	di zhi zi liao	1
+地砖	di zhuan	1
+地砖面层	di zhuan mian ceng	1
+垫板	dian ban	1
+电刨	dian bao	1
+垫层	dian ceng	1
+电除尘器	dian chu chen qi	1
+电传打字电报机	dian chuan da zi dian bao ji	1
+电锤	dian chui	1
+电磁波屏蔽门	dian ci bo ping bi men	1
+电磁场控制自动门	dian ci chang kong zhi zi dong men	1
+电磁定门器	dian ci ding men qi	1
+电磁屏蔽设计	dian ci ping bi she ji	1
+电动传送机	dian dong chuan song ji	1
+电动吊杆	dian dong diao gan	1
+电动发电机组	dian dong fa dian ji zu	1
+电动葫芦	dian dong hu lu	1
+电动记分牌	dian dong ji fen pai	1
+电动卷扬机	dian dong juan yang ji	1
+电动开门器	dian dong kai men qi	1
+电动缆车	dian dong lan che	1
+电动楼梯	dian dong lou ti	1
+电动走道	dian dong zou dao	1
+电度表检定记录	dian du biao jian ding ji lu	1
+电镀厂	dian du chang	1
+电镀车间	dian du che jian	1
+电焊机	dian han ji	1
+电话出线口	dian hua chu xian kou	1
+电话电缆	dian hua dian lan	1
+电话分线盒	dian hua fen xian he	1
+电话间	dian hua jian	1
+电话交换台	dian hua jiao huan tai	1
+电化教室	dian hua jiao shi	1
+电话设备	dian hua she bei	1
+电话系统	dian hua xi tong	1
+电话总机房	dian hua zong ji fang	1
+电话组线箱	dian hua zu xian xiang	1
+电机厂	dian ji chang	1
+电机驱动电梯	dian ji qu dong dian ti	1
+电剪刀	dian jian dao	1
+电解厂	dian jie chang	1
+电解车间	dian jie che jian	1
+点金	dian jin	1
+点景牌楼	dian jing pai lou	1
+电缆吊架	dian lan diao jia	1
+电缆敷设	dian lan fu she	1
+电缆沟	dian lan gou	1
+电缆管道	dian lan guan dao	1
+电缆架	dian lan jia	1
+电缆井	dian lan jing	1
+电缆排管	dian lan pai guan	1
+电缆竖井	dian lan shu jing	1
+电缆隧道	dian lan sui dao	1
+电缆线路敷设	dian lan xian lu fu she	1
+电缆箱	dian lan xiang	1
+电力变压器	dian li bian ya qi	1
+电力电缆	dian li dian lan	1
+电力配电盘	dian li pei dian pan	1
+电力配电箱	dian li pei dian xiang	1
+电铃	dian ling	1
+电铃按钮	dian ling an niu	1
+电铃变压器	dian ling bian ya qi	1
+电流表	dian liu biao	1
+电路转换开关	dian lu zhuan huan kai guan	1
+电瓶车库	dian ping che ku	1
+电气安装	dian qi an zhuang	1
+电气除尘器	dian qi chu chen qi	1
+电气出线口	dian qi chu xian kou	1
+电气动力	dian qi dong li	1
+电气控制系统	dian qi kong zhi xi tong	1
+电气配关	dian qi pei guan	1
+电气设备	dian qi she bei	1
+电气设计	dian qi she ji	1
+电气设计安装	dian qi she ji an zhuang	1
+电气竖井	dian qi shu jing	1
+电气图纸	dian qi tu zhi	1
+电气系统	dian qi xi tong	1
+电气照明	dian qi zhao ming	1
+电气照明安装	dian qi zhao ming an zhuang	1
+垫铅垫	dian qian dian	1
+电热采暖	dian re cai nuan	1
+电热风炉	dian re feng lu	1
+电热模拟	dian re mo ni	1
+电热水器	dian re shui qi	1
+电扇出线口	dian shan chu xian kou	1
+电声设备	dian sheng she bei	1
+点式玻璃	dian shi bo li	1
+电视出线口	dian shi chu xian kou	1
+电视电话系统	dian shi dian hua xi tong	1
+电视广播室	dian shi guang bo shi	1
+电视塔	dian shi ta	1
+点式支承	dian shi zhi cheng	1
+电视中心	dian shi zhong xin	1
+点式住宅	dian shi zhu zhai	1
+电视转播车	dian shi zhuan bo che	1
+电视转播室	dian shi zhuan bo shi	1
+电梯安全装置	dian ti an quan zhuang zhi	1
+电梯机房	dian ti ji fang	1
+电梯井	dian ti jing	1
+电梯井坑	dian ti jing keng	1
+电梯平台	dian ti ping tai	1
+电梯式公寓	dian ti shi gong yu	1
+电梯厅	dian ti ting	1
+电梯运行记录	dian ti yun xing ji lu	1
+电梯组	dian ti zu	1
+电线	dian xian	1
+电线槽	dian xian cao	1
+电线穿管	dian xian chuan guan	1
+电线管	dian xian guan	1
+电信楼	dian xin lou	1
+点心铺	dian xin pu	1
+点型火灾探测器	dian xing huo zai tan ce qi	1
+电压表	dian ya biao	1
+电影制片厂	dian ying zhi pian chang	1
+电源进线柜	dian yuan jin xian gui	1
+点支幕墙	dian zhi mu qiang	1
+电钟插座	dian zhong cha zuo	1
+电钟系统	dian zhong xi tong	1
+点状绿地	dian zhuang lv di	1
+电子计算机房	dian zi ji suan ji fang	1
+电子计算机化	dian zi ji suan ji hua	1
+电子吸声器	dian zi xi sheng qi	1
+电子显微镜室	dian zi xian wei jing shi	1
+电钻	dian zuan	1
+吊车	diao che	1
+吊车梁	diao che liang	1
+吊灯	diao deng	1
+吊顶	diao ding	1
+吊顶龙骨	diao ding long gu	1
+吊顶面板	diao ding mian ban	1
+吊杆	diao gan	1
+吊钩	diao gou	1
+吊钩梁	diao gou liang	1
+吊挂	diao gua	1
+吊挂件	diao gua jian	1
+吊管架	diao guan jia	1
+吊轨	diao gui	1
+吊柜	diao gui	1
+吊环	diao huan	1
+吊架	diao jia	1
+掉角	diao jiao	1
+吊筋	diao jin	1
+吊幕	diao mu	1
+吊扇	diao shan	1
+雕塑公园	diao su gong yuan	1
+吊索	diao suo	1
+钓鱼区	diao yu qu	1
+钓鱼塘	diao yu tang	1
+吊装	diao zhuang	1
+吊装夹具	diao zhuang jia ju	1
+吊装荧光灯带	diao zhuang ying guang deng dai	1
+叠合池	die he chi	1
+叠合式	die he shi	1
+跌级造型	die ji zao xing	1
+叠级造型	die ji zao xing	1
+叠涩	die se	1
+叠石	die shi	1
+跌水井	die shui jing	1
+顶板	ding ban	1
+顶部采光	ding bu cai guang	1
+顶部照明	ding bu zhao ming	1
+顶层	ding ceng	1
+顶椽	ding chuan	1
+顶端饰	ding duan shi	1
+定额	ding e	1
+定风量系统	ding feng liang xi tong	1
+顶紧	ding jin	1
+丁面	ding mian	1
+顶棚采光	ding peng cai guang	1
+顶棚检查孔	ding peng jian cha kong	1
+丁顺隔皮砌式	ding shun ge pi qi shi	1
+定向照明	ding xiang zhao ming	1
+定型设计	ding xing she ji	1
+定型图	ding xing tu	1
+定型详图	ding xing xiang tu	1
+鼎峙铝板	ding zhi lv ban	1
+丁字街	ding zi jie	1
+洞边	dong bian	1
+洞边加筋	dong bian jia jin	1
+洞底	dong di	1
+洞顶	dong ding	1
+动观	dong guan	1
+栋号包干	dong hao bao gan	1
+洞口尺寸	dong kou chi cun	1
+动力电缆	dong li dian lan	1
+动力剪草机	dong li jian cao ji	1
+东立面	dong li mian	1
+动力配电盘	dong li pei dian pan	1
+动力时程	dong li shi cheng	1
+动力系数	dong li xi shu	1
+动力系统设计	dong li xi tong she ji	1
+动力吸振器	dong li xi zhen qi	1
+动力箱	dong li xiang	1
+动力站	dong li zhan	1
+动力钻	dong li zuan	1
+冻深	dong shen	1
+动态漫游	dong tai man you	1
+动态鸟瞰	dong tai niao kan	1
+冻土	dong tu	1
+冻土层	dong tu ceng	1
+动休息区	dong xiu xi qu	1
+冬园	dong yuan	1
+斗板石	dou ban shi	1
+斗底	dou di	1
+斗耳	dou er	1
+斗拱	dou gong	1
+斗栱	dou gong	1
+斗口	dou kou	1
+斗牛场	dou niu chang	1
+斗腰	dou yao	1
+豆制品厂	dou zhi pin chang	1
+独唱独奏厅	du chang du zou ting	1
+都城	du cheng	1
+镀铬龙头	du ge long tou	1
+独户住宅	du hu zhu zhai	1
+独基	du ji	1
+镀克罗米	du ke luo mi	1
+独立柱基	du li zhu ji	1
+犊牛舍	du niu she	1
+毒气警报	du qi jing bao	1
+镀铅铁板	du qian tie ban	1
+镀锌扁钢	du xin bian gang	1
+镀锌钢	du xin gang	1
+镀锌钢板	du xin gang ban	1
+镀锌钢管	du xin gang guan	1
+镀锌钢筋网	du xin gang jin wang	1
+镀锌钢丝	du xin gang si	1
+镀锌管	du xin guan	1
+都柱	du zhu	1
+锻工车间	duan gong che jian	1
+断接卡	duan jie ka	1
+短跨	duan kua	1
+短跨梁	duan kua liang	1
+断裂	duan lie	1
+断面	duan mian	1
+短期刚度	duan qi gang du	1
+锻造车间	duan zao che jian	1
+短肢	duan zhi	1
+短肢剪力墙	duan zhi jian li qiang	1
+短肢墙	duan zhi qiang	1
+端支座	duan zhi zuo	1
+短柱	duan zhu	1
+端柱	duan zhu	1
+端子板	duan zi ban	1
+端子箱	duan zi xiang	1
+对比色突出	dui bi se tu chu	1
+堆场	dui chang	1
+对称配光型灯具	dui chen pei guang xing deng ju	1
+对称平衡	dui chen ping heng	1
+对讲电话系统	dui jiang dian hua xi tong	1
+对景	dui jing	1
+对流	dui liu	1
+对流环路	dui liu huan lu	1
+对外工程承包	dui wai gong cheng cheng bao	1
+对外交通用地	dui wai jiao tong yong di	1
+对植	dui zhi	1
+对重	dui zhong	1
+蹲便器	dun bian qi	1
+蹲式大便器	dun shi da bian qi	1
+多层办公楼	duo ceng ban gong lou	1
+多层厂房	duo ceng chang fang	1
+多层车库	duo ceng che ku	1
+多层地下室	duo ceng di xia shi	1
+多层公寓	duo ceng gong yu	1
+多层建筑	duo ceng jian zhu	1
+多层停车场	duo ceng ting che chang	1
+多层涂料	duo ceng tu liao	1
+多重回声	duo chong hui sheng	1
+柁墩	duo dun	1
+剁斧石做法	duo fu shi zuo fa	1
+多功能建筑	duo gong neng jian zhu	1
+多功能厅	duo gong neng ting	1
+多核心理论	duo he xin li lun	1
+多户住宅	duo hu zhu zhai	1
+多孔吸声材料	duo kong xi sheng cai liao	1
+多孔砖	duo kong zhuan	1
+多立克柱式	duo li ke zhu shi	1
+多媒体演出	duo mei ti yan chu	1
+多年生宿根草木园	duo nian sheng su gen cao mu yuan	1
+多区域系统	duo qu yu xi tong	1
+掇山	duo shan	1
+掇山五法	duo shan wu fa	1
+多塔	duo ta	1
+多样性	duo yang xing	1
+多用途观众厅	duo yong tu guan zhong ting	1
+多元性	duo yuan xing	1
+额匾	e bian	1
+额垫板	e dian ban	1
+额枋	e fang	1
+鹅颈椅	e jing yi	1
+阿房宫	e pang gong	1
+二泵房	er beng fang	1
+二层	er ceng	1
+二层模板	er ceng mu ban	1
+二层平面	er ceng ping mian	1
+二层柱	er ceng zhu	1
+二沉池	er chen chi	1
+二次回路	er ci hui lu	1
+二次污染	er ci wu ran	1
+二次原理图	er ci yuan li tu	1
+二段力	er duan li	1
+二级负荷	er ji fu he	1
+二级钢	er ji gang	1
+二阶效应	er jie xiao ying	1
+儿科医院	er ke yi yuan	1
+二类场地	er lei chang di	1
+二类环境	er lei huan jing	1
+二四墙	er si qiang	1
+儿童扶梯	er tong fu ti	1
+儿童公园	er tong gong yuan	1
+儿童活动区	er tong huo dong qu	1
+儿童活动室	er tong huo dong shi	1
+儿童游戏场	er tong you xi chang	1
+儿童游戏室	er tong you xi shi	1
+二维制图系统	er wei zhi tu xi tong	1
+二氧化碳发生器	er yang hua tan fa sheng qi	1
+二氧化碳灭火器	er yang hua tan mie huo qi	1
+筏板	fa ban	1
+发电机房	fa dian ji fang	1
+法官室	fa guan shi	1
+发光顶棚	fa guang ding peng	1
+发光开关	fa guang kai guan	1
+发光信号系统	fa guang xin hao xi tong	1
+筏基	fa ji	1
+法兰堵盖	fa lan du gai	1
+法兰接头	fa lan jie tou	1
+法兰连接	fa lan lian jie	1
+法兰西式园林	fa lan xi shi yuan lin	1
+阀门安装	fa men an zhuang	1
+阀门井	fa men jing	1
+阀门压力试验表	fa men ya li shi yan biao	1
+法向入射吸声系数	fa xiang ru she xi sheng xi shu	1
+筏形	fa xing	1
+筏型基础	fa xing ji chu	1
+泛白	fan bai	1
+反冲洗	fan chong xi	1
+翻窗	fan chuang	1
+翻地犁	fan di li	1
+翻斗车	fan dou che	1
+凡尔赛宫苑	fan er sai gong yuan	1
+帆拱	fan gong	1
+反构成主义	fan gou cheng zhu yi	1
+泛光灯	fan guang deng	1
+泛光照明	fan guang zhao ming	1
+泛黄发花	fan huang fa hua	1
+反馈系统	fan kui xi tong	1
+反梁	fan liang	1
+反射玻璃	fan she bo li	1
+反射率	fan she lv	1
+反声	fan sheng	1
+泛水	fan shui	1
+反水弯	fan shui wan	1
+反弯点	fan wan dian	1
+翻译室	fan yi shi	1
+反应谱	fan ying pu	1
+繁殖温室	fan zhi wen shi	1
+方案估算	fang an gu suan	1
+方案设计	fang an she ji	1
+方案设计阶段	fang an she ji jie duan	1
+方案图	fang an tu	1
+防爆灯	fang bao deng	1
+防爆设计	fang bao she ji	1
+防爆系统	fang bao xi tong	1
+防爆装甲门	fang bao zhuang jia men	1
+防潮层	fang chao ceng	1
+防潮地下室	fang chao di xia shi	1
+防潮基础	fang chao ji chu	1
+放大器箱	fang da qi xiang	1
+放大图	fang da tu	1
+防盗警报系统	fang dao jing bao xi tong	1
+防盗警铃	fang dao jing ling	1
+防盗门	fang dao men	1
+房地产业	fang di chan ye	1
+防腐	fang fu	1
+防辐射设计	fang fu she she ji	1
+防腐蚀设计	fang fu shi she ji	1
+防高电位引入	fang gao dian wei yin ru	1
+方格形道路系统	fang ge xing dao lu xi tong	1
+防核尘地下室	fang he chen di xia shi	1
+防洪标准	fang hong biao zhun	1
+防洪工程	fang hong gong cheng	1
+防洪设施	fang hong she shi	1
+防护绿地	fang hu lv di	1
+防护密闭门	fang hu mi bi men	1
+防护式开关	fang hu shi kai guan	1
+防护式照明	fang hu shi zhao ming	1
+防滑地面	fang hua di mian	1
+防滑条	fang hua tiao	1
+防滑砖	fang hua zhuan	1
+防回流污染止回阀	fang hui liu wu ran zhi hui fa	1
+防火	fang huo	1
+防火板	fang huo ban	1
+放火标准	fang huo biao zhun	1
+防火材料	fang huo cai liao	1
+防火窗	fang huo chuang	1
+防火带	fang huo dai	1
+防火等级	fang huo deng ji	1
+防火分区	fang huo fen qu	1
+防火隔断	fang huo ge duan	1
+防火隔离带	fang huo ge li dai	1
+防火规范	fang huo gui fan	1
+防火间距	fang huo jian ju	1
+防火建筑	fang huo jian zhu	1
+防火卷帘	fang huo juan lian	1
+防火卷帘门	fang huo juan lian men	1
+防火门	fang huo men	1
+防火幕	fang huo mu	1
+防火设计	fang huo she ji	1
+方尖碑	fang jian bei	1
+房间常数	fang jian chang shu	1
+房间吊顶	fang jian diao ding	1
+房间吸声量	fang jian xi sheng liang	1
+防溅型	fang jian xing	1
+防静电地面	fang jing dian di mian	1
+防静电橡胶	fang jing dian xiang jiao	1
+防雷保护	fang lei bao hu	1
+防雷措施	fang lei cuo shi	1
+防雷电感应	fang lei dian gan ying	1
+防雷击电磁脉冲	fang lei ji dian ci mai chong	1
+防雷及接地安装	fang lei ji jie di an zhuang	1
+防雷类别	fang lei lei bie	1
+房内服务	fang nei fu wu	1
+方穹顶	fang qiong ding	1
+房山石	fang shan shi	1
+放射部	fang she bu	1
+放射科	fang she ke	1
+放射路	fang she lu	1
+放射式	fang she shi	1
+放射形道路系统	fang she xing dao lu xi tong	1
+放射状绿地	fang she zhuang lv di	1
+防渗墙	fang shen qiang	1
+方石	fang shi	1
+防水薄膜	fang shui bo mo	1
+防水材料	fang shui cai liao	1
+防水层	fang shui ceng	1
+防水插座	fang shui cha zuo	1
+防水地下室	fang shui di xia shi	1
+防水电气设备	fang shui dian qi she bei	1
+防水剂	fang shui ji	1
+防水砂浆	fang shui sha jiang	1
+防水石膏板	fang shui shi gao ban	1
+防水涂层	fang shui tu ceng	1
+防水做法	fang shui zuo fa	1
+防松螺栓	fang song luo shuan	1
+枋头	fang tou	1
+防卫性空间	fang wei xing kong jian	1
+防雾车边境	fang wu che bian jing	1
+房屋高度	fang wu gao du	1
+房屋建筑	fang wu jian zhu	1
+房屋建筑工程	fang wu jian zhu gong cheng	1
+房屋建筑学	fang wu jian zhu xue	1
+房屋设计	fang wu she ji	1
+芳香花园	fang xiang hua yuan	1
+方向照明	fang xiang zhao ming	1
+芳香植物	fang xiang zhi wu	1
+枋心	fang xin	1
+方形地漏	fang xing di lou	1
+方形伸缩器	fang xing shen suo qi	1
+防锈处理	fang xiu chu li	1
+防锈漆	fang xiu qi	1
+防烟挡板	fang yan dang ban	1
+防烟分区	fang yan fen qu	1
+防烟楼梯	fang yan lou ti	1
+防烟楼梯间	fang yan lou ti jian	1
+防烟门	fang yan men	1
+放样	fang yang	1
+防疫站	fang yi zhan	1
+防音绿地	fang yin lv di	1
+放映孔	fang ying kong	1
+放映室	fang ying shi	1
+防雨开关	fang yu kai guan	1
+仿云石	fang yun shi	1
+防灾设计	fang zai she ji	1
+防振设计	fang zhen she ji	1
+纺织厂	fang zhi chang	1
+防直击雷	fang zhi ji lei	1
+方桩	fang zhuang	1
+非标注构件	fei biao zhu gou jian	1
+肥槽	fei cao	1
+非承重墙	fei cheng zhong qiang	1
+非对称配光型灯具	fei dui chen pei guang xing deng ju	1
+非规整园林	fei gui zheng yuan lin	1
+非机动车道	fei ji dong che dao	1
+飞机跑道	fei ji pao dao	1
+非加密区	fei jia mi qu	1
+非金属材料	fei jin shu cai liao	1
+非抗震	fei kang zhen	1
+非农业人口	fei nong ye ren kou	1
+非屏蔽多模光纤	fei ping bi duo mo guang xian	1
+非燃烧体	fei ran shao ti	1
+废声	fei sheng	1
+沸石	fei shi	1
+非稳定传热	fei wen ding chuan re	1
+肥效分析器	fei xiao fen xi qi	1
+飞檐椽	fei yan chuan	1
+费用索赔审批表	fei yong suo pei shen pi biao	1
+费用索赔申请表	fei yong suo pei shen qing biao	1
+费用项目	fei yong xiang mu	1
+费用效益	fei yong xiao yi	1
+非游览区	fei you lan qu	1
+肥皂架	fei zao jia	1
+肥皂盘	fei zao pan	1
+飞子	fei zi	1
+分包工程	fen bao gong cheng	1
+粪便污水	fen bian wu shui	1
+分布钢筋	fen bu gang jin	1
+分部工程验收记录	fen bu gong cheng yan shou ji lu	1
+分布筋	fen bu jin	1
+分层夯实	fen ceng hang shi	1
+分层瀑布	fen ceng pu bu	1
+分车带绿化	fen che dai lv hua	1
+分格条	fen ge tiao	1
+粉红噪声	fen hong zao sheng	1
+焚化炉	fen hua lu	1
+分流制	fen liu zhi	1
+分流制排水系统	fen liu zhi pai shui xi tong	1
+粉煤灰砖	fen mei hui zhuan	1
+分娩部	fen mian bu	1
+分区规划	fen qu gui hua	1
+分区一般照明	fen qu yi ban zhao ming	1
+分散相材料	fen san xiang cai liao	1
+粉刷	fen shua	1
+粉刷层	fen shua ceng	1
+分体式空调器	fen ti shi kong tiao qi	1
+粉土	fen tu	1
+粉土层	fen tu ceng	1
+粉细砂	fen xi sha	1
+粉线包	fen xian bao	1
+分线盒	fen xian he	1
+分线箱	fen xian xiang	1
+分心槽	fen xin cao	1
+分支分配器箱	fen zhi fen pei qi xiang	1
+粉质粘土	fen zhi nian tu	1
+粉质粘土层	fen zhi nian tu ceng	1
+封闭处理	feng bi chu li	1
+封闭空间	feng bi kong jian	1
+封闭楼梯	feng bi lou ti	1
+封闭楼梯间	feng bi lou ti jian	1
+枫丹白露宫园	feng dan bai lu gong yuan	1
+风钩	feng gou	1
+风管	feng guan	1
+风荷载	feng he zai	1
+风机盘管空调系统	feng ji pan guan kong tiao xi tong	1
+风景地貌	feng jing di mao	1
+风景规划	feng jing gui hua	1
+风景林	feng jing lin	1
+风景旅游城市	feng jing lv you cheng shi	1
+风景名胜	feng jing ming sheng	1
+风景名胜区管理条例	feng jing ming sheng qu guan li tiao li	1
+风景区	feng jing qu	1
+风景设计	feng jing she ji	1
+风景线	feng jing xian	1
+风景学	feng jing xue	1
+风景资源调查	feng jing zi yuan diao cha	1
+风量温度测量记录	feng liang wen du ce liang ji lu	1
+丰满度	feng man du	1
+风玫瑰图	feng mei gui tu	1
+封山育林区	feng shan yu lin qu	1
+风水学	feng shui xue	1
+风味餐厅	feng wei can ting	1
+风险分析	feng xian fen xi	1
+风向频率	feng xiang pin lv	1
+风向针	feng xiang zhen	1
+风压	feng ya	1
+封檐板	feng yan ban	1
+风载	feng zai	1
+风载体型	feng zai ti xing	1
+风载体型系数	feng zai ti xing xi shu	1
+风闸阀	feng zha fa	1
+风振系数	feng zhen xi shu	1
+峰值因数	feng zhi yin shu	1
+佛座	fo zuo	1
+腹板	fu ban	1
+扶壁	fu bi	1
+附壁石	fu bi shi	1
+扶壁式挡土墙	fu bi shi dang tu qiang	1
+妇产医院	fu chan yi yuan	1
+腹地	fu di	1
+府邸	fu di	1
+覆盖物分散机	fu gai wu fen san ji	1
+复古主义	fu gu zhu yi	1
+符号	fu hao	1
+复合材料	fu he cai liao	1
+复合窗	fu he chuang	1
+负荷分类	fu he fen lei	1
+复合箍	fu he gu	1
+复合箍筋	fu he gu jin	1
+负荷联动试车	fu he lian dong shi che	1
+复合门	fu he men	1
+复合墙	fu he qiang	1
+负荷容量	fu he rong liang	1
+附加吊筋	fu jia diao jin	1
+附加箍筋	fu jia gu jin	1
+附加热阻	fu jia re zu	1
+附加阳光间	fu jia yang guang jian	1
+副阶	fu jie	1
+副阶周匝	fu jie zhou za	1
+副景	fu jing	1
+妇科医院	fu ke yi yuan	1
+负离子发生器	fu li zi fa sheng qi	1
+覆面装饰材料	fu mian zhuang shi cai liao	1
+妇女洁净器	fu nv jie jing qi	1
+妇女卫生盆	fu nv wei sheng pen	1
+妇女中心	fu nv zhong xin	1
+浮球液位器	fu qiu ye wei qi	1
+副热带气候	fu re dai qi hou	1
+复色谐调	fu se xie tiao	1
+敷设	fu she	1
+辐射采暖系统	fu she cai nuan xi tong	1
+辐射对称	fu she dui chen	1
+辐射阻抗	fu she zu kang	1
+浮石	fu shi	1
+服饰店	fu shi dian	1
+复式吊杆	fu shi diao gan	1
+副食加工厂	fu shi jia gong chang	1
+副食加工间	fu shi jia gong jian	1
+俯视景观	fu shi jing guan	1
+副食库	fu shi ku	1
+扶手	fu shou	1
+扶手栏杆	fu shou lan gan	1
+扶手橡胶带	fu shou xiang jiao dai	1
+附属绿地	fu shu lv di	1
+覆土	fu tu	1
+覆土建筑	fu tu jian zhu	1
+服务半径	fu wu ban jing	1
+服务电梯	fu wu dian ti	1
+服务楼梯	fu wu lou ti	1
+服务区	fu wu qu	1
+服务人口	fu wu ren kou	1
+服务中心	fu wu zhong xin	1
+服务走廊	fu wu zou lang	1
+敷线	fu xian	1
+复印室	fu yin shi	1
+副中心	fu zhong xin	1
+副轴	fu zhou	1
+浮筑地板	fu zhu di ban	1
+辅助光	fu zhu guang	1
+辅助面积	fu zhu mian ji	1
+辅助设计	fu zhu she ji	1
+辅助照明	fu zhu zhao ming	1
+服装厂	fu zhuang chang	1
+服装店	fu zhuang dian	1
+副子	fu zi	1
+改建工程	gai jian gong cheng	1
+概算	gai suan	1
+概算书	gai suan shu	1
+概算文件	gai suan wen jian	1
+概算造价	gai suan zao jia	1
+盖土机	gai tu ji	1
+盖瓦	gai wa	1
+改性沥青	gai xing li qing	1
+概预算	gai yu suan	1
+杆端	gan duan	1
+杆端弯矩	gan duan wan ju	1
+干粉灭火器	gan fen mie huo qi	1
+杆高	gan gao	1
+干挂大理石	gan gua da li shi	1
+干管	gan guan	1
+感光火灾探测器	gan guang huo zai tan ce qi	1
+干铺油毡	gan pu you zhan	1
+干砌石	gan qi shi	1
+干热气候	gan re qi hou	1
+干涉	gan she	1
+干式报警阀	gan shi bao jing fa	1
+干式变压器	gan shi bian ya qi	1
+干式墙	gan shi qiang	1
+干式通气管	gan shi tong qi guan	1
+干式消防立管	gan shi xiao fang li guan	1
+干式预制装配构造	gan shi yu zhi zhuang pei gou zao	1
+干式自动喷水系统	gan shi zi dong pen shui xi tong	1
+干手器	gan shou qi	1
+干缩	gan suo	1
+感温火灾探测器	gan wen huo zai tan ce qi	1
+干洗店	gan xi dian	1
+干线电缆	gan xian dian lan	1
+感烟火灾探测器	gan yan huo zai tan ce qi	1
+感应效应	gan ying xiao ying	1
+干硬性	gan ying xing	1
+甘蔗板	gan zhe ban	1
+钢板网	gang ban wang	1
+钢板网吊顶	gang ban wang diao ding	1
+钢板网顶棚	gang ban wang ding peng	1
+钢板网隔断	gang ban wang ge duan	1
+钢板网抹灰	gang ban wang mo hui	1
+钢板网抹灰吊顶	gang ban wang mo hui diao ding	1
+钢板止水带	gang ban zhi shui dai	1
+钢材表	gang cai biao	1
+钢材一览表	gang cai yi lan biao	1
+刚度	gang du	1
+刚度比	gang du bi	1
+钢骨钢筋	gang gu gang jin	1
+杠横	gang heng	1
+钢化玻璃	gang hua bo li	1
+刚接	gang jie	1
+钢结构	gang jie gou	1
+钢结构设计	gang jie gou she ji	1
+钢结构施工记录	gang jie gou shi gong ji lu	1
+钢筋	gang jin	1
+钢筋保护层	gang jin bao hu ceng	1
+钢筋混凝土	gang jin hun ning tu	1
+钢筋混凝土工程	gang jin hun ning tu gong cheng	1
+钢筋混凝土构件	gang jin hun ning tu gou jian	1
+钢筋混凝土管	gang jin hun ning tu guan	1
+钢筋混凝土过梁	gang jin hun ning tu guo liang	1
+钢筋混凝土剪力墙	gang jin hun ning tu jian li qiang	1
+钢筋混凝土结构	gang jin hun ning tu jie gou	1
+钢筋混凝土梁	gang jin hun ning tu liang	1
+钢筋混凝土楼盖	gang jin hun ning tu lou gai	1
+钢筋混凝土楼梯	gang jin hun ning tu lou ti	1
+钢筋混凝土路面	gang jin hun ning tu lu mian	1
+钢筋混凝土无梁楼盖	gang jin hun ning tu wu liang lou gai	1
+钢筋混凝土烟囱	gang jin hun ning tu yan cong	1
+钢筋加气混凝土过梁	gang jin jia qi hun ning tu guo liang	1
+钢筋连接试验报告	gang jin lian jie shi yan bao gao	1
+钢筋笼长度	gang jin long chang du	1
+钢筋锚固长度	gang jin mao gu chang du	1
+钢筋砼	gang jin tong	1
+钢筋网	gang jin wang	1
+钢筋网片	gang jin wang pian	1
+钢筋直径	gang jin zhi jing	1
+钢筋砖过梁	gang jin zhuan guo liang	1
+钢筋砖砌体	gang jin zhuan qi ti	1
+港口城市	gang kou cheng shi	1
+钢梁	gang liang	1
+钢龙骨	gang long gu	1
+钢楼梯	gang lou ti	1
+钢门	gang men	1
+钢模	gang mo	1
+钢抹压光	gang mo ya guang	1
+钢模板	gang mu ban	1
+钢木楼梯	gang mu lou ti	1
+钢牛腿	gang niu tui	1
+钢丝刷	gang si shua	1
+钢丝网隔断	gang si wang ge duan	1
+钢铁厂	gang tie chang	1
+岗亭	gang ting	1
+钢砼	gang tong	1
+钢瓦下水道	gang wa xia shui dao	1
+钢芯铜线	gang xin tong xian	1
+刚性防水套管	gang xing fang shui tao guan	1
+刚性防水屋面	gang xing fang shui wu mian	1
+刚性角	gang xing jiao	1
+刚性连接	gang xing lian jie	1
+刚重比	gang zhong bi	1
+钢柱	gang zhu	1
+高标号水泥	gao biao hao shui ni	1
+高标号水泥砂浆	gao biao hao shui ni sha jiang	1
+高层办公楼	gao ceng ban gong lou	1
+高层建筑	gao ceng jian zhu	1
+高层建筑混凝土结构技术规程	gao ceng jian zhu hun ning tu jie gou ji shu gui cheng	1
+高层住宅	gao ceng zhu zhai	1
+高程	gao cheng	1
+高处作业吊篮	gao chu zuo ye diao lan	1
+高低杠	gao di gang	1
+高低压	gao di ya	1
+高度限制	gao du xian zhi	1
+高尔夫球场	gao er fu qiu chang	1
+高分子材料	gao fen zi cai liao	1
+高规	gao gui	1
+高级建筑师	gao ji jian zhu shi	1
+高技术产业	gao ji shu chan ye	1
+高技术产业开发区	gao ji shu chan ye kai fa qu	1
+高技术建筑	gao ji shu jian zhu	1
+高架道路	gao jia dao lu	1
+告警系统	gao jing xi tong	1
+高宽比	gao kuan bi	1
+高篱	gao li	1
+高密度板	gao mi du ban	1
+高频焊接	gao pin han jie	1
+高频扬声器	gao pin yang sheng qi	1
+高强螺栓	gao qiang luo shuan	1
+高山草甸风景区	gao shan cao dian feng jing qu	1
+高山风景区	gao shan feng jing qu	1
+高山植物	gao shan zhi wu	1
+高山植物园	gao shan zhi wu yuan	1
+高设花台	gao she hua tai	1
+高水位池塘	gao shui wei chi tang	1
+高水箱	gao shui xiang	1
+高耸结构设计规范	gao song jie gou she ji gui fan	1
+高速电梯	gao su dian ti	1
+高速公路	gao su gong lu	1
+高速客梯	gao su ke ti	1
+高压部分试验记录	gao ya bu fen shi yan ji lu	1
+高压电缆	gao ya dian lan	1
+高压供电系统	gao ya gong dian xi tong	1
+高压开关板	gao ya kai guan ban	1
+高压开关设备	gao ya kai guan she bei	1
+高压钠灯	gao ya na deng	1
+高压钠汽灯	gao ya na qi deng	1
+高压水银灯	gao ya shui yin deng	1
+高压线走廊	gao ya xian zou lang	1
+各层办公室	ge ceng ban gong shi	1
+各层竖井内	ge ceng shu jing nei	1
+隔断	ge duan	1
+隔断板	ge duan ban	1
+隔断墙	ge duan qiang	1
+隔火墙	ge huo qiang	1
+隔火设施	ge huo she shi	1
+歌剧院	ge ju yuan	1
+隔离病房	ge li bing fang	1
+隔离层	ge li ceng	1
+隔离牢房	ge li lao fang	1
+隔离室	ge li shi	1
+隔离诊室	ge li zhen shi	1
+阁楼	ge lou	1
+格罗皮乌斯	ge luo pi wu si	1
+格片	ge pian	1
+格片散光罩	ge pian san guang zhao	1
+隔汽层	ge qi ceng	1
+隔墙	ge qiang	1
+隔墙封纸	ge qiang feng zhi	1
+隔墙轻龙骨	ge qiang qing long gu	1
+隔热层	ge re ceng	1
+隔热地板	ge re di ban	1
+隔热混凝土	ge re hun ning tu	1
+隔热耐火材料	ge re nai huo cai liao	1
+隔热屋面	ge re wu mian	1
+格扇	ge shan	1
+格栅	ge shan	1
+格栅式风口	ge shan shi feng kou	1
+隔声层	ge sheng ceng	1
+隔声垫	ge sheng dian	1
+隔声工程	ge sheng gong cheng	1
+隔声量	ge sheng liang	1
+隔声门	ge sheng men	1
+隔声幕	ge sheng mu	1
+隔声屏障	ge sheng ping zhang	1
+隔声室	ge sheng shi	1
+隔声罩	ge sheng zhao	1
+哥特式建筑	ge te shi jian zhu	1
+个体建筑	ge ti jian zhu	1
+格形管	ge xing guan	1
+隔音板	ge yin ban	1
+隔音材料	ge yin cai liao	1
+隔音层	ge yin ceng	1
+隔音混凝土	ge yin hun ning tu	1
+隔音门	ge yin men	1
+隔音墙	ge yin qiang	1
+隔油井	ge you jing	1
+隔振	ge zhen	1
+格子架	ge zi jia	1
+给水泵	gei shui beng	1
+给水表	gei shui biao	1
+给水工程	gei shui gong cheng	1
+给水管	gei shui guan	1
+给水管通水试验	gei shui guan tong shui shi yan	1
+给水管线	gei shui guan xian	1
+给水立管	gei shui li guan	1
+给水装置	gei shui zhuang zhi	1
+艮岳	gen yue	1
+更改费用	geng gai fei yong	1
+更改审核表	geng gai shen he biao	1
+更换费用	geng huan fei yong	1
+更衣梳洗室	geng yi shu xi shi	1
+耕植土层	geng zhi tu ceng	1
+工厂绿化	gong chang lv hua	1
+宫城	gong cheng	1
+工程变更单	gong cheng bian geng dan	1
+工程编号	gong cheng bian hao	1
+工程地点	gong cheng di dian	1
+工程法规	gong cheng fa gui	1
+工程概况	gong cheng gai kuang	1
+工程概况表	gong cheng gai kuang biao	1
+工程概算表	gong cheng gai suan biao	1
+工程管线	gong cheng guan xian	1
+工程管线综合	gong cheng guan xian zong he	1
+工程检查	gong cheng jian cha	1
+工程监督	gong cheng jian du	1
+工程结决算书	gong cheng jie jue suan shu	1
+工程决算	gong cheng jue suan	1
+工程竣工	gong cheng jun gong	1
+工程竣工报验表	gong cheng jun gong bao yan biao	1
+工程竣工图	gong cheng jun gong tu	1
+工程竣工总结	gong cheng jun gong zong jie	1
+工程开工	gong cheng kai gong	1
+工程款支付申请表	gong cheng kuan zhi fu shen qing biao	1
+工程款支付证书	gong cheng kuan zhi fu zheng shu	1
+工程量表	gong cheng liang biao	1
+工程量单价表	gong cheng liang dan jia biao	1
+工程量估算	gong cheng liang gu suan	1
+工程任务单	gong cheng ren wu dan	1
+工程设计概算	gong cheng she ji gai suan	1
+工程师代表	gong cheng shi dai biao	1
+工程施工	gong cheng shi gong	1
+工程师许可证	gong cheng shi xu ke zheng	1
+工程师许可证明	gong cheng shi xu ke zheng ming	1
+工程投资估算文件	gong cheng tou zi gu suan wen jian	1
+工程项目明细表	gong cheng xiang mu ming xi biao	1
+工程验收	gong cheng yan shou	1
+工程预决算书	gong cheng yu jue suan shu	1
+工程预算	gong cheng yu suan	1
+工程暂停令	gong cheng zan ting ling	1
+工程指挥部	gong cheng zhi hui bu	1
+工程质量	gong cheng zhi liang	1
+工程质量保修书	gong cheng zhi liang bao xiu shu	1
+工程质量监督手续	gong cheng zhi liang jian du shou xu	1
+工程质量事故	gong cheng zhi liang shi gu	1
+工程主持人	gong cheng zhu chi ren	1
+工地实验室	gong di shi yan shi	1
+工地主任	gong di zhu ren	1
+供电干线	gong dian gan xian	1
+供电回路	gong dian hui lu	1
+供电机组	gong dian ji zu	1
+拱顶	gong ding	1
+拱顶石	gong ding shi	1
+工段工程师	gong duan gong cheng shi	1
+公共服务设施	gong gong fu wu she shi	1
+公共盥洗室	gong gong guan xi shi	1
+公共广播系统	gong gong guang bo xi tong	1
+公共活动室	gong gong huo dong shi	1
+公共建筑	gong gong jian zhu	1
+公共绿地	gong gong lv di	1
+公共绿地定额	gong gong lv di ding e	1
+公共绿地指标	gong gong lv di zhi biao	1
+公共汽车	gong gong qi che	1
+公共汽车站台	gong gong qi che zhan tai	1
+公共设施	gong gong she shi	1
+公共设施用地	gong gong she shi yong di	1
+公共疏散口	gong gong shu san kou	1
+公共照明	gong gong zhao ming	1
+公共走道	gong gong zou dao	1
+共建方式	gong jian fang shi	1
+工具间	gong ju jian	1
+拱廊	gong lang	1
+公路干线	gong lu gan xian	1
+公路绿化	gong lu lv hua	1
+公路设计	gong lu she ji	1
+功率因数补偿	gong lv yin shu bu chang	1
+工民建	gong min jian	1
+功能分析	gong neng fen xi	1
+功能空间一览表	gong neng kong jian yi lan biao	1
+功能与通风	gong neng yu tong feng	1
+功能主义	gong neng zhu yi	1
+公牛舍	gong niu she	1
+供暖系统	gong nuan xi tong	1
+供气管	gong qi guan	1
+供气管道	gong qi guan dao	1
+工期目标	gong qi mu biao	1
+拱桥	gong qiao	1
+拱式	gong shi	1
+拱石	gong shi	1
+供水干管	gong shui gan guan	1
+供水工程	gong shui gong cheng	1
+供水温度	gong shui wen du	1
+工效学	gong xiao xue	1
+工序交接单	gong xu jiao jie dan	1
+工业厂房	gong ye chang fang	1
+工业城市	gong ye cheng shi	1
+工业废水	gong ye fei shui	1
+工业化建筑体系	gong ye hua jian zhu ti xi	1
+工业建筑	gong ye jian zhu	1
+工业区	gong ye qu	1
+工业区规划	gong ye qu gui hua	1
+工业用地	gong ye yong di	1
+工业用水	gong ye yong shui	1
+工业与民用建筑	gong ye yu min yong jian zhu	1
+工艺美术厂	gong yi mei shu chang	1
+工艺美术品店	gong yi mei shu pin dian	1
+公用电话间	gong yong dian hua jian	1
+公用电话系统	gong yong dian hua xi tong	1
+共用接地	gong yong jie di	1
+公用设施条件	gong yong she shi tiao jian	1
+共用天线	gong yong tian xian	1
+共用天线电视系统	gong yong tian xian dian shi xi tong	1
+共用线	gong yong xian	1
+公寓	gong yu	1
+公寓式住宅	gong yu shi zhu zhai	1
+公园	gong yuan	1
+公园道路	gong yuan dao lu	1
+公园分布	gong yuan fen bu	1
+公园规划	gong yuan gui hua	1
+公园间距	gong yuan jian ju	1
+公园类型	gong yuan lei xing	1
+公园水陆面积比率	gong yuan shui lu mian ji bi lv	1
+公园形式	gong yuan xing shi	1
+共振吸收	gong zhen xi shou	1
+工字钢	gong zi gang	1
+工字梁	gong zi liang	1
+工作接地	gong zuo jie di	1
+工作面	gong zuo mian	1
+工作台	gong zuo tai	1
+构成主义	gou cheng zhu yi	1
+勾缝	gou feng	1
+沟盖板	gou gai ban	1
+构架安装	gou jia an zhuang	1
+构件	gou jian	1
+构件吊装记录	gou jian diao zhuang ji lu	1
+钩栏	gou lan	1
+勾阑	gou lan	1
+构配件预制工厂化	gou pei jian yu zhi gong chang hua	1
+构思设计	gou si she ji	1
+勾头	gou tou	1
+购物中心	gou wu zhong xin	1
+构造	gou zao	1
+构造边缘构件	gou zao bian yuan gou jian	1
+构造缝	gou zao feng	1
+构造筋	gou zao jin	1
+构造配筋	gou zao pei jin	1
+构造详图	gou zao xiang tu	1
+沟植	gou zhi	1
+沟中边篱	gou zhong bian li	1
+构筑物	gou zhu wu	1
+古埃及建筑	gu ai ji jian zhu	1
+古代建筑	gu dai jian zhu	1
+古典建筑	gu dian jian zhu	1
+古典柱式	gu dian zhu shi	1
+固定百页窗	gu ding bai ye chuang	1
+固定窗	gu ding chuang	1
+固定件	gu ding jian	1
+固定喷灌器	gu ding pen guan qi	1
+固定设备	gu ding she bei	1
+固定座位	gu ding zuo wei	1
+固端	gu duan	1
+鼓风机	gu feng ji	1
+鼓风门测定仪	gu feng men ce ding yi	1
+古迹公园	gu ji gong yuan	1
+估价师	gu jia shi	1
+古建筑保护	gu jian zhu bao hu	1
+箍筋	gu jin	1
+顾客活动区	gu ke huo dong qu	1
+骨料	gu liao	1
+古罗马建筑	gu luo ma jian zhu	1
+孤赏石	gu shang shi	1
+固体电路	gu ti dian lu	1
+固体废弃物污染	gu ti fei qi wu wu ran	1
+固体声	gu ti sheng	1
+箍头	gu tou	1
+顾问建筑师	gu wen jian zhu shi	1
+古希腊建筑	gu xi la jian zhu	1
+孤植	gu zhi	1
+鼓座	gu zuo	1
+挂板	gua ban	1
+瓜拱	gua gong	1
+瓜栱	gua gong	1
+挂号处	gua hao chu	1
+挂镜线	gua jing xian	1
+挂落	gua luo	1
+刮腻子	gua ni zi	1
+挂墙	gua qiang	1
+挂式洗脸盆	gua shi xi lian pen	1
+挂瓦扳	gua wa ban	1
+挂瓦条	gua wa tiao	1
+瓜柱	gua zhu	1
+瓜子拱	gua zi gong	1
+瓜子栱	gua zi gong	1
+管壁厚	guan bi hou	1
+观察窗	guan cha chuang	1
+观察井	guan cha jing	1
+管道	guan dao	1
+管道安装	guan dao an zhuang	1
+管道保温	guan dao bao wen	1
+管道保温记录	guan dao bao wen ji lu	1
+管道敷设层	guan dao fu she ceng	1
+管道固定支架	guan dao gu ding zhi jia	1
+管道焊接检验记录	guan dao han jie jian yan ji lu	1
+管道滑动支架	guan dao hua dong zhi jia	1
+管道间	guan dao jian	1
+管道交叉	guan dao jiao cha	1
+管道井	guan dao jing	1
+管道立管	guan dao li guan	1
+管道内底标高	guan dao nei di biao gao	1
+管道设计	guan dao she ji	1
+管道系统图	guan dao xi tong tu	1
+管道消声	guan dao xiao sheng	1
+管道炸裂	guan dao zha lie	1
+管端喷灌器	guan duan pen guan qi	1
+灌缝	guan feng	1
+管沟	guan gou	1
+观光电梯	guan guang dian ti	1
+观果植物	guan guo zhi wu	1
+管理费用	guan li fei yong	1
+灌满水试验记录	guan man shui shi yan ji lu	1
+灌木花境	guan mu hua jing	1
+灌木花坛	guan mu hua tan	1
+管内敷线	guan nei fu xian	1
+管内径	guan nei jing	1
+管钳子	guan qian zi	1
+观赏动物	guan shang dong wu	1
+观赏昆虫类	guan shang kun chong lei	1
+观赏鸟类	guan shang niao lei	1
+观赏兽类	guan shang shou lei	1
+观赏树木	guan shang shu mu	1
+观赏温室区	guan shang wen shi qu	1
+观赏园艺学	guan shang yuan yi xue	1
+观赏植物	guan shang zhi wu	1
+观赏植物区	guan shang zhi wu qu	1
+贯通	guan tong	1
+管外径	guan wai jing	1
+管网综合	guan wang zong he	1
+盥洗槽	guan xi cao	1
+管线布置	guan xian bu zhi	1
+关厢	guan xiang	1
+管型熔断器	guan xing rong duan qi	1
+观演建筑	guan yan jian zhu	1
+观叶植物	guan ye zhi wu	1
+观枝干植物	guan zhi gan zhi wu	1
+管中电热器	guan zhong dian re qi	1
+观众厅	guan zhong ting	1
+观众席照明	guan zhong xi zhao ming	1
+灌注桩	guan zhu zhuang	1
+管子吊架	guan zi diao jia	1
+管子箍	guan zi gu	1
+管子托架	guan zi tuo jia	1
+广播解说间	guang bo jie shuo jian	1
+广播楼	guang bo lou	1
+广播室	guang bo shi	1
+广播系统	guang bo xi tong	1
+广场用地	guang chang yong di	1
+光电池	guang dian chi	1
+光电感烟探测器	guang dian gan yan tan ce qi	1
+光电管控制自动门	guang dian guan kong zhi zi dong men	1
+光电控制装置	guang dian kong zhi zhuang zhi	1
+光防护门	guang fang hu men	1
+广告牌	guang gao pai	1
+广角型灯具	guang jiao xing deng ju	1
+广角型照明器	guang jiao xing zhao ming qi	1
+光面钢筋	guang mian gang jin	1
+光幕反射	guang mu fan she	1
+光谱光视效率	guang pu guang shi xiao lv	1
+光强分布测定仪	guang qiang fen bu ce ding yi	1
+光强分布曲线	guang qiang fen bu qu xian	1
+光通量法	guang tong liang fa	1
+光学试验室	guang xue shi yan shi	1
+光影	guang ying	1
+光照气候	guang zhao qi hou	1
+光照气候系数	guang zhao qi hou xi shu	1
+柜对角线	gui dui jiao xian	1
+规范	gui fan	1
+规划程序	gui hua cheng xu	1
+圭角	gui jiao	1
+规整式道路系统	gui zheng shi dao lu xi tong	1
+规整式园林	gui zheng shi yuan lin	1
+滚涂	gun tu	1
+过电流保护装置	guo dian liu bao hu zhuang zhi	1
+过电压保护	guo dian ya bao hu	1
+国际风格	guo ji feng ge	1
+国际会议大厦	guo ji hui yi da sha	1
+国际建筑市场	guo ji jian zhu shi chang	1
+国际建筑师协会	guo ji jian zhu shi xie hui	1
+国际旅游旅馆	guo ji lv you lv guan	1
+国际园林师联合总会	guo ji yuan lin shi lian he zong hui	1
+国际烛光	guo ji zhu guang	1
+国家公园	guo jia gong yuan	1
+国家规范	guo jia gui fan	1
+国家会议大厦	guo jia hui yi da sha	1
+过街楼	guo jie lou	1
+过梁	guo liang	1
+过梁扳	guo liang ban	1
+锅炉厂	guo lu chang	1
+锅炉房	guo lu fang	1
+锅炉给水泵	guo lu gei shui beng	1
+锅炉烘炉记录	guo lu hong lu ji lu	1
+锅炉间	guo lu jian	1
+锅炉试运行记录	guo lu shi yun xing ji lu	1
+锅炉烟道	guo lu yan dao	1
+锅炉煮炉试验记录	guo lu zhu lu shi yan ji lu	1
+过滤层	guo lv ceng	1
+过滤器	guo lv qi	1
+果市	guo shi	1
+国树	guo shu	1
+过载断路器	guo zai duan lu qi	1
+过载继电器	guo zai ji dian qi	1
+过载试验	guo zai shi yan	1
+哈斯效应	ha si xiao ying	1
+海滨风景区	hai bin feng jing qu	1
+海滨公园	hai bin gong yuan	1
+海关办公室	hai guan ban gong shi	1
+海关大厅	hai guan da ting	1
+海关检查处	hai guan jian cha chu	1
+海关检查站	hai guan jian cha zhan	1
+海墁天花	hai man tian hua	1
+亥姆霍兹共振器	hai mu huo zi gong zhen qi	1
+海外工程承包	hai wai gong cheng cheng bao	1
+海洋性气候	hai yang xing qi hou	1
+汉白玉	han bai yu	1
+颔版	han ban	1
+寒带气候	han dai qi hou	1
+含肥泥炭盆	han fei ni tan pen	1
+焊缝	han feng	1
+含钢量	han gang liang	1
+焊剂	han ji	1
+焊接	han jie	1
+焊接材料烘焙记录	han jie cai liao hong bei ji lu	1
+焊接车间	han jie che jian	1
+焊接钢管	han jie gang guan	1
+焊接钢结构	han jie gang jie gou	1
+焊接钢筋	han jie gang jin	1
+焊接钢筋网	han jie gang jin wang	1
+焊接管	han jie guan	1
+旱生植物	han sheng zhi wu	1
+焊丝	han si	1
+焊条合格证	han tiao he ge zheng	1
+航空港	hang kong gang	1
+夯扩桩	hang kuo zhuang	1
+夯扩桩施工记录表	hang kuo zhuang shi gong ji lu biao	1
+行列式	hang lie shi	1
+夯实	hang shi	1
+夯实回填土	hang shi hui tian tu	1
+夯土房	hang tu fang	1
+夯土墙	hang tu qiang	1
+河滨公园	he bin gong yuan	1
+合成树脂溶液系涂料	he cheng shu zhi rong ye xi tu liao	1
+合成树脂乳液系涂料	he cheng shu zhi ru ye xi tu liao	1
+合成橡胶系胶结剂	he cheng xiang jiao xi jiao jie ji	1
+合伙制设计事务所	he huo zhi she ji shi wu suo	1
+阂留缝	he liu feng	1
+合流制	he liu zhi	1
+合流制排水系统	he liu zhi pai shui xi tong	1
+和玺彩画	he xi cai hua	1
+核芯	he xin	1
+核心区	he xin qu	1
+核芯筒	he xin tong	1
+核心筒	he xin tong	1
+合页	he ye	1
+合用线	he yong xian	1
+荷载	he zai	1
+荷载代表值	he zai dai biao zhi	1
+荷载导算	he zai dao suan	1
+荷载设计值	he zai she ji zhi	1
+荷载输入	he zai shu ru	1
+荷载组合	he zai zu he	1
+合作设计	he zuo she ji	1
+黑金沙麻石	hei jin sha ma shi	1
+黑水泥	hei shui ni	1
+黑铁管	hei tie guan	1
+黑铁皮	hei tie pi	1
+横断面	heng duan mian	1
+横断面面积	heng duan mian mian ji	1
+横栱	heng gong	1
+横管弯曲度	heng guan wan qu du	1
+横过道	heng guo dao	1
+恒荷载	heng he zai	1
+桁架	heng jia	1
+横截面	heng jie mian	1
+横筋	heng jin	1
+横槛	heng kan	1
+横梁	heng liang	1
+横明竖隐	heng ming shu yin	1
+横剖面	heng pou mian	1
+恒温恒湿机组	heng wen heng shi ji zu	1
+恒温器	heng wen qi	1
+横向钢筋	heng xiang gang jin	1
+横向伸缩缝	heng xiang shen suo feng	1
+横向疏散口	heng xiang shu san kou	1
+恒压变压器	heng ya bian ya qi	1
+横隐竖明	heng yin shu ming	1
+恒载	heng zai	1
+红丹漆	hong dan qi	1
+烘漆	hong qi	1
+烘手器	hong shou qi	1
+红瓦	hong wa	1
+虹吸喷射	hong xi pen she	1
+红砖	hong zhuan	1
+候车室	hou che shi	1
+后处理	hou chu li	1
+后花园	hou hua yuan	1
+候机楼	hou ji lou	1
+候机厅	hou ji ting	1
+后浇	hou jiao	1
+后浇带	hou jiao dai	1
+后立面	hou li mian	1
+后楼梯	hou lou ti	1
+厚木板	hou mu ban	1
+厚漆	hou qi	1
+后视图	hou shi tu	1
+后台入口	hou tai ru kou	1
+后庭	hou ting	1
+后现代主义	hou xian dai zhu yi	1
+后张法	hou zhang fa	1
+候诊室	hou zhen shi	1
+后缀装土机	hou zhui zhuang tu ji	1
+护壁	hu bi	1
+湖滨公园	hu bin gong yuan	1
+护耳器	hu er qi	1
+弧光灯照明	hu guang deng zhao ming	1
+弧光聚光灯	hu guang ju guang deng	1
+呼唤系统	hu huan xi tong	1
+互惠共生	hu hui gong sheng	1
+护角	hu jiao	1
+呼叫按钮	hu jiao an niu	1
+护坡	hu po	1
+湖泊风景区	hu po feng jing qu	1
+湖泊景观	hu po jing guan	1
+护墙板	hu qiang ban	1
+护士呼叫系统	hu shi hu jiao xi tong	1
+护士室	hu shi shi	1
+护士长室	hu shi zhang shi	1
+护套线	hu tao xian	1
+户外厕所	hu wai ce suo	1
+户外娱乐资源	hu wai yu le zi yuan	1
+弧形楼梯	hu xing lou ti	1
+弧形券	hu xing quan	1
+华版	hua ban	1
+滑冰场	hua bing chang	1
+划拨建设用地文件	hua bo jian she yong di wen jian	1
+滑道	hua dao	1
+画舫	hua fang	1
+化粪池	hua fen chi	1
+花岗石	hua gang shi	1
+花岗石板	hua gang shi ban	1
+花岗石板地面	hua gang shi ban di mian	1
+花岗石面层	hua gang shi mian ceng	1
+花岗石墙面	hua gang shi qiang mian	1
+花岗岩	hua gang yan	1
+花岗岩铺砌	hua gang yan pu qi	1
+花格窗	hua ge chuang	1
+花格架	hua ge jia	1
+华拱	hua gong	1
+华栱	hua gong	1
+化工厂	hua gong chang	1
+滑轨	hua gui	1
+化合制品	hua he zhi pin	1
+花架	hua jia	1
+花架椽	hua jia chuan	1
+花结花坛	hua jie hua tan	1
+花境	hua jing	1
+话剧院	hua ju yuan	1
+花篮螺丝	hua lan luo si	1
+花篱	hua li	1
+化疗部	hua liao bu	1
+化疗室	hua liao shi	1
+滑轮	hua lun	1
+华清宫	hua qing gong	1
+花色窗棂	hua se chuang ling	1
+花坛	hua tan	1
+花坛分界隔板	hua tan fen jie ge ban	1
+花坛植物	hua tan zhi wu	1
+滑梯	hua ti	1
+花桶	hua tong	1
+花纹路	hua wen lu	1
+化学螺栓	hua xue luo shuan	1
+化学灭火	hua xue mie huo	1
+化学泡沫灭火器	hua xue pao mo mie huo qi	1
+化学软水设备	hua xue ruan shui she bei	1
+化学试验室	hua xue shi yan shi	1
+花牙子	hua ya zi	1
+花牙子雀替	hua ya zi que ti	1
+化验龙头	hua yan long tou	1
+化验盆	hua yan pen	1
+化验室	hua yan shi	1
+滑移	hua yi	1
+化油池	hua you chi	1
+花园城市	hua yuan cheng shi	1
+花园村	hua yuan cun	1
+花园路	hua yuan lu	1
+滑轴窗	hua zhou chuang	1
+化妆柜	hua zhuang gui	1
+化装镜	hua zhuang jing	1
+化妆室	hua zhuang shi	1
+环保壁纸	huan bao bi zhi	1
+环保植物	huan bao zhi wu	1
+换乘枢纽	huan cheng shu niu	1
+缓冲池	huan chong chi	1
+缓冲绿地	huan chong lv di	1
+缓冲器	huan chong qi	1
+环动喷灌器	huan dong pen guan qi	1
+环境保护	huan jing bao hu	1
+环境保护植物	huan jing bao hu zhi wu	1
+环境分析	huan jing fen xi	1
+环境监测	huan jing jian ce	1
+环境空气质量标准	huan jing kong qi zhi liang biao zhun	1
+环境绿化	huan jing lv hua	1
+环境模拟	huan jing mo ni	1
+环境热负荷	huan jing re fu he	1
+环境容量	huan jing rong liang	1
+环境声学	huan jing sheng xue	1
+环境适宜性	huan jing shi yi xing	1
+环境心理学	huan jing xin li xue	1
+环境压力	huan jing ya li	1
+环境艺术	huan jing yi shu	1
+环境影响评价	huan jing ying xiang ping jia	1
+环境园艺学	huan jing yuan yi xue	1
+环境噪声	huan jing zao sheng	1
+环境噪声等级分布	huan jing zao sheng deng ji fen bu	1
+环境质量	huan jing zhi liang	1
+环境质量指数	huan jing zhi liang zhi shu	1
+环路	huan lu	1
+缓凝剂	huan ning ji	1
+换盆机	huan pen ji	1
+换气次数	huan qi ci shu	1
+换热器	huan re qi	1
+换填层	huan tian ceng	1
+环形道路系统	huan xing dao lu xi tong	1
+环形干管布置	huan xing gan guan bu zhi	1
+环行交叉	huan xing jiao cha	1
+环氧	huan yang	1
+环氧树脂	huan yang shu zhi	1
+环氧树脂系胶结剂	huan yang shu zhi xi jiao jie ji	1
+缓胀性	huan zhang xing	1
+环植	huan zhi	1
+环状道路	huan zhuang dao lu	1
+环状管网	huan zhuang guan wang	1
+环状绿型	huan zhuang lv xing	1
+皇城	huang cheng	1
+皇家园林	huang jia yuan lin	1
+黄金分割	huang jin fen ge	1
+黄石	huang shi	1
+黄铜垫圈	huang tong dian quan	1
+黄铜套管	huang tong tao guan	1
+灰缝	hui feng	1
+回风管道	hui feng guan dao	1
+回风管道系统	hui feng guan dao xi tong	1
+回风口	hui feng kou	1
+回风系统	hui feng xi tong	1
+辉光灯	hui guang deng	1
+回廊	hui lang	1
+会签	hui qian	1
+灰砂砖	hui sha zhuan	1
+回水干管	hui shui gan guan	1
+回水管	hui shui guan	1
+回水立管	hui shui li guan	1
+回水温度	hui shui wen du	1
+回水系统	hui shui xi tong	1
+回弹	hui tan	1
+回弹再压缩	hui tan zai ya suo	1
+会堂	hui tang	1
+回填	hui tian	1
+回填机	hui tian ji	1
+回填土	hui tian tu	1
+灰土地面	hui tu di mian	1
+灰土夯实	hui tu hang shi	1
+绘图室	hui tu shi	1
+回旋门	hui xuan men	1
+会议旅馆	hui yi lv guan	1
+会议室	hui yi shi	1
+会议厅	hui yi ting	1
+会议宴会厅	hui yi yan hui ting	1
+回音廊	hui yin lang	1
+回转半径	hui zhuan ban jing	1
+混光光源	hun guang guang yuan	1
+混合材料	hun he cai liao	1
+混合阀	hun he fa	1
+混合花境	hun he hua jing	1
+混合结构	hun he jie gou	1
+混合砂浆	hun he sha jiang	1
+混合式道路系统	hun he shi dao lu xi tong	1
+混合式太阳房	hun he shi tai yang fang	1
+混合式园林	hun he shi yuan lin	1
+混合水龙头	hun he shui long tou	1
+混合照明	hun he zhao ming	1
+混交林	hun jiao lin	1
+混凝土	hun ning tu	1
+混凝土板	hun ning tu ban	1
+混凝土保护层	hun ning tu bao hu ceng	1
+混凝土标号	hun ning tu biao hao	1
+混凝土拆模申请单	hun ning tu chai mo shen qing dan	1
+混凝土窗台	hun ning tu chuang tai	1
+混凝土地面	hun ning tu di mian	1
+混凝土防火层	hun ning tu fang huo ceng	1
+混凝土灌缝	hun ning tu guan feng	1
+混凝土规范	hun ning tu gui fan	1
+混凝土过梁	hun ning tu guo liang	1
+混凝土浇灌申请书	hun ning tu jiao guan shen qing shu	1
+混凝土结构	hun ning tu jie gou	1
+混凝土结构设计规范	hun ning tu jie gou she ji gui fan	1
+混凝土开盘鉴定	hun ning tu kai pan jian ding	1
+混凝土路面版	hun ning tu lu mian ban	1
+混凝土面层	hun ning tu mian ceng	1
+混凝土模板	hun ning tu mu ban	1
+混凝土配筋	hun ning tu pei jin	1
+混凝土砌块	hun ning tu qi kuai	1
+混凝土砌块工程	hun ning tu qi kuai gong cheng	1
+混凝土砌体	hun ning tu qi ti	1
+混凝土墙	hun ning tu qiang	1
+混凝土一次浇灌	hun ning tu yi ci jiao guan	1
+混凝土异形柱结构技术规范	hun ning tu yi xing zhu jie gou ji shu gui fan	1
+混凝土预埋件	hun ning tu yu mai jian	1
+混凝土找平层	hun ning tu zhao ping ceng	1
+混凝土柱子	hun ning tu zhu zi	1
+混响	hun xiang	1
+混响室	hun xiang shi	1
+混响时间	hun xiang shi jian	1
+活动百页窗	huo dong bai ye chuang	1
+活动房屋	huo dong fang wu	1
+活动隔断	huo dong ge duan	1
+活动花坛	huo dong hua tan	1
+活动看台	huo dong kan tai	1
+活动空间	huo dong kong jian	1
+活动门	huo dong men	1
+活动木地板	huo dong mu di ban	1
+活动屏风	huo dong ping feng	1
+活动台口	huo dong tai kou	1
+活动舞台	huo dong wu tai	1
+货柜	huo gui	1
+活荷载	huo he zai	1
+火警报警	huo jing bao jing	1
+火警报警系统	huo jing bao jing xi tong	1
+火力发电厂	huo li fa dian chang	1
+活门槛	huo men kan	1
+活塞式冷水机	huo sai shi leng shui ji	1
+活树亭	huo shu ting	1
+货物存放室	huo wu cun fang shi	1
+活载	huo zai	1
+火灾分类	huo zai fen lei	1
+火灾警报	huo zai jing bao	1
+火灾探测器	huo zai tan ce qi	1
+火灾自动报警	huo zai zi dong bao jing	1
+火灾自动报警系统	huo zai zi dong bao jing xi tong	1
+基本风压	ji ben feng ya	1
+基本建设经营方式	ji ben jian she jing ying fang shi	1
+基本建设竣工图	ji ben jian she jun gong tu	1
+基本建设竣工验收	ji ben jian she jun gong yan shou	1
+基本建设项目	ji ben jian she xiang mu	1
+基本人口	ji ben ren kou	1
+基本台	ji ben tai	1
+基本图纸	ji ben tu zhi	1
+基本雪压	ji ben xue ya	1
+基本组合	ji ben zu he	1
+基槽开挖测量记录	ji cao kai wa ce liang ji lu	1
+基层木龙骨	ji ceng mu long gu	1
+基层清理	ji ceng qing li	1
+机场标志	ji chang biao zhi	1
+机场灯标	ji chang deng biao	1
+机场跑道	ji chang pao dao	1
+机场照明	ji chang zhao ming	1
+机场指挥塔	ji chang zhi hui ta	1
+机车车辆厂	ji che che liang chang	1
+基础	ji chu	1
+基础产业	ji chu chan ye	1
+基础内钢筋	ji chu nei gang jin	1
+基础平面布置图	ji chu ping mian bu zhi tu	1
+基础平面图	ji chu ping mian tu	1
+挤出制品	ji chu zhi pin	1
+基础种植	ji chu zhong zhi	1
+基床	ji chuang	1
+机床厂	ji chuang chang	1
+基床反力	ji chuang fan li	1
+基床反力系数	ji chuang fan li xi shu	1
+基底	ji di	1
+继电保护装置	ji dian bao hu zhuang zhi	1
+机动车道	ji dong che dao	1
+急冻冷库	ji dong leng ku	1
+机动坡道	ji dong po dao	1
+脊枋	ji fang	1
+机房层	ji fang ceng	1
+积肥场	ji fei chang	1
+积分球	ji fen qiu	1
+季风	ji feng	1
+脊傅	ji fu	1
+脊瓜柱	ji gua zhu	1
+几何声学	ji he sheng xue	1
+几何式园林	ji he shi yuan lin	1
+脊桁	ji heng	1
+集会广场	ji hui guang chang	1
+机会研究	ji hui yan jiu	1
+积极防振	ji ji fang zhen	1
+击剑场地	ji jian chang di	1
+季节性冻土	ji jie xing dong tu	1
+急救手术室	ji jiu shou shu shi	1
+急救中心	ji jiu zhong xin	1
+集聚	ji ju	1
+肌理	ji li	1
+计量室	ji liang shi	1
+计量仪表	ji liang yi biao	1
+集料	ji liao	1
+脊檩	ji lin	1
+纪念碑	ji nian bei	1
+纪念公园	ji nian gong yuan	1
+季年检登记表	ji nian jian deng ji biao	1
+纪念建筑	ji nian jian zhu	1
+纪念林	ji nian lin	1
+纪念牌坊	ji nian pai fang	1
+纪念堂	ji nian tang	1
+给排水	ji pai shui	1
+给排水图纸	ji pai shui tu zhi	1
+给排水专业	ji pai shui zhuan ye	1
+级配砂卵石垫层	ji pei sha luan shi dian ceng	1
+级配砂石	ji pei sha shi	1
+基频	ji pin	1
+脊槫	ji quan	1
+计权声级	ji quan sheng ji	1
+挤乳间	ji ru jian	1
+鸡舍	ji she	1
+技术核定单	ji shu he ding dan	1
+技术交底记录	ji shu jiao di ji lu	1
+技术经济论证	ji shu jing ji lun zheng	1
+技术设计	ji shu she ji	1
+技术设计阶段	ji shu she ji jie duan	1
+技术性能	ji shu xing neng	1
+集水槽	ji shui cao	1
+集水管	ji shui guan	1
+集水坑	ji shui keng	1
+寄宿制托儿所	ji su zhi tuo er suo	1
+计算参数	ji suan can shu	1
+计算高度	ji suan gao du	1
+计算机辅助建筑设计	ji suan ji fu zhu jian zhu she ji	1
+计算机管理系统	ji suan ji guan li xi tong	1
+计算书	ji suan shu	1
+脊瓦	ji wa	1
+极限状态	ji xian zhuang tai	1
+季相景观	ji xiang jing guan	1
+机械厂	ji xie chang	1
+机械连接	ji xie lian jie	1
+机械锚固	ji xie mao gu	1
+机械门锁	ji xie men suo	1
+机械排气通风系统	ji xie pai qi tong feng xi tong	1
+机械排烟系统	ji xie pai yan xi tong	1
+机械送风	ji xie song feng	1
+机械通风	ji xie tong feng	1
+机械通风系统	ji xie tong feng xi tong	1
+机械系统	ji xie xi tong	1
+机械性能试验室	ji xie xing neng shi yan shi	1
+机械循环系统	ji xie xun huan xi tong	1
+计心造	ji xin zao	1
+机修车间	ji xiu che jian	1
+急诊部	ji zhen bu	1
+急诊室	ji zhen shi	1
+集中报警器	ji zhong bao jing qi	1
+集中标注	ji zhong biao zhu	1
+集中采暖	ji zhong cai nuan	1
+集中供暖系统	ji zhong gong nuan xi tong	1
+集中供热	ji zhong gong re	1
+集中空调	ji zhong kong tiao	1
+集中空调系统	ji zhong kong tiao xi tong	1
+集中排水	ji zhong pai shui	1
+集中式空调系统	ji zhong shi kong tiao xi tong	1
+集中制冷	ji zhong zhi leng	1
+集中制冷系统	ji zhong zhi leng xi tong	1
+基准期	ji zhun qi	1
+夹层	jia ceng	1
+夹层玻璃	jia ceng bo li	1
+夹层螺栓	jia ceng luo shuan	1
+架傅	jia fu	1
+架高园	jia gao yuan	1
+价格分析	jia ge fen xi	1
+加工车间	jia gong che jian	1
+加工图	jia gong tu	1
+加工详图	jia gong xiang tu	1
+加固件	jia gu jian	1
+加建工程	jia jian gong cheng	1
+嫁接刀	jia jie dao	1
+加劲	jia jin	1
+加筋	jia jin	1
+加劲板	jia jin ban	1
+加劲肋	jia jin lei	1
+夹景	jia jing	1
+家居布置图	jia ju bu zhi tu	1
+家俱店	jia ju dian	1
+架空避雷线	jia kong bi lei xian	1
+架空导线	jia kong dao xian	1
+架空电话线路	jia kong dian hua xian lu	1
+架空电缆线路	jia kong dian lan xian lu	1
+架空电力线路	jia kong dian li xian lu	1
+架空活动地板	jia kong huo dong di ban	1
+架空通风屋面	jia kong tong feng wu mian	1
+架空通信线路	jia kong tong xin xian lu	1
+架空线路	jia kong xian lu	1
+架立钢筋	jia li gang jin	1
+架立筋	jia li jin	1
+加密区	jia mi qu	1
+加气	jia qi	1
+加气混凝土	jia qi hun ning tu	1
+加气混凝土板	jia qi hun ning tu ban	1
+加气混凝土隔墙	jia qi hun ning tu ge qiang	1
+加气混凝土楼板	jia qi hun ning tu lou ban	1
+加气块	jia qi kuai	1
+加强带	jia qiang dai	1
+架槫	jia quan	1
+假山	jia shan	1
+假山工程	jia shan gong cheng	1
+假山石挡土墙	jia shan shi dang tu qiang	1
+假山石楼梯	jia shan shi lou ti	1
+假山园	jia shan yuan	1
+架设	jia she	1
+假石混凝土	jia shi hun ning tu	1
+加湿器	jia shi qi	1
+假石砌块	jia shi qi kuai	1
+夹丝玻璃	jia si bo li	1
+假台口	jia tai kou	1
+夹芯板	jia xin ban	1
+加压风机	jia ya feng ji	1
+加压站	jia ya zhan	1
+加药间	jia yao jian	1
+加腋	jia ye	1
+加腋梁	jia ye liang	1
+家用冰箱	jia yong bing xiang	1
+家用热水器	jia yong re shui qi	1
+加油站	jia you zhan	1
+假植	jia zhi	1
+价值工程学	jia zhi gong cheng xue	1
+监报验申请表	jian bao yan shen qing biao	1
+剪草机	jian cao ji	1
+检查井	jian cha jing	1
+检查井盖	jian cha jing gai	1
+检查孔	jian cha kong	1
+检查室	jian cha shi	1
+检查梯	jian cha ti	1
+碱传感器	jian chuan gan qi	1
+剪刀式楼梯	jian dao shi lou ti	1
+剪刀式自动扶梯	jian dao shi zi dong fu ti	1
+尖顶	jian ding	1
+鉴定室	jian ding shi	1
+监督报警系统	jian du bao jing xi tong	1
+监督建筑师	jian du jian zhu shi	1
+监费用索赔申请表	jian fei yong suo pei shen qing biao	1
+监工程竣工报验单	jian gong cheng jun gong bao yan dan	1
+监管工程师	jian guan gong cheng shi	1
+碱含量	jian han liang	1
+间接采暖	jian jie cai nuan	1
+间接照明	jian jie zhao ming	1
+间接照明装置	jian jie zhao ming zhuang zhi	1
+坚井封闭	jian jing feng bi	1
+健康建筑	jian kang jian zhu	1
+监控安装	jian kong an zhuang	1
+剪跨比	jian kua bi	1
+剪力	jian li	1
+监理工程师通知单	jian li gong cheng shi tong zhi dan	1
+监理工作联系单	jian li gong zuo lian xi dan	1
+监理工作日志	jian li gong zuo ri zhi	1
+监理管理资料	jian li guan li zi liao	1
+监理规范表格	jian li gui fan biao ge	1
+监理会议纪要	jian li hui yi ji yao	1
+剪力墙	jian li qiang	1
+监理资料	jian li zi liao	1
+剪扭	jian niu	1
+剪切模量	jian qie mo liang	1
+剪切破坏	jian qie po huai	1
+尖券	jian quan	1
+建设部令	jian she bu ling	1
+建设场址	jian she chang zhi	1
+建设单位	jian she dan wei	1
+建设工程规划许可证	jian she gong cheng gui hua xu ke zheng	1
+建设工期	jian she gong qi	1
+建设规模	jian she gui mo	1
+建设面积	jian she mian ji	1
+建设项目	jian she xiang mu	1
+建设项目全部验收	jian she xiang mu quan bu yan shou	1
+建设行政主管部门	jian she xing zheng zhu guan bu men	1
+建设用地规划许可证	jian she yong di gui hua xu ke zheng	1
+健身房	jian shen fang	1
+建施	jian shi	1
+剪式楼梯	jian shi lou ti	1
+建施图	jian shi tu	1
+监听室	jian ting shi	1
+简图	jian tu	1
+检修井	jian xiu jing	1
+检修孔	jian xiu kong	1
+检修人孔	jian xiu ren kong	1
+剪压比	jian ya bi	1
+减压阀	jian ya fa	1
+减压孔板	jian ya kong ban	1
+减压水箱	jian ya shui xiang	1
+简要施工说明	jian yao shi gong shuo ming	1
+减灾学	jian zai xue	1
+减振室	jian zhen shi	1
+见证记录	jian zheng ji lu	1
+简支	jian zhi	1
+简支端	jian zhi duan	1
+减支桁架	jian zhi heng jia	1
+简支梁	jian zhi liang	1
+剪重比	jian zhong bi	1
+间柱	jian zhu	1
+建筑安全	jian zhu an quan	1
+建筑保安	jian zhu bao an	1
+建筑壁画	jian zhu bi hua	1
+建筑表达	jian zhu biao da	1
+建筑标准	jian zhu biao zhun	1
+建筑标准化	jian zhu biao zhun hua	1
+建筑标准设计	jian zhu biao zhun she ji	1
+建筑病理	jian zhu bing li	1
+建筑玻璃	jian zhu bo li	1
+建筑布置图	jian zhu bu zhi tu	1
+建筑材料	jian zhu cai liao	1
+建筑材料表	jian zhu cai liao biao	1
+建筑材料厂	jian zhu cai liao chang	1
+建筑策划	jian zhu ce hua	1
+建筑测量	jian zhu ce liang	1
+建筑产品	jian zhu chan pin	1
+建筑产品价格	jian zhu chan pin jia ge	1
+建筑产品商品化	jian zhu chan pin shang pin hua	1
+建筑朝向	jian zhu chao xiang	1
+建筑创作	jian zhu chuang zuo	1
+建筑地基处理技术规范	jian zhu di ji chu li ji shu gui fan	1
+建筑地基基础设计规范	jian zhu di ji ji chu she ji gui fan	1
+减柱法	jian zhu fa	1
+建筑法	jian zhu fa	1
+建筑防火	jian zhu fang huo	1
+建筑防火分区	jian zhu fang huo fen qu	1
+建筑防灾	jian zhu fang zai	1
+建筑费用	jian zhu fei yong	1
+建筑风格	jian zhu feng ge	1
+建筑符号学	jian zhu fu hao xue	1
+建筑高度	jian zhu gao du	1
+建筑隔热	jian zhu ge re	1
+建筑工程	jian zhu gong cheng	1
+建筑工程保修	jian zhu gong cheng bao xiu	1
+建筑工程公司	jian zhu gong cheng gong si	1
+建筑工程管理条例	jian zhu gong cheng guan li tiao li	1
+建筑工程师	jian zhu gong cheng shi	1
+建筑工程资料目录	jian zhu gong cheng zi liao mu lu	1
+建筑功能	jian zhu gong neng	1
+建筑供暖系统	jian zhu gong nuan xi tong	1
+建筑供配电系统	jian zhu gong pei dian xi tong	1
+建筑公司	jian zhu gong si	1
+建筑工业化	jian zhu gong ye hua	1
+建筑工种	jian zhu gong zhong	1
+建筑构造	jian zhu gou zao	1
+建筑管理	jian zhu guan li	1
+建筑光学	jian zhu guang xue	1
+建筑规程	jian zhu gui cheng	1
+建筑规范	jian zhu gui fan	1
+建筑红线	jian zhu hong xian	1
+建筑后退	jian zhu hou tui	1
+建筑环境	jian zhu huan jing	1
+建筑环境模型	jian zhu huan jing mo xing	1
+建筑基底面积	jian zhu ji di mian ji	1
+建筑几何学	jian zhu ji he xue	1
+建筑计量	jian zhu ji liang	1
+建筑技术经济学	jian zhu ji shu jing ji xue	1
+建筑技术情报管理	jian zhu ji shu qing bao guan li	1
+建筑机械厂	jian zhu ji xie chang	1
+建筑间距	jian zhu jian ju	1
+建筑结构荷载规范	jian zhu jie gou he zai gui fan	1
+建筑节能	jian zhu jie neng	1
+建筑经济	jian zhu jing ji	1
+建筑经济寿命	jian zhu jing ji shou ming	1
+建筑经济学	jian zhu jing ji xue	1
+建筑净面积	jian zhu jing mian ji	1
+建筑勘探	jian zhu kan tan	1
+建筑抗震	jian zhu kang zhen	1
+建筑抗震设计规范	jian zhu kang zhen she ji gui fan	1
+建筑科学	jian zhu ke xue	1
+建筑空调系统	jian zhu kong tiao xi tong	1
+建筑类型学	jian zhu lei xing xue	1
+建筑立法	jian zhu li fa	1
+建筑立面图	jian zhu li mian tu	1
+建筑漏水	jian zhu lou shui	1
+建筑美学	jian zhu mei xue	1
+建筑密度	jian zhu mi du	1
+建筑面积	jian zhu mian ji	1
+建筑描述系统	jian zhu miao shu xi tong	1
+建筑模数	jian zhu mo shu	1
+建筑模型	jian zhu mo xing	1
+建筑内部得热	jian zhu nei bu de re	1
+建筑评价	jian zhu ping jia	1
+建筑平面图	jian zhu ping mian tu	1
+建筑剖面图	jian zhu pou mian tu	1
+建筑气候区划	jian zhu qi hou qu hua	1
+建筑气候学	jian zhu qi hou xue	1
+建筑企业	jian zhu qi ye	1
+建筑企业法定利润	jian zhu qi ye fa ding li run	1
+建筑企业管理	jian zhu qi ye guan li	1
+建筑企业管理学	jian zhu qi ye guan li xue	1
+建筑企业计划利润	jian zhu qi ye ji hua li run	1
+建筑企业技术管理	jian zhu qi ye ji shu guan li	1
+建筑企业流动资金	jian zhu qi ye liu dong zi jin	1
+建筑企业全面管理	jian zhu qi ye quan mian guan li	1
+建筑企业设备管理	jian zhu qi ye she bei guan li	1
+建筑企业施工管理	jian zhu qi ye shi gong guan li	1
+建筑企业税金	jian zhu qi ye shui jin	1
+建筑企业物资管理	jian zhu qi ye wu zi guan li	1
+建筑企业资金管理	jian zhu qi ye zi jin guan li	1
+建筑企业组织结构	jian zhu qi ye zu zhi jie gou	1
+建筑缺陷	jian zhu que xian	1
+建筑群	jian zhu qun	1
+建筑热学	jian zhu re xue	1
+建筑设备	jian zhu she bei	1
+建筑设备安装	jian zhu she bei an zhuang	1
+建筑设备系统	jian zhu she bei xi tong	1
+建筑设计	jian zhu she ji	1
+建筑设计方法学	jian zhu she ji fang fa xue	1
+建筑设计规范	jian zhu she ji gui fan	1
+建筑设计所	jian zhu she ji suo	1
+建筑设计院	jian zhu she ji yuan	1
+建筑设施	jian zhu she shi	1
+建筑设施管理	jian zhu she shi guan li	1
+建筑生物气候图	jian zhu sheng wu qi hou tu	1
+建筑声学	jian zhu sheng xue	1
+建筑史	jian zhu shi	1
+建筑师	jian zhu shi	1
+建筑石材	jian zhu shi cai	1
+建筑市场	jian zhu shi chang	1
+建筑市场管理	jian zhu shi chang guan li	1
+建筑石棉	jian zhu shi mian	1
+建筑师注册法	jian zhu shi zhu ce fa	1
+建筑受潮	jian zhu shou chao	1
+建筑陶瓷厂	jian zhu tao ci chang	1
+建筑体积	jian zhu ti ji	1
+建筑条件	jian zhu tiao jian	1
+建筑外立面	jian zhu wai li mian	1
+建筑维护	jian zhu wei hu	1
+建筑位置图	jian zhu wei zhi tu	1
+建筑文化	jian zhu wen hua	1
+建筑文脉	jian zhu wen mai	1
+建筑物	jian zhu wu	1
+建筑五金厂	jian zhu wu jin chang	1
+建筑物理	jian zhu wu li	1
+建筑屋面	jian zhu wu mian	1
+建筑物设计	jian zhu wu she ji	1
+建筑物体型系数	jian zhu wu ti xing xi shu	1
+建筑细部	jian zhu xi bu	1
+建筑信息管理	jian zhu xin xi guan li	1
+建筑性能	jian zhu xing neng	1
+建筑形式	jian zhu xing shi	1
+建筑形态学	jian zhu xing tai xue	1
+建筑修缮	jian zhu xiu shan	1
+建筑学	jian zhu xue	1
+建筑业	jian zhu ye	1
+建筑隐喻	jian zhu yin yu	1
+建筑用途	jian zhu yong tu	1
+建筑造型	jian zhu zao xing	1
+建筑诊断	jian zhu zhen duan	1
+建筑制品	jian zhu zhi pin	1
+建筑制图	jian zhu zhi tu	1
+建筑主管机关	jian zhu zhu guan ji guan	1
+建筑主体	jian zhu zhu ti	1
+建筑专业	jian zhu zhuan ye	1
+建筑专业词汇	jian zhu zhuan ye ci hui	1
+建筑桩基技术规范	jian zhu zhuang ji ji shu gui fan	1
+建筑装饰装修	jian zhu zhuang shi zhuang xiu	1
+建筑装修	jian zhu zhuang xiu	1
+建筑综合症	jian zhu zong he zheng	1
+建筑总面积	jian zhu zong mian ji	1
+建筑总平面图	jian zhu zong ping mian tu	1
+降板	jiang ban	1
+礓礤	jiang ca	1
+礓蹉	jiang cuo	1
+江河风景区	jiang he feng jing qu	1
+匠家镜	jiang jia jing	1
+江南园林	jiang nan yuan lin	1
+降压变电站	jiang ya bian dian zhan	1
+降压变压器	jiang ya bian ya qi	1
+降噪系数	jiang zao xi shu	1
+搅拌法	jiao ban fa	1
+搅拌桩	jiao ban zhuang	1
+角背	jiao bei	1
+交叉口	jiao cha kou	1
+交底	jiao di	1
+角阀	jiao fa	1
+角钢	jiao gang	1
+角栱	jiao gong	1
+浇灌	jiao guan	1
+脚光聚光灯	jiao guang ju guang deng	1
+角焊缝	jiao han feng	1
+校核	jiao he	1
+胶合板	jiao he ban	1
+胶合板门	jiao he ban men	1
+胶合板墙面	jiao he ban qiang mian	1
+交互斗	jiao hu dou	1
+焦化厂	jiao hua chang	1
+交角券	jiao jiao quan	1
+铰接	jiao jie	1
+胶结剂	jiao jie ji	1
+角筋	jiao jin	1
+角科	jiao ke	1
+铰链	jiao lian	1
+角梁	jiao liang	1
+交流电焊机	jiao liu dian han ji	1
+交流电弧机	jiao liu dian hu ji	1
+交流电整流器	jiao liu dian zheng liu qi	1
+角磨机	jiao mo ji	1
+胶木	jiao mu	1
+郊区城市化	jiao qu cheng shi hua	1
+郊区景观	jiao qu jing guan	1
+郊区绿地	jiao qu lv di	1
+郊区绿化	jiao qu lv hua	1
+脚手架	jiao shou jia	1
+焦炭渣混凝土	jiao tan zha hun ning tu	1
+角铁	jiao tie	1
+角铁支撑	jiao tie zhi cheng	1
+交通产生	jiao tong chan sheng	1
+交通方式划分	jiao tong fang shi hua fen	1
+交通方式选择	jiao tong fang shi xuan ze	1
+交通分配	jiao tong fen pei	1
+交通建筑	jiao tong jian zhu	1
+交通量	jiao tong liang	1
+交通密度	jiao tong mi du	1
+交通渠化	jiao tong qu hua	1
+交通生成	jiao tong sheng cheng	1
+交通条件	jiao tong tiao jian	1
+交通延误	jiao tong yan wu	1
+交通阻塞	jiao tong zu se	1
+轿厢	jiao xiang	1
+交响乐厅	jiao xiang yue ting	1
+矫形医院	jiao xing yi yuan	1
+教学电视	jiao xue dian shi	1
+交验	jiao yan	1
+焦油沥青	jiao you li qing	1
+教育建筑	jiao yu jian zhu	1
+角隅种植	jiao yu zhong zhi	1
+焦渣	jiao zha	1
+焦渣地面	jiao zha di mian	1
+焦渣垫层	jiao zha dian ceng	1
+焦渣混凝土	jiao zha hun ning tu	1
+焦渣空心砖	jiao zha kong xin zhuan	1
+焦渣屋面	jiao zha wu mian	1
+焦渣砖隔断墙	jiao zha zhuan ge duan qiang	1
+胶粘剂	jiao zhan ji	1
+交直流两用电动机	jiao zhi liu liang yong dian dong ji	1
+角柱	jiao zhu	1
+浇注	jiao zhu	1
+浇筑	jiao zhu	1
+浇筑混凝土	jiao zhu hun ning tu	1
+角柱石	jiao zhu shi	1
+交桩复测报告	jiao zhuang fu ce bao gao	1
+胶渍	jiao zi	1
+接触板控制自动门	jie chu ban kong zhi zi dong men	1
+接触故障	jie chu gu zhang	1
+接触面压力	jie chu mian ya li	1
+接触粘结剂	jie chu nian jie ji	1
+接待室	jie dai shi	1
+接待厅	jie dai ting	1
+街道广场绿地	jie dao guang chang lv di	1
+街道绿化	jie dao lv hua	1
+街道照明	jie dao zhao ming	1
+街道照明单元	jie dao zhao ming dan yuan	1
+街道照明设备	jie dao zhao ming she bei	1
+街道照明系统	jie dao zhao ming xi tong	1
+接地板	jie di ban	1
+接地保护	jie di bao hu	1
+接地保护装置	jie di bao hu zhuang zhi	1
+接地电阻	jie di dian zu	1
+接地干线	jie di gan xian	1
+接地极	jie di ji	1
+接地开关	jie di kai guan	1
+接地螺栓	jie di luo shuan	1
+接地母线	jie di mu xian	1
+接地平面图	jie di ping mian tu	1
+接地式插头	jie di shi cha tou	1
+接地网	jie di wang	1
+接地系统	jie di xi tong	1
+接地线	jie di xian	1
+接地装置	jie di zhuang zhi	1
+节点	jie dian	1
+节点核心区	jie dian he xin qu	1
+节点结构详图	jie dian jie gou xiang tu	1
+节点域	jie dian yu	1
+截断	jie duan	1
+街坊	jie fang	1
+街坊绿地	jie fang lv di	1
+接缝高低偏差	jie feng gao di pian cha	1
+接缝平直	jie feng ping zhi	1
+结构布置	jie gou bu zhi	1
+结构层	jie gou ceng	1
+结构钢材	jie gou gang cai	1
+结构工程师	jie gou gong cheng shi	1
+结构工程学	jie gou gong cheng xue	1
+结构规划	jie gou gui hua	1
+结构交底	jie gou jiao di	1
+结构梁	jie gou liang	1
+结构平面布置图	jie gou ping mian bu zhi tu	1
+结构设计	jie gou she ji	1
+结构设计规范	jie gou she ji gui fan	1
+结构设计图	jie gou she ji tu	1
+结构设计语言	jie gou she ji yu yan	1
+结构形式	jie gou xing shi	1
+结构验收	jie gou yan shou	1
+结构因数	jie gou yin shu	1
+解构主义	jie gou zhu yi	1
+结构主义	jie gou zhu yi	1
+截光角	jie guang jiao	1
+结核病疗养院	jie he bing liao yang yuan	1
+结合层	jie he ceng	1
+截洪沟	jie hong gou	1
+阶级踏步	jie ji ta bu	1
+街景	jie jing	1
+借景	jie jing	1
+结晶材料	jie jing cai liao	1
+洁净车间	jie jing che jian	1
+洁净走廊	jie jing zou lang	1
+截口	jie kou	1
+截面	jie mian	1
+界面	jie mian	1
+截面面积	jie mian mian ji	1
+截面图	jie mian tu	1
+截面线	jie mian xian	1
+节能设计	jie neng she ji	1
+解剖室	jie pou shi	1
+接闪器	jie shan qi	1
+结施图	jie shi tu	1
+接收牢房	jie shou lao fang	1
+阶梯教室	jie ti jiao shi	1
+阶条石	jie tiao shi	1
+接头面积百分率	jie tou mian ji bai fen lv	1
+接线盒	jie xian he	1
+接线箱	jie xian xiang	1
+街心花园	jie xin hua yuan	1
+截止阀	jie zhi fa	1
+截止频率	jie zhi pin lv	1
+近场	jin chang	1
+进出线	jin chu xian	1
+近代巴洛克式园林	jin dai ba luo ke shi yuan lin	1
+近代环境系统	jin dai huan jing xi tong	1
+进度证明书	jin du zheng ming shu	1
+尽端路	jin duan lu	1
+禁伐禁猎区	jin fa jin lie qu	1
+进风机	jin feng ji	1
+进风设备	jin feng she bei	1
+进风竖井	jin feng shu jing	1
+金栱	jin gong	1
+金工车间	jin gong che jian	1
+金桁	jin heng	1
+紧急报警按钮	jin ji bao jing an niu	1
+紧急出口	jin ji chu kou	1
+紧急出口照明	jin ji chu kou zhao ming	1
+紧急照明	jin ji zhao ming	1
+尽间	jin jian	1
+近景	jin jing	1
+金檩	jin lin	1
+近邻性分析	jin lin xing fen xi	1
+近期保留	jin qi bao liu	1
+进人管道	jin ren guan dao	1
+进人管沟	jin ren guan gou	1
+进深	jin shen	1
+金属百叶	jin shu bai ye	1
+金属板开孔	jin shu ban kai kong	1
+金属包皮	jin shu bao pi	1
+金属材料	jin shu cai liao	1
+金属窗	jin shu chuang	1
+金属构件	jin shu gou jian	1
+金属管	jin shu guan	1
+金属卤化物灯	jin shu lu hua wu deng	1
+金属门	jin shu men	1
+金属暖气罩	jin shu nuan qi zhao	1
+金属屏蔽	jin shu ping bi	1
+金属算子	jin shu suan zi	1
+金属通风管	jin shu tong feng guan	1
+金属屋架	jin shu wu jia	1
+金属屋面	jin shu wu mian	1
+金属吸引板吊顶	jin shu xi yin ban diao ding	1
+金属线槽	jin shu xian cao	1
+金属制品	jin shu zhi pin	1
+近似色谐调	jin si se xie tiao	1
+金厢斗底槽	jin xiang dou di cao	1
+金银手饰店	jin yin shou shi dian	1
+金柱	jin zhu	1
+锦砖面层	jin zhuan mian ceng	1
+警报蜂鸣器	jing bao feng ming qi	1
+警报系统	jing bao xi tong	1
+警报信号器	jing bao xin hao qi	1
+境边花坛	jing bian hua tan	1
+镜池	jing chi	1
+井道	jing dao	1
+净反力	jing fan li	1
+井干式构架	jing gan shi gou jia	1
+净高	jing gao	1
+警告灯	jing gao deng	1
+警告系统	jing gao xi tong	1
+静观	jing guan	1
+景观	jing guan	1
+净化区	jing hua qu	1
+经济技术开发区	jing ji ji shu kai fa qu	1
+经济热阻	jing ji re zu	1
+经济特区	jing ji te qu	1
+净截面	jing jie mian	1
+京剧院	jing ju yuan	1
+井口天花	jing kou tian hua	1
+净跨	jing kua	1
+景框种植	jing kuang zhong zhi	1
+精密车间	jing mi che jian	1
+精密仪器厂	jing mi yi qi chang	1
+精神病院	jing shen bing yuan	1
+净水池	jing shui chi	1
+静态压缩量	jing tai ya suo liang	1
+经堂	jing tang	1
+经纬仪	jing wei yi	1
+静休息区	jing xiu xi qu	1
+景序	jing xu	1
+静止土压力	jing zhi tu ya li	1
+精装工程	jing zhuang gong cheng	1
+井字梁	jing zi liang	1
+酒吧柜台	jiu ba gui tai	1
+酒吧间	jiu ba jian	1
+九踩	jiu cai	1
+旧城	jiu cheng	1
+旧城改建	jiu cheng gai jian	1
+九脊殿	jiu ji dian	1
+九架梁	jiu jia liang	1
+就业人口	jiu ye ren kou	1
+救灾通道	jiu zai tong dao	1
+聚氨脂	ju an zhi	1
+聚氨脂防	ju an zhi fang	1
+局部等电位	ju bu deng dian wei	1
+局部放大图	ju bu fang da tu	1
+局部立面	ju bu li mian	1
+局部平面	ju bu ping mian	1
+局部剖面	ju bu pou mian	1
+局部通风	ju bu tong feng	1
+局部一般照明	ju bu yi ban zhao ming	1
+局部照明	ju bu zhao ming	1
+局部振动	ju bu zhen dong	1
+剧场视线	ju chang shi xian	1
+剧场休息室	ju chang xiu xi shi	1
+剧场正厅	ju chang zheng ting	1
+剧场座位	ju chang zuo wei	1
+锯齿屋顶	ju chi wu ding	1
+聚醋酸乙烯胶结剂	ju cu suan yi xi jiao jie ji	1
+聚光灯室	ju guang deng shi	1
+聚光式太阳能集热器	ju guang shi tai yang neng ji re qi	1
+聚光照明	ju guang zhao ming	1
+举架	ju jia	1
+拘留室	ju liu shi	1
+聚落	ju luo	1
+聚氯丁烯	ju lv ding xi	1
+聚氯乙烯	ju lv yi xi	1
+聚氯乙烯板	ju lv yi xi ban	1
+聚氯乙烯管	ju lv yi xi guan	1
+聚氯乙烯护套铜芯阻燃	ju lv yi xi hu tao tong xin zu ran	1
+聚氯乙烯绝缘	ju lv yi xi jue yuan	1
+聚氯乙烯绝缘电缆	ju lv yi xi jue yuan dian lan	1
+居民出行调查	ju min chu xing diao cha	1
+居民点	ju min dian	1
+举势	ju shi	1
+举析	ju xi	1
+矩形	ju xing	1
+巨型城市	ju xing cheng shi	1
+矩型化粪池	ju xing hua fen chi	1
+聚乙烯管	ju yi xi guan	1
+剧院观众席走廊	ju yuan guan zhong xi zou lang	1
+举折	ju zhe	1
+举重场地	ju zhong chang di	1
+居住建筑	ju zhu jian zhu	1
+居住建筑面积	ju zhu jian zhu mian ji	1
+居住建筑物	ju zhu jian zhu wu	1
+居住区	ju zhu qu	1
+居住区规划	ju zhu qu gui hua	1
+居住区绿地	ju zhu qu lv di	1
+居住区中心	ju zhu qu zhong xin	1
+居住小区	ju zhu xiao qu	1
+居住用地	ju zhu yong di	1
+卷材防水屋面	juan cai fang shui wu mian	1
+卷帘	juan lian	1
+卷帘窗	juan lian chuang	1
+卷帘隔断	juan lian ge duan	1
+卷帘门	juan lian men	1
+卷帘幕	juan lian mu	1
+卷门	juan men	1
+卷幕	juan mu	1
+卷棚	juan peng	1
+卷杀	juan sha	1
+卷头	juan tou	1
+卷纹饰	juan wen shi	1
+卷烟厂	juan yan chang	1
+决策分析	jue ce fen xi	1
+决策立项文件	jue ce li xiang wen jian	1
+角斗场	jue dou chang	1
+绝对标高	jue dui biao gao	1
+绝对高差	jue dui gao cha	1
+绝对湿度	jue dui shi du	1
+绝缘电缆	jue yuan dian lan	1
+绝缘胶布	jue yuan jiao bu	1
+绝缘漆	jue yuan qi	1
+绝缘软线	jue yuan ruan xian	1
+绝缘试验	jue yuan shi yan	1
+绝缘线	jue yuan xian	1
+绝缘纤维板	jue yuan xian wei ban	1
+均布	jun bu	1
+均布荷载	jun bu he zai	1
+竣工工程概况表	jun gong gong cheng gai kuang biao	1
+竣工日期	jun gong ri qi	1
+竣工图	jun gong tu	1
+竣工项目	jun gong xiang mu	1
+竣工验收报告	jun gong yan shou bao gao	1
+竣工验收备案表	jun gong yan shou bei an biao	1
+竣工验收结论汇总	jun gong yan shou jie lun hui zong	1
+竣工验收证明	jun gong yan shou zheng ming	1
+竣工移交证书	jun gong yi jiao zheng shu	1
+军马场	jun ma chang	1
+咖啡厅	ka fei ting	1
+卡口灯座	ka kou deng zuo	1
+喀斯特景观	ka si te jing guan	1
+开槽	kai cao	1
+开敞空间	kai chang kong jian	1
+开敞楼梯	kai chang lou ti	1
+开敞式	kai chang shi	1
+开窗器	kai chuang qi	1
+开洞	kai dong	1
+开发区	kai fa qu	1
+开放空间	kai fang kong jian	1
+开放时间	kai fang shi jian	1
+开放性	kai fang xing	1
+开工报告	kai gong bao gao	1
+开工审批文件	kai gong shen pi wen jian	1
+开关柜	kai guan gui	1
+开关设备	kai guan she bei	1
+开关箱	kai guan xiang	1
+开花草坪	kai hua cao ping	1
+开架管理	kai jia guan li	1
+开间	kai jian	1
+开脚螺栓	kai jiao luo shuan	1
+开口比	kai kou bi	1
+开门器	kai men qi	1
+开水间	kai shui jian	1
+凯旋门	kai xuan men	1
+铠装电缆	kai zhuang dian lan	1
+铠装铅包电缆	kai zhuang qian bao dian lan	1
+勘察报告	kan cha bao gao	1
+槛窗	kan chuang	1
+槛墙	kan qiang	1
+看守室	kan shou shi	1
+抗拔	kang ba	1
+抗拔桩	kang ba zhuang	1
+抗拔桩抗浮	kang ba zhuang kang fu	1
+抗侧力	kang ce li	1
+抗冲切	kang chong qie	1
+抗风植物	kang feng zhi wu	1
+抗风柱	kang feng zhu	1
+抗浮	kang fu	1
+抗浮水位	kang fu shui wei	1
+康复中心	kang fu zhong xin	1
+抗干扰装置	kang gan rao zhuang zhi	1
+抗规	kang gui	1
+抗滑移	kang hua yi	1
+抗剪	kang jian	1
+抗静电装置	kang jing dian zhuang zhi	1
+抗拉	kang la	1
+抗扭	kang niu	1
+抗扭转	kang niu zhuan	1
+抗倾覆	kang qing fu	1
+抗水板	kang shui ban	1
+抗污染植物	kang wu ran zhi wu	1
+抗压	kang ya	1
+抗震	kang zhen	1
+抗震等级	kang zhen deng ji	1
+抗震规范	kang zhen gui fan	1
+抗震级别	kang zhen ji bie	1
+抗震加固	kang zhen jia gu	1
+抗震剪力墙	kang zhen jian li qiang	1
+抗震建筑	kang zhen jian zhu	1
+抗震结构	kang zhen jie gou	1
+抗震墙	kang zhen qiang	1
+抗震设计	kang zhen she ji	1
+抗震系数	kang zhen xi shu	1
+靠墙扶手	kao qiang fu shou	1
+靠墙扶手托架	kao qiang fu shou tuo jia	1
+靠墙管子扶手	kao qiang guan zi fu shou	1
+靠墙楼梯	kao qiang lou ti	1
+柯布西耶	ke bu xi ye	1
+可拆式隔断	ke chai shi ge duan	1
+可达性	ke da xing	1
+壳顶	ke ding	1
+客房	ke fang	1
+客房服务部	ke fang fu wu bu	1
+壳管式换热器	ke guan shi huan re qi	1
+可光情况	ke guang qing kuang	1
+可焊性	ke han xing	1
+刻痕钢丝	ke hen gang si	1
+科技工业园区	ke ji gong ye yuan qu	1
+科技馆	ke ji guan	1
+可建性	ke jian xing	1
+可居性	ke ju xing	1
+可靠焊接	ke kao han jie	1
+可靠性	ke kao xing	1
+颗粒板	ke li ban	1
+颗粒材料	ke li cai liao	1
+科林斯柱式	ke lin si zhu shi	1
+可曲挠橡胶接头	ke qu nao xiang jiao jie tou	1
+可燃气体探测器	ke ran qi ti tan ce qi	1
+可赛银粉	ke sai yin fen	1
+可调节灯具	ke tiao jie deng ju	1
+可调螺栓	ke tiao luo shuan	1
+客厅兼起居室	ke ting jian qi ju shi	1
+可听声	ke ting sheng	1
+科信监理	ke xin jian li	1
+可行性研究	ke xing xing yan jiu	1
+科学保护区	ke xue bao hu qu	1
+科学城	ke xue cheng	1
+科学建筑	ke xue jian zhu	1
+科学景观论	ke xue jing guan lun	1
+科学园区	ke xue yuan qu	1
+可照时数	ke zhao shi shu	1
+坑道口	keng dao kou	1
+孔板送风	kong ban song feng	1
+孔洞	kong dong	1
+空斗墙	kong dou qiang	1
+空腹钢窗	kong fu gang chuang	1
+空腹钢梁	kong fu gang liang	1
+空腹钢龙骨	kong fu gang long gu	1
+空腹拱	kong fu gong	1
+空腹桁架	kong fu heng jia	1
+空腹金属窗	kong fu jin shu chuang	1
+空腹金属防火门	kong fu jin shu fang huo men	1
+空鼓	kong gu	1
+空间构图	kong jian gou tu	1
+空间规划	kong jian gui hua	1
+空间吸声体	kong jian xi sheng ti	1
+空间需求	kong jian xu qiu	1
+空间综合	kong jian zong he	1
+空间组成	kong jian zu cheng	1
+空气处理设施	kong qi chu li she shi	1
+空气分配系统	kong qi fen pei xi tong	1
+空气过滤器	kong qi guo lv qi	1
+空气加热系统	kong qi jia re xi tong	1
+空气加湿设备	kong qi jia shi she bei	1
+空气间层	kong qi jian ceng	1
+空气洁净度	kong qi jie jing du	1
+空气净化	kong qi jing hua	1
+空气冷却机组	kong qi leng que ji zu	1
+空气冷却盘管	kong qi leng que pan guan	1
+空气渗透	kong qi shen tou	1
+空气声	kong qi sheng	1
+空气调剂	kong qi tiao ji	1
+空气温度	kong qi wen du	1
+空气系统	kong qi xi tong	1
+空调板	kong tiao ban	1
+空调管道	kong tiao guan dao	1
+空调机房	kong tiao ji fang	1
+空调及排风装置	kong tiao ji pai feng zhuang zhi	1
+空调机组	kong tiao ji zu	1
+空调凝结水管	kong tiao ning jie shui guan	1
+空调器	kong tiao qi	1
+空调设备	kong tiao she bei	1
+空调设计	kong tiao she ji	1
+空调送风算子	kong tiao song feng suan zi	1
+空调系统	kong tiao xi tong	1
+空调照明系统	kong tiao zhao ming xi tong	1
+孔隙	kong xi	1
+空心板	kong xin ban	1
+空心地板	kong xin di ban	1
+空心隔墙	kong xin ge qiang	1
+空心楼板	kong xin lou ban	1
+空心砌块	kong xin qi kuai	1
+空心墙	kong xin qiang	1
+空心砖	kong xin zhuan	1
+空心砖隔墙	kong xin zhuan ge qiang	1
+空压机	kong ya ji	1
+控制标高	kong zhi biao gao	1
+控制柜	kong zhi gui	1
+控制器日检登记表	kong zhi qi ri jian deng ji biao	1
+控制性详细规划	kong zhi xing xiang xi gui hua	1
+口腔医院	kou qiang yi yuan	1
+跨度	kua du	1
+跨距	kua ju	1
+跨中	kua zhong	1
+快餐馆	kuai can guan	1
+快车道	kuai che dao	1
+块料面层	kuai liao mian ceng	1
+块石	kuai shi	1
+快速道路	kuai su dao lu	1
+快速电梯	kuai su dian ti	1
+快速管式热交换器	kuai su guan shi re jiao huan qi	1
+快装锅炉	kuai zhuang guo lu	1
+块状绿地	kuai zhuang lv di	1
+筷子笔	kuai zi bi	1
+宽厚比	kuan hou bi	1
+宽银幕	kuan yin mu	1
+宽银幕电影院	kuan yin mu dian ying yuan	1
+旷地	kuang di	1
+框架	kuang jia	1
+框架工程	kuang jia gong cheng	1
+框架建筑	kuang jia jian zhu	1
+框架结构	kuang jia jie gou	1
+框架梁	kuang jia liang	1
+框架幕墙	kuang jia mu qiang	1
+框架墙板建筑	kuang jia qiang ban jian zhu	1
+框架柱	kuang jia zhu	1
+框剪	kuang jian	1
+框剪结构	kuang jian jie gou	1
+框景	kuang jing	1
+框槛	kuang kan	1
+矿棉	kuang mian	1
+矿棉板	kuang mian ban	1
+矿棉吸音板	kuang mian xi yin ban	1
+框筒	kuang tong	1
+框筒结构	kuang tong jie gou	1
+框筒结构体系	kuang tong jie gou ti xi	1
+矿业城市	kuang ye cheng shi	1
+矿渣混凝土	kuang zha hun ning tu	1
+矿渣混凝土垫层	kuang zha hun ning tu dian ceng	1
+矿渣水泥	kuang zha shui ni	1
+矿渣砖	kuang zha zhuan	1
+框支	kuang zhi	1
+框支剪力墙	kuang zhi jian li qiang	1
+框支梁	kuang zhi liang	1
+框支柱	kuang zhi zhu	1
+馈电电缆	kui dian dian lan	1
+昆山石	kun shan shi	1
+捆扎牢固	kun za lao gu	1
+扩初	kuo chu	1
+扩大初步设计	kuo da chu bu she ji	1
+扩底	kuo di	1
+扩建工程	kuo jian gong cheng	1
+扩散场	kuo san chang	1
+扩散距离	kuo san ju li	1
+扩散室	kuo san shi	1
+扩散体	kuo san ti	1
+扩声系统	kuo sheng xi tong	1
+阔叶植物	kuo ye zhi wu	1
+扩音控制室	kuo yin kong zhi shi	1
+垃圾处理	la ji chu li	1
+垃圾处理系统	la ji chu li xi tong	1
+垃圾道	la ji dao	1
+垃圾斗	la ji dou	1
+垃圾焚化间	la ji fen hua jian	1
+垃圾焚化站	la ji fen hua zhan	1
+垃圾间	la ji jian	1
+垃圾门	la ji men	1
+垃圾清运	la ji qing yun	1
+垃圾收集	la ji shou ji	1
+垃圾压实机	la ji ya shi ji	1
+拉结筋	la jie jin	1
+拉结力	la jie li	1
+拉筋	la jin	1
+拉毛	la mao	1
+拉手	la shou	1
+拉通	la tong	1
+拉弯	la wan	1
+拉线	la xian	1
+阑版	lan ban	1
+栏板	lan ban	1
+栏版	lan ban	1
+缆道	lan dao	1
+阑额	lan e	1
+栏杆	lan gan	1
+篮球场	lan qiu chang	1
+篮球架	lan qiu jia	1
+缆索	lan suo	1
+篮状种植器	lan zhuang zhong zhi qi	1
+廊墙	lang qiang	1
+廊柱园	lang zhu yuan	1
+劳动定员	lao dong ding yuan	1
+劳动管理	lao dong guan li	1
+劳动平衡	lao dong ping heng	1
+牢房	lao fang	1
+老虎窗	lao hu chuang	1
+老化实验室	lao hua shi yan shi	1
+老年公寓	lao nian gong yu	1
+老人住房	lao ren zhu fang	1
+老人住宅	lao ren zhu zhai	1
+老檐枋	lao yan fang	1
+老檐桁	lao yan heng	1
+劳作教室	lao zuo jiao shi	1
+勒脚	le jiao	1
+勒克斯计	le ke si ji	1
+勒诺特尔式园林	le nuo te er shi yuan lin	1
+雷电波的侵入	lei dian bo de qin ru	1
+雷公柱	lei gong zhu	1
+肋骨拱	lei gu gong	1
+累计统计声级	lei ji tong ji sheng ji	1
+肋梁楼盖	lei liang lou gai	1
+垒球场	lei qiu chang	1
+冷藏间	leng cang jian	1
+冷藏库	leng cang ku	1
+冷底子油	leng di zi you	1
+冷冻泵	leng dong beng	1
+冷冻机厂	leng dong ji chang	1
+冷冻机房	leng dong ji fang	1
+冷冻机组	leng dong ji zu	1
+冷冻间	leng dong jian	1
+棱拱	leng gong	1
+冷加工	leng jia gong	1
+冷拉车间	leng la che jian	1
+冷凝控制	leng ning kong zhi	1
+冷桥	leng qiao	1
+冷却泵	leng que beng	1
+冷却管道系统	leng que guan dao xi tong	1
+冷却设备系统	leng que she bei xi tong	1
+冷却水池	leng que shui chi	1
+冷却塔	leng que ta	1
+冷热水系统	leng re shui xi tong	1
+冷色	leng se	1
+冷水管	leng shui guan	1
+冷水机组	leng shui ji zu	1
+冷水式系统	leng shui shi xi tong	1
+冷轧	leng zha	1
+冷轧带肋	leng zha dai lei	1
+立板	li ban	1
+沥粉	li fen	1
+立杆	li gan	1
+立管管夹	li guan guan jia	1
+李国强	li guo qiang	1
+李国胜	li guo sheng	1
+篱恒种植	li heng zhong zhi	1
+立筋	li jin	1
+力矩	li ju	1
+理疗部	li liao bu	1
+理疗室	li liao shi	1
+里弄	li long	1
+立面	li mian	1
+立面图	li mian tu	1
+立剖面	li pou mian	1
+沥青	li qing	1
+沥青防潮层	li qing fang chao ceng	1
+沥青防水层	li qing fang shui ceng	1
+沥青缝	li qing feng	1
+沥青灌浆	li qing guan jiang	1
+沥青混凝土	li qing hun ning tu	1
+沥青混凝土地面	li qing hun ning tu di mian	1
+沥青路	li qing lu	1
+沥青路面	li qing lu mian	1
+沥青漆	li qing qi	1
+沥青系胶结剂	li qing xi jiao jie ji	1
+力神	li shen	1
+砾石	li shi	1
+立式泵	li shi beng	1
+历史地段	li shi di duan	1
+历史古迹区	li shi gu ji qu	1
+历史建筑	li shi jian zhu	1
+历史名城	li shi ming cheng	1
+立式热交换器	li shi re jiao huan qi	1
+立式洗脸盆	li shi xi lian pen	1
+立式小便器	li shi xiao bian qi	1
+立体电影院	li ti dian ying yuan	1
+立体交叉	li ti jiao cha	1
+立体声系统	li ti sheng xi tong	1
+立体银幕	li ti yin mu	1
+里跳	li tiao	1
+理想城市	li xiang cheng shi	1
+离心式风扇	li xin shi feng shan	1
+离心式冷水机	li xin shi leng shui ji	1
+利用频度	li yong pin du	1
+利用系数	li yong xi shu	1
+理正	li zheng	1
+立柱	li zhu	1
+立转窗	li zhuan chuang	1
+离子感烟探测器	li zi gan yan tan ce qi	1
+莲瓣	lian ban	1
+联动开关	lian dong kai guan	1
+联合基础	lian he ji chu	1
+莲花式柱	lian hua shi zhu	1
+连接板	lian jie ban	1
+连接螺栓	lian jie luo shuan	1
+连接套管	lian jie tao guan	1
+连梁	lian liang	1
+连梁表	lian liang biao	1
+联排式住宅	lian pai shi zhu zhai	1
+练习场	lian xi chang	1
+连续采暖	lian xu cai nuan	1
+连续感	lian xu gan	1
+连续荷载	lian xu he zai	1
+连续空间	lian xu kong jian	1
+连续梁	lian xu liang	1
+连续谱	lian xu pu	1
+连续通风	lian xu tong feng	1
+连续相材料	lian xu xiang cai liao	1
+连续照明	lian xu zhao ming	1
+连檐	lian yan	1
+炼油厂	lian you chang	1
+梁板	liang ban	1
+梁板构造	liang ban gou zao	1
+梁板式	liang ban shi	1
+梁板柱	liang ban zhu	1
+梁侧	liang ce	1
+两层独立公寓	liang ceng du li gong yu	1
+两椽栿	liang chuan fu	1
+梁椽栿	liang chuan fu	1
+梁底	liang di	1
+梁底钢筋	liang di gang jin	1
+梁顶	liang ding	1
+亮度对比	liang du dui bi	1
+亮度计	liang du ji	1
+梁枋	liang fang	1
+梁栿	liang fu	1
+梁高	liang gao	1
+梁截面	liang jie mian	1
+梁宽	liang kuan	1
+梁内箍筋	liang nei gu jin	1
+梁内纵筋	liang nei zong jin	1
+两跑	liang pao	1
+两跑楼梯	liang pao lou ti	1
+梁配筋	liang pei jin	1
+梁配筋图	liang pei jin tu	1
+梁平法	liang ping fa	1
+梁墙	liang qiang	1
+粮食加工厂	liang shi jia gong chang	1
+梁式楼梯	liang shi lou ti	1
+凉台	liang tai	1
+两跳	liang tiao	1
+梁下垂	liang xia chui	1
+两相三线制	liang xiang san xian zhi	1
+两相四线制	liang xiang si xian zhi	1
+两相系统	liang xiang xi tong	1
+两相运行	liang xiang yun xing	1
+两相制	liang xiang zhi	1
+亮子	liang zi	1
+疗养公园	liao yang gong yuan	1
+疗养院	liao yang yuan	1
+烈度	lie du	1
+裂缝宽度	lie feng kuan du	1
+烈士纪念公园	lie shi ji nian gong yuan	1
+列植	lie zhi	1
+列柱围廊式	lie zhu wei lang shi	1
+临床化验室	lin chuang hua yan shi	1
+林地	lin di	1
+林间隙地	lin jian xi di	1
+林间小道	lin jian xiao dao	1
+临界风速	lin jie feng su	1
+临空墙	lin kong qiang	1
+邻里单位	lin li dan wei	1
+邻里公园	lin li gong yuan	1
+临时供电	lin shi gong dian	1
+临时性建筑	lin shi xing jian zhu	1
+临时照明	lin shi zhao ming	1
+檩条	lin tiao	1
+檩头	lin tou	1
+林下种植	lin xia zhong zhi	1
+林荫大道	lin yin da dao	1
+林荫路	lin yin lu	1
+林荫散步路	lin yin san bu lu	1
+淋浴间	lin yu jian	1
+淋浴喷头	lin yu pen tou	1
+临战封堵	lin zhan feng du	1
+林植	lin zhi	1
+檩中心线	lin zhong xin xian	1
+灵壁石	ling bi shi	1
+令便器	ling bian qi	1
+令拱	ling gong	1
+零件库	ling jian ku	1
+龄期	ling qi	1
+零售商店	ling shou shang dian	1
+灵台	ling tai	1
+另详	ling xiang	1
+灵囿	ling you	1
+领域性	ling yu xing	1
+灵沼	ling zhao	1
+棂子	ling zi	1
+留洞	liu dong	1
+流动人口	liu dong ren kou	1
+留洞图	liu dong tu	1
+六架梁	liu jia liang	1
+溜金斗栱	liu jin dou gong	1
+琉璃瓦	liu li wa	1
+流量计井	liu liang ji jing	1
+流量控制器	liu liang kong zhi qi	1
+流量调节阀	liu liang tiao jie fa	1
+流明	liu ming	1
+六铺作	liu pu zuo	1
+流通模式	liu tong mo shi	1
+流线	liu xian	1
+流线设计	liu xian she ji	1
+六掾袱	liu yuan fu	1
+流坠	liu zhui	1
+龙骨	long gu	1
+拢规矩	long gui ju	1
+楼板	lou ban	1
+楼板构造	lou ban gou zao	1
+楼板伸缩缝	lou ban shen suo feng	1
+楼层面积	lou ceng mian ji	1
+楼层平面放线记录	lou ceng ping mian fang xian ji lu	1
+楼层平面图	lou ceng ping mian tu	1
+楼层数	lou ceng shu	1
+楼层挑台	lou ceng tiao tai	1
+楼层组装	lou ceng zu zhuang	1
+楼地面	lou di mian	1
+漏电断路器	lou dian duan lu qi	1
+楼盖	lou gai	1
+漏花墙	lou hua qiang	1
+漏景	lou jing	1
+楼廊	lou lang	1
+楼面	lou mian	1
+楼面层	lou mian ceng	1
+楼面地价	lou mian di jia	1
+楼面置顶棚高度	lou mian zhi ding peng gao du	1
+楼面至楼面尺寸	lou mian zhi lou mian chi cun	1
+楼面至楼面高度	lou mian zhi lou mian gao du	1
+楼梯扶手	lou ti fu shou	1
+楼梯间	lou ti jian	1
+楼梯结构详图	lou ti jie gou xiang tu	1
+楼梯井	lou ti jing	1
+楼梯栏杆	lou ti lan gan	1
+楼梯平台	lou ti ping tai	1
+楼梯坡度	lou ti po du	1
+楼梯踏步	lou ti ta bu	1
+楼梯厅	lou ti ting	1
+漏泄电流	lou xie dian liu	1
+楼宇智能化	lou yu zhi neng hua	1
+楼装饰改造	lou zhuang shi gai zao	1
+鲁班	lu ban	1
+鲁班经	lu ban jing	1
+路边公园	lu bian gong yuan	1
+路边花坛	lu bian hua tan	1
+路边种植	lu bian zhong zhi	1
+栌斗	lu dou	1
+卤化烷灭火器	lu hua wan mie huo qi	1
+卤化物灯	lu hua wu deng	1
+路基工程	lu ji gong cheng	1
+路面线纹	lu mian xian wen	1
+露明管道	lu ming guan dao	1
+露明金属结构	lu ming jin shu jie gou	1
+路牌	lu pai	1
+路树	lu shu	1
+卤素电池	lu su dian chi	1
+露天剧场	lu tian ju chang	1
+露天看台	lu tian kan tai	1
+露天烤炉	lu tian kao lu	1
+露天平台	lu tian ping tai	1
+露天音乐台	lu tian yin yue tai	1
+卤钨灯	lu wu deng	1
+路牙	lu ya	1
+路沿石	lu yan shi	1
+录音室	lu yin shi	1
+露营地	lu ying di	1
+炉渣砖	lu zha zhuan	1
+卵石	luan shi	1
+乱石墙	luan shi qiang	1
+轮廓草图	lun kuo cao tu	1
+轮压	lun ya	1
+罗城	luo cheng	1
+落地窗	luo di chuang	1
+落地线	luo di xian	1
+裸根移植	luo gen yi zhi	1
+洛可可建筑	luo ke ke jian zhu	1
+洛可可式园林	luo ke ke shi yuan lin	1
+罗曼式建筑	luo man shi jian zhu	1
+裸母线	luo mu xian	1
+螺栓	luo shuan	1
+螺栓杆	luo shuan gan	1
+螺栓固定	luo shuan gu ding	1
+螺旋箍	luo xuan gu	1
+螺旋箍筋	luo xuan gu jin	1
+螺旋肋钢丝	luo xuan lei gang si	1
+螺旋楼梯	luo xuan lou ti	1
+洛阳铲桩基础	luo yang chan zhuang ji chu	1
+洛阳宫	luo yang gong	1
+落叶绿篱	luo ye lv li	1
+铝板材	lv ban cai	1
+铝板网	lv ban wang	1
+铝包电缆	lv bao dian lan	1
+铝厂	lv chang	1
+滤池	lv chi	1
+绿地	lv di	1
+绿地布局	lv di bu ju	1
+绿地规划程序	lv di gui hua cheng xu	1
+绿地类型	lv di lei xing	1
+绿地率	lv di lv	1
+绿地面积	lv di mian ji	1
+绿地系统	lv di xi tong	1
+绿地效果	lv di xiao guo	1
+绿地资源	lv di zi yuan	1
+氯丁橡胶	lv ding xiang jiao	1
+铝格栅	lv ge shan	1
+旅馆建筑	lv guan jian zhu	1
+铝合金板吊顶	lv he jin ban diao ding	1
+铝合金玻璃门	lv he jin bo li men	1
+铝合金窗	lv he jin chuang	1
+铝合金龙骨	lv he jin long gu	1
+铝合金门	lv he jin men	1
+铝合金型材	lv he jin xing cai	1
+绿化	lv hua	1
+绿化率	lv hua lv	1
+绿化设计	lv hua she ji	1
+旅客大厅	lv ke da ting	1
+旅客人口	lv ke ren kou	1
+旅客通道	lv ke tong dao	1
+旅客休息厅	lv ke xiu xi ting	1
+铝扣板	lv kou ban	1
+绿廊	lv lang	1
+闾里	lv li	1
+绿篱	lv li	1
+绿蓠植物	lv li zhi wu	1
+氯离子含量	lv li zi han liang	1
+铝母线	lv mu xian	1
+绿色革命	lv se ge ming	1
+律师室	lv shi shi	1
+铝塑板安装	lv su ban an zhuang	1
+铝塑料	lv su liao	1
+旅行停车场	lv xing ting che chang	1
+绿荫区	lv yin qu	1
+旅游地理	lv you di li	1
+旅游地质	lv you di zhi	1
+旅游渡假区	lv you du jia qu	1
+旅游建筑	lv you jian zhu	1
+旅游旅馆	lv you lv guan	1
+旅游资源	lv you zi yuan	1
+麻布袋	ma bu dai	1
+马克斯抽象园林	ma ke si chou xiang yuan lin	1
+马路弯灯	ma lu wan deng	1
+马赛克	ma sai ke	1
+马蹄券	ma ti quan	1
+马蹄形螺栓	ma ti xing luo shuan	1
+马牙槎	ma ya cha	1
+麻醉室	ma zui shi	1
+脉冲声	mai chong sheng	1
+脉冲试验	mai chong shi yan	1
+脉冲响应	mai chong xiang ying	1
+埋件	mai jian	1
+埋入长度	mai ru chang du	1
+埋入式	mai ru shi	1
+埋深	mai shen	1
+满布	man bu	1
+漫步路	man bu lu	1
+慢车道	man che dao	1
+幔道	man dao	1
+慢道	man dao	1
+慢拱	man gong	1
+慢栱	man gong	1
+满铺	man pu	1
+漫射灯	man she deng	1
+漫射照明	man she zhao ming	1
+满堂板	man tang ban	1
+盲窗	mang chuang	1
+盲沟	mang gou	1
+盲沟排水抗浮	mang gou pai shui kang fu	1
+盲人花园	mang ren hua yuan	1
+毛刺	mao ci	1
+帽儿梁	mao er liang	1
+毛发聚集器	mao fa ju ji qi	1
+锚杆挡土墙	mao gan dang tu qiang	1
+锚杆抗浮	mao gan kang fu	1
+锚固	mao gu	1
+锚固安装	mao gu an zhuang	1
+锚固长度	mao gu chang du	1
+锚固螺栓	mao gu luo shuan	1
+锚筋	mao jin	1
+毛巾架	mao jin jia	1
+锚喷	mao pen	1
+锚入	mao ru	1
+毛石	mao shi	1
+毛石混凝土	mao shi hun ning tu	1
+毛石墙	mao shi qiang	1
+锚栓	mao shuan	1
+茅亭	mao ting	1
+毛细多孔体	mao xi duo kong ti	1
+毛细管冷凝作用	mao xi guan leng ning zuo yong	1
+毛细管吸水作用	mao xi guan xi shui zuo yong	1
+毛毡花坛	mao zhan hua tan	1
+美发廊	mei fa lang	1
+玫瑰窗	mei gui chuang	1
+美国建筑师协会	mei guo jian zhu shi xie hui	1
+每立方米造价	mei li fang mi zao jia	1
+煤气发生站	mei qi fa sheng zhan	1
+煤气干管	mei qi gan guan	1
+煤气调压站	mei qi tiao ya zhan	1
+美术馆	mei shu guan	1
+美术教室	mei shu jiao shi	1
+美术水磨石	mei shu shui mo shi	1
+美术水磨石地面	mei shu shui mo shi di mian	1
+美索不达米亚建筑	mei suo bu da mi ya jian zhu	1
+门跋	men ba	1
+门柄	men bing	1
+门窗表	men chuang biao	1
+门窗一览表	men chuang yi lan biao	1
+门磁报警	men ci bao jing	1
+门档	men dang	1
+门灯	men deng	1
+门钉	men ding	1
+闷顶	men ding	1
+门洞	men dong	1
+门洞口	men dong kou	1
+门斗	men dou	1
+门房	men fang	1
+门过梁	men guo liang	1
+门框	men kuang	1
+门框墙	men kuang qiang	1
+门廊	men lang	1
+门铃系统	men ling xi tong	1
+门碰	men peng	1
+门扇	men shan	1
+门锁	men suo	1
+门厅	men ting	1
+门厅门诊部	men ting men zhen bu	1
+门厅前踏步	men ting qian ta bu	1
+门卫种植	men wei zhong zhi	1
+门吸	men xi	1
+门簪	men zan	1
+门枕	men zhen	1
+门诊部	men zhen bu	1
+门枕石	men zhen shi	1
+密闭门	mi bi men	1
+密封窗	mi feng chuang	1
+密封灌浆	mi feng guan jiang	1
+密封条	mi feng tiao	1
+迷宫绿篱	mi gong lv li	1
+米黄石	mi huang shi	1
+秘诀仙机	mi jue xian ji	1
+迷篱	mi li	1
+泌尿化验室	mi niao hua yan shi	1
+秘书室	mi shu shi	1
+泌水	mi shui	1
+迷阵	mi zhen	1
+面板	mian ban	1
+面包厂	mian bao chang	1
+面层	mian ceng	1
+面层材料	mian ceng cai liao	1
+面层抹灰	mian ceng mo hui	1
+面粉厂	mian fen chang	1
+面光	mian guang	1
+面荷载	mian he zai	1
+面积定额	mian ji ding e	1
+面阔	mian kuo	1
+面石膏板	mian shi gao ban	1
+面砖	mian zhuan	1
+面砖胶	mian zhuan jiao	1
+苗木包装材料	miao mu bao zhuang cai liao	1
+描图	miao tu	1
+灭火器	mie huo qi	1
+灭火设备	mie huo she bei	1
+灭火系统	mie huo xi tong	1
+民居	min ju	1
+民用建筑	min yong jian zhu	1
+民族风格	min zu feng ge	1
+民族风俗风景区	min zu feng su feng jing qu	1
+民族性	min zu xing	1
+明暗度	ming an du	1
+明栿	ming fu	1
+明管	ming guan	1
+明间	ming jian	1
+明楼梯	ming lou ti	1
+明视觉	ming shi jue	1
+明适应	ming shi ying	1
+明线	ming xian	1
+明线布线	ming xian bu xian	1
+明线线路	ming xian xian lu	1
+明装	ming zhuang	1
+明装搬把开关	ming zhuang ban ba kai guan	1
+名状插销	ming zhuang cha xiao	1
+明装荧光灯	ming zhuang ying guang deng	1
+明装荧光灯带	ming zhuang ying guang deng dai	1
+明装照明设备	ming zhuang zhao ming she bei	1
+摩擦系数	mo ca xi shu	1
+抹底层灰	mo di ceng hui	1
+抹滴水线	mo di shui xian	1
+末端测试阀	mo duan ce shi fa	1
+末端反射损失	mo duan fan she sun shi	1
+末端互投	mo duan hu tou	1
+蘑菇亭	mo gu ting	1
+抹灰	mo hui	1
+抹灰饼	mo hui bing	1
+抹灰顶棚	mo hui ding peng	1
+抹灰工	mo hui gong	1
+抹灰厚度	mo hui hou du	1
+抹角	mo jiao	1
+模量	mo liang	1
+磨砂玻璃	mo sha bo li	1
+磨石	mo shi	1
+模式语言	mo shi yu yan	1
+模数	mo shu	1
+模数协调	mo shu xie tiao	1
+摩天楼	mo tian lou	1
+抹头	mo tou	1
+抹涂	mo tu	1
+墨线图	mo xian tu	1
+模型室	mo xing shi	1
+木板桥	mu ban qiao	1
+木板条吊顶	mu ban tiao diao ding	1
+木材厂	mu cai chang	1
+牧草地	mu cao di	1
+牧场草坪	mu chang cao ping	1
+木窗	mu chuang	1
+木地板	mu di ban	1
+木隔断	mu ge duan	1
+木搁栅	mu ge zha	1
+木搁栅楼板	mu ge zha lou ban	1
+木工车间	mu gong che jian	1
+木构件	mu gou jian	1
+木构造	mu gou zao	1
+木桁架	mu heng jia	1
+木护墙	mu hu qiang	1
+木基层	mu ji ceng	1
+木架砖墙房屋	mu jia zhuan qiang fang wu	1
+木结构	mu jie gou	1
+木结构施工记录	mu jie gou shi gong ji lu	1
+木结构体系	mu jie gou ti xi	1
+木栏杆	mu lan gan	1
+木龙骨	mu long gu	1
+木龙骨楼板	mu long gu lou ban	1
+木楼板	mu lou ban	1
+目录厅	mu lu ting	1
+木螺钉	mu luo ding	1
+木螺丝	mu luo si	1
+木门	mu men	1
+木门框	mu men kuang	1
+木抹搓平	mu mo cuo ping	1
+木偶剧院	mu ou ju yuan	1
+幕墙	mu qiang	1
+幕墙胶	mu qiang jiao	1
+幕墙注胶检查记录	mu qiang zhu jiao jian cha ji lu	1
+木丝板	mu si ban	1
+木踢脚板	mu ti jiao ban	1
+木条地板	mu tiao di ban	1
+木条墙面	mu tiao qiang mian	1
+木瓦	mu wa	1
+木望板	mu wang ban	1
+木屋顶	mu wu ding	1
+木屋架	mu wu jia	1
+母线槽	mu xian cao	1
+母线管道	mu xian guan dao	1
+母线连接	mu xian lian jie	1
+木屑板	mu xie ban	1
+模样花坛	mu yang hua tan	1
+沐浴更衣室	mu yu geng yi shi	1
+木质制品	mu zhi zhi pin	1
+木砖地面	mu zhuan di mian	1
+木装修	mu zhuang xiu	1
+钠灯光	na deng guang	1
+耐高温材料	nai gao wen cai liao	1
+耐寒植物	nai han zhi wu	1
+耐旱植物	nai han zhi wu	1
+耐火材料	nai huo cai liao	1
+耐火等级	nai huo deng ji	1
+耐火吊顶	nai huo diao ding	1
+耐火顶棚	nai huo ding peng	1
+耐火混凝土	nai huo hun ning tu	1
+耐火极限	nai huo ji xian	1
+耐火结构	nai huo jie gou	1
+耐火楼梯	nai huo lou ti	1
+耐火时限	nai huo shi xian	1
+耐火试验	nai huo shi yan	1
+耐火塑料	nai huo su liao	1
+耐火填料	nai huo tian liao	1
+耐火涂层	nai huo tu ceng	1
+耐火涂料	nai huo tu liao	1
+耐火制品	nai huo zhi pin	1
+耐火砖	nai huo zhuan	1
+耐久寿命	nai jiu shou ming	1
+耐久系数	nai jiu xi shu	1
+耐久性	nai jiu xing	1
+耐磨砖	nai mo zhuan	1
+耐湿期	nai shi qi	1
+耐湿植物	nai shi zhi wu	1
+耐水粘合剂	nai shui nian he ji	1
+耐酸地面	nai suan di mian	1
+耐酸缸瓦器	nai suan gang wa qi	1
+耐酸混凝土	nai suan hun ning tu	1
+耐酸面板	nai suan mian ban	1
+耐酸水泥	nai suan shui ni	1
+耐酸水泥砂浆	nai suan shui ni sha jiang	1
+耐酸陶瓷	nai suan tao ci	1
+耐酸陶瓷制品	nai suan tao ci zhi pin	1
+耐酸砖	nai suan zhuan	1
+耐盐碱植物	nai yan jian zhi wu	1
+耐油地面	nai you di mian	1
+南立面	nan li mian	1
+南配楼	nan pei lou	1
+难燃材料	nan ran cai liao	1
+男卫生间	nan wei sheng jian	1
+脑椽	nao chuan	1
+闹市区	nao shi qu	1
+内表面换热系数	nei biao mian huan re xi shu	1
+内表面换热阻	nei biao mian huan re zu	1
+内部隔断	nei bu ge duan	1
+内部通信系统	nei bu tong xin xi tong	1
+内槽柱	nei cao zhu	1
+内城	nei cheng	1
+内额	nei e	1
+内开窗	nei kai chuang	1
+内开门	nei kai men	1
+内力	nei li	1
+内力重分布	nei li chong fen bu	1
+内力重分配	nei li chong fen pei	1
+内门	nei men	1
+内摩擦角	nei mo ca jiao	1
+内排水	nei pai shui	1
+内墙	nei qiang	1
+内墙涂料	nei qiang tu liao	1
+内墙釉面砖	nei qiang you mian zhuan	1
+内审	nei shen	1
+内烟道	nei yan dao	1
+内檐装修	nei yan zhuang xiu	1
+内柱	nei zhu	1
+内装修工程	nei zhuang xiu gong cheng	1
+内阻尼	nei zu ni	1
+能源费用	neng yuan fei yong	1
+能源消耗	neng yuan xiao hao	1
+逆城市化	ni cheng shi hua	1
+泥道拱	ni dao gong	1
+泥道栱	ni dao gong	1
+泥浆	ni jiang	1
+逆流继电器	ni liu ji dian qi	1
+呢绒绸缎店	ni rong chou duan dian	1
+泥炭压制播种饼	ni tan ya zhi bo zhong bing	1
+逆止阀	ni zhi fa	1
+辇道	nian dao	1
+粘结	nian jie	1
+粘结处理	nian jie chu li	1
+捻口	nian kou	1
+年龄结构	nian ling jie gou	1
+粘土	nian tu	1
+粘土瓦	nian tu wa	1
+粘土质材料	nian tu zhi cai liao	1
+粘土砖	nian tu zhuan	1
+粘质粉土	nian zhi fen tu	1
+粘质砂土	nian zhi sha tu	1
+酿酒厂	niang jiu chang	1
+鸟瞰透视图	niao kan tou shi tu	1
+鸟瞰图	niao kan tu	1
+鸟舍	niao she	1
+鸟浴	niao yu	1
+镍镉蓄电池	nie ge xu dian chi	1
+凝灰石	ning hui shi	1
+凝结水管	ning jie shui guan	1
+凝结水箱	ning jie shui xiang	1
+扭矩	niu ju	1
+牛乳处理间	niu ru chu li jian	1
+牛舍	niu she	1
+牛腿	niu tui	1
+农机修理站	nong ji xiu li zhan	1
+农机站	nong ji zhan	1
+农具棚	nong ju peng	1
+农贸市场	nong mao shi chang	1
+农业服务中心	nong ye fu wu zhong xin	1
+农业生产建筑	nong ye sheng chan jian zhu	1
+浓荫树	nong yin shu	1
+暖气管沟	nuan qi guan gou	1
+暖气管盘	nuan qi guan pan	1
+暖气片	nuan qi pian	1
+暖气设备	nuan qi she bei	1
+暖气系统	nuan qi xi tong	1
+暖气总管	nuan qi zong guan	1
+暖通工程师	nuan tong gong cheng shi	1
+暖通设计	nuan tong she ji	1
+暖通专业	nuan tong zhuan ye	1
+女儿墙	nv er qiang	1
+女卫生间	nv wei sheng jian	1
+耦合电路	ou he dian lu	1
+欧姆耦合变压器	ou mu ou he bian ya qi	1
+偶偏	ou pian	1
+偶然偏心	ou ran pian xin	1
+偶然组合	ou ran zu he	1
+爬架	pa jia	1
+爬梯	pa ti	1
+派出所	pai chu suo	1
+排风扇	pai feng shan	1
+排风竖井	pai feng shu jing	1
+排汗冷却效率	pai han leng que xiao lv	1
+排架	pai jia	1
+排距	pai ju	1
+排练厅	pai lian ting	1
+牌楼	pai lou	1
+牌楼门	pai lou men	1
+排气	pai qi	1
+排气扇	pai qi shan	1
+排球场	pai qiu chang	1
+排水暗沟	pai shui an gou	1
+排水工程	pai shui gong cheng	1
+排水管	pai shui guan	1
+排水管通球试验	pai shui guan tong qiu shi yan	1
+排水立管	pai shui li guan	1
+排水明沟	pai shui ming gou	1
+排水条件	pai shui tiao jian	1
+排衙石	pai ya shi	1
+排烟	pai yan	1
+排烟窗	pai yan chuang	1
+排烟道	pai yan dao	1
+排烟风机	pai yan feng ji	1
+排烟口	pai yan kou	1
+排烟竖井	pai yan shu jing	1
+排烟系统	pai yan xi tong	1
+排烟罩	pai yan zhao	1
+攀缘绿化	pan yuan lv hua	1
+攀缘植物	pan yuan zhi wu	1
+泡沫灭火器	pao mo mie huo qi	1
+配电电缆	pei dian dian lan	1
+配电干线	pei dian gan xian	1
+配电盘	pei dian pan	1
+配电室	pei dian shi	1
+配电系统	pei dian xi tong	1
+配电系统图	pei dian xi tong tu	1
+配电线路	pei dian xian lu	1
+配电箱	pei dian xiang	1
+配电站	pei dian zhan	1
+配电中心	pei dian zhong xin	1
+配箍	pei gu	1
+配箍率	pei gu lv	1
+配箍特征值	pei gu te zheng zhi	1
+配筋	pei jin	1
+配筋率	pei jin lv	1
+配景	pei jing	1
+配乳室	pei ru shi	1
+配水池	pei shui chi	1
+配水管	pei shui guan	1
+配水管网	pei shui guan wang	1
+配水中和池	pei shui zhong he chi	1
+配套项目	pei tao xiang mu	1
+配重抗浮	pei zhong kang fu	1
+喷灌覆盖面	pen guan fu gai mian	1
+喷壶	pen hu	1
+喷浆吊顶	pen jiang diao ding	1
+盆景	pen jing	1
+盆景花坛	pen jing hua tan	1
+盆景配件	pen jing pei jian	1
+盆景盆体	pen jing pen ti	1
+盆景土	pen jing tu	1
+盆景艺术	pen jing yi shu	1
+盆景园	pen jing yuan	1
+盆景植物	pen jing zhi wu	1
+喷淋泵	pen lin beng	1
+喷洒泵	pen sa beng	1
+喷砂	pen sha	1
+喷砂玻璃	pen sha bo li	1
+喷射制品	pen she zhi pin	1
+喷射装置	pen she zhuang zhi	1
+喷水池	pen shui chi	1
+喷水管布置	pen shui guan bu zhi	1
+喷水口	pen shui kou	1
+喷水灭火系统	pen shui mie huo xi tong	1
+喷水喷头	pen shui pen tou	1
+喷水系统	pen shui xi tong	1
+喷涂	pen tu	1
+喷涂塑料饰面	pen tu su liao shi mian	1
+喷雾喷灌器	pen wu pen guan qi	1
+喷雾自控系统	pen wu zi kong xi tong	1
+盆栽灌水系统	pen zai guan shui xi tong	1
+盆栽花坛	pen zai hua tan	1
+盆栽机	pen zai ji	1
+喷注噪声	pen zhu zao sheng	1
+棚顶内管线	peng ding nei guan xian	1
+棚屋区	peng wu qu	1
+膨胀缝	peng zhang feng	1
+膨胀剂	peng zhang ji	1
+膨胀螺栓	peng zhang luo shuan	1
+膨胀螺丝	peng zhang luo si	1
+膨胀水箱	peng zhang shui xiang	1
+皮带龙头	pi dai long tou	1
+皮带输送机	pi dai shu song ji	1
+批发商店	pi fa shang dian	1
+啤酒厂	pi jiu chang	1
+疲劳破坏	pi lao po huai	1
+疲劳强度	pi lao qiang du	1
+皮毛加工厂	pi mao jia gong chang	1
+批判地方主义	pi pan di fang zhu yi	1
+片材	pian cai	1
+片锁	pian suo	1
+偏心对齐	pian xin dui qi	1
+偏心距	pian xin ju	1
+偏心门	pian xin men	1
+偏心异径管	pian xin yi jing guan	1
+片状材料	pian zhuang cai liao	1
+飘窗	piao chuang	1
+拼板门	pin ban men	1
+频程	pin cheng	1
+拼缝	pin feng	1
+拼花地板	pin hua di ban	1
+拼花地板块	pin hua di ban kuai	1
+拼花地面	pin hua di mian	1
+拼花硬木地板	pin hua ying mu di ban	1
+频遇值	pin yu zhi	1
+频遇组合	pin yu zu he	1
+平板玻璃	ping ban bo li	1
+平板枋	ping ban fang	1
+平板式	ping ban shi	1
+屏蔽电缆	ping bi dian lan	1
+屏蔽门	ping bi men	1
+屏蔽墙	ping bi qiang	1
+屏蔽天线	ping bi tian xian	1
+平尺板	ping chi ban	1
+平法	ping fa	1
+平方米预算价	ping fang mi yu suan jia	1
+平傅	ping fu	1
+平衡	ping heng	1
+平衡锤安全阀	ping heng chui an quan fa	1
+平衡阀	ping heng fa	1
+平衡木	ping heng mu	1
+平衡重	ping heng zhong	1
+平均传热系数	ping jun chuan re xi shu	1
+平均每户建筑面积	ping jun mei hu jian zhu mian ji	1
+平均每人居住面积	ping jun mei ren ju zhu mian ji	1
+平均天空	ping jun tian kong	1
+平均自由程	ping jun zi you cheng	1
+平开窗	ping kai chuang	1
+平开门	ping kai men	1
+平口接	ping kou jie	1
+平梁	ping liang	1
+平面	ping mian	1
+平面布置	ping mian bu zhi	1
+平面配筋图	ping mian pei jin tu	1
+平面热源测定法	ping mian re yuan ce ding fa	1
+平面设计	ping mian she ji	1
+平面图	ping mian tu	1
+平盘斗	ping pan dou	1
+平剖面	ping pou mian	1
+平剖面图	ping pou mian tu	1
+平棊	ping qi	1
+平嵌线	ping qian xian	1
+平槫	ping quan	1
+平身科	ping shen ke	1
+屏石	ping shi	1
+瓶饰	ping shi	1
+平台板	ping tai ban	1
+平台梁	ping tai liang	1
+平台铆钉	ping tai mao ding	1
+平台屋顶	ping tai wu ding	1
+平台园	ping tai yuan	1
+平头螺栓	ping tou luo shuan	1
+平瓦	ping wa	1
+平屋顶	ping wu ding	1
+平屋顶建筑	ping wu ding jian zhu	1
+平屋面	ping wu mian	1
+平行管线	ping xing guan xian	1
+平行式自动扶梯	ping xing shi zi dong fu ti	1
+平直偏差	ping zhi pian cha	1
+平坐	ping zuo	1
+平坐柱	ping zuo zhu	1
+平座柱	ping zuo zhu	1
+坡道	po dao	1
+破化砖	po hua zhuan	1
+坡屋顶	po wu ding	1
+坡屋面	po wu mian	1
+剖面	pou mian	1
+剖面图	pou mian tu	1
+剖面线	pou mian xian	1
+剖视图	pou shi tu	1
+普柏枋	pu bai fang	1
+普遍钎探	pu bian qian tan	1
+瀑布风景区	pu bu feng jing qu	1
+铺草皮块草坪	pu cao pi kuai cao ping	1
+铺地板	pu di ban	1
+铺地园	pu di yuan	1
+铺地砖	pu di zhuan	1
+铺设管道	pu she guan dao	1
+铺石花坛	pu shi hua tan	1
+普通火灾隐患	pu tong huo zai yin huan	1
+普通建筑	pu tong jian zhu	1
+普通螺栓	pu tong luo shuan	1
+普通照明灯具	pu tong zhao ming deng ju	1
+气闭隔膜阀	qi bi ge mo fa	1
+七踩	qi cai	1
+汽车厂	qi che chang	1
+汽车地磅	qi che di bang	1
+汽车服务站	qi che fu wu zhan	1
+汽车客运站	qi che ke yun zhan	1
+汽车库	qi che ku	1
+汽车旅馆	qi che lv guan	1
+汽车坡道	qi che po dao	1
+汽车汽配厂	qi che qi pei chang	1
+汽车停车规则	qi che ting che gui ze	1
+汽车洗车台	qi che xi che tai	1
+汽车修理站	qi che xiu li zhan	1
+汽车影院	qi che ying yuan	1
+气窗	qi chuang	1
+起吊	qi diao	1
+气钉枪	qi ding qiang	1
+起动变压器	qi dong bian ya qi	1
+气动输送管	qi dong shu song guan	1
+气动输送系统	qi dong shu song xi tong	1
+起分格条	qi fen ge tiao	1
+气浮池	qi fu chi	1
+旗杆	qi gan	1
+起拱	qi gong	1
+七股钢绞线	qi gu gang jiao xian	1
+气候调节	qi hou tiao jie	1
+启辉器	qi hui qi	1
+七架梁	qi jia liang	1
+起居室	qi ju shi	1
+起居室餐室厨房	qi ju shi can shi chu fang	1
+起居室兼餐室	qi ju shi jian can shi	1
+起居室烟雾报警	qi ju shi yan wu bao jing	1
+气开隔膜阀	qi kai ge mo fa	1
+期刊目录室	qi kan mu lu shi	1
+企口	qi kou	1
+企口板	qi kou ban	1
+企口地板	qi kou di ban	1
+企口接	qi kou jie	1
+砌块	qi kuai	1
+气流动力系数	qi liu dong li xi shu	1
+气流组织	qi liu zu zhi	1
+骑马雀替	qi ma que ti	1
+起毛	qi mao	1
+气密试验	qi mi shi yan	1
+气密性	qi mi xing	1
+气泡图	qi pao tu	1
+七铺作	qi pu zuo	1
+起迄点调查	qi qi dian diao cha	1
+气溶胶	qi rong jiao	1
+砌上明造	qi shang ming zao	1
+砌式	qi shi	1
+砌体	qi ti	1
+砌体结构	qi ti jie gou	1
+砌体结构设计规范	qi ti jie gou she ji gui fan	1
+气温年较差	qi wen nian jiao cha	1
+气温日较差	qi wen ri jiao cha	1
+气象景观	qi xiang jing guan	1
+气象台	qi xiang tai	1
+器械室	qi xie shi	1
+齐心斗	qi xin dou	1
+气压给水	qi ya gei shui	1
+气压给水系统	qi ya gei shui xi tong	1
+气压水罐	qi ya shui guan	1
+起重机起吊半径	qi zhong ji qi diao ban jing	1
+起重机行车大梁	qi zhong ji xing che da liang	1
+起重能力	qi zhong neng li	1
+起重装置	qi zhong zhuang zhi	1
+砌筑	qi zhu	1
+砌筑墙	qi zhu qiang	1
+砌砖	qi zhuan	1
+洽商记录	qia shang ji lu	1
+铅板屏	qian ban ping	1
+前处理	qian chu li	1
+前端设备	qian duan she bei	1
+嵌缝膏	qian feng gao	1
+浅浮雕	qian fu diao	1
+嵌固	qian gu	1
+嵌固端	qian gu duan	1
+前楼梯	qian lou ti	1
+前门廊	qian men lang	1
+嵌墙	qian qiang	1
+前轻后重法	qian qing hou zhong fa	1
+铅球投掷区	qian qiu tou zhi qu	1
+嵌入式照明	qian ru shi zhao ming	1
+前室	qian shi	1
+潜水	qian shui	1
+潜水泵	qian shui beng	1
+钎探	qian tan	1
+前厅	qian ting	1
+前庭	qian ting	1
+前悬装土机	qian xuan zhuang tu ji	1
+嵌岩桩	qian yan zhuang	1
+铅油	qian you	1
+墙板	qiang ban	1
+戗槎	qiang cha	1
+墙承重结构	qiang cheng zhong jie gou	1
+墙洞	qiang dong	1
+墙洞口	qiang dong kou	1
+墙墩	qiang dun	1
+墙垛	qiang duo	1
+强风化岩层	qiang feng hua yan ceng	1
+墙高	qiang gao	1
+墙桂阳角	qiang gui yang jiao	1
+墙厚	qiang hou	1
+戗脊	qiang ji	1
+强剪	qiang jian	1
+墙筋	qiang jin	1
+墙梁	qiang liang	1
+墙面	qiang mian	1
+墙面刮腻子	qiang mian gua ni zi	1
+墙面抹灰	qiang mian mo hui	1
+墙面贴瓷砖	qiang mian tie ci zhuan	1
+墙面砖	qiang mian zhuan	1
+墙面装饰	qiang mian zhuang shi	1
+墙面装饰工程	qiang mian zhuang shi gong cheng	1
+强迫对流	qiang po dui liu	1
+强屈比	qiang qu bi	1
+墙裙	qiang qun	1
+墙身	qiang shen	1
+墙式配电盘	qiang shi pei dian pan	1
+墙体	qiang ti	1
+墙体开裂	qiang ti kai lie	1
+墙体配筋	qiang ti pei jin	1
+强条	qiang tiao	1
+蔷薇园	qiang wei yuan	1
+墙园	qiang yuan	1
+墙肢	qiang zhi	1
+强制送风	qiang zhi song feng	1
+墙柱	qiang zhu	1
+墙柱平面布置图	qiang zhu ping mian bu zhi tu	1
+翘曲	qiao qu	1
+桥式起重机	qiao shi qi zhong ji	1
+桥头绿化	qiao tou lv hua	1
+切割机	qie ge ji	1
+切花	qie hua	1
+切花园	qie hua yuan	1
+切削厚度	qie xiao hou du	1
+切削制品	qie xiao zhi pin	1
+切叶机	qie ye ji	1
+琴面	qin mian	1
+禽市	qin shi	1
+轻便机械	qing bian ji xie	1
+轻便灭火器	qing bian mie huo qi	1
+清代术语	qing dai shu yu	1
+倾覆	qing fu	1
+倾覆力矩	qing fu li ju	1
+倾覆弯矩	qing fu wan ju	1
+轻钢	qing gang	1
+轻钢结构	qing gang jie gou	1
+轻钢龙骨	qing gang long gu	1
+轻钢石膏板	qing gang shi gao ban	1
+轻隔墙	qing ge qiang	1
+轻轨交通	qing gui jiao tong	1
+清洁间	qing jie jian	1
+清洁走廊	qing jie zou lang	1
+青年公寓	qing nian gong yu	1
+青年中心	qing nian zhong xin	1
+清漆	qing qi	1
+轻墙	qing qiang	1
+清扫打蜡	qing sao da la	1
+清扫口	qing sao kou	1
+轻伤事故率	qing shang shi gu lv	1
+青少年活动区	qing shao nian huo dong qu	1
+青石	qing shi	1
+清水灭火器	qing shui mie huo qi	1
+清水墙	qing shui qiang	1
+清水砼	qing shui tong	1
+清水砖墙	qing shui zhuan qiang	1
+青瓦	qing wa	1
+清晰度	qing xi du	1
+清洗试验记录	qing xi shi yan ji lu	1
+倾斜度	qing xie du	1
+轻型结构	qing xing jie gou	1
+轻型屋架	qing xing wu jia	1
+清真食品厂	qing zhen shi pin chang	1
+轻质隔墙	qing zhi ge qiang	1
+青砖	qing zhuan	1
+穹顶	qiong ding	1
+穹式	qiong shi	1
+球阀	qiu fa	1
+球根园	qiu gen yuan	1
+球根植物	qiu gen zhi wu	1
+球根种植器	qiu gen zhong zhi qi	1
+球形天线	qiu xing tian xian	1
+球形屋顶	qiu xing wu ding	1
+邱园	qiu yuan	1
+曲尺楼梯	qu chi lou ti	1
+驱动链	qu dong lian	1
+屈服台阶	qu fu tai jie	1
+区公园	qu gong yuan	1
+曲棍球场	qu gun qiu chang	1
+区划	qu hua	1
+区划法规	qu hua fa gui	1
+曲栏	qu lan	1
+曲廊	qu lang	1
+曲桥	qu qiao	1
+区位	qu wei	1
+区域报警器	qu yu bao jing qi	1
+区域给水系统	qu yu gei shui xi tong	1
+区域供热	qu yu gong re	1
+区域供水系统	qu yu gong shui xi tong	1
+区域规划	qu yu gui hua	1
+区中心	qu zhong xin	1
+全波整流器	quan bo zheng liu qi	1
+全部面积	quan bu mian ji	1
+全高	quan gao	1
+全高加密	quan gao jia mi	1
+拳击比赛台	quan ji bi sai tai	1
+全截面	quan jie mian	1
+全景电影院	quan jing dian ying yuan	1
+全空气系统	quan kong qi xi tong	1
+圈梁	quan liang	1
+全能量系统	quan neng liang xi tong	1
+全晴天天空	quan qing tian tian kong	1
+全热换热器	quan re huan re qi	1
+全日制托儿所	quan ri zhi tuo er suo	1
+券式	quan shi	1
+全寿命费用	quan shou ming fei yong	1
+全水系统	quan shui xi tong	1
+全隐框	quan yin kuang	1
+全阴天天空	quan yin tian tian kong	1
+缺棱	que leng	1
+雀替	que ti	1
+裙板	qun ban	1
+裙房	qun fang	1
+裙楼	qun lou	1
+群体交互	qun ti jiao hu	1
+群植	qun zhi	1
+群众参与	qun zhong can yu	1
+群众集会区	qun zhong ji hui qu	1
+群众绿化	qun zhong lv hua	1
+燃气管道检漏记录	ran qi guan dao jian lou ji lu	1
+燃气热水器	ran qi re shui qi	1
+燃气泄漏报警	ran qi xie lou bao jing	1
+染色效应	ran se xiao ying	1
+燃烧体	ran shao ti	1
+燃油系统	ran you xi tong	1
+绕行道路	rao xing dao lu	1
+热泵	re beng	1
+热处理车间	re chu li che jian	1
+热带气候	re dai qi hou	1
+热带植物园	re dai zhi wu yuan	1
+热导率	re dao lv	1
+热导体	re dao ti	1
+热岛效应	re dao xiao ying	1
+热电供暖	re dian gong nuan	1
+热镀锌扁钢	re du xin bian gang	1
+热镀锌圆钢	re du xin yuan gang	1
+热惰性	re duo xing	1
+热反应模拟	re fan ying mo ni	1
+热反应系数	re fan ying xi shu	1
+热风采暖系统	re feng cai nuan xi tong	1
+热风供暖	re feng gong nuan	1
+热风供暖系统	re feng gong nuan xi tong	1
+热风供暖装置	re feng gong nuan zhuang zhi	1
+热风管道	re feng guan dao	1
+热风幕	re feng mu	1
+热风系统	re feng xi tong	1
+热负荷	re fu he	1
+热工设计	re gong she ji	1
+热工摄象术	re gong she xiang shu	1
+热工试验室	re gong shi yan shi	1
+热固性树脂薄膜	re gu xing shu zhi bo mo	1
+热管	re guan	1
+热惯性	re guan xing	1
+热回收装置	re hui shou zhuang zhi	1
+热交换器	re jiao huan qi	1
+热控开关	re kong kai guan	1
+热力网	re li wang	1
+热流	re liu	1
+热流计	re liu ji	1
+热流强度	re liu qiang du	1
+热脉冲测定法	re mai chong ce ding fa	1
+热媒	re mei	1
+热媒给水管	re mei gei shui guan	1
+热媒回水管	re mei hui shui guan	1
+热敏传感器	re min chuan gan qi	1
+热启动灯	re qi dong deng	1
+热桥	re qiao	1
+热熔	re rong	1
+热容量	re rong liang	1
+热熔粘接剂	re rong zhan jie ji	1
+热舒适通风	re shu shi tong feng	1
+热舒适指标	re shu shi zhi biao	1
+热水表	re shui biao	1
+热水采暖系统	re shui cai nuan xi tong	1
+热水干管	re shui gan guan	1
+热水给水管	re shui gei shui guan	1
+热水供暖	re shui gong nuan	1
+热水供暖设备	re shui gong nuan she bei	1
+热水供暖设计	re shui gong nuan she ji	1
+热水供暖系统	re shui gong nuan xi tong	1
+热水供应室	re shui gong ying shi	1
+热水供应系统	re shui gong ying xi tong	1
+热水管	re shui guan	1
+热水锅炉	re shui guo lu	1
+热水回水管	re shui hui shui guan	1
+热水浴室	re shui yu shi	1
+热塑性树脂薄膜	re su xing shu zhi bo mo	1
+热稳定性	re wen ding xing	1
+热线圈	re xian quan	1
+热养护	re yang hu	1
+热应力指标	re ying li zhi biao	1
+热源	re yuan	1
+热轧	re zha	1
+热阻	re zu	1
+人防	ren fang	1
+人防办公室	ren fang ban gong shi	1
+人防地下室	ren fang di xia shi	1
+人防荷载	ren fang he zai	1
+人防口部结构详图	ren fang kou bu jie gou xiang tu	1
+人工采精室	ren gong cai jing shi	1
+人工环境	ren gong huan jing	1
+人工混响	ren gong hun xiang	1
+人工检修孔	ren gong jian xiu kong	1
+人工群落	ren gong qun luo	1
+人工天空	ren gong tian kong	1
+人工挖孔桩	ren gong wa kong zhuang	1
+人工照明	ren gong zhao ming	1
+人工制品	ren gong zhi pin	1
+人货梯卸架子	ren huo ti xie jia zi	1
+人居	ren ju	1
+人均指标	ren jun zhi biao	1
+人孔	ren kong	1
+人孔复式封盖	ren kong fu shi feng gai	1
+人孔盖	ren kong gai	1
+人口百岁图	ren kou bai sui tu	1
+人口分析	ren kou fen xi	1
+人口构成	ren kou gou cheng	1
+人口结构	ren kou jie gou	1
+人口密度	ren kou mi du	1
+人口迁移增长	ren kou qian yi zeng zhang	1
+人口增长	ren kou zeng zhang	1
+人口增长率	ren kou zeng zhang lv	1
+人口自然增长率	ren kou zi ran zeng zhang lv	1
+人类群居学	ren lei qun ju xue	1
+人类生态环境	ren lei sheng tai huan jing	1
+人类生态学	ren lei sheng tai xue	1
+人类生物气象学	ren lei sheng wu qi xiang xue	1
+人类行为	ren lei xing wei	1
+人流量	ren liu liang	1
+人流疏散道路	ren liu shu san dao lu	1
+人体测量学	ren ti ce liang xue	1
+人体尺寸	ren ti chi cun	1
+人体热感觉	ren ti re gan jue	1
+人体舒适	ren ti shu shi	1
+人文景观	ren wen jing guan	1
+人行道	ren xing dao	1
+人行道绿化	ren xing dao lv hua	1
+人行地道	ren xing di dao	1
+人行天桥	ren xing tian qiao	1
+人因	ren yin	1
+人因工效学	ren yin gong xiao xue	1
+人造大理石	ren zao da li shi	1
+人造光源	ren zao guang yuan	1
+人造假山石	ren zao jia shan shi	1
+人造石	ren zao shi	1
+人字梯	ren zi ti	1
+人字屋顶	ren zi wu ding	1
+人字型屋架	ren zi xing wu jia	1
+日本式盆景	ri ben shi pen jing	1
+日常清洁卫生管理	ri chang qing jie wei sheng guan li	1
+日光治疗室	ri guang zhi liao shi	1
+日规	ri gui	1
+日间人口	ri jian ren kou	1
+日照百分率	ri zhao bai fen lv	1
+日照标准	ri zhao biao zhun	1
+日照计算	ri zhao ji suan	1
+日照间距	ri zhao jian ju	1
+日照面积	ri zhao mian ji	1
+日照时间	ri zhao shi jian	1
+日照时数	ri zhao shi shu	1
+日照小时	ri zhao xiao shi	1
+熔断器	rong duan qi	1
+容积率	rong ji lv	1
+熔透焊	rong tou han	1
+容许电流	rong xu dian liu	1
+容许高度	rong xu gao du	1
+容许工作能力	rong xu gong zuo neng li	1
+容许荷载	rong xu he zai	1
+容许使用负荷	rong xu shi yong fu he	1
+容许温度	rong xu wen du	1
+溶岩景观	rong yan jing guan	1
+容重	rong zhong	1
+柔度	rou du	1
+柔度系数	rou du xi shu	1
+肉类加工厂	rou lei jia gong chang	1
+肉类制品厂	rou lei zhi pin chang	1
+肉市	rou shi	1
+柔性防水套管	rou xing fang shui tao guan	1
+柔性防水屋面	rou xing fang shui wu mian	1
+乳白玻璃	ru bai bo li	1
+乳白灯泡	ru bai deng pao	1
+褥垫层	ru dian ceng	1
+乳袱	ru fu	1
+乳栿	ru fu	1
+乳胶粘合剂	ru jiao nian he ji	1
+乳胶漆	ru jiao qi	1
+入口大厅	ru kou da ting	1
+入口门	ru kou men	1
+入口坡道	ru kou po dao	1
+入口台阶	ru kou tai jie	1
+入口通道	ru kou tong dao	1
+乳牛场	ru niu chang	1
+如意踏步	ru yi ta bu	1
+软化水	ruan hua shui	1
+软毛刷	ruan mao shua	1
+软弱下卧层	ruan ruo xia wo ceng	1
+软性覆面	ruan xing fu mian	1
+润滑油系统	run hua you xi tong	1
+弱电配管	ruo dian pei guan	1
+弱弯	ruo wan	1
+洒水栓龙头	sa shui shuan long tou	1
+赛宾吸声系数	sai bin xi sheng xi shu	1
+赛车跑道	sai che pao dao	1
+赛马场	sai ma chang	1
+散步道	san bu dao	1
+散步区	san bu qu	1
+三踩	san cai	1
+三才升	san cai sheng	1
+三层	san ceng	1
+散点石	san dian shi	1
+散斗	san dou	1
+三股钢绞线	san gu gang jiao xian	1
+散光照明	san guang zhao ming	1
+三合板	san he ban	1
+三合土	san he tu	1
+三级负荷	san ji fu he	1
+三级钢	san ji gang	1
+三极开关	san ji kai guan	1
+三级跳远场地	san ji tiao yuan chang di	1
+三夹板	san jia ban	1
+三架梁	san jia liang	1
+三角钢	san jiao gang	1
+三类场地	san lei chang di	1
+散流器	san liu qi	1
+散流器送风	san liu qi song feng	1
+三楼楼厅	san lou lou ting	1
+三路开关	san lu kai guan	1
+三跑楼梯	san pao lou ti	1
+三七灰土夯实	san qi hui tu hang shi	1
+散热器	san re qi	1
+三扇式转门	san shan shi zhuan men	1
+散射	san she	1
+三设备调试记录	san she bei tiao shi ji lu	1
+散射灯	san she deng	1
+散射辐射	san she fu she	1
+散水	san shui	1
+三跳	san tiao	1
+三通连接	san tong lian jie	1
+三维地貌模型	san wei di mao mo xing	1
+三维模型系统	san wei mo xing xi tong	1
+三相四线制	san xiang si xian zhi	1
+三相制	san xiang zhi	1
+三芯电缆	san xin dian lan	1
+散植	san zhi	1
+三肢箍	san zhi gu	1
+桑拿浴室	sang na yu shi	1
+色表	se biao	1
+色彩模拟	se cai mo ni	1
+色度计	se du ji	1
+色感	se gan	1
+色温	se wen	1
+森林风景区	sen lin feng jing qu	1
+森林公园	sen lin gong yuan	1
+森林生态系统	sen lin sheng tai xi tong	1
+纱窗	sha chuang	1
+砂浆	sha jiang	1
+砂浆标号	sha jiang biao hao	1
+砂浆配合比通知单	sha jiang pei he bi tong zhi dan	1
+砂卵石层	sha luan shi ceng	1
+砂卵石褥垫层	sha luan shi ru dian ceng	1
+纱门	sha men	1
+砂土	sha tu	1
+晒场	shai chang	1
+晒图室	shai tu shi	1
+善本图书阅览室	shan ben tu shu yue lan shi	1
+山地气候	shan di qi hou	1
+闪点	shan dian	1
+栅顶	shan ding	1
+山花	shan hua	1
+山门	shan men	1
+山面	shan mian	1
+扇面墙	shan mian qiang	1
+山墙	shan qiang	1
+山墙百叶窗	shan qiang bai ye chuang	1
+扇翘	shan qiao	1
+山石材料	shan shi cai liao	1
+扇形拱	shan xing gong	1
+扇形理论	shan xing li lun	1
+山岳景观	shan yue jing guan	1
+山柱	shan zhu	1
+上昂	shang ang	1
+上部结构	shang bu jie gou	1
+上部驱动装置	shang bu qu dong zhuang zhi	1
+上挡	shang dang	1
+上挡墙	shang dang qiang	1
+商店橱窗	shang dian chu chuang	1
+上翻门	shang fan men	1
+上枋	shang fang	1
+上节点高	shang jie dian gao	1
+上金枋	shang jin fang	1
+上框	shang kuang	1
+上林苑	shang lin yuan	1
+上冒头	shang mao tou	1
+上袅	shang niao	1
+上排	shang pai	1
+商品陈列架	shang pin chen lie jia	1
+上轻下重法	shang qing xia zhong fa	1
+上人屋面	shang ren wu mian	1
+上水道	shang shui dao	1
+上水管	shang shui guan	1
+上铁	shang tie	1
+上铁上	shang tie shang	1
+上铁下	shang tie xia	1
+商务办公区	shang wu ban gong qu	1
+商务文件	shang wu wen jian	1
+上下水管	shang xia shui guan	1
+上下水设计	shang xia shui she ji	1
+上下水支管	shang xia shui zhi guan	1
+上行下给式	shang xing xia gei shi	1
+上悬窗	shang xuan chuang	1
+商业城市	shang ye cheng shi	1
+商业建筑	shang ye jian zhu	1
+商业街	shang ye jie	1
+商业旅馆	shang ye lv guan	1
+商业区	shang ye qu	1
+上柱墩	shang zhu dun	1
+烧成制品	shao cheng zhi pin	1
+烧火间	shao huo jian	1
+梢间	shao jian	1
+烧结砖	shao jie zhuan	1
+少筋梁	shao jin liang	1
+烧制车间	shao zhi che jian	1
+设备安装	she bei an zhuang	1
+设备材料报验单	she bei cai liao bao yan dan	1
+设备层	she bei ceng	1
+设备工程师	she bei gong cheng shi	1
+设备管理	she bei guan li	1
+设备基础	she bei ji chu	1
+设备基础交接记录	she bei ji chu jiao jie ji lu	1
+设备夹层	she bei jia ceng	1
+设备开箱检验记录	she bei kai xiang jian yan ji lu	1
+设备设计	she bei she ji	1
+设备专业	she bei zhuan ye	1
+射钉枪	she ding qiang	1
+设防	she fang	1
+设防烈度	she fang lie du	1
+社会城市	she hui cheng shi	1
+社会影响评价	she hui ying xiang ping jia	1
+设计变更	she ji bian geng	1
+设计标高	she ji biao gao	1
+设计标准	she ji biao zhun	1
+射击场	she ji chang	1
+设计程序	she ji cheng xu	1
+设计尺寸	she ji chi cun	1
+设计方案	she ji fang an	1
+设计费	she ji fei	1
+设计负荷	she ji fu he	1
+设计概算	she ji gai suan	1
+设计管理	she ji guan li	1
+设计规范	she ji gui fan	1
+设计合同	she ji he tong	1
+设计计算书	she ji ji suan shu	1
+设计交底记录	she ji jiao di ji lu	1
+设计阶段	she ji jie duan	1
+设计批准	she ji pi zhun	1
+设计前期工作	she ji qian qi gong zuo	1
+设计任务书	she ji ren wu shu	1
+设计室	she ji shi	1
+设计说明	she ji shuo ming	1
+设计委托	she ji wei tuo	1
+设计温度	she ji wen du	1
+设计文件	she ji wen jian	1
+设计效果图	she ji xiao guo tu	1
+设计协议	she ji xie yi	1
+设计要求	she ji yao qiu	1
+设计依据	she ji yi ju	1
+设计义务	she ji yi wu	1
+设计预算	she ji yu suan	1
+设计值	she ji zhi	1
+射箭场	she jian chang	1
+社区	she qu	1
+社区规划	she qu gui hua	1
+社区设施	she qu she shi	1
+社区生活质量	she qu sheng huo zhi liang	1
+社区中心	she qu zhong xin	1
+涉水池	she shui chi	1
+涉水踏步	she shui ta bu	1
+涉外区	she wai qu	1
+蛇纹石板	she wen shi ban	1
+蛇形管	she xing guan	1
+设总	she zong	1
+伸长率	shen chang lv	1
+审定	shen ding	1
+渗井	shen jing	1
+深井泵	shen jing beng	1
+深梁	shen liang	1
+伸入	shen ru	1
+渗色	shen se	1
+深受弯	shen shou wan	1
+伸缩缝	shen suo feng	1
+伸缩缝盖板	shen suo feng gai ban	1
+神坛	shen tan	1
+审图	shen tu	1
+生产废水	sheng chan fei shui	1
+生产绿地	sheng chan lv di	1
+生产用水系统	sheng chan yong shui xi tong	1
+声场	sheng chang	1
+声反馈	sheng fan kui	1
+声反射系数	sheng fan she xi shu	1
+声干扰	sheng gan rao	1
+声功率	sheng gong lv	1
+声功率级	sheng gong lv ji	1
+生化池	sheng hua chi	1
+生活给水管	sheng huo gei shui guan	1
+生活间	sheng huo jian	1
+生活污水	sheng huo wu shui	1
+生活饮用水系统	sheng huo yin yong shui xi tong	1
+生活用水	sheng huo yong shui	1
+声级	sheng ji	1
+升降机	sheng jiang ji	1
+升降式吊灯	sheng jiang shi diao deng	1
+升降台	sheng jiang tai	1
+升降舞台	sheng jiang wu tai	1
+声聚焦	sheng ju jiao	1
+圣龛	sheng kan	1
+声控	sheng kong	1
+生命维持系统	sheng ming wei chi xi tong	1
+声能比	sheng neng bi	1
+声能密度	sheng neng mi du	1
+声能通量	sheng neng tong liang	1
+声耦合	sheng ou he	1
+生漆	sheng qi	1
+声强级	sheng qiang ji	1
+声桥	sheng qiao	1
+声全息图	sheng quan xi tu	1
+声锁	sheng suo	1
+生态绝灭	sheng tai jue mie	1
+生态平衡	sheng tai ping heng	1
+生态圈	sheng tai quan	1
+生态条件	sheng tai tiao jian	1
+生态系统	sheng tai xi tong	1
+生态灾难	sheng tai zai nan	1
+声透镜	sheng tou jing	1
+生土建筑	sheng tu jian zhu	1
+生物圈	sheng wu quan	1
+生物圈保护区	sheng wu quan bao hu qu	1
+生物试验室	sheng wu shi yan shi	1
+声线	sheng xian	1
+声像	sheng xiang	1
+声学处理	sheng xue chu li	1
+声学模拟	sheng xue mo ni	1
+声学试验室	sheng xue shi yan shi	1
+声压级	sheng ya ji	1
+声影区	sheng ying qu	1
+声罩	sheng zhao	1
+石岸	shi an	1
+十八斗	shi ba dou	1
+石板桥	shi ban qiao	1
+时变化系数	shi bian hua xi shu	1
+识别性	shi bie xing	1
+石材纲龙骨	shi cai gang long gu	1
+石材勾缝	shi cai gou feng	1
+石材制品	shi cai zhi pin	1
+食槽	shi cao	1
+时程	shi cheng	1
+时程分析	shi cheng fen xi	1
+视错觉	shi cuo jue	1
+时代性	shi dai xing	1
+石凳	shi deng	1
+石洞	shi dong	1
+石舫	shi fang	1
+施肥喷灌器	shi fei pen guan qi	1
+石膏板	shi gao ban	1
+石膏板隔断	shi gao ban ge duan	1
+石膏板木龙骨隔断	shi gao ban mu long gu ge duan	1
+石膏线	shi gao xian	1
+施工	shi gong	1
+施工安全	shi gong an quan	1
+施工安全管理	shi gong an quan guan li	1
+施工布置图	shi gong bu zhi tu	1
+施工成本管理	shi gong cheng ben guan li	1
+施工程序	shi gong cheng xu	1
+施工单位	shi gong dan wei	1
+施工方法	shi gong fang fa	1
+施工方式	shi gong fang shi	1
+施工缝	shi gong feng	1
+施工工程师	shi gong gong cheng shi	1
+施工公司	shi gong gong si	1
+施工工种	shi gong gong zhong	1
+施工管理经验	shi gong guan li jing yan	1
+施工技术	shi gong ji shu	1
+施工技术责任制	shi gong ji shu ze ren zhi	1
+施工检查	shi gong jian cha	1
+施工监督	shi gong jian du	1
+施工阶段	shi gong jie duan	1
+施工进度	shi gong jin du	1
+施工经济责任制	shi gong jing ji ze ren zhi	1
+施工模拟二	shi gong mo ni er	1
+施工模拟三	shi gong mo ni san	1
+施工模拟一	shi gong mo ni yi	1
+施工热点	shi gong re dian	1
+施工日志	shi gong ri zhi	1
+施工生产联合化	shi gong sheng chan lian he hua	1
+施工生产区域化	shi gong sheng chan qu yu hua	1
+施工生产协作	shi gong sheng chan xie zuo	1
+施工生产专业化	shi gong sheng chan zhuan ye hua	1
+施工实施	shi gong shi shi	1
+施工试验记录	shi gong shi yan ji lu	1
+施工说明书	shi gong shuo ming shu	1
+施工图	shi gong tu	1
+施工图设计	shi gong tu she ji	1
+施工图设计及说明	shi gong tu she ji ji shuo ming	1
+施工图设计阶段	shi gong tu she ji jie duan	1
+施工图预算	shi gong tu yu suan	1
+施工网络计划	shi gong wang luo ji hua	1
+施工文件	shi gong wen jian	1
+施工现场	shi gong xian chang	1
+施工项目	shi gong xiang mu	1
+施工项目编号	shi gong xiang mu bian hao	1
+施工详图	shi gong xiang tu	1
+施工验收技术规范	shi gong yan shou ji shu gui fan	1
+施工预算	shi gong yu suan	1
+施工资料	shi gong zi liao	1
+施工组织设计	shi gong zu zhi she ji	1
+事故备用线路	shi gu bei yong xian lu	1
+事故电源	shi gu dian yuan	1
+事故照明	shi gu zhao ming	1
+事故照明配电箱	shi gu zhao ming pei dian xiang	1
+市花	shi hua	1
+石花台	shi hua tai	1
+石灰淋制	shi hui lin zhi	1
+实际标高	shi ji biao gao	1
+市际交通	shi ji jiao tong	1
+时间延迟	shi jian yan chi	1
+石阶	shi jie	1
+视距	shi ju	1
+食具洗涤消毒间	shi ju xi di xiao du jian	1
+视觉功效	shi jue gong xiao	1
+视觉环境	shi jue huan jing	1
+视觉显示	shi jue xian shi	1
+视觉走廊	shi jue zou lang	1
+视觉作业	shi jue zuo ye	1
+试块	shi kuai	1
+石料统一法	shi liao tong yi fa	1
+石棉板	shi mian ban	1
+石棉管	shi mian guan	1
+石棉混凝土	shi mian hun ning tu	1
+石棉绳	shi mian sheng	1
+石绵绳	shi mian sheng	1
+石棉水泥板	shi mian shui ni ban	1
+石棉水泥保温板	shi mian shui ni bao wen ban	1
+石棉水泥波形瓦	shi mian shui ni bo xing wa	1
+石棉水泥管	shi mian shui ni guan	1
+石棉制品	shi mian zhi pin	1
+实木线	shi mu xian	1
+室内布线	shi nei bu xian	1
+室内采暖系统	shi nei cai nuan xi tong	1
+室内地面标高	shi nei di mian biao gao	1
+室内防火梯	shi nei fang huo ti	1
+室内给水系统	shi nei gei shui xi tong	1
+室内供水系统	shi nei gong shui xi tong	1
+室内管道	shi nei guan dao	1
+室内管工系统	shi nei guan gong xi tong	1
+室内管沟	shi nei guan gou	1
+室内花园	shi nei hua yuan	1
+室内计算温度	shi nei ji suan wen du	1
+室内交通设计	shi nei jiao tong she ji	1
+室内楼梯	shi nei lou ti	1
+室内排水系统	shi nei pai shui xi tong	1
+室内气候	shi nei qi hou	1
+室内气流	shi nei qi liu	1
+室内热环境	shi nei re huan jing	1
+室内热水供应系统	shi nei re shui gong ying xi tong	1
+室内弱电系统	shi nei ruo dian xi tong	1
+室内设计	shi nei she ji	1
+室内体育场	shi nei ti yu chang	1
+室内通风系统	shi nei tong feng xi tong	1
+室内外表高差	shi nei wai biao gao cha	1
+室内消防系统	shi nei xiao fang xi tong	1
+室内消火栓	shi nei xiao huo shuan	1
+室内游泳池	shi nei you yong chi	1
+室内鱼缸	shi nei yu gang	1
+室内运输系统	shi nei yun shu xi tong	1
+室内允许噪声级	shi nei yun xu zao sheng ji	1
+室内装饰	shi nei zhuang shi	1
+室内装饰植物	shi nei zhuang shi zhi wu	1
+室内装修	shi nei zhuang xiu	1
+食品厂	shi pin chang	1
+食品店	shi pin dian	1
+实墙	shi qiang	1
+湿热气候	shi re qi hou	1
+石人	shi ren	1
+市容	shi rong	1
+湿式报警阀	shi shi bao jing fa	1
+实施规划	shi shi gui hua	1
+实施计划	shi shi ji hua	1
+湿式自动喷水灭火系统	shi shi zi dong pen shui mie huo xi tong	1
+市树	shi shu	1
+食堂礼堂	shi tang li tang	1
+食梯	shi ti	1
+实体规划	shi ti gui hua	1
+尸体解剖室	shi ti jie pou shi	1
+食梯井	shi ti jing	1
+实体墙	shi ti qiang	1
+诗条石	shi tiao shi	1
+石亭	shi ting	1
+室外地坪	shi wai di ping	1
+室外电气	shi wai dian qi	1
+室外给水管网	shi wai gei shui guan wang	1
+室外工程	shi wai gong cheng	1
+室外供热管网	shi wai gong re guan wang	1
+室外管沟	shi wai guan gou	1
+室外管线	shi wai guan xian	1
+室外管线综合图	shi wai guan xian zong he tu	1
+室外管线总平面图	shi wai guan xian zong ping mian tu	1
+室外计算温度	shi wai ji suan wen du	1
+室外空气进风道	shi wai kong qi jin feng dao	1
+室外空气进口	shi wai kong qi jin kou	1
+室外临界照度	shi wai lin jie zhao du	1
+室外楼梯	shi wai lou ti	1
+室外明楼梯	shi wai ming lou ti	1
+室外排水管网	shi wai pai shui guan wang	1
+室外平台	shi wai ping tai	1
+室外网球场	shi wai wang qiu chang	1
+室外消火栓	shi wai xiao huo shuan	1
+室外照明	shi wai zhao ming	1
+室外直通	shi wai zhi tong	1
+失稳	shi wen	1
+湿陷	shi xian	1
+视线设计	shi xian she ji	1
+视线升高	shi xian sheng gao	1
+视线走廊	shi xian zou lang	1
+石象生	shi xiang sheng	1
+实心板	shi xin ban	1
+实心砖	shi xin zhuan	1
+实验工厂	shi yan gong chang	1
+实验教室	shi yan jiao shi	1
+实验剧场	shi yan ju chang	1
+试验楼	shi yan lou	1
+试验室	shi yan shi	1
+试验台	shi yan tai	1
+视野	shi ye	1
+示意图	shi yi tu	1
+石英灯	shi ying deng	1
+石英卤气灯	shi ying lu qi deng	1
+石英水银灯	shi ying shui yin deng	1
+适应性	shi ying xing	1
+使用后评估	shi yong hou ping gu	1
+使用面积	shi yong mian ji	1
+使用年限	shi yong nian xian	1
+使用期费用	shi yong qi fei yong	1
+使用前评估	shi yong qian ping gu	1
+使用限制权	shi yong xian zhi quan	1
+实用性	shi yong xing	1
+使用性能	shi yong xing neng	1
+石油沥青	shi you li qing	1
+市域规划	shi yu gui hua	1
+饰缘植物	shi yuan zhi wu	1
+试运转	shi yun zhuan	1
+拾振器	shi zhen qi	1
+市政公用设施用地	shi zheng gong yong she shi yong di	1
+市政建筑	shi zheng jian zhu	1
+市政设施	shi zheng she shi	1
+市政厅	shi zheng ting	1
+市政中心	shi zheng zhong xin	1
+时钟花坛	shi zhong hua tan	1
+市中心	shi zhong xin	1
+市中心商业区	shi zhong xin shang ye qu	1
+示踪气体测定仪	shi zong qi ti ce ding yi	1
+首层	shou ceng	1
+首层顶	shou ceng ding	1
+首层平面	shou ceng ping mian	1
+受潮机理	shou chao ji li	1
+手动吊杆	shou dong diao gan	1
+手动火灾报警按钮	shou dong huo zai bao jing an niu	1
+手动试压泵	shou dong shi ya beng	1
+手动消防泵	shou dong xiao fang beng	1
+收发室	shou fa shi	1
+手法主义	shou fa zhu yi	1
+收费标准	shou fei biao zhun	1
+收分	shou fen	1
+手风琴式折叠门	shou feng qin shi zhe die men	1
+售货处	shou huo chu	1
+售货区	shou huo qu	1
+受剪	shou jian	1
+授精配种室	shou jing pei zhong shi	1
+收口线	shou kou xian	1
+收款柜台	shou kuan gui tai	1
+受拉	shou la	1
+受力角度	shou li jiao du	1
+受力类型	shou li lei xing	1
+狩猎场	shou lie chang	1
+受扭	shou niu	1
+售票处	shou piao chu	1
+售票厅	shou piao ting	1
+受迫对流	shou po dui liu	1
+手枪钻	shou qiang zuan	1
+手球场	shou qiu chang	1
+手术部	shou shu bu	1
+手术观摩室	shou shu guan mo shi	1
+手术室	shou shu shi	1
+手术洗涤室	shou shu xi di shi	1
+手术消毒室	shou shu xiao du shi	1
+手术准备室	shou shu zhun bei shi	1
+手算	shou suan	1
+手提式灯具	shou ti shi deng ju	1
+手提式灭火器	shou ti shi mie huo qi	1
+手推剪草机	shou tui jian cao ji	1
+受弯	shou wan	1
+受压	shou ya	1
+兽医站	shou yi zhan	1
+手纸盒	shou zhi he	1
+手纸架	shou zhi jia	1
+梳齿板	shu chi ban	1
+树池保护格栅	shu chi bao hu ge shan	1
+树池坐凳矮墙	shu chi zuo deng ai qiang	1
+输出变压器	shu chu bian ya qi	1
+输出电路	shu chu dian lu	1
+竖杆	shu gan	1
+树干保护套栏	shu gan bao hu tao lan	1
+树干式	shu gan shi	1
+树冠覆盖面	shu guan fu gai mian	1
+树冠线	shu guan xian	1
+熟化时间	shu hua shi jian	1
+竖井	shu jing	1
+竖框	shu kuang	1
+鼠笼式电动机	shu long shi dian dong ji	1
+树木配植	shu mu pei zhi	1
+树棚	shu peng	1
+树墙	shu qiang	1
+输入变压器	shu ru bian ya qi	1
+疏散出口	shu san chu kou	1
+疏散口	shu san kou	1
+疏散楼梯	shu san lou ti	1
+疏散时间	shu san shi jian	1
+疏散用地	shu san yong di	1
+疏散照明	shu san zhao ming	1
+熟食店	shu shi dian	1
+输水道	shu shui dao	1
+疏水器	shu shui qi	1
+输送小车	shu song xiao che	1
+熟铁板	shu tie ban	1
+熟铁管	shu tie guan	1
+竖向	shu xiang	1
+竖向规划	shu xiang gui hua	1
+竖向荷载	shu xiang he zai	1
+竖向筋	shu xiang jin	1
+竖向设计	shu xiang she ji	1
+书写台	shu xie tai	1
+树枝状管网	shu zhi zhuang guan wang	1
+树种规划	shu zhong gui hua	1
+蜀柱	shu zhu	1
+树桩盆景	shu zhuang pen jing	1
+刷白	shua bai	1
+刷乳胶漆	shua ru jiao qi	1
+耍头	shua tou	1
+衰变率	shuai bian lv	1
+摔跤场地	shuai jiao chang di	1
+栓焊	shuan han	1
+双玻璃窗	shuang bo li chuang	1
+双步梁	shuang bu liang	1
+双槽	shuang cao	1
+双层管道	shuang ceng guan dao	1
+双层铠装电缆	shuang ceng kai zhuang dian lan	1
+双层廊	shuang ceng lang	1
+双层平开窗	shuang ceng ping kai chuang	1
+双床间	shuang chuang jian	1
+双电源	shuang dian yuan	1
+双分楼梯	shuang fen lou ti	1
+双风道系统	shuang feng dao xi tong	1
+双管系统	shuang guan xi tong	1
+霜害	shuang hai	1
+双击双控开关	shuang ji shuang kong kai guan	1
+双控插座出线口	shuang kong cha zuo chu xian kou	1
+双控开关	shuang kong kai guan	1
+双面焊	shuang mian han	1
+双排	shuang pai	1
+双排双向	shuang pai shuang xiang	1
+双跑楼梯	shuang pao lou ti	1
+双跑直楼梯	shuang pao zhi lou ti	1
+双曲拱顶	shuang qu gong ding	1
+双曲抛物面壳顶	shuang qu pao wu mian ke ding	1
+双人床客房	shuang ren chuang ke fang	1
+双扇窗	shuang shan chuang	1
+双扇门	shuang shan men	1
+双扇推拉门	shuang shan tui la men	1
+双速风机	shuang su feng ji	1
+双投隔离开关	shuang tou ge li kai guan	1
+双投开关	shuang tou kai guan	1
+双外廊布局	shuang wai lang bu ju	1
+双向板	shuang xiang ban	1
+双向地震	shuang xiang di zhen	1
+双向双排	shuang xiang shuang pai	1
+双芯电缆	shuang xin dian lan	1
+双肢箍	shuang zhi gu	1
+双柱	shuang zhu	1
+双走道布局	shuang zou dao bu ju	1
+水泵安装记录	shui beng an zhuang ji lu	1
+水泵房	shui beng fang	1
+水泵机组	shui beng ji zu	1
+水泵接合器	shui beng jie he qi	1
+水泵试车记录	shui beng shi che ji lu	1
+水泵站	shui beng zhan	1
+水表	shui biao	1
+水表井	shui biao jing	1
+水彩渲染	shui cai xuan ran	1
+水池	shui chi	1
+水锤消除器	shui chui xiao chu qi	1
+水封井	shui feng jing	1
+水管配件	shui guan pei jian	1
+水灰比	shui hui bi	1
+水净化	shui jing hua	1
+水景园	shui jing yuan	1
+水廊	shui lang	1
+水冷变压器	shui leng bian ya qi	1
+水冷式空调器	shui leng shi kong tiao qi	1
+水力警铃	shui li jing ling	1
+水力模拟	shui li mo ni	1
+睡莲池	shui lian chi	1
+水流指示器	shui liu zhi shi qi	1
+水龙头	shui long tou	1
+水路客运站	shui lu ke yun zhan	1
+水落斗	shui luo dou	1
+水落管	shui luo guan	1
+水磨石	shui mo shi	1
+水磨石地面	shui mo shi di mian	1
+水幕	shui mu	1
+水幕灭火给水管	shui mu mie huo gei shui guan	1
+水幕喷头	shui mu pen tou	1
+水泥	shui ni	1
+水泥标号	shui ni biao hao	1
+水泥厂	shui ni chang	1
+水泥管	shui ni guan	1
+水泥混凝土	shui ni hun ning tu	1
+水泥浆	shui ni jiang	1
+水泥抹面	shui ni mo mian	1
+水泥砂浆标号	shui ni sha jiang biao hao	1
+水泥砂浆地面	shui ni sha jiang di mian	1
+水泥砂浆勾缝	shui ni sha jiang gou feng	1
+水泥砂浆罩面	shui ni sha jiang zhao mian	1
+水泥砂浆找平层	shui ni sha jiang zhao ping ceng	1
+水泥稳定碎石基础	shui ni wen ding sui shi ji chu	1
+水泥系涂料	shui ni xi tu liao	1
+水泥压缩板	shui ni ya suo ban	1
+水泥找平层	shui ni zhao ping ceng	1
+水暖系统	shui nuan xi tong	1
+水炮灭火给水管	shui pao mie huo gei shui guan	1
+水喷头	shui pen tou	1
+水平防潮层	shui ping fang chao ceng	1
+水平筋	shui ping jin	1
+水平推拉窗	shui ping tui la chuang	1
+水平遮阳	shui ping zhe yang	1
+水上运动场	shui shang yun dong chang	1
+水生植物	shui sheng zhi wu	1
+水生植物园	shui sheng zhi wu yuan	1
+水石盆景	shui shi pen jing	1
+水刷石	shui shua shi	1
+水刷石墙面	shui shua shi qiang mian	1
+水塔	shui ta	1
+水塘	shui tang	1
+水体	shui ti	1
+水土保持塑料网	shui tu bao chi su liao wang	1
+水土压力	shui tu ya li	1
+水位控制系统	shui wei kong zhi xi tong	1
+水位指示器	shui wei zhi shi qi	1
+水纹路	shui wen lu	1
+水污染	shui wu ran	1
+水下电缆	shui xia dian lan	1
+水箱	shui xiang	1
+水箱间	shui xiang jian	1
+水消毒	shui xiao du	1
+水榭	shui xie	1
+水仪	shui yi	1
+水银接点开关	shui yin jie dian kai guan	1
+水银开关	shui yin kai guan	1
+水域	shui yu	1
+水源保护	shui yuan bao hu	1
+水源地	shui yuan di	1
+水源选择	shui yuan xuan ze	1
+水蒸气分压力	shui zheng qi fen ya li	1
+水蒸气渗透	shui zheng qi shen tou	1
+水质标准	shui zhi biao zhun	1
+水准仪	shui zhun yi	1
+水族馆	shui zu guan	1
+水嘴	shui zui	1
+顺梁	shun liang	1
+顺面	shun mian	1
+顺水条	shun shui tiao	1
+四阿	si a	1
+四层	si ceng	1
+四合院	si he yuan	1
+四架梁	si jia liang	1
+私家园林	si jia yuan lin	1
+四孔插座出口	si kong cha zuo chu kou	1
+四类场地	si lei chang di	1
+饲料储存处	si liao chu cun chu	1
+饲料加工间	si liao jia gong jian	1
+私密性	si mi xing	1
+四铺作	si pu zuo	1
+四扇式转门	si shan shi zhuan men	1
+四跳	si tiao	1
+四通连接	si tong lian jie	1
+四芯电缆	si xin dian lan	1
+四叶饰	si ye shi	1
+四掾袱	si yuan fu	1
+四肢箍	si zhi gu	1
+松柏园	song bai yuan	1
+松柏植物	song bai zhi wu	1
+宋代术语	song dai shu yu	1
+送风管道	song feng guan dao	1
+送风机	song feng ji	1
+送风口	song feng kou	1
+送风系统	song feng xi tong	1
+宋及宋前	song ji song qian	1
+宋及宋前术语	song ji song qian shu yu	1
+宋术语	song shu yu	1
+松土除草机	song tu chu cao ji	1
+塑钢窗	su gang chuang	1
+塑钢门	su gang men	1
+宿根园	su gen yuan	1
+宿根植物	su gen zhi wu	1
+素混凝土	su hun ning tu	1
+塑料厂	su liao chang	1
+塑料大棚	su liao da peng	1
+塑料地面	su liao di mian	1
+塑料苗木桶	su liao miao mu tong	1
+塑料粘结剂	su liao nian jie ji	1
+塑料贴面板	su liao tie mian ban	1
+苏式彩画	su shi cai hua	1
+素水泥	su shui ni	1
+素土地面	su tu di mian	1
+素土夯实	su tu hang shi	1
+塑性铰	su xing jiao	1
+苏州园林	su zhou yuan lin	1
+酸传感器	suan chuan gan qi	1
+随打随抹	sui da sui mo	1
+随机入射吸声系数	sui ji ru she xi sheng xi shu	1
+随机振动	sui ji zhen dong	1
+碎石混凝土	sui shi hun ning tu	1
+随挖随填	sui wa sui tian	1
+碎污机	sui wu ji	1
+随意组合方石板路	sui yi zu he fang shi ban lu	1
+榫槽	sun cao	1
+损害义务	sun hai yi wu	1
+榫接	sun jie	1
+缩景	suo jing	1
+梭柱	suo zhu	1
+榻板	ta ban	1
+踏步	ta bu	1
+踏步边	ta bu bian	1
+踏道	ta dao	1
+踏跺	ta duo	1
+踏垛	ta duo	1
+踏级	ta ji	1
+踏脚石	ta jiao shi	1
+塔楼	ta lou	1
+踏面	ta mian	1
+塔庙	ta miao	1
+塔式建筑	ta shi jian zhu	1
+塔式起重机	ta shi qi zhong ji	1
+塔式天线	ta shi tian xian	1
+台唇	tai chun	1
+台地园	tai di yuan	1
+太湖石	tai hu shi	1
+台基	tai ji	1
+台阶式住宅	tai jie shi zhu zhai	1
+台口	tai kou	1
+台口侧幕	tai kou ce mu	1
+台口高度	tai kou gao du	1
+台口檐幕	tai kou yan mu	1
+抬梁式构架	tai liang shi gou jia	1
+台面	tai mian	1
+太平门	tai ping men	1
+太平门指示灯	tai ping men zhi shi deng	1
+台式电话机	tai shi dian hua ji	1
+台式洗脸盆	tai shi xi lian pen	1
+太阳常数	tai yang chang shu	1
+太阳辐射吸收系数	tai yang fu she xi shou xi shu	1
+太阳辐照度	tai yang fu zhao du	1
+太阳集热器效率	tai yang ji re qi xiao lv	1
+太阳能干燥	tai yang neng gan zao	1
+太阳能集热器	tai yang neng ji re qi	1
+太阳能建筑	tai yang neng jian zhu	1
+台钻	tai zuan	1
+台座	tai zuo	1
+弹簧地板	tan huang di ban	1
+弹簧铰链	tan huang jiao lian	1
+弹簧门	tan huang men	1
+弹簧锁	tan huang suo	1
+弹塑性	tan su xing	1
+探索者	tan suo zhe	1
+探险游乐场	tan xian you le chang	1
+弹性板	tan xing ban	1
+弹性地板	tan xing di ban	1
+弹性地基梁	tan xing di ji liang	1
+弹性后效	tan xing hou xiao	1
+弹性楼板	tan xing lou ban	1
+弹性模量	tan xing mo liang	1
+弹性支承	tan xing zhi cheng	1
+糖厂	tang chang	1
+唐代术语	tang dai shu yu	1
+套方	tao fang	1
+套管	tao guan	1
+套管伸缩器	tao guan shen suo qi	1
+套间客房	tao jian ke fang	1
+陶粒	tao li	1
+套丝机	tao si ji	1
+陶土制品	tao tu zhi pin	1
+特隆布墙	te long bu qiang	1
+特殊用地	te shu yong di	1
+特性阻抗	te xing zu kang	1
+特异景观风景区	te yi jing guan feng jing qu	1
+特种公园	te zhong gong yuan	1
+藤架	teng jia	1
+体操台	ti cao tai	1
+梯段	ti duan	1
+梯段板	ti duan ban	1
+踢脚	ti jiao	1
+踢脚板	ti jiao ban	1
+踢脚板标高	ti jiao ban biao gao	1
+踢脚板式暖气设备	ti jiao ban shi nuan qi she bei	1
+梯井	ti jing	1
+体量	ti liang	1
+梯梁	ti liang	1
+梯跑	ti pao	1
+提升高度	ti sheng gao du	1
+提升门	ti sheng men	1
+提升设备	ti sheng she bei	1
+提条件	ti tiao jian	1
+体系建筑	ti xi jian zhu	1
+体型系数	ti xing xi shu	1
+体育场	ti yu chang	1
+体育公园	ti yu gong yuan	1
+体育馆	ti yu guan	1
+体育建筑	ti yu jian zhu	1
+体育运动区	ti yu yun dong qu	1
+梯柱	ti zhu	1
+天车	tian che	1
+天池风景区	tian chi feng jing qu	1
+填充墙	tian chong qiang	1
+填充体系	tian chong ti xi	1
+天窗采光	tian chuang cai guang	1
+天窗照度	tian chuang zhao du	1
+天沟	tian gou	1
+天花	tian hua	1
+天花板	tian hua ban	1
+天花彩画	tian hua cai hua	1
+天花反射板	tian hua fan she ban	1
+天花枋	tian hua fang	1
+天际线	tian ji xian	1
+添加剂	tian jia ji	1
+天井	tian jing	1
+田径场	tian jing chang	1
+天空光	tian kong guang	1
+天平室	tian ping shi	1
+填嵌密实	tian qian mi shi	1
+天桥楼梯	tian qiao lou ti	1
+天桥爬梯	tian qiao pa ti	1
+天然博物馆	tian ran bo wu guan	1
+天然材料	tian ran cai liao	1
+天然地基	tian ran di ji	1
+天然公园	tian ran gong yuan	1
+天然光	tian ran guang	1
+天然纪念物	tian ran ji nian wu	1
+天然气系统	tian ran qi xi tong	1
+填土	tian tu	1
+天文馆	tian wen guan	1
+天文台	tian wen tai	1
+天线引下线	tian xian yin xia xian	1
+天线引线	tian xian yin xian	1
+田园城市	tian yuan cheng shi	1
+天正	tian zheng	1
+挑板	tiao ban	1
+跳层公寓单元	tiao ceng gong yu dan yuan	1
+调幅	tiao fu	1
+调幅系数	tiao fu xi shu	1
+跳高场地	tiao gao chang di	1
+调光器	tiao guang qi	1
+调光室	tiao guang shi	1
+调光台	tiao guang tai	1
+调和漆	tiao he qi	1
+条基	tiao ji	1
+挑尖梁	tiao jian liang	1
+挑梁	tiao liang	1
+调料库	tiao liao ku	1
+跳伞俱乐部	tiao san ju le bu	1
+跳伞塔	tiao san ta	1
+条石	tiao shi	1
+调试报告	tiao shi bao gao	1
+跳水池	tiao shui chi	1
+跳水台	tiao shui tai	1
+跳头	tiao tou	1
+眺望台	tiao wang tai	1
+挑檐	tiao yan	1
+挑檐檩	tiao yan lin	1
+挑檐石	tiao yan shi	1
+跳远场地	tiao yuan chang di	1
+铁饼投掷区	tie bing tou zhi qu	1
+铁轨	tie gui	1
+贴金	tie jin	1
+贴脸板	tie lian ban	1
+铁路建筑	tie lu jian zhu	1
+铁路绿化	tie lu lv hua	1
+铁丝篮	tie si lan	1
+铁艺栏杆	tie yi lan gan	1
+铁栅推拉门	tie zha tui la men	1
+汀步	ting bu	1
+停车标志	ting che biao zhi	1
+停车层	ting che ceng	1
+停车场	ting che chang	1
+停车场标志	ting che chang biao zhi	1
+停车换乘	ting che huan cheng	1
+停机坪	ting ji ping	1
+听觉疲劳	ting jue pi lao	1
+听力零级	ting li ling ji	1
+听力损失	ting li sun shi	1
+亭桥	ting qiao	1
+庭荫树	ting yin shu	1
+听阈	ting yu	1
+庭院花园	ting yuan hua yuan	1
+庭院排水沟	ting yuan pai shui gou	1
+庭院设计	ting yuan she ji	1
+庭院式住宅	ting yuan shi zhu zhai	1
+庭院雨水沟	ting yuan yu shui gou	1
+砼板	tong ban	1
+筒仓	tong cang	1
+通长	tong chang	1
+通长筋	tong chang jin	1
+筒灯	tong deng	1
+通断开关	tong duan kai guan	1
+通风道	tong feng dao	1
+通风管道	tong feng guan dao	1
+通风柜	tong feng gui	1
+通风机	tong feng ji	1
+通风机房	tong feng ji fang	1
+通风降温	tong feng jiang wen	1
+通风井	tong feng jing	1
+通风孔	tong feng kong	1
+通风口	tong feng kou	1
+通风率	tong feng lv	1
+通风设备	tong feng she bei	1
+通风系统	tong feng xi tong	1
+通风系统进口	tong feng xi tong jin kou	1
+通风栅门	tong feng zha men	1
+通风罩	tong feng zhao	1
+通风装置	tong feng zhuang zhi	1
+筒拱	tong gong	1
+砼工程施工记录	tong gong cheng shi gong ji lu	1
+砼构件合格证	tong gou jian he ge zheng	1
+筒光	tong guang	1
+砼规	tong gui	1
+通过权	tong guo quan	1
+统计声学	tong ji sheng xue	1
+统建方式	tong jian fang shi	1
+通进深	tong jin shen	1
+通面阔	tong mian kuo	1
+通气孔	tong qi kong	1
+通气主管	tong qi zhu guan	1
+砼强度评定表	tong qiang du ping ding biao	1
+通球试验记录	tong qiu shi yan ji lu	1
+同声传译控制室	tong sheng chuan yi kong zhi shi	1
+砼试块试验报告	tong shi kuai shi yan bao gao	1
+通水试验记录	tong shui shi yan ji lu	1
+筒体	tong ti	1
+通天插销	tong tian cha xiao	1
+筒瓦	tong wa	1
+同位素室	tong wei su shi	1
+通信建筑	tong xin jian zhu	1
+通信系统设计	tong xin xi tong she ji	1
+同心异径管	tong xin yi jing guan	1
+同心圆理论	tong xin yuan li lun	1
+统一性	tong yi xing	1
+通用大样	tong yong da yang	1
+通用构件	tong yong gou jian	1
+通用图	tong yong tu	1
+通用图样	tong yong tu yang	1
+桐油	tong you	1
+投币电话机	tou bi dian hua ji	1
+投光灯	tou guang deng	1
+透景线	tou jing xian	1
+透射等级	tou she deng ji	1
+透射率	tou she lv	1
+透射系数	tou she xi shu	1
+透视图	tou shi tu	1
+偷心造	tou xin zao	1
+投资额	tou zi e	1
+投资返回率	tou zi fan hui lv	1
+投资决策	tou zi jue ce	1
+投资限额	tou zi xian e	1
+图案矮篱	tu an ai li	1
+图案花坛群	tu an hua tan qun	1
+图乘法	tu cheng fa	1
+凸出舞台	tu chu wu tai	1
+凸窗	tu chuang	1
+图档室	tu dang shi	1
+土地出让	tu di chu rang	1
+土地分等	tu di fen deng	1
+土地划拨	tu di hua bo	1
+土地价值	tu di jia zhi	1
+土地开发管理	tu di kai fa guan li	1
+土地利用规划	tu di li yong gui hua	1
+土地利用模型	tu di li yong mo xing	1
+土地批租	tu di pi zu	1
+土地区划管理	tu di qu hua guan li	1
+土地使用权	tu di shi yong quan	1
+土地所有权	tu di suo you quan	1
+土地细分	tu di xi fen	1
+土地增值	tu di zeng zhi	1
+土地征用	tu di zheng yong	1
+土地转让	tu di zhuan rang	1
+土方平衡	tu fang ping heng	1
+土工布	tu gong bu	1
+土工格栅	tu gong ge shan	1
+土工膜	tu gong mo	1
+图号	tu hao	1
+图集	tu ji	1
+土建工程	tu jian gong cheng	1
+凸角	tu jiao	1
+图框	tu kuang	1
+图例	tu li	1
+图例说明	tu li shuo ming	1
+涂料	tu liao	1
+图名	tu ming	1
+涂膜防水屋面	tu mo fang shui wu mian	1
+土木工程	tu mu gong cheng	1
+土坯房	tu pi fang	1
+土坯墙	tu pi qiang	1
+土戚	tu qi	1
+图签	tu qian	1
+土球移植	tu qiu yi zhi	1
+土壤试验报告	tu rang shi yan bao gao	1
+土壤试验记录	tu rang shi yan ji lu	1
+土壤酸度探测器	tu rang suan du tan ce qi	1
+土壤污染	tu rang wu ran	1
+土山	tu shan	1
+徒手素描	tu shou su miao	1
+屠宰厂	tu zai chang	1
+图纸	tu zhi	1
+图纸编号	tu zhi bian hao	1
+图纸复制	tu zhi fu zhi	1
+图纸会审	tu zhi hui shen	1
+图纸会审记录	tu zhi hui shen ji lu	1
+图纸名称	tu zhi ming cheng	1
+图纸目录	tu zhi mu lu	1
+土质条件	tu zhi tiao jian	1
+土筑房	tu zhu fang	1
+凸砖层	tu zhuan ceng	1
+推板	tui ban	1
+推车式灭火器	tui che shi mie huo qi	1
+推拉门	tui la men	1
+推山	tui shan	1
+退台	tui tai	1
+退晕	tui yun	1
+托儿所	tuo er suo	1
+驼峰	tuo feng	1
+托架	tuo jia	1
+托脚	tuo jiao	1
+脱扣线圈	tuo kou xian quan	1
+拖拉机厂	tuo la ji chang	1
+托斯卡柱式	tuo si ka zhu shi	1
+椭圆抛物面壳顶	tuo yuan pao wu mian ke ding	1
+椭圆形壳顶	tuo yuan xing ke ding	1
+托座	tuo zuo	1
+瓦当	wa dang	1
+挖孔桩	wa kong zhuang	1
+瓦口	wa kou	1
+瓦楞铁	wa leng tie	1
+瓦楞屋顶	wa leng wu ding	1
+瓦石作	wa shi zuo	1
+瓦特小时	wa te xiao shi	1
+瓦特小时计	wa te xiao shi ji	1
+瓦屋面	wa wu mian	1
+外部管道系统	wai bu guan dao xi tong	1
+外部结构	wai bu jie gou	1
+外部排水系统	wai bu pai shui xi tong	1
+外城	wai cheng	1
+外加剂	wai jia ji	1
+外开窗	wai kai chuang	1
+外开门	wai kai men	1
+外廊	wai lang	1
+外廊式公寓	wai lang shi gong yu	1
+外立面	wai li mian	1
+外露排水管	wai lu pai shui guan	1
+外露式	wai lu shi	1
+外门廊	wai men lang	1
+外墙	wai qiang	1
+外墙板	wai qiang ban	1
+外墙挂板	wai qiang gua ban	1
+外墙面砖	wai qiang mian zhuan	1
+外墙涂料	wai qiang tu liao	1
+外审	wai shen	1
+外延长度	wai yan chang du	1
+外檐柱	wai yan zhu	1
+外檐装修	wai yan zhuang xiu	1
+外柱	wai zhu	1
+万拱	wan gong	1
+万栱	wan gong	1
+弯管器	wan guan qi	1
+碗柜	wan gui	1
+弯剪扭	wan jian niu	1
+弯矩	wan ju	1
+玩具厂	wan ju chang	1
+弯扭	wan niu	1
+弯起	wan qi	1
+弯起钢筋	wan qi gang jin	1
+万神庙	wan shen miao	1
+万用表	wan yong biao	1
+弯折管	wan zhe guan	1
+望板	wang ban	1
+网架	wang jia	1
+网架和索膜结构	wang jia he suo mo jie gou	1
+网孔盆	wang kong pen	1
+网络布线系统	wang luo bu xian xi tong	1
+网络施工记录	wang luo shi gong ji lu	1
+网片	wang pian	1
+网球场	wang qiu chang	1
+王孝雄	wang xiao xiong	1
+望柱	wang zhu	1
+望柱头	wang zhu tou	1
+网状拱	wang zhuang gong	1
+微波接收器	wei bo jie shou qi	1
+微波烤箱	wei bo kao xiang	1
+微波屏蔽门	wei bo ping bi men	1
+微波塔	wei bo ta	1
+微穿孔吸声结构	wei chuan kong xi sheng jie gou	1
+围焊	wei han	1
+维护费用	wei hu fei yong	1
+围护结构	wei hu jie gou	1
+围护墙	wei hu qiang	1
+维护系数	wei hu xi shu	1
+未加工材料	wei jia gong cai liao	1
+尾景	wei jing	1
+微气候	wei qi hou	1
+围墙	wei qiang	1
+卫生防护标准	wei sheng fang hu biao zhun	1
+卫生管道工程系统	wei sheng guan dao gong cheng xi tong	1
+卫生间	wei sheng jian	1
+卫生间防滑地砖铺砌	wei sheng jian fang hua di zhuan pu qi	1
+卫生间隔断	wei sheng jian ge duan	1
+卫生间洁具	wei sheng jian jie ju	1
+卫生洁具	wei sheng jie ju	1
+卫生配件	wei sheng pei jian	1
+卫生器具安装	wei sheng qi ju an zhuang	1
+卫生所	wei sheng suo	1
+微缩图书阅览室	wei suo tu shu yue lan shi	1
+危险场所	wei xian chang suo	1
+危险电压	wei xian dian ya	1
+危险品库	wei xian pin ku	1
+危险信号灯	wei xian xin hao deng	1
+卫星城镇	wei xing cheng zhen	1
+卫星通信地面站	wei xing tong xin di mian zhan	1
+卫星站	wei xing zhan	1
+未央宫	wei yang gong	1
+位移	wei yi	1
+位移比	wei yi bi	1
+位移反应	wei yi fan ying	1
+未预见费用	wei yu jian fei yong	1
+温差修正系数	wen cha xiu zheng xi shu	1
+温带气候	wen dai qi hou	1
+稳定传热	wen ding chuan re	1
+温度报警钟	wen du bao jing zhong	1
+温度场	wen du chang	1
+温度缝	wen du feng	1
+温度衰减	wen du shuai jian	1
+温度梯度	wen du ti du	1
+温度调节阀	wen du tiao jie fa	1
+温度应力	wen du ying li	1
+温度振辐	wen du zhen fu	1
+吻合效应	wen he xiao ying	1
+文化公园	wen hua gong yuan	1
+文化广场	wen hua guang chang	1
+文化活动区	wen hua huo dong qu	1
+文化建筑	wen hua jian zhu	1
+文化名城	wen hua ming cheng	1
+文化石	wen hua shi	1
+文化休憩公园	wen hua xiu qi gong yuan	1
+文化遗址	wen hua yi zhi	1
+文化中心	wen hua zhong xin	1
+文教区	wen jiao qu	1
+文具用品店	wen ju yong pin dian	1
+纹理统一法	wen li tong yi fa	1
+文脉性	wen mai xing	1
+文脉主义	wen mai zhu yi	1
+文明施工	wen ming shi gong	1
+温泉风景区	wen quan feng jing qu	1
+温室覆盖	wen shi fu gai	1
+温室气候控制器	wen shi qi hou kong zhi qi	1
+温室设备	wen shi she bei	1
+温室效应	wen shi xiao ying	1
+文献资料阅览室	wen xian zi liao yue lan shi	1
+问询处	wen xun chu	1
+稳压电器	wen ya dian qi	1
+文艺复兴建筑	wen yi fu xing jian zhu	1
+文艺复兴庄园	wen yi fu xing zhuang yuan	1
+涡卷装饰	wo juan zhuang shi	1
+卧室兼起居室	wo shi jian qi ju shi	1
+卧式热交换器	wo shi re jiao huan qi	1
+五踩	wu cai	1
+五层	wu ceng	1
+舞池照明	wu chi zhao ming	1
+庑殿	wu dian	1
+屋顶	wu ding	1
+屋顶板	wu ding ban	1
+屋顶出入孔	wu ding chu ru kong	1
+屋顶风机	wu ding feng ji	1
+屋顶花园	wu ding hua yuan	1
+屋顶机房	wu ding ji fang	1
+屋顶绿化	wu ding lv hua	1
+屋顶天线	wu ding tian xian	1
+屋顶通风管	wu ding tong feng guan	1
+屋顶游泳池	wu ding you yong chi	1
+屋顶织布	wu ding zhi bu	1
+屋废	wu fei	1
+无缝钢管	wu feng gang guan	1
+无腹筋	wu fu jin	1
+无负筋	wu fu jin	1
+无光漆	wu guang qi	1
+无轨电车	wu gui dian che	1
+无规噪声	wu gui zao sheng	1
+雾害	wu hai	1
+五花山墙	wu hua shan qiang	1
+屋脊	wu ji	1
+无机材料	wu ji cai liao	1
+屋基石	wu ji shi	1
+五架梁	wu jia liang	1
+无菌室	wu jun shi	1
+五厘板	wu li ban	1
+物理试验室	wu li shi yan shi	1
+无梁楼盖	wu liang lou gai	1
+屋面	wu mian	1
+屋面板	wu mian ban	1
+屋面覆盖板	wu mian fu gai ban	1
+屋面积水	wu mian ji shui	1
+屋面淋水试验记录	wu mian lin shui shi yan ji lu	1
+屋面上人孔	wu mian shang ren kong	1
+污泥提升泵站	wu ni ti sheng beng zhan	1
+污泥脱水间	wu ni tuo shui jian	1
+五铺作	wu pu zuo	1
+屋前空地	wu qian kong di	1
+污染系数	wu ran xi shu	1
+污染源分布	wu ran yuan fen bu	1
+午荣	wu rong	1
+武术场地	wu shu chang di	1
+污水	wu shui	1
+污水暗管	wu shui an guan	1
+污水泵	wu shui beng	1
+污水泵房	wu shui beng fang	1
+污水池	wu shui chi	1
+污水处理	wu shui chu li	1
+污水管	wu shui guan	1
+污水管道	wu shui guan dao	1
+污水管线	wu shui guan xian	1
+无损探伤报告	wu sun tan shang bao gao	1
+舞台标高	wu tai biao gao	1
+舞台布景升降机	wu tai bu jing sheng jiang ji	1
+舞台灯光	wu tai deng guang	1
+舞台灯光效果	wu tai deng guang xiao guo	1
+舞台灯光装置	wu tai deng guang zhuang zhi	1
+舞台吊杆	wu tai diao gan	1
+舞台吊索	wu tai diao suo	1
+舞台机械设备	wu tai ji xie she bei	1
+舞台监督室	wu tai jian du shi	1
+舞台脚灯	wu tai jiao deng	1
+舞台口	wu tai kou	1
+舞台升降机	wu tai sheng jiang ji	1
+舞台塔	wu tai ta	1
+五跳	wu tiao	1
+无线电广播设备	wu xian dian guang bo she bei	1
+无线电呼叫系统	wu xian dian hu jiao xi tong	1
+五线制	wu xian zhi	1
+五芯电缆	wu xin dian lan	1
+五叶饰	wu ye shi	1
+五隐蔽验收记录	wu yin bi yan shou ji lu	1
+无障碍设计	wu zhang ai she ji	1
+无支护土方	wu zhi hu tu fang	1
+物资管理	wu zi guan li	1
+西班牙式园林	xi ban ya shi yuan lin	1
+细部设计	xi bu she ji	1
+细部装修	xi bu zhuang xiu	1
+西餐厅	xi can ting	1
+细长柱	xi chang zhu	1
+洗车台	xi che tai	1
+吸尘系统	xi chen xi tong	1
+洗池	xi chi	1
+洗涤槽	xi di cao	1
+洗涤间	xi di jian	1
+洗涤盆	xi di pen	1
+吸顶暗灯	xi ding an deng	1
+吸顶灯	xi ding deng	1
+吸顶小灯	xi ding xiao deng	1
+西方古典园林	xi fang gu dian yuan lin	1
+吸风罩	xi feng zhao	1
+吸附式净化	xi fu shi jing hua	1
+西立面	xi li mian	1
+洗煤厂	xi mei chang	1
+洗面器	xi mian qi	1
+细木工板	xi mu gong ban	1
+西配楼	xi pei lou	1
+吸气罩	xi qi zhao	1
+洗染店	xi ran dian	1
+吸声	xi sheng	1
+吸声板	xi sheng ban	1
+吸声材料	xi sheng cai liao	1
+吸声尖劈	xi sheng jian pi	1
+吸声降噪	xi sheng jiang zao	1
+吸声结构	xi sheng jie gou	1
+吸声系数	xi sheng xi shu	1
+吸收玻璃	xi shou bo li	1
+洗手间	xi shou jian	1
+吸收率	xi shou lv	1
+吸收式冰箱	xi shou shi bing xiang	1
+吸收式净化	xi shou shi jing hua	1
+吸收式制冷系统	xi shou shi zhi leng xi tong	1
+吸水喇叭口	xi shui la ba kou	1
+吸水水池	xi shui shui chi	1
+熙提	xi ti	1
+系统竣工表	xi tong jun gong biao	1
+系统试运行记录	xi tong shi yun xing ji lu	1
+系统图	xi tong tu	1
+系统运行日登记表	xi tong yun xing ri deng ji biao	1
+樨头	xi tou	1
+细纹地板	xi wen di ban	1
+细纹图案	xi wen tu an	1
+席纹硬木地板	xi wen ying mu di ban	1
+西药店	xi yao dian	1
+洗衣房	xi yi fang	1
+洗衣房设备	xi yi fang she bei	1
+吸音板	xi yin ban	1
+吸音材料	xi yin cai liao	1
+吸音吊顶	xi yin diao ding	1
+吸引距离	xi yin ju li	1
+吸引圈	xi yin quan	1
+下昂	xia ang	1
+下部结构	xia bu jie gou	1
+下部拉紧装置	xia bu la jin zhuang zhi	1
+下层地下室	xia ceng di xia shi	1
+下插	xia cha	1
+下沉式天窗	xia chen shi tian chuang	1
+下枋	xia fang	1
+峡谷风景区	xia gu feng jing qu	1
+下金枋	xia jin fang	1
+下冒头	xia mao tou	1
+下袅	xia niao	1
+下排	xia pai	1
+下皮	xia pi	1
+下水道人孔	xia shui dao ren kong	1
+下水道入口	xia shui dao ru kou	1
+下水道系统	xia shui dao xi tong	1
+下水管	xia shui guan	1
+下铁	xia tie	1
+下铁上	xia tie shang	1
+下铁下	xia tie xia	1
+下弦	xia xian	1
+下行上给式	xia xing shang gei shi	1
+下悬窗	xia xuan chuang	1
+下柱墩	xia zhu dun	1
+线材	xian cai	1
+线槽	xian cao	1
+现场办公室	xian chang ban gong shi	1
+现场工程师	xian chang gong cheng shi	1
+现场焊	xian chang han	1
+现场勘查资料	xian chang kan cha zi liao	1
+现场条件	xian chang tiao jian	1
+现代主义	xian dai zhu yi	1
+线荷载	xian he zai	1
+线间电压	xian jian dian ya	1
+现浇	xian jiao	1
+线脚	xian jiao	1
+现浇层	xian jiao ceng	1
+现浇钢筋混凝土结构	xian jiao gang jin hun ning tu jie gou	1
+现浇混凝土	xian jiao hun ning tu	1
+现浇混凝土垫层	xian jiao hun ning tu dian ceng	1
+现浇混凝土楼板	xian jiao hun ning tu lou ban	1
+现浇混凝土路面	xian jiao hun ning tu lu mian	1
+显冷负荷	xian leng fu he	1
+线路图	xian lu tu	1
+线膨胀系数	xian peng zhang xi shu	1
+线谱	xian pu	1
+显热负荷	xian re fu he	1
+显色性	xian se xing	1
+线弹性	xian tan xing	1
+纤维板	xian wei ban	1
+纤维材料	xian wei cai liao	1
+纤维育苗器	xian wei yu miao qi	1
+纤维增强材料	xian wei zeng qiang cai liao	1
+现行标准	xian xing biao zhun	1
+线形光源	xian xing guang yuan	1
+现行规范	xian xing gui fan	1
+线型火灾探测器	xian xing huo zai tan ce qi	1
+县域规划	xian yu gui hua	1
+线载	xian zai	1
+先张法	xian zhang fa	1
+限值	xian zhi	1
+现值	xian zhi	1
+闲置地	xian zhi di	1
+现制水磨石	xian zhi shui mo shi	1
+现制水磨石面	xian zhi shui mo shi mian	1
+现制塑料楼地面	xian zhi su liao lou di mian	1
+镶板门	xiang ban men	1
+乡村生活模式	xiang cun sheng huo mo shi	1
+响度	xiang du	1
+相对标高	xiang dui biao gao	1
+相对高差	xiang dui gao cha	1
+相对湿度	xiang dui shi du	1
+厢拱	xiang gong	1
+厢栱	xiang gong	1
+项海帆	xiang hai fan	1
+箱涵	xiang han	1
+橡胶板	xiang jiao ban	1
+橡胶地面	xiang jiao di mian	1
+橡胶止水带	xiang jiao zhi shui dai	1
+项目服务面积	xiang mu fu wu mian ji	1
+项目管理	xiang mu guan li	1
+项目数据库	xiang mu shu ju ku	1
+橡皮锤	xiang pi chui	1
+橡皮电缆	xiang pi dian lan	1
+橡皮减震器	xiang pi jian zhen qi	1
+橡皮绝缘	xiang pi jue yuan	1
+橡皮绝缘线	xiang pi jue yuan xian	1
+橡皮线	xiang pi xian	1
+镶嵌花坛	xiang qian hua tan	1
+乡趣园	xiang qu yuan	1
+镶入式荧光灯	xiang ru shi ying guang deng	1
+镶入式荧光灯带	xiang ru shi ying guang deng dai	1
+详图	xiang tu	1
+乡土建筑	xiang tu jian zhu	1
+详图图库	xiang tu tu ku	1
+箱形舞台	xiang xing wu tai	1
+象眼	xiang yan	1
+象征意义	xiang zheng yi yi	1
+销板	xiao ban	1
+小比例图	xiao bi li tu	1
+小便槽	xiao bian cao	1
+小便器	xiao bian qi	1
+小侧窗	xiao ce chuang	1
+小城市	xiao cheng shi	1
+小吃店	xiao chi dian	1
+小额枋	xiao e fang	1
+消防	xiao fang	1
+消防泵	xiao fang beng	1
+消防车库	xiao fang che ku	1
+消防电梯	xiao fang dian ti	1
+消防干管	xiao fang gan guan	1
+消防供水	xiao fang gong shui	1
+消防控制中心	xiao fang kong zhi zhong xin	1
+消防立管	xiao fang li guan	1
+消防联动	xiao fang lian dong	1
+消防龙头	xiao fang long tou	1
+消防楼梯	xiao fang lou ti	1
+消防入口	xiao fang ru kou	1
+消防设备	xiao fang she bei	1
+消防设计及说明	xiao fang she ji ji shuo ming	1
+消防设施	xiao fang she shi	1
+消防疏散	xiao fang shu san	1
+消防水带	xiao fang shui dai	1
+消防水喉	xiao fang shui hou	1
+消防水枪	xiao fang shui qiang	1
+消防梯	xiao fang ti	1
+消防通道	xiao fang tong dao	1
+消防系统	xiao fang xi tong	1
+消防用水	xiao fang yong shui	1
+消防站	xiao fang zhan	1
+效果图	xiao guo tu	1
+消火栓	xiao huo shuan	1
+消火栓泵	xiao huo shuan beng	1
+消火栓给水管	xiao huo shuan gei shui guan	1
+消火栓试射记录	xiao huo shuan shi she ji lu	1
+消火栓箱	xiao huo shuan xiang	1
+消极隔振	xiao ji ge zhen	1
+小木作	xiao mu zuo	1
+小偏拉	xiao pian la	1
+小偏心	xiao pian xin	1
+小偏心受压	xiao pian xin shou ya	1
+小偏压	xiao pian ya	1
+小平锹	xiao ping qiao	1
+小瀑布	xiao pu bu	1
+小穹顶	xiao qiong ding	1
+小区中心	xiao qu zhong xin	1
+消声坑	xiao sheng keng	1
+消声器	xiao sheng qi	1
+消声室	xiao sheng shi	1
+消声弯头	xiao sheng wan tou	1
+小式	xiao shi	1
+小学建筑	xiao xue jian zhu	1
+小宴会厅	xiao yan hui ting	1
+消烟前室	xiao yan qian shi	1
+小游园	xiao you yuan	1
+泄爆	xie bao	1
+谐波分析	xie bo fen xi	1
+鞋厂	xie chang	1
+斜撑	xie cheng	1
+斜道	xie dao	1
+谐和感	xie he gan	1
+卸货间	xie huo jian	1
+卸货台	xie huo tai	1
+斜截面	xie jie mian	1
+斜拉	xie la	1
+斜梁	xie liang	1
+鞋帽店	xie mao dian	1
+斜面梁	xie mian liang	1
+斜坡道	xie po dao	1
+泄瀑	xie pu	1
+歇山	xie shan	1
+斜四通	xie si tong	1
+斜屋顶	xie wu ding	1
+楔形塞尺	xie xing sai chi	1
+斜压	xie ya	1
+斜照型照明器	xie zhao xing zhao ming qi	1
+斜转窗	xie zhuan chuang	1
+楔状绿地	xie zhuang lv di	1
+写字楼	xie zi lou	1
+新陈代谢主义	xin chen dai xie zhu yi	1
+新风	xin feng	1
+新风机组	xin feng ji zu	1
+新古典主义	xin gu dian zhu yi	1
+信号指示器	xin hao zhi shi qi	1
+信号中央控制室	xin hao zhong yang kong zhi shi	1
+新建工程	xin jian gong cheng	1
+新建筑材料	xin jian zhu cai liao	1
+新理性主义	xin li xing zhu yi	1
+新区	xin qu	1
+新鲜空气入口	xin xian kong qi ru kou	1
+信箱	xin xiang	1
+新艺术运动	xin yi shu yun dong	1
+性别结构	xing bie jie gou	1
+型材	xing cai	1
+形除污器	xing chu wu qi	1
+行道树	xing dao shu	1
+型钢	xing gang	1
+型钢混凝土	xing gang hun ning tu	1
+型架	xing jia	1
+行李室	xing li shi	1
+行李提取站	xing li ti qu zhan	1
+行李托运站	xing li tuo yun zhan	1
+性能系数	xing neng xi shu	1
+型式	xing shi	1
+形式生成	xing shi sheng cheng	1
+形体规划	xing ti gui hua	1
+行为背景	xing wei bei jing	1
+行为性能	xing wei xing neng	1
+形象规划	xing xiang gui hua	1
+形象图库	xing xiang tu ku	1
+星形拱	xing xing gong	1
+行政办公楼	xing zheng ban gong lou	1
+形状	xing zhuang	1
+修建设计	xiu jian she ji	1
+袖廊	xiu lang	1
+修理费用	xiu li fei yong	1
+休憩公园	xiu qi gong yuan	1
+锈蚀	xiu shi	1
+休息平台	xiu xi ping tai	1
+休息厅	xiu xi ting	1
+休养城市	xiu yang cheng shi	1
+修正图	xiu zheng tu	1
+修枝剪	xiu zhi jian	1
+徐变	xu bian	1
+序列	xu lie	1
+须弥座	xu mi zuo	1
+需求预测	xu qiu yu ce	1
+蓄热器	xu re qi	1
+蓄热墙	xu re qiang	1
+蓄热屋顶	xu re wu ding	1
+蓄热系数	xu re xi shu	1
+虚声源	xu sheng yuan	1
+蓄水池	xu shui chi	1
+蓄水隔热	xu shui ge re	1
+蓄水屋面	xu shui wu mian	1
+虚体	xu ti	1
+悬板活门	xuan ban huo men	1
+悬臂	xuan bi	1
+悬臂板	xuan bi ban	1
+悬臂梁	xuan bi liang	1
+悬臂现象	xuan bi xian xiang	1
+悬垂式照明	xuan chui shi zhao ming	1
+悬吊管	xuan diao guan	1
+悬吊重物	xuan diao zhong wu	1
+悬挂楼梯	xuan gua lou ti	1
+悬挂式照明器	xuan gua shi zhao ming qi	1
+眩光	xuan guang	1
+悬空园	xuan kong yuan	1
+悬篮	xuan lan	1
+宣礼塔	xuan li ta	1
+悬梁	xuan liang	1
+悬山	xuan shan	1
+宣石	xuan shi	1
+悬索	xuan suo	1
+悬索屋顶	xuan suo wu ding	1
+悬挑	xuan tiao	1
+悬挑板	xuan tiao ban	1
+悬挑构件	xuan tiao gou jian	1
+悬挑梁	xuan tiao liang	1
+悬挑楼梯	xuan tiao lou ti	1
+悬园	xuan yuan	1
+选址意见书	xuan zhi yi jian shu	1
+选种室	xuan zhong shi	1
+旋轴剪草机	xuan zhou jian cao ji	1
+旋转锄	xuan zhuan chu	1
+旋转水龙头	xuan zhuan shui long tou	1
+旋转舞台	xuan zhuan wu tai	1
+旋子彩画	xuan zi cai hua	1
+学生中心	xue sheng zhong xin	1
+学校园	xue xiao yuan	1
+雪压	xue ya	1
+学院建筑	xue yuan jian zhu	1
+循环泵	xun huan beng	1
+循环给水管	xun huan gei shui guan	1
+循环回水管	xun huan hui shui guan	1
+循环水泵	xun huan shui beng	1
+循环水系统	xun huan shui xi tong	1
+训练塔	xun lian ta	1
+讯问处	xun wen chu	1
+寻杖	xun zhang	1
+寻杖合角造	xun zhang he jiao zao	1
+寻杖绞角造	xun zhang jiao jiao zao	1
+压顶	ya ding	1
+压顶板	ya ding ban	1
+压花玻璃	ya hua bo li	1
+牙科诊室	ya ke zhen shi	1
+压阑石	ya lan shi	1
+压力安全装置	ya li an quan zhuang zhi	1
+压力泵	ya li beng	1
+压力操纵开关	ya li cao zong kai guan	1
+压力废水管	ya li fei shui guan	1
+压力试验	ya li shi yan	1
+压力水箱	ya li shui xiang	1
+压力污水管	ya li wu shui guan	1
+压力雨水管	ya li yu shui guan	1
+压实赶光	ya shi gan guang	1
+压实系数	ya shi xi shu	1
+压缩机房	ya suo ji fang	1
+压缩机组	ya suo ji zu	1
+压缩空气机	ya suo kong qi ji	1
+压缩空气系统	ya suo kong qi xi tong	1
+压缩空气站	ya suo kong qi zhan	1
+压条	ya tiao	1
+压弯	ya wan	1
+压型钢板	ya xing gang ban	1
+压型制品	ya xing zhi pin	1
+亚洲建筑师协会	ya zhou jian zhu shi xie hui	1
+压桩施工记录	ya zhuang shi gong ji lu	1
+檐壁	yan bi	1
+掩蔽效应	yan bi xiao ying	1
+演播室	yan bo shi	1
+檐部	yan bu	1
+验槽	yan cao	1
+檐椽	yan chuan	1
+烟囱	yan cong	1
+烟囱顶部	yan cong ding bu	1
+烟囱倾斜	yan cong qing xie	1
+檐垫板	yan dian ban	1
+檐枋	yan fang	1
+烟感器	yan gan qi	1
+烟感系统	yan gan xi tong	1
+檐沟	yan gou	1
+烟害	yan hai	1
+宴会厅	yan hui ting	1
+验筋	yan jin	1
+眼镜厂	yan jing chang	1
+眼镜店	yan jing dian	1
+研究中心	yan jiu zhong xin	1
+眼科医院	yan ke yi yuan	1
+檐口	yan kou	1
+檐檩	yan lin	1
+眼螺栓	yan luo shuan	1
+岩棉	yan mian	1
+檐墙	yan qiang	1
+衍射	yan she	1
+岩生植物	yan sheng zhi wu	1
+延时开关	yan shi kai guan	1
+延时自闭冲洗阀	yan shi zi bi chong xi fa	1
+验收证书	yan shou zheng shu	1
+验算	yan suan	1
+岩梯	yan ti	1
+燕尾螺栓	yan wei luo shuan	1
+燕尾锚具	yan wei mao ju	1
+验线通知单	yan xian tong zhi dan	1
+演员休息室	yan yuan xiu xi shi	1
+檐柱	yan zhu	1
+演奏台	yan zou tai	1
+样板住宅	yang ban zhu zhai	1
+阳光辐射强度	yang guang fu she qiang du	1
+阳光入射角	yang guang ru she jiao	1
+阳光室	yang guang shi	1
+养护	yang hu	1
+养护期	yang hu qi	1
+养鸡场	yang ji chang	1
+阳角	yang jiao	1
+仰角	yang jiao	1
+养老院	yang lao yuan	1
+氧气站	yang qi zhan	1
+扬声气孔	yang sheng qi kong	1
+扬声器箱	yang sheng qi xiang	1
+仰视景观	yang shi jing guan	1
+仰视透视	yang shi tou shi	1
+仰视图	yang shi tu	1
+扬水泵	yang shui beng	1
+阳台绿化	yang tai lv hua	1
+羊眼螺栓	yang yan luo shuan	1
+羊眼螺丝	yang yan luo si	1
+养猪场	yang zhu chang	1
+摇臂式喷灌器	yao bi shi pen guan qi	1
+咬底	yao di	1
+腰筋	yao jin	1
+窑居	yao ju	1
+遥控信号阀	yao kong xin hao fa	1
+腰线	yao xian	1
+药用植物园	yao yong zhi wu yuan	1
+野餐区	ye can qu	1
+液肥混合调配器	ye fei hun he tiao pei qi	1
+液化	ye hua	1
+液化气系统	ye hua qi xi tong	1
+液化石油气厂	ye hua shi you qi chang	1
+夜间标志	ye jian biao zhi	1
+夜间人口	ye jian ren kou	1
+冶炼车间	ye lian che jian	1
+野鸟喂食器	ye niao wei shi qi	1
+野趣园	ye qu yuan	1
+野生植物园	ye sheng zhi wu yuan	1
+野营区	ye ying qu	1
+业主	ye zhu	1
+伊奥尼亚柱式	yi ao ni ya zhu shi	1
+一般漫射照明	yi ban man she zhao ming	1
+一般照明	yi ban zhao ming	1
+一般照明设计	yi ban zhao ming she ji	1
+易爆物料	yi bao wu liao	1
+仪表间	yi biao jian	1
+一层	yi ceng	1
+一层大堂	yi ceng da tang	1
+一次成型板	yi ci cheng xing ban	1
+一次回路	yi ci hui lu	1
+一次线路图	yi ci xian lu tu	1
+意大利式园林	yi da li shi yuan lin	1
+移动式隔断	yi dong shi ge duan	1
+衣钩	yi gou	1
+一级负荷	yi ji fu he	1
+一级钢	yi ji gang	1
+意境	yi jing	1
+抑景	yi jing	1
+一类场地	yi lei chang di	1
+一类环境	yi lei huan jing	1
+医疗建筑	yi liao jian zhu	1
+医疗站	yi liao zhan	1
+溢流槽	yi liu cao	1
+溢流堰	yi liu yan	1
+役马场	yi ma chang	1
+衣帽间	yi mao jian	1
+一跑	yi pao	1
+仪器仪表厂	yi qi yi biao chang	1
+翼墙	yi qiang	1
+乙炔站	yi que zhan	1
+艺术格调	yi shu ge diao	1
+溢水管	yi shui guan	1
+溢水口	yi shui kou	1
+一顺一丁砌式	yi shun yi ding qi shi	1
+伊斯兰建筑	yi si lan jian zhu	1
+异形板	yi xing ban	1
+异性构件	yi xing gou jian	1
+翼形螺母	yi xing luo mu	1
+翼型螺丝	yi xing luo si	1
+异型柱	yi xing zhu	1
+异形柱	yi xing zhu	1
+异养生物	yi yang sheng wu	1
+翼缘	yi yuan	1
+医院病床电梯	yi yuan bing chuang dian ti	1
+医院建筑	yi yuan jian zhu	1
+移柱法	yi zhu fa	1
+乙字管	yi zi guan	1
+隐蔽工程	yin bi gong cheng	1
+隐蔽工程记录	yin bi gong cheng ji lu	1
+隐蔽工程检查记录	yin bi gong cheng jian cha ji lu	1
+隐蔽工程验收	yin bi gong cheng yan shou	1
+隐蔽工程验收记录	yin bi gong cheng yan shou ji lu	1
+音程	yin cheng	1
+阴沟	yin gou	1
+阴角	yin jiao	1
+隐框	yin kuang	1
+隐框幕墙	yin kuang mu qiang	1
+隐篱	yin li	1
+饮料厂	yin liao chang	1
+印染厂	yin ran chang	1
+引入端	yin ru duan	1
+引入线	yin ru xian	1
+阴生植物	yin sheng zhi wu	1
+饮食店	yin shi dian	1
+印刷厂	yin shua chang	1
+饮水池	yin shui chi	1
+饮水喷头	yin shui pen tou	1
+隐头喷泉	yin tou pen quan	1
+引下线	yin xia xian	1
+音响控制室	yin xiang kong zhi shi	1
+阴影模式分析	yin ying mo shi fen xi	1
+音乐跟踪系统	yin yue gen zong xi tong	1
+音乐教室	yin yue jiao shi	1
+音乐厅	yin yue ting	1
+音质评价标准	yin zhi ping jia biao zhun	1
+音质设计	yin zhi she ji	1
+隐轴	yin zhou	1
+应变片	ying bian pian	1
+英德石	ying de shi	1
+荧光灯	ying guang deng	1
+荧光灯带	ying guang deng dai	1
+荧光灯启动器	ying guang deng qi dong qi	1
+荧光灯照明	ying guang deng zhao ming	1
+荧光反光灯	ying guang fan guang deng	1
+英国标准	ying guo biao zhun	1
+英国工程标准协会	ying guo gong cheng biao zhun xie hui	1
+英国皇家植物园	ying guo huang jia zhi wu yuan	1
+英国式园林	ying guo shi yuan lin	1
+应急照明	ying ji zhao ming	1
+应力	ying li	1
+楹联	ying lian	1
+硬山	ying shan	1
+营养厨房	ying yang chu fang	1
+营业柜台	ying ye gui tai	1
+营业厅	ying ye ting	1
+营造正式	ying zao zheng shi	1
+泳道	yong dao	1
+用地平衡	yong di ping heng	1
+永冻土	yong dong tu	1
+永久性建筑	yong jiu xing jian zhu	1
+用水量	yong shui liang	1
+用水量标准	yong shui liang biao zhun	1
+诱导式空调系统	you dao shi kong tiao xi tong	1
+油地毡地面	you di zhan di mian	1
+由额	you e	1
+由额垫板	you e dian ban	1
+有轨电车	you gui dian che	1
+油灰	you hui	1
+有机玻璃	you ji bo li	1
+有机材料	you ji cai liao	1
+有机建筑	you ji jian zhu	1
+有机疏散	you ji shu san	1
+邮局	you ju	1
+游览车	you lan che	1
+游览路线	you lan lu xian	1
+游览区	you lan qu	1
+游廊	you lang	1
+油冷却变压器	you leng que bian ya qi	1
+釉面砖	you mian zhuan	1
+诱鸟区	you niao qu	1
+油漆	you qi	1
+油漆厂	you qi chang	1
+油漆车间	you qi che jian	1
+游憩中心	you qi zhong xin	1
+由戗	you qiang	1
+游人调查	you ren diao cha	1
+游人分析	you ren fen xi	1
+游人管理	you ren guan li	1
+游人规则	you ren gui ze	1
+游人容纳量	you ren rong na liang	1
+游人统计	you ren tong ji	1
+游人意见处理	you ren yi jian chu li	1
+游人中心	you ren zhong xin	1
+有色玻璃	you se bo li	1
+游戏场地	you xi chang di	1
+有线广播站	you xian guang bo zhan	1
+有效半径	you xiao ban jing	1
+有效传热系数	you xiao chuan re xi shu	1
+有效感觉噪声级	you xiao gan jue zao sheng ji	1
+有效流阻	you xiao liu zu	1
+有效声压	you xiao sheng ya	1
+有效温度	you xiao wen du	1
+优秀设计	you xiu she ji	1
+油压驱动电梯	you ya qu dong dian ti	1
+油印机室	you yin ji shi	1
+游泳池	you yong chi	1
+游泳馆	you yong guan	1
+有源减噪	you yuan jian zao	1
+油毡	you zhan	1
+油纸	you zhi	1
+有支护土方	you zhi hu tu fang	1
+预拌混凝土运输单	yu ban hun ning tu yun shu dan	1
+预测不满意百分率	yu ce bu man yi bai fen lv	1
+预测平均热感觉	yu ce ping jun re gan jue	1
+隅撑	yu cheng	1
+预处理构筑物	yu chu li gou zhu wu	1
+预检记录	yu jian ji lu	1
+御匠司	yu jiang si	1
+娱乐公园	yu le gong yuan	1
+娱乐建筑	yu le jian zhu	1
+娱乐演出区	yu le yan chu qu	1
+娱乐中心	yu le zhong xin	1
+雨淋灭火给水管	yu lin mie huo gei shui guan	1
+雨淋灭火系统	yu lin mie huo xi tong	1
+预留地	yu liu di	1
+预留孔洞	yu liu kong dong	1
+御路	yu lu	1
+余氯传感器	yu lv chuan gan qi	1
+欲埋吊件	yu mai diao jian	1
+预埋钢筋	yu mai gang jin	1
+预埋管线工程	yu mai guan xian gong cheng	1
+预埋件	yu mai jian	1
+预埋螺栓	yu mai luo shuan	1
+预埋木砖	yu mai mu zhuan	1
+预埋套管	yu mai tao guan	1
+羽毛球场	yu mao qiu chang	1
+浴盆	yu pen	1
+浴盆排水件	yu pen pai shui jian	1
+雨蓬	yu peng	1
+雨棚	yu peng	1
+雨水	yu shui	1
+雨水管	yu shui guan	1
+雨水井	yu shui jing	1
+雨水口	yu shui kou	1
+雨水立管	yu shui li guan	1
+雨水内排水系统	yu shui nei pai shui xi tong	1
+雨水排水道	yu shui pai shui dao	1
+雨水渗透	yu shui shen tou	1
+雨水外排水系统	yu shui wai pai shui xi tong	1
+雨水系统	yu shui xi tong	1
+预算文件	yu suan wen jian	1
+预算造价	yu suan zao jia	1
+预算专业	yu suan zhuan ye	1
+预算总造价	yu suan zong zao jia	1
+浴堂	yu tang	1
+余同	yu tong	1
+余暇生活空间	yu xia sheng huo kong jian	1
+语言干扰级	yu yan gan rao ji	1
+预应力	yu ying li	1
+预应力管桩	yu ying li guan zhuang	1
+预应力筋张拉记录	yu ying li jin zhang la ji lu	1
+雨罩	yu zhao	1
+预制	yu zhi	1
+预制板	yu zhi ban	1
+预制方桩	yu zhi fang zhuang	1
+预制构件	yu zhi gou jian	1
+预制混凝土盖板	yu zhi hun ning tu gai ban	1
+预制混凝土构件	yu zhi hun ning tu gou jian	1
+预制混凝土过梁	yu zhi hun ning tu guo liang	1
+预制空心楼板	yu zhi kong xin lou ban	1
+预制楼板	yu zhi lou ban	1
+预制楼梯	yu zhi lou ti	1
+预制水磨石地面	yu zhi shui mo shi di mian	1
+预制桩	yu zhi zhuang	1
+预制装配式结构	yu zhi zhuang pei shi jie gou	1
+预作用报警阀	yu zuo yong bao jing fa	1
+预作用灭火系统	yu zuo yong mie huo xi tong	1
+元宝螺丝	yuan bao luo si	1
+远场	yuan chang	1
+圆攒尖	yuan cuan jian	1
+园凳	yuan deng	1
+园灯	yuan deng	1
+圆底线脚	yuan di xian jiao	1
+圆钉	yuan ding	1
+圆钢	yuan gang	1
+圆弧玻璃	yuan hu bo li	1
+圆弧楼梯	yuan hu lou ti	1
+园景树	yuan jing shu	1
+园篱	yuan li	1
+圆砾层	yuan li ceng	1
+原料加工车间	yuan liao jia gong che jian	1
+园林保留地	yuan lin bao liu di	1
+园林城市	yuan lin cheng shi	1
+园林道路	yuan lin dao lu	1
+园林道路设计	yuan lin dao lu she ji	1
+园林地形改造	yuan lin di xing gai zao	1
+园林分区	yuan lin fen qu	1
+园林分区规划	yuan lin fen qu gui hua	1
+园林工程	yuan lin gong cheng	1
+园林工具	yuan lin gong ju	1
+园林管理	yuan lin guan li	1
+园林管理规划	yuan lin guan li gui hua	1
+园林规划	yuan lin gui hua	1
+园林规划说明	yuan lin gui hua shuo ming	1
+园林规划说明书	yuan lin gui hua shuo ming shu	1
+园林规划图	yuan lin gui hua tu	1
+园林机具设备	yuan lin ji ju she bei	1
+园林技术管理	yuan lin ji shu guan li	1
+园林机械	yuan lin ji xie	1
+园林建筑	yuan lin jian zhu	1
+园林建筑学	yuan lin jian zhu xue	1
+园林空间	yuan lin kong jian	1
+园林露天剧场	yuan lin lu tian ju chang	1
+园林露天舞池	yuan lin lu tian wu chi	1
+园林美学	yuan lin mei xue	1
+园林区划	yuan lin qu hua	1
+园林色彩艺术	yuan lin se cai yi shu	1
+园林设备	yuan lin she bei	1
+园林设计	yuan lin she ji	1
+园林设计师	yuan lin she ji shi	1
+园林生态	yuan lin sheng tai	1
+园林施工	yuan lin shi gong	1
+园林水景	yuan lin shui jing	1
+园林小品	yuan lin xiao pin	1
+园林小气候	yuan lin xiao qi hou	1
+园林形式	yuan lin xing shi	1
+园林学	yuan lin xue	1
+园林学史	yuan lin xue shi	1
+园林艺术	yuan lin yi shu	1
+园林艺术布局	yuan lin yi shu bu ju	1
+园林植物	yuan lin zhi wu	1
+圆楼梯	yuan lou ti	1
+园貌维修	yuan mao wei xiu	1
+原木	yuan mu	1
+圆木椿	yuan mu chun	1
+圆木桥	yuan mu qiao	1
+园内交通管理	yuan nei jiao tong guan li	1
+元盘电锯	yuan pan dian ju	1
+园桥	yuan qiao	1
+圆球灯罩	yuan qiu deng zhao	1
+原始环境系统	yuan shi huan jing xi tong	1
+原水磨石	yuan shui mo shi	1
+圆筒喷灌器	yuan tong pen guan qi	1
+园外交通管理	yuan wai jiao tong guan li	1
+原位标注	yuan wei biao zhu	1
+圆型化粪池	yuan xing hua fen chi	1
+圆形荧光灯	yuan xing ying guang deng	1
+园椅	yuan yi	1
+原有房屋	yuan you fang wu	1
+园址测量图	yuan zhi ce liang tu	1
+圆柱形壳顶	yuan zhu xing ke ding	1
+园桌	yuan zhuo	1
+原子能发电厂	yuan zi neng fa dian chang	1
+跃层式公寓	yue ceng shi gong yu	1
+乐池	yue chi	1
+月池	yue chi	1
+月洞门	yue dong men	1
+阅览间	yue lan jian	1
+阅览室	yue lan shi	1
+月梁	yue liang	1
+约束边缘构件	yue shu bian yuan gou jian	1
+月台	yue tai	1
+运动员席	yun dong yuan xi	1
+云石切割机	yun shi qie ge ji	1
+运输滑道	yun shu hua dao	1
+运行成本	yun xing cheng ben	1
+允许浓度	yun xu nong du	1
+允许偏差	yun xu pian cha	1
+允许热损失	yun xu re sun shi	1
+允许温差	yun xu wen cha	1
+允许载荷	yun xu zai he	1
+杂木林	za mu lin	1
+杂填土	za tian tu	1
+杂用室	za yong shi	1
+杂志室	za zhi shi	1
+载波电流	zai bo dian liu	1
+载货电梯	zai huo dian ti	1
+在建工程	zai jian gong cheng	1
+载客电梯	zai ke dian ti	1
+再生能源	zai sheng neng yuan	1
+再生噪声	zai sheng zao sheng	1
+再生纸种植器	zai sheng zhi zhong zhi qi	1
+栽植机	zai zhi ji	1
+暂住人口	zan zhu ren kou	1
+錾子	zan zi	1
+噪度	zao du	1
+造价分析	zao jia fen xi	1
+藻井	zao jing	1
+早期反射声	zao qi fan she sheng	1
+早强混凝土	zao qiang hun ning tu	1
+噪声冲击	zao sheng chong ji	1
+噪声降低	zao sheng jiang di	1
+噪声控制	zao sheng kong zhi	1
+噪声评价曲线	zao sheng ping jia qu xian	1
+噪声评价数	zao sheng ping jia shu	1
+噪声污染	zao sheng wu ran	1
+噪声污染级	zao sheng wu ran ji	1
+藻头	zao tou	1
+造型地貌	zao xing di mao	1
+造型天花	zao xing tian hua	1
+皂液盒	zao ye he	1
+造园学	zao yuan xue	1
+增压变压器	zeng ya bian ya qi	1
+增长极论	zeng zhang ji lun	1
+闸阀	zha fa	1
+栅栏	zha lan	1
+宅园	zhai yuan	1
+斩假石墙面	zhan jia shi qiang mian	1
+斩假石做法	zhan jia shi zuo fa	1
+粘接接合	zhan jie jie he	1
+粘接强度	zhan jie qiang du	1
+粘接试验	zhan jie shi yan	1
+展览馆	zhan lan guan	1
+展览架	zhan lan jia	1
+展览室	zhan lan shi	1
+展览温室	zhan lan wen shi	1
+战略规划	zhan lue gui hua	1
+站台雨棚	zhan tai yu peng	1
+站台住宅	zhan tai zhu zhai	1
+粘土层	zhan tu ceng	1
+障碍灯	zhang ai deng	1
+障碍赛跑道	zhang ai sai pao dao	1
+胀管螺栓	zhang guan luo shuan	1
+障景	zhang jing	1
+障景种植	zhang jing zhong zhi	1
+胀圈	zhang quan	1
+招标文件	zhao biao wen jian	1
+招待所	zhao dai suo	1
+照度标准	zhao du biao zhun	1
+照度计	zhao du ji	1
+照度计算	zhao du ji suan	1
+照度均匀度	zhao du jun yun du	1
+照度曲线	zhao du qu xian	1
+着火性能	zhao huo xing neng	1
+照明	zhao ming	1
+照明变压器	zhao ming bian ya qi	1
+照明布线	zhao ming bu xian	1
+照明出线口	zhao ming chu xian kou	1
+照明灯具	zhao ming deng ju	1
+照明负荷	zhao ming fu he	1
+照明干线选	zhao ming gan xian xuan	1
+照明环境	zhao ming huan jing	1
+照明控制	zhao ming kong zhi	1
+照明控制室	zhao ming kong zhi shi	1
+照明配电盘	zhao ming pei dian pan	1
+照明配电箱	zhao ming pei dian xiang	1
+照明平面图	zhao ming ping mian tu	1
+照明设计	zhao ming she ji	1
+照明系统	zhao ming xi tong	1
+兆欧表	zhao ou biao	1
+招牌	zhao pai	1
+找平	zhao ping	1
+找平层	zhao ping ceng	1
+找坡	zhao po	1
+沼气池	zhao qi chi	1
+照像馆	zhao xiang guan	1
+沼泽园	zhao ze yuan	1
+沼泽植物	zhao ze zhi wu	1
+折板屋顶	zhe ban wu ding	1
+折倒	zhe dao	1
+折倒剖	zhe dao pou	1
+折倒剖面	zhe dao pou mian	1
+折叠窗	zhe die chuang	1
+折叠门	zhe die men	1
+遮光角	zhe guang jiao	1
+折减	zhe jian	1
+折减系数	zhe jian xi shu	1
+折梁	zhe liang	1
+折现率	zhe xian lv	1
+遮阳	zhe yang	1
+遮阳时间	zhe yang shi jian	1
+遮阳特性图	zhe yang te xing tu	1
+折中主义	zhe zhong zhu yi	1
+折皱	zhe zhou	1
+振捣	zhen dao	1
+振捣棒	zhen dao bang	1
+振动板	zhen dong ban	1
+振动等响曲线	zhen dong deng xiang qu xian	1
+针灸部	zhen jiu bu	1
+真空采暖系统	zhen kong cai nuan xi tong	1
+真空系统	zhen kong xi tong	1
+真空诊断室	zhen kong zhen duan shi	1
+镇流器	zhen liu qi	1
+诊室	zhen shi	1
+振型	zhen xing	1
+针叶植物	zhen ye zhi wu	1
+针织厂	zhen zhi chang	1
+珍珠岩	zhen zhu yan	1
+正常水位	zheng chang shui wei	1
+正常照明	zheng chang zhao ming	1
+蒸发冷凝器	zheng fa leng ning qi	1
+蒸发量	zheng fa liang	1
+正负零	zheng fu ling	1
+正脊	zheng ji	1
+整剪绿篱	zheng jian lv li	1
+正截面	zheng jie mian	1
+蒸馏水系统	zheng liu shui xi tong	1
+正门	zheng men	1
+正面入口	zheng mian ru kou	1
+蒸汽采暖系统	zheng qi cai nuan xi tong	1
+蒸汽干管	zheng qi gan guan	1
+蒸汽供暖设备	zheng qi gong nuan she bei	1
+蒸汽供暖系统	zheng qi gong nuan xi tong	1
+蒸汽管	zheng qi guan	1
+蒸汽管线	zheng qi guan xian	1
+蒸汽扩散	zheng qi kuo san	1
+蒸汽冷凝	zheng qi leng ning	1
+蒸汽喷射热水系统	zheng qi pen she re shui xi tong	1
+证券交易所	zheng quan jiao yi suo	1
+证人室	zheng ren shi	1
+正三通	zheng san tong	1
+整石墙	zheng shi qiang	1
+正四通	zheng si tong	1
+整体面层	zheng ti mian ceng	1
+整体爬升脚手架	zheng ti pa sheng jiao shou jia	1
+整体式空调器	zheng ti shi kong tiao qi	1
+整体稳定	zheng ti wen ding	1
+正吻	zheng wen	1
+正心拱	zheng xin gong	1
+正心瓜栱	zheng xin gua gong	1
+正心桁	zheng xin heng	1
+正心慢栱	zheng xin man gong	1
+正心万栱	zheng xin wan gong	1
+整形草坪	zheng xing cao ping	1
+整形花坛	zheng xing hua tan	1
+整型树	zheng xing shu	1
+整形种植	zheng xing zhong zhi	1
+值班室	zhi ban shi	1
+值班巡视系统	zhi ban xun shi xi tong	1
+植被隔热	zhi bei ge re	1
+指北针	zhi bei zhen	1
+制冰间	zhi bing jian	1
+纸草花式柱	zhi cao hua shi zhu	1
+滞尘植物	zhi chen zhi wu	1
+支撑垫石	zhi cheng dian shi	1
+支撑体系	zhi cheng ti xi	1
+值传感器	zhi chuan gan qi	1
+直达声	zhi da sheng	1
+肢高肢厚比	zhi gao zhi hou bi	1
+职工住宅	zhi gong zhu zhai	1
+制管厂	zhi guan chang	1
+指挥部方式	zhi hui bu fang shi	1
+止回阀	zhi hui fa	1
+指挥塔	zhi hui ta	1
+直接辐射	zhi jie fu she	1
+直接受益	zhi jie shou yi	1
+直接照明	zhi jie zhao ming	1
+直接制冷系统	zhi jie zhi leng xi tong	1
+植筋	zhi jin	1
+质扩散	zhi kuo san	1
+制冷机组调试记录	zhi leng ji zu tiao shi ji lu	1
+制冷系统	zhi leng xi tong	1
+质量安全监督	zhi liang an quan jian du	1
+质量管理	zhi liang guan li	1
+质量评定	zhi liang ping ding	1
+质量评定标准	zhi liang ping ding biao zhun	1
+质量问题处理记录	zhi liang wen ti chu li ji lu	1
+治疗室	zhi liao shi	1
+直流柜	zhi liu gui	1
+直流氩弧焊机	zhi liu ya hu han ji	1
+支路	zhi lu	1
+纸面石膏板	zhi mian shi gao ban	1
+支模	zhi mo	1
+智能办公楼	zhi neng ban gong lou	1
+智能建筑	zhi neng jian zhu	1
+智能小区	zhi neng xiao qu	1
+直爬梯	zhi pa ti	1
+直跑楼梯	zhi pao lou ti	1
+直射光	zhi she guang	1
+直升机坪	zhi sheng ji ping	1
+蛭石	zhi shi	1
+置石	zhi shi	1
+指示植物	zhi shi zhi wu	1
+执手	zhi shou	1
+肢数	zhi shu	1
+植树箱	zhi shu xiang	1
+滞水	zhi shui	1
+止水帷幕	zhi shui wei mu	1
+支条	zhi tiao	1
+制图	zhi tu	1
+植物病虫防治	zhi wu bing chong fang zhi	1
+织物材料	zhi wu cai liao	1
+植物覆盖	zhi wu fu gai	1
+植物公园	zhi wu gong yuan	1
+植物景观	zhi wu jing guan	1
+植物配植	zhi wu pei zhi	1
+植物养护管理	zhi wu yang hu guan li	1
+植物园	zhi wu yuan	1
+植物整形修剪	zhi wu zheng xing xiu jian	1
+直线笔	zhi xian bi	1
+指向性因数	zhi xiang xing yin shu	1
+枝形吊灯	zhi xing diao deng	1
+枝形吊灯架	zhi xing diao deng jia	1
+秩序感	zhi xu gan	1
+制药厂	zhi yao chang	1
+职业道德守则	zhi ye dao de shou ze	1
+职业工程师	zhi ye gong cheng shi	1
+职业工程师法	zhi ye gong cheng shi fa	1
+职业结构	zhi ye jie gou	1
+职业学校建筑	zhi ye xue xiao jian zhu	1
+支摘窗	zhi zhai chuang	1
+支座	zhi zuo	1
+钟表厂	zhong biao chang	1
+钟表店	zhong biao dian	1
+重病病房	zhong bing bing fang	1
+重病护理单元	zhong bing hu li dan yuan	1
+中部筋	zhong bu jin	1
+中餐厅	zhong can ting	1
+中层灰	zhong ceng hui	1
+中粗砂	zhong cu sha	1
+中等城市	zhong deng cheng shi	1
+重点照明	zhong dian zhao ming	1
+终端再热	zhong duan zai re	1
+终端装置	zhong duan zhuang zhi	1
+中风化岩层	zhong feng hua yan ceng	1
+重栱	zhong gong	1
+中国城市规划学会	zhong guo cheng shi gui hua xue hui	1
+中国城市科学研究会	zhong guo cheng shi ke xue yan jiu hui	1
+中国传统园林	zhong guo chuan tong yuan lin	1
+中国风景园林学会	zhong guo feng jing yuan lin xue hui	1
+中国古代园林	zhong guo gu dai yuan lin	1
+中国古典园林	zhong guo gu dian yuan lin	1
+中国建筑学会	zhong guo jian zhu xue hui	1
+中国漆	zhong guo qi	1
+中国山水园	zhong guo shan shui yuan	1
+中国市长协会	zhong guo shi zhang xie hui	1
+中和池	zhong he chi	1
+中和轴	zhong he zhou	1
+中横框	zhong heng kuang	1
+中间视觉	zhong jian shi jue	1
+中间支座	zhong jian zhi zuo	1
+中空玻璃	zhong kong bo li	1
+重力二阶效应	zhong li er jie xiao ying	1
+中粒式	zhong li shi	1
+肿瘤医院	zhong liu yi yuan	1
+种马场	zhong ma chang	1
+中冒头	zhong mao tou	1
+中密	zhong mi	1
+中频变压器	zhong pin bian ya qi	1
+钟乳拱	zhong ru gong	1
+钟乳石	zhong ru shi	1
+中砂	zhong sha	1
+中试车间	zhong shi che jian	1
+中竖框	zhong shu kuang	1
+中水给水管	zhong shui gei shui guan	1
+中速电梯	zhong su dian ti	1
+重台勾阑	zhong tai gou lan	1
+中厅	zhong ting	1
+中庭	zhong ting	1
+中心城市	zhong xin cheng shi	1
+中心供应站	zhong xin gong ying zhan	1
+中心广场	zhong xin guang chang	1
+中心商务区	zhong xin shang wu qu	1
+中心舞台	zhong xin wu tai	1
+中悬窗	zhong xuan chuang	1
+中悬折叠门	zhong xuan zhe die men	1
+中学建筑	zhong xue jian zhu	1
+中央大厅	zhong yang da ting	1
+中央公园	zhong yang gong yuan	1
+中央控制室	zhong yang kong zhi shi	1
+中央控制台	zhong yang kong zhi tai	1
+中央试验室	zhong yang shi yan shi	1
+中药店	zhong yao dian	1
+重要负荷	zhong yao fu he	1
+中医院	zhong yi yuan	1
+中英混合式园林	zhong ying hun he shi yuan lin	1
+种植池	zhong zhi chi	1
+种植大样图	zhong zhi da yang tu	1
+种植工程	zhong zhi gong cheng	1
+种植容器	zhong zhi rong qi	1
+种植设计	zhong zhi she ji	1
+种植屋面	zhong zhi wu mian	1
+中柱	zhong zhu	1
+种子库	zhong zi ku	1
+种子液肥喷洒机	zhong zi ye fei pen sa ji	1
+周边式	zhou bian shi	1
+轴侧	zhou ce	1
+周朝	zhou chao	1
+轴承厂	zhou cheng chang	1
+昼光	zhou guang	1
+轴力	zhou li	1
+轴流泵	zhou liu beng	1
+周期比	zhou qi bi	1
+周期性传热	zhou qi xing chuan re	1
+肘式龙头	zhou shi long tou	1
+轴视图	zhou shi tu	1
+轴网	zhou wang	1
+轴线	zhou xian	1
+轴线中	zhou xian zhong	1
+轴压	zhou ya	1
+轴压比	zhou ya bi	1
+昼夜等效声级	zhou ye deng xiao sheng ji	1
+珠宝店	zhu bao dian	1
+主变电所	zhu bian dian suo	1
+主变压器	zhu bian ya qi	1
+柱表	zhu biao	1
+注册结构工程师	zhu ce jie gou gong cheng shi	1
+注册章	zhu ce zhang	1
+柱础	zhu chu	1
+柱底	zhu di	1
+竹地板	zhu di ban	1
+柱底弯矩	zhu di wan ju	1
+柱顶	zhu ding	1
+柱顶石	zhu ding shi	1
+主动式太阳房	zhu dong shi tai yang fang	1
+主动土压力	zhu dong tu ya li	1
+柱墩	zhu dun	1
+住房使用面积	zhu fang shi yong mian ji	1
+主干路	zhu gan lu	1
+铸工车间	zhu gong che jian	1
+柱基	zhu ji	1
+柱脚	zhu jiao	1
+柱截面	zhu jie mian	1
+主筋	zhu jin	1
+主景	zhu jing	1
+柱径	zhu jing	1
+主景植物	zhu jing zhi wu	1
+柱距	zhu ju	1
+柱宽	zhu kuan	1
+柱廊	zhu lang	1
+助理建筑师	zhu li jian zhu shi	1
+柱帽	zhu mao	1
+柱面干挂石材	zhu mian gan gua shi cai	1
+柱内管线配置	zhu nei guan xian pei zhi	1
+贮泥池	zhu ni chi	1
+主配线架	zhu pei xian jia	1
+柱平法	zhu ping fa	1
+柱平面布置图	zhu ping mian bu zhi tu	1
+主穹顶	zhu qiong ding	1
+侏儒柱	zhu ru zhu	1
+猪舍	zhu she	1
+柱身	zhu shen	1
+铸石	zhu shi	1
+柱式	zhu shi	1
+主食加工间	zhu shi jia gong jian	1
+主食库	zhu shi ku	1
+柱体	zhu ti	1
+主体结构	zhu ti jie gou	1
+主体群落	zhu ti qun luo	1
+铸铁管	zhu tie guan	1
+竹亭	zhu ting	1
+柱头	zhu tou	1
+柱头科	zhu tou ke	1
+柱头铺作	zhu tou pu zuo	1
+柱外皮	zhu wai pi	1
+柱网	zhu wang	1
+主席台	zhu xi tai	1
+主要入口	zhu yao ru kou	1
+住院部	zhu yuan bu	1
+铸造车间	zhu zao che jian	1
+铸造制品	zhu zao zhi pin	1
+住宅标准	zhu zhai biao zhun	1
+住宅布局	zhu zhai bu ju	1
+住宅类型	zhu zhai lei xing	1
+住宅旅馆	zhu zhai lv guan	1
+住宅组团	zhu zhai zu tuan	1
+柱肢	zhu zhi	1
+转包工程	zhuan bao gong cheng	1
+砖雕	zhuan diao	1
+转动接头	zhuan dong jie tou	1
+转换层	zhuan huan ceng	1
+转换梁	zhuan huan liang	1
+专家建议文件	zhuan jia jian yi wen jian	1
+转角窗	zhuan jiao chuang	1
+转角铺作	zhuan jiao pu zuo	1
+转角墙	zhuan jiao qiang	1
+转角柱	zhuan jiao zhu	1
+专科学校建筑	zhuan ke xue xiao jian zhu	1
+专类花园	zhuan lei hua yuan	1
+转轮式换热器	zhuan lun shi huan re qi	1
+转门	zhuan men	1
+专门室内系统	zhuan men shi nei xi tong	1
+专门项目	zhuan men xiang mu	1
+砖面泛白	zhuan mian fan bai	1
+砖铺切	zhuan pu qie	1
+转台	zhuan tai	1
+砖瓦厂	zhuan wa chang	1
+转弯半径	zhuan wan ban jing	1
+转弯曲度	zhuan wan qu du	1
+专用办公楼	zhuan yong ban gong lou	1
+专用道路	zhuan yong dao lu	1
+桩长	zhuang chang	1
+桩地基施工记录	zhuang di ji shi gong ji lu	1
+装订室	zhuang ding shi	1
+桩端	zhuang duan	1
+桩工机械	zhuang gong ji xie	1
+桩基	zhuang ji	1
+桩基地基处理报告	zhuang ji di ji chu li bao gao	1
+桩基检测报告	zhuang ji jian ce bao gao	1
+撞击声	zhuang ji sheng	1
+装甲电缆	zhuang jia dian lan	1
+桩径	zhuang jing	1
+桩径比	zhuang jing bi	1
+装配车间	zhuang pei che jian	1
+装配整体式	zhuang pei zheng ti shi	1
+庄慎	zhuang shen	1
+桩身	zhuang shen	1
+装饰壁灯	zhuang shi bi deng	1
+装饰钉	zhuang shi ding	1
+装饰盖板	zhuang shi gai ban	1
+装饰铁件	zhuang shi tie jian	1
+装饰照明	zhuang shi zhao ming	1
+装饰植物	zhuang shi zhi wu	1
+装卸站台	zhuang xie zhan tai	1
+装缘植物	zhuang yuan zhi wu	1
+准永久	zhun yong jiu	1
+准永久值	zhun yong jiu zhi	1
+准永久组合	zhun yong jiu zu he	1
+自动保护系统	zi dong bao hu xi tong	1
+自动部件选择	zi dong bu jian xuan ze	1
+自动冲洗水箱	zi dong chong xi shui xiang	1
+自动断电器	zi dong duan dian qi	1
+自动扶梯	zi dong fu ti	1
+自动感应烘手器	zi dong gan ying hong shou qi	1
+自动感应门	zi dong gan ying men	1
+自动给水控制	zi dong gei shui kong zhi	1
+自动关门装置	zi dong guan men zhuang zhi	1
+自动化车间	zi dong hua che jian	1
+自动火灾报警系统	zi dong huo zai bao jing xi tong	1
+自动记录流量计	zi dong ji lu liu liang ji	1
+自动记录器	zi dong ji lu qi	1
+自动记录压力表	zi dong ji lu ya li biao	1
+自动开关装置	zi dong kai guan zhuang zhi	1
+自动门	zi dong men	1
+自动门开关	zi dong men kai guan	1
+自动排气口	zi dong pai qi kou	1
+自动排烟口	zi dong pai yan kou	1
+自动喷洒头闭式	zi dong pen sa tou bi shi	1
+自动喷水灭火系统	zi dong pen shui mie huo xi tong	1
+自动喷水系统	zi dong pen shui xi tong	1
+自动启动器	zi dong qi dong qi	1
+自动水幕系统	zi dong shui mu xi tong	1
+自动调节机能	zi dong tiao jie ji neng	1
+自动详图制作	zi dong xiang tu zhi zuo	1
+自动消防泵	zi dong xiao fang beng	1
+子筏板	zi fa ban	1
+自攻螺钉	zi gong luo ding	1
+字架	zi jia	1
+自检互检记录单	zi jian hu jian ji lu dan	1
+资金返本期	zi jin fan ben qi	1
+自控器	zi kong qi	1
+自来水厂	zi lai shui chang	1
+自冷式变压器	zi leng shi bian ya qi	1
+自然保存	zi ran bao cun	1
+自然保护	zi ran bao hu	1
+自然保护区	zi ran bao hu qu	1
+自然博物馆	zi ran bo wu guan	1
+自然对流	zi ran dui liu	1
+自然接地体	zi ran jie di ti	1
+自然景观	zi ran jing guan	1
+自然能源	zi ran neng yuan	1
+自然式道路系统	zi ran shi dao lu xi tong	1
+自然式花篱	zi ran shi hua li	1
+自然式园林	zi ran shi yuan lin	1
+自然衰减	zi ran shuai jian	1
+自然系统	zi ran xi tong	1
+自然资源	zi ran zi yuan	1
+紫外光消毒池	zi wai guang xiao du chi	1
+子系统检测记录	zi xi tong jian ce ji lu	1
+自行车库	zi xing che ku	1
+自行车棚	zi xing che peng	1
+自行车赛场	zi xing che sai chang	1
+自行车停放规则	zi xing che ting fang gui ze	1
+自选商店	zi xuan shang dian	1
+咨询工程师	zi xun gong cheng shi	1
+自养生物	zi yang sheng wu	1
+自由场	zi you chang	1
+自由对流	zi you dui liu	1
+自由热	zi you re	1
+自由体操	zi you ti cao	1
+自振周期	zi zhen zhou qi	1
+资质审查	zi zhi shen cha	1
+自重抗浮	zi zhong kang fu	1
+总包工程	zong bao gong cheng	1
+总仓库	zong cang ku	1
+总等电位	zong deng dian wei	1
+总等电位联结	zong deng dian wei lian jie	1
+总额收费	zong e shou fei	1
+总服务台	zong fu wu tai	1
+纵过道	zong guo dao	1
+综合防灾能力	zong he fang zai neng li	1
+综合公园	zong he gong yuan	1
+综合规划	zong he gui hua	1
+综合开发	zong he kai fa	1
+综合区	zong he qu	1
+综合式遮阳	zong he shi zhe yang	1
+综合性办公楼	zong he xing ban gong lou	1
+综合医院	zong he yi yuan	1
+综合照明	zong he zhao ming	1
+总建筑面积	zong jian zhu mian ji	1
+宗教建筑	zong jiao jian zhu	1
+纵筋	zong jin	1
+棕榈叶式柱	zong lv ye shi zhu	1
+总配电盘	zong pei dian pan	1
+总平面	zong ping mian	1
+总平面规划	zong ping mian gui hua	1
+总平面图	zong ping mian tu	1
+总平面运输设计	zong ping mian yun shu she ji	1
+纵剖图	zong pou tu	1
+总体规划	zong ti gui hua	1
+总统客房	zong tong ke fang	1
+总图	zong tu	1
+纵向钢筋	zong xiang gang jin	1
+总指挥室	zong zhi hui shi	1
+总装配器	zong zhuang pei qi	1
+走夯	zou hang	1
+走廊	zou lang	1
+走兽	zou shou	1
+足尺大样	zu chi da yang	1
+组合梁	zu he liang	1
+组合值	zu he zhi	1
+组合值系数	zu he zhi xi shu	1
+阻尼比	zu ni bi	1
+足球场	zu qiu chang	1
+组植	zu zhi	1
+组装连接件	zu zhuang lian jie jian	1
+最大水灰比	zui da shui hui bi	1
+最低水位	zui di shui wei	1
+最高水位	zui gao shui wei	1
+最佳混响时间	zui jia hun xiang shi jian	1
+最小配筋率	zui xiao pei jin lv	1
+最小热阻	zui xiao re zu	1
+坐便器	zuo bian qi	1
+坐凳栏杆	zuo deng lan gan	1
+坐斗	zuo dou	1
+座盖	zuo gai	1
+坐浆	zuo jiang	1
+座浆	zuo jiang	1
+坐栏	zuo lan	1
+座圈	zuo quan	1
+坐式大便器	zuo shi da bian qi	1
+座席容量	zuo xi rong liang	1
+左右对称	zuo you dui chen	1
+坐浴盆	zuo yu pen	1

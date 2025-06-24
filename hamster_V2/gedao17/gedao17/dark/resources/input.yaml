@@ -1,0 +1,11 @@
+IMG1:
+  rect:
+    x: 0
+    y: 0
+    width: 137
+    height: 88
+  insets:
+    top: 35
+    bottom: 35
+    left: 55
+    right: 54

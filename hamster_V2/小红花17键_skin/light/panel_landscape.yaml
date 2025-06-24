@@ -1,0 +1,195 @@
+按键文字前景偏移: &button_fore_text_offset
+  center:
+    y: 1.14
+
+按键符号前景偏移: &button_fore_symbol_offset
+  center:
+    y: 0.4
+
+按键颜色: &button_fore_color 28212B
+键盘背景颜色: &keyboard_back_color D3D3D3
+
+按键符号大小: &button_symbol_fontsize 16
+按键文字大小: &button_text_fontsize 14
+
+keyboard:
+  style: keyboardStyle
+  subviews:
+    - HStack:
+        subviews:
+          - Cell: HamsterButton
+          - Cell: SwitcherButton
+          - Cell: PhraseButton
+    - HStack:
+        subviews:
+          - Cell: HamsterSkinButton
+          - Cell: UploadButton
+          - Cell: HamsterButton
+
+floatTargetScale:
+  x: 0.45
+  y: 0.8
+keyboardStyle:
+  insets: { top: 12, left: 12, bottom: 12, right: 12 }
+  backgroundStyle: keyboardBackgroundStyle
+
+keyboardBackgroundStyle:
+  type: original
+  # insets: { top: 16, left: 16, bottom: 16, right: 16 }
+  normalColor: *keyboard_back_color
+  cornerRadius: 15
+
+HamsterButton:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle: 
+    - HamsterButtonForegroundStyle
+    - HamsterButtonForegroundStyle2
+  action: { openURL: "hamster://" }
+
+HamsterButtonForegroundStyle:
+  systemImageName: "keyboard"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+HamsterButtonForegroundStyle2:
+  text: "仓"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+SwitcherButton:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle: 
+    - SwitcherButtonForegroundStyle
+    - SwitcherButtonForegroundStyle2
+  action: { shortcutCommand: "#RimeSwitcher" }
+
+SwitcherButtonForegroundStyle:
+  systemImageName: "switch.2"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+SwitcherButtonForegroundStyle2:
+  text: "Switcher"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+PhraseButton:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle: 
+    - PhraseButtonForegroundStyle
+    - PhraseButtonForegroundStyle2
+  action: { shortcutCommand: "#showPhraseView" }
+
+PhraseButtonForegroundStyle:
+  systemImageName: "clipboard"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+PhraseButtonForegroundStyle2:
+  text: "常用语"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+HamsterSkinButton:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle: 
+    - HamsterSkinButtonForegroundStyle
+    - HamsterSkinButtonForegroundStyle2
+  action: { openURL: "hamster://dev.fuxiao.app.hamster/keyboardSkins" }
+
+HamsterSkinButtonForegroundStyle:
+  systemImageName: "tshirt"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+HamsterSkinButtonForegroundStyle2:
+  text: "皮肤设置"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+UploadButton:
+  size:
+    height: 1/4
+  backgroundStyle: ButtonBackgroundStyle
+  foregroundStyle: 
+    - UploadButtonForegroundStyle
+    - UploadButtonForegroundStyle2
+  action: { openURL: "hamster://dev.fuxiao.app.hamster/uploadInputSchema" }
+
+UploadButtonForegroundStyle:
+  systemImageName: "square.and.arrow.up"
+  fontSize: *button_symbol_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_symbol_offset
+
+UploadButtonForegroundStyle2:
+  text: "方案上传"
+  fontSize: *button_text_fontsize
+  normalColor: *button_fore_color
+  highlightColor: *button_fore_color
+  <<: *button_fore_text_offset
+
+# 按键背景
+ButtonBackgroundStyle:
+  animation: BackgroundAnimation
+  normalImage:
+    file: anjian
+    image: IMG5
+  highlightImage:
+    file: anjian123
+    image: IMG16
+
+# 按键背景动画
+ButtonBackgroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 60 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.87
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.87
+    toScale: 1
+
+# 按键前景动画
+ButtonForegroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 60 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.82
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.82
+    toScale: 1

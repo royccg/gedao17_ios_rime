@@ -1,0 +1,2679 @@
+name: civil_engineering_pinyin
+version: "1"
+sort: by_weight
+
+...
+安保市场	an bao shi chang	1
+暗撑	an cheng	1
+安防行业	an fang hang ye	1
+暗梁	an liang	1
+安全带	an quan dai	1
+安全岛	an quan dao	1
+安全等级	an quan deng ji	1
+安全第一	an quan di yi	1
+安全第一预防为主	an quan di yi yu fang wei zhu	1
+安全对策措施	an quan dui ce cuo shi	1
+安全分析	an quan fen xi	1
+安全工程设计	an quan gong cheng she ji	1
+安全技术	an quan ji shu	1
+安全技术规程	an quan ji shu gui cheng	1
+安全技术特性	an quan ji shu te xing	1
+安全检测	an quan jian ce	1
+安全检测技术	an quan jian ce ji shu	1
+安全检查表	an quan jian cha biao	1
+安全监督管理	an quan jian du guan li	1
+安全建设	an quan jian she	1
+安全教育	an quan jiao yu	1
+安全经费	an quan jing fei	1
+安全警示标志	an quan jing shi biao zhi	1
+安全培训	an quan pei xun	1
+安全评价	an quan ping jia	1
+安全评价报告	an quan ping jia bao gao	1
+安全社区	an quan she qu	1
+安全设施	an quan she shi	1
+安全生产	an quan sheng chan	1
+安全生产法	an quan sheng chan fa	1
+安全生产工作	an quan sheng chan gong zuo	1
+安全生产管理	an quan sheng chan guan li	1
+安全生产管理人员	an quan sheng chan guan li ren yuan	1
+安全生产管理职责	an quan sheng chan guan li zhi ze	1
+安全生产监督管理部门	an quan sheng chan jian du guan li bu men	1
+安全生产举报制度	an quan sheng chan ju bao zhi du	1
+安全生产设备	an quan sheng chan she bei	1
+安全生产意识	an quan sheng chan yi shi	1
+安全生产责任	an quan sheng chan ze ren	1
+安全生产责任制	an quan sheng chan ze ren zhi	1
+安全生产状况	an quan sheng chan zhuang kuang	1
+安全事故隐患	an quan shi gu yin huan	1
+安全条件论证	an quan tiao jian lun zheng	1
+安全性	an quan xing	1
+安全行车	an quan xing che	1
+安全性能	an quan xing neng	1
+安全行为	an quan xing wei	1
+安全行为学	an quan xing wei xue	1
+安全意识	an quan yi shi	1
+安全预评价	an quan yu ping jia	1
+安全执法检查	an quan zhi fa jian cha	1
+安全知识	an quan zhi shi	1
+暗设	an she	1
+暗柱	an zhu	1
+凹形竖曲线	ao xing shu qu xian	1
+八字形桥台	ba zi xing qiao tai	1
+百米桩	bai mi zhuang	1
+板底	ban di	1
+板底钢筋	ban di gang jin	1
+板顶	ban ding	1
+板顶钢筋	ban ding gang jin	1
+半刚性护栏	ban gang xing hu lan	1
+半刚性路基	ban gang xing lu ji	1
+拌和法	ban he fa	1
+板厚	ban hou	1
+拌和楼	ban huo lou	1
+拌和设备	ban huo she bei	1
+板筋	ban jin	1
+半开级配沥青混合料	ban kai ji pei li qing hun he liao	1
+板面	ban mian	1
+板桥	ban qiao	1
+板式楼梯	ban shi lou ti	1
+板式橡胶支座	ban shi xiang jiao zhi zuo	1
+半填半挖式路堤	ban tian ban wa shi lu di	1
+半压力式涵洞	ban ya li shi han dong	1
+拌制	ban zhi	1
+半重力式挡土墙	ban zhong li shi dang tu qiang	1
+板柱结构	ban zhu jie gou	1
+绑扎	bang za	1
+薄壁杆系	bao bi gan xi	1
+饱和单轴抗压强度	bao he dan zhou kang ya qiang du	1
+饱和度	bao he du	1
+饱和土	bao he tu	1
+饱和指数	bao he zhi shu	1
+保护层	bao hu ceng	1
+抱框	bao kuang	1
+薄膜式淋水材料	bao mo shi lin shui cai liao	1
+爆破漏斗	bao po lou dou	1
+爆破器材	bao po qi cai	1
+爆破作用圈	bao po zuo yong quan	1
+曝气池	bao qi chi	1
+保温层	bao wen ceng	1
+保温护道	bao wen hu dao	1
+保险公估	bao xian gong gu	1
+暴雨强度	bao yu qiang du	1
+暴雨溢流井	bao yu yi liu jing	1
+崩塌	beng ta	1
+泵站	beng zhan	1
+泵站排水	beng zhan pai shui	1
+比较线	bi jiao xian	1
+逼近度	bi jin du	1
+闭路循环	bi lu xun huan	1
+避险权	bi xian quan	1
+变标高	bian biao gao	1
+边沟	bian gou	1
+变截面	bian jie mian	1
+边界条件	bian jie tiao jian	1
+边框梁	bian kuang liang	1
+边框柱	bian kuang zhu	1
+边梁	bian liang	1
+边坡	bian po	1
+变坡点	bian po dian	1
+边坡平台	bian po ping tai	1
+边坡坡度	bian po po du	1
+边坡稳定	bian po wen ding	1
+变速车道	bian su che dao	1
+变形模量	bian xing mo liang	1
+边缘构件	bian yuan gou jian	1
+边柱	bian zhu	1
+表面冲洗	biao mian chong xi	1
+表面活性剂	biao mian huo xing ji	1
+表面水力负荷	biao mian shui li fu he	1
+表面有机负荷	biao mian you ji fu he	1
+标柱	biao zhu	1
+标准冻深	biao zhun dong shen	1
+标准贯入试验	biao zhun guan ru shi yan	1
+标准值	biao zhun zhi	1
+标准轴载	biao zhun zhou zai	1
+标准组合	biao zhun zu he	1
+冰积土	bing ji tu	1
+剥离剂	bo li ji	1
+薄弱层	bo ruo ceng	1
+泊松比	bo song bi	1
+不安全因素	bu an quan yin su	1
+补充水	bu chong shui	1
+补充水处理	bu chong shui chu li	1
+不良地质作用	bu liang di zhi zuo yong	1
+不良级配	bu liang ji pei	1
+补强	bu qiang	1
+补强层	bu qiang ceng	1
+不溶性阳极	bu rong xing yang ji	1
+不上人屋面	bu shang ren wu mian	1
+材料强度标准值	cai liao qiang du biao zhun zhi	1
+材料强度设计值	cai liao qiang du she ji zhi	1
+槽谷	cao gu	1
+槽内处理法	cao nei chu li fa	1
+槽式配水系统	cao shi pei shui xi tong	1
+槽探	cao tan	1
+测点	ce dian	1
+侧石	ce shi	1
+侧移	ce yi	1
+测站	ce zhan	1
+侧胀模量	ce zhang mo liang	1
+侧阻力	ce zu li	1
+层高	ceng gao	1
+层高表	ceng gao biao	1
+层间梁	ceng jian liang	1
+层间位移比	ceng jian wei yi bi	1
+层铺法	ceng pu fa	1
+插筋	cha jin	1
+拆模	chai mo	1
+拆模板	chai mo ban	1
+掺加剂	chan jia ji	1
+铲运机	chan yun ji	1
+厂拌	chang ban	1
+厂拌法	chang ban fa	1
+场地类别	chang di lei bie	1
+场地土	chang di tu	1
+长杆贯入仪	chang gan guan ru yi	1
+敞开式循环冷却水系统	chang kai shi xun huan leng que shui xi tong	1
+长跨	chang kua	1
+厂矿道路	chang kuang dao lu	1
+厂矿道路挡车堆	chang kuang dao lu dang che dui	1
+厂矿道路防滑堆	chang kuang dao lu fang hua dui	1
+厂矿道路阻车堤	chang kuang dao lu zu che di	1
+厂内次干道	chang nei ci gan dao	1
+厂内道路	chang nei dao lu	1
+厂内支道	chang nei zhi dao	1
+厂内主干道	chang nei zhu gan dao	1
+长期刚度	chang qi gang du	1
+厂外道路	chang wai dao lu	1
+长细比	chang xi bi	1
+超长	chao chang	1
+超长结构	chao chang jie gou	1
+超车车道	chao che che dao	1
+超车视距	chao che shi ju	1
+超高	chao gao	1
+超高缓和段	chao gao huan he duan	1
+超筋	chao jin	1
+超筋超限	chao jin chao xian	1
+超滤器	chao lv qi	1
+潮门	chao men	1
+超前导坑	chao qian dao keng	1
+超限	chao xian	1
+超重型圆锥动力触探	chao zhong xing yuan zhui dong li chu tan	1
+车道	che dao	1
+车道宽度	che dao kuan du	1
+车间净距	che jian jing ju	1
+撤离工作场所	che li gong zuo chang suo	1
+车辆间净距	che liang jian jing ju	1
+车辆运输安全	che liang yun shu an quan	1
+车流	che liu	1
+车头间距	che tou jian ju	1
+车头时距	che tou shi ju	1
+车行道	che xing dao	1
+车辙试验	che zhe shi yan	1
+沉淀池	chen dian chi	1
+沉降	chen jiang	1
+沉降差	chen jiang cha	1
+沉降缝	chen jiang feng	1
+沉井	chen jing	1
+沉埋法	chen mai fa	1
+衬砌	chen qi	1
+沉沙池	chen sha chi	1
+沉砂池	chen sha chi	1
+沉陷	chen xian	1
+程懋堃	cheng mao kun	1
+城市次干路	cheng shi ci gan lu	1
+城市道路	cheng shi dao lu	1
+城市道路面积率	cheng shi dao lu mian ji lv	1
+城市供水安全	cheng shi gong shui an quan	1
+城市快速路	cheng shi kuai su lu	1
+城市人均道路面积	cheng shi ren jun dao lu mian ji	1
+城市污水	cheng shi wu shui	1
+城市灾害救援	cheng shi zai hai jiu yuan	1
+城市支路	cheng shi zhi lu	1
+城市主干路	cheng shi zhu gan lu	1
+承台	cheng tai	1
+承托层	cheng tuo ceng	1
+城乡清洁	cheng xiang qing jie	1
+承载板	cheng zai ban	1
+承载板试验	cheng zai ban shi yan	1
+承载力	cheng zai li	1
+承载力设计值	cheng zai li she ji zhi	1
+承重	cheng zhong	1
+持力层	chi li ceng	1
+池内设置斜管	chi nei she zhi xie guan	1
+池式配水系统	chi shi pei shui xi tong	1
+冲积土	chong ji tu	1
+冲击钻	chong ji zuan	1
+充满度	chong man du	1
+冲切	chong qie	1
+冲切破坏	chong qie po huai	1
+冲刷	chong shua	1
+冲刷系数	chong shua xi shu	1
+冲突点	chong tu dian	1
+冲洗强度	chong xi qiang du	1
+重现期	chong xian qi	1
+稠度界限	chou du jie xian	1
+抽风式机械通风冷却塔	chou feng shi ji xie tong feng leng que ta	1
+抽提仪	chou ti yi	1
+初步勘察	chu bu kan cha	1
+初步设计	chu bu she ji	1
+初步设计概算	chu bu she ji gai suan	1
+初步设计文件	chu bu she ji wen jian	1
+初步设计文件审查	chu bu she ji wen jian shen cha	1
+储藏室	chu cang shi	1
+初测	chu ce	1
+初沉污泥	chu chen wu ni	1
+初次沉淀池	chu ci chen dian chi	1
+储存区	chu cun qu	1
+除硅	chu gui	1
+出境交通	chu jing jiao tong	1
+畜力车道	chu li che dao	1
+初凝	chu ning	1
+出平面	chu ping mian	1
+初设	chu she	1
+初始压力	chu shi ya li	1
+除水器	chu shui qi	1
+触探	chu tan	1
+触探试验	chu tan shi yan	1
+除铁接触氧化法	chu tie jie chu yang hua fa	1
+出行	chu xing	1
+除锈	chu xiu	1
+除雪机	chu xue ji	1
+除盐水	chu yan shui	1
+穿管	chuan guan	1
+传力杆	chuan li gan	1
+传力杆插入装置	chuan li gan cha ru zhuang zhi	1
+穿束	chuan shu	1
+窗间墙	chuang jian qiang	1
+窗井	chuang jing	1
+窗框	chuang kuang	1
+窗框墙	chuang kuang qiang	1
+垂直向固结系数	chui zhi xiang gu jie xi shu	1
+纯受弯	chun shou wan	1
+次干路	ci gan lu	1
+次高级路面	ci gao ji lu mian	1
+粗骨料	cu gu liao	1
+粗砂	cu sha	1
+存水弯	cun shui wan	1
+错层	cuo ceng	1
+错车道	cuo che dao	1
+错台	cuo tai	1
+错位	cuo wei	1
+错位交叉	cuo wei jiao cha	1
+大肠菌群	da chang jun qun	1
+大底盘	da di pan	1
+搭接	da jie	1
+搭接长度	da jie chang du	1
+大孔型离子交换树脂	da kong xing li zi jiao huan shu zhi	1
+大口井	da kou jing	1
+大偏拉	da pian la	1
+大偏心	da pian xin	1
+大偏压	da pian ya	1
+大堂	da tang	1
+大堂吧	da tang ba	1
+大修	da xiu	1
+大样	da yang	1
+大样图	da yang tu	1
+大中修周期	da zhong xiu zhou qi	1
+打桩机	da zhuang ji	1
+带式输送机安全规范	dai shi shu song ji an quan gui fan	1
+单层厂房	dan ceng chang fang	1
+单床离子交换器	dan chuang li zi jiao huan qi	1
+单管热水供应系统	dan guan re shui gong ying xi tong	1
+单塔单周期移动床	dan ta dan zhou qi yi dong chuang	1
+单向板	dan xiang ban	1
+单向供水	dan xiang gong shui	1
+单向推力墩	dan xiang tui li dun	1
+单向匝道	dan xiang za dao	1
+挡车堆	dang che dui	1
+当量轴次	dang liang zhou ci	1
+挡墙	dang qiang	1
+挡热墙	dang re qiang	1
+挡土墙	dang tu qiang	1
+当务之急	dang wu zhi ji	1
+导洞	dao dong	1
+导荷载	dao he zai	1
+倒虹吸	dao hong xi	1
+道口	dao kou	1
+道口铺面	dao kou pu mian	1
+道口限界架	dao kou xian jie jia	1
+导流岛	dao liu dao	1
+倒楼盖	dao lou gai	1
+倒楼盖模型	dao lou gai mo xing	1
+道路	dao lu	1
+道路服务水平	dao lu fu wu shui ping	1
+道路工程	dao lu gong cheng	1
+道路技术标准	dao lu ji shu biao zhun	1
+道路建筑限界	dao lu jian zhu xian jie	1
+道路交叉	dao lu jiao cha	1
+道路交通安全	dao lu jiao tong an quan	1
+道路交通规划	dao lu jiao tong gui hua	1
+道路交通事故	dao lu jiao tong shi gu	1
+道路景观设计	dao lu jing guan she ji	1
+道路路线	dao lu lu xian	1
+道路绿化	dao lu lv hua	1
+道路密度	dao lu mi du	1
+道路面积率	dao lu mian ji lv	1
+道路石油沥青	dao lu shi you li qing	1
+道路网	dao lu wang	1
+道路网规划	dao lu wang gui hua	1
+道路网密度	dao lu wang mi du	1
+道路限界架	dao lu xian jie jia	1
+道路线形	dao lu xian xing	1
+道路照明设施	dao lu zhao ming she shi	1
+道路中线	dao lu zhong xian	1
+道路轴线	dao lu zhou xian	1
+导墙	dao qiang	1
+导线	dao xian	1
+导线测量	dao xian ce liang	1
+等高线	deng gao xian	1
+等级道路	deng ji dao lu	1
+等级公路	deng ji gong lu	1
+底板	di ban	1
+地表水	di biao shui	1
+底部加强	di bu jia qiang	1
+底部加强部位	di bu jia qiang bu wei	1
+底部加强区	di bu jia qiang qu	1
+地层结构	di ceng jie gou	1
+第二循环管系	di er xun huan guan xi	1
+狄法尔磨耗试验仪	di fa er mo hao shi yan yi	1
+地方保护主义	di fang bao hu zhu yi	1
+地基	di ji	1
+地基承载力	di ji cheng zai li	1
+地基梁	di ji liang	1
+低级路面	di ji lu mian	1
+地堪	di kan	1
+底框	di kuang	1
+地沥青	di li qing	1
+地梁	di liang	1
+地垄墙	di long qiang	1
+地貌	di mao	1
+地锚	di mao	1
+地面沉降	di mian chen jiang	1
+地面高程	di mian gao cheng	1
+地面集水时间	di mian ji shui shi jian	1
+地面控制点测量	di mian kong zhi dian ce liang	1
+地面立体摄影测量	di mian li ti she ying ce liang	1
+地坪	di ping	1
+地物	di wu	1
+地下工程防水技术规范	di xia gong cheng fang shui ji shu gui fan	1
+地下室	di xia shi	1
+地下水	di xia shui	1
+地下水取水构筑物及滤层	di xia shui qu shui gou zhu wu ji lv ceng	1
+地下水位	di xia shui wei	1
+地形	di xing	1
+地形测量	di xing ce liang	1
+地形图	di xing tu	1
+低液限土	di ye xian tu	1
+第一杀手	di yi sha shou	1
+第一循环管系	di yi xun huan guan xi	1
+地震组合	di zhen zu he	1
+地质	di zhi	1
+地质勘察	di zhi kan cha	1
+地质勘察报告	di zhi kan cha bao gao	1
+地质年代	di zhi nian dai	1
+地质剖面图	di zhi pou mian tu	1
+地质灾害	di zhi zai hai	1
+地质灾害评价	di zhi zai hai ping jia	1
+地质柱状图	di zhi zhu zhuang tu	1
+地质资料	di zhi zi liao	1
+垫层	dian ceng	1
+点滴薄膜式淋水填料	dian di bao mo shi lin shui tian liao	1
+点滴式淋水材料	dian di shi lin shui cai liao	1
+电镀废水	dian du fei shui	1
+电镀清洗废水	dian du qing xi fei shui	1
+电弧焊	dian hu han	1
+电弧焊接头	dian hu han jie tou	1
+电极密度	dian ji mi du	1
+电解处理法	dian jie chu li fa	1
+电渗析器	dian shen xi qi	1
+点蚀	dian shi	1
+点蚀系数	dian shi xi shu	1
+点速度	dian su du	1
+电梯机房	dian ti ji fang	1
+电梯井	dian ti jing	1
+电梯厅	dian ti ting	1
+电线穿管	dian xian chuan guan	1
+点渣压力焊	dian zha ya li han	1
+点渣压力焊接头	dian zha ya li han jie tou	1
+电子计算机房	dian zi ji suan ji fang	1
+调查处理	diao cha chu li	1
+吊车梁	diao che liang	1
+吊顶	diao ding	1
+吊杆	diao gan	1
+吊钩	diao gou	1
+吊钩梁	diao gou liang	1
+吊挂	diao gua	1
+吊筋	diao jin	1
+吊桥	diao qiao	1
+吊索	diao suo	1
+吊装设备	diao zhuang she bei	1
+叠合式	die he shi	1
+跌水	die shui	1
+顶板	ding ban	1
+定测	ding ce	1
+顶层	ding ceng	1
+定期养护	ding qi yang hu	1
+顶入法	ding ru fa	1
+顶推	ding tui	1
+定线	ding xian	1
+定向式立体交叉	ding xiang shi li ti jiao cha	1
+丁字形交叉	ding zi xing jiao cha	1
+冻板道路	dong ban dao lu	1
+洞边	dong bian	1
+洞边加筋	dong bian jia jin	1
+洞底	dong di	1
+洞顶	dong ding	1
+冻结指数	dong jie zhi shu	1
+洞门	dong men	1
+冻融试验	dong rong shi yan	1
+冻深	dong shen	1
+洞探	dong tan	1
+冻土	dong tu	1
+洞隙	dong xi	1
+独基	du ji	1
+渡口	du kou	1
+断背曲线	duan bei qu xian	1
+断层	duan ceng	1
+断层构造	duan ceng gou zao	1
+端承桩	duan cheng zhuang	1
+短跨	duan kua	1
+断链	duan lian	1
+断面渐变段	duan mian jian bian duan	1
+短期刚度	duan qi gang du	1
+短肢	duan zhi	1
+短肢剪力墙	duan zhi jian li qiang	1
+短肢墙	duan zhi qiang	1
+端支座	duan zhi zuo	1
+短柱	duan zhu	1
+端柱	duan zhu	1
+端阻力	duan zu li	1
+对流再生	dui liu zai sheng	1
+盾构法	dun gou fa	1
+盾构挖掘机	dun gou wa jue ji	1
+多层建筑	duo ceng jian zhu	1
+多岔交叉	duo cha jiao cha	1
+多年冻土	duo nian dong tu	1
+多塔	duo ta	1
+恶性生产事故	e xing sheng chan shi gu	1
+二层	er ceng	1
+二沉污泥	er chen wu ni	1
+二次沉淀池	er ci chen dian chi	1
+二灰碎石	er hui sui shi	1
+二灰土	er hui tu	1
+二级处理	er ji chu li	1
+二级钢	er ji gang	1
+二级工程	er ji gong cheng	1
+二级钠离子交换	er ji na li zi jiao huan	1
+二级氧化处理	er ji yang hua chu li	1
+二阶效应	er jie xiao ying	1
+二类场地	er lei chang di	1
+二类环境	er lei huan jing	1
+筏板	fa ban	1
+筏基	fa ji	1
+法向拉应力	fa xiang la ying li	1
+筏形	fa xing	1
+筏形基础	fa xing ji chu	1
+反冲洗	fan chong xi	1
+翻浆	fan jiang	1
+范立礎	fan li chu	1
+反梁	fan liang	1
+反喷洗清洗	fan pen xi qing xi	1
+反坡安全线	fan po an quan xian	1
+反射裂缝	fan she lie feng	1
+反射器	fan she qi	1
+反渗透器	fan shen tou qi	1
+反弯点	fan wan dian	1
+反向曲线	fan xiang qu xian	1
+反压护道	fan ya hu dao	1
+泛油	fan you	1
+方案图	fang an tu	1
+防腐蚀	fang fu shi	1
+防洪法	fang hong fa	1
+防护密闭门	fang hu mi bi men	1
+防护栅	fang hu shan	1
+防滑处理	fang hua chu li	1
+防滑堆	fang hua dui	1
+防沙设施	fang sha she shi	1
+放射性物品	fang she xing wu pin	1
+防水层	fang shui ceng	1
+防水混凝土	fang shui hun ning tu	1
+方位角	fang wei jiao	1
+方向角	fang xiang jiao	1
+防炫屏	fang xuan ping	1
+防眩设施	fang xuan she shi	1
+防雪设施	fang xue she shi	1
+放样	fang yang	1
+防震减灾	fang zhen jian zai	1
+方桩	fang zhuang	1
+非不利季节	fei bu li ji jie	1
+非机动车道	fei ji dong che dao	1
+非加密区	fei jia mi qu	1
+非抗震	fei kang zhen	1
+废弃危险物品	fei qi wei xian wu pin	1
+废弃物	fei qi wu	1
+粪便污水	fen bian wu shui	1
+分布钢筋	fen bu gang jin	1
+分布筋	fen bu jin	1
+分步再生	fen bu zai sheng	1
+分道转弯式交叉口	fen dao zhuan wan shi jiao cha kou	1
+分隔带	fen ge dai	1
+分隔设施	fen ge she shi	1
+分隔式立体交叉	fen ge shi li ti jiao cha	1
+分流	fen liu	1
+分流制	fen liu zhi	1
+分散剂	fen san ji	1
+粉土	fen tu	1
+粉细砂	fen xi sha	1
+分项系数	fen xiang xi shu	1
+粉性土	fen xing tu	1
+粉质粘土	fen zhi nian tu	1
+粉质土	fen zhi tu	1
+封层	feng ceng	1
+风吹损失	feng chui sun shi	1
+风荷载	feng he zai	1
+风化程度	feng hua cheng du	1
+风积土	feng ji tu	1
+封锚	feng mao	1
+风筒式冷却塔	feng tong shi leng que ta	1
+风险管理	feng xian guan li	1
+风险评估	feng xian ping gu	1
+风压	feng ya	1
+腹板	fu ban	1
+复拌沥青混合料摊铺机	fu ban li qing hun he liao tan pu ji	1
+扶壁式挡土墙	fu bi shi dang tu qiang	1
+扶壁式桥台	fu bi shi qiao tai	1
+辅道	fu dao	1
+浮动床	fu dong chuang	1
+腹拱	fu gong	1
+复核	fu he	1
+复合改性沥青填充式伸缩装置	fu he gai xing li qing tian chong shi shen suo zhuang zhi	1
+复合箍	fu he gu	1
+复合箍筋	fu he gu jin	1
+复合式路面	fu he shi lu mian	1
+附加车道	fu jia che dao	1
+附加吊筋	fu jia diao jin	1
+附加箍筋	fu jia gu jin	1
+浮桥	fu qiao	1
+复曲线	fu qu xian	1
+腐蚀	fu shi	1
+腐蚀率	fu shi lv	1
+腐蚀试片	fu shi shi pian	1
+副通气立管	fu tong qi li guan	1
+覆土	fu tu	1
+复用水系统	fu yong shui xi tong	1
+浮运架桥	fu yun jia qiao	1
+盖板涵	gai ban han	1
+盖梁	gai liang	1
+改善工程	gai shan gong cheng	1
+概算	gai suan	1
+改性沥青	gai xing li qing	1
+改性乳化沥青	gai xing ru hua li qing	1
+概预算	gai yu suan	1
+干密度	gan mi du	1
+干式冷却塔	gan shi leng que ta	1
+干线公路	gan xian gong lu	1
+干一湿式冷却塔	gan yi shi shi leng que ta	1
+干硬性混凝土	gan ying xing hun ning tu	1
+刚度	gang du	1
+杠杆弯沉义	gang gan wan chen yi	1
+刚构桥	gang gou qiao	1
+刚接	gang jie	1
+钢结构	gang jie gou	1
+钢筋	gang jin	1
+钢筋混凝土	gang jin hun ning tu	1
+钢筋混凝土路面	gang jin hun ning tu lu mian	1
+钢筋混凝土桥	gang jin hun ning tu qiao	1
+钢筋拉伸机	gang jin la shen ji	1
+钢筋冷镦机	gang jin leng dun ji	1
+钢筋砼	gang jin tong	1
+钢筋网	gang jin wang	1
+钢筋网片	gang jin wang pian	1
+钢梁	gang liang	1
+钢桥	gang qiao	1
+钢纤维混凝土	gang xian wei hun ning tu	1
+钢纤维混凝土路面	gang xian wei hun ning tu lu mian	1
+钢箱梁	gang xiang liang	1
+刚性护栏	gang xing hu lan	1
+刚性角	gang xing jiao	1
+刚性连接	gang xing lian jie	1
+刚性路基	gang xing lu ji	1
+刚性路面	gang xing lu mian	1
+钢支座	gang zhi zuo	1
+钢柱	gang zhu	1
+高层建筑混凝土结构技术规程	gao ceng jian zhu hun ning tu jie gou ji shu gui cheng	1
+高程	gao cheng	1
+高处作业分级	gao chu zuo ye fen ji	1
+高纯水	gao chun shui	1
+高峰小时交通量	gao feng xiao shi jiao tong liang	1
+高负荷曝气	gao fu he bao qi	1
+高规	gao gui	1
+高级路面	gao ji lu mian	1
+高架桥	gao jia qiao	1
+高宽比	gao kuan bi	1
+高强螺栓	gao qiang luo shuan	1
+高速公路	gao su gong lu	1
+高温消化	gao wen xiao hua	1
+高液限土	gao ye xian tu	1
+隔断	ge duan	1
+隔离栅	ge li shan	1
+隔墙	ge qiang	1
+隔热层	ge re ceng	1
+隔水层	ge shui ceng	1
+格网	ge wang	1
+隔音墙	ge yin qiang	1
+隔油池	ge you chi	1
+隔油井	ge you jing	1
+工程编号	gong cheng bian hao	1
+工程可行性研究	gong cheng ke xing xing yan jiu	1
+工程可行性研究报告	gong cheng ke xing xing yan jiu bao gao	1
+工程可行性研究报告评估	gong cheng ke xing xing yan jiu bao gao ping gu	1
+工程造价	gong cheng zao jia	1
+工程重大安全事故罪	gong cheng zhong da an quan shi gu zui	1
+公称最大粒径	gong cheng zui da li jing	1
+公共安全事故	gong gong an quan shi gu	1
+拱涵	gong han	1
+公交车辆停靠站	gong jiao che liang ting kao zhan	1
+公交停靠站	gong jiao ting kao zhan	1
+工可	gong ke	1
+工可报告	gong ke bao gao	1
+公路	gong lu	1
+公路景观设计	gong lu jing guan she ji	1
+公路自然区划	gong lu zi ran qu hua	1
+功能栽植	gong neng zai zhi	1
+拱桥	gong qiao	1
+拱圈	gong quan	1
+拱上侧墙	gong shang ce qiang	1
+拱上结构	gong shang jie gou	1
+工伤事故	gong shang shi gu	1
+供氧气量	gong yang qi liang	1
+工业废水	gong ye fei shui	1
+工业废渣	gong ye fei zha	1
+工业废渣基层	gong ye fei zha ji ceng	1
+工业区道路	gong ye qu dao lu	1
+工业用水重复利用率	gong ye yong shui chong fu li yong lv	1
+工艺水回用率	gong yi shui hui yong lv	1
+拱胀	gong zhang	1
+共振	gong zhen	1
+工字钢	gong zi gang	1
+工作交换容量	gong zuo jiao huan rong liang	1
+勾缝	gou feng	1
+构件	gou jian	1
+构件支撑	gou jian zhi cheng	1
+垢下腐蚀	gou xia fu shi	1
+构造	gou zao	1
+构造边缘构件	gou zao bian yuan gou jian	1
+构造筋	gou zao jin	1
+构造配筋	gou zao pei jin	1
+构造深度	gou zao shen du	1
+固定布水器	gu ding bu shui qi	1
+固定支座	gu ding zhi zuo	1
+固定座位	gu ding zuo wei	1
+固端	gu duan	1
+鼓风式机械通风冷却塔	gu feng shi ji xie tong feng leng que ta	1
+固结	gu jie	1
+箍筋	gu jin	1
+骨料	gu liao	1
+孤石	gu shi	1
+固体废弃物	gu ti fei qi wu	1
+固体负荷	gu ti fu he	1
+挂板	gua ban	1
+挂篮	gua lan	1
+管槽结合式配水系统	guan cao jie he shi pei shui xi tong	1
+管道排水	guan dao pai shui	1
+灌溉田	guan gai tian	1
+管涵	guan han	1
+管井	guan jing	1
+管井沉淀管	guan jing chen dian guan	1
+管井滤水管	guan jing lv shui guan	1
+管理不严	guan li bu yan	1
+管内流行时间	guan nei liu xing shi jian	1
+贯入法	guan ru fa	1
+管式配水系统	guan shi pei shui xi tong	1
+贯通	guan tong	1
+管网漏失水量	guan wang lou shi shui liang	1
+管线综合设计	guan xian zong he she ji	1
+灌注桩	guan zhu zhuang	1
+光轮压路机	guang lun ya lu ji	1
+光面钢筋	guang mian gang jin	1
+轨道铺筑	gui dao pu zhu	1
+规划设计条件	gui hua she ji tiao jian	1
+滚轴	gun zhou	1
+国道	guo dao	1
+国家安全	guo jia an quan	1
+国家安全生产监督管理总局	guo jia an quan sheng chan jian du guan li zong ju	1
+国家干线公路	guo jia gan xian gong lu	1
+过境交通	guo jing jiao tong	1
+过梁	guo liang	1
+锅炉间	guo lu jian	1
+锅炉压力容器	guo lu ya li rong qi	1
+过水路面	guo shui lu mian	1
+涵洞	han dong	1
+含钢量	han gang liang	1
+焊剂	han ji	1
+含腊量试验	han la liang shi yan	1
+旱流污水	han liu wu shui	1
+含泥量	han ni liang	1
+含沙量	han sha liang	1
+含水量	han shui liang	1
+焊丝	han si	1
+航道管理	hang dao guan li	1
+航空摄影测量	hang kong she ying ce liang	1
+夯扩桩	hang kuo zhuang	1
+航摄基线	hang she ji xian	1
+夯实	hang shi	1
+耗氧量	hao yang liang	1
+好氧消化	hao yang xiao hua	1
+合成坡度	he cheng po du	1
+河道管理	he dao guan li	1
+合流	he liu	1
+合流水量	he liu shui liang	1
+合流制	he liu zhi	1
+核心区	he xin qu	1
+核心筒	he xin tong	1
+和易性	he yi xing	1
+荷载	he zai	1
+荷载导算	he zai dao suan	1
+荷载组合	he zai zu he	1
+横道图	heng dao tu	1
+横断面测量	heng duan mian ce liang	1
+横断面图	heng duan mian tu	1
+横缝	heng feng	1
+横管	heng guan	1
+恒荷载	heng he zai	1
+桁架桥	heng jia qiao	1
+横净距	heng jing ju	1
+横梁	heng liang	1
+横流式冷却塔	heng liu shi leng que ta	1
+横坡	heng po	1
+横通道	heng tong dao	1
+恒载	heng zai	1
+洪积土	hong ji tu	1
+红粘土	hong nian tu	1
+虹吸滤池	hong xi lv chi	1
+红线宽度	hong xian kuan du	1
+后处理	hou chu li	1
+后浇带	hou jiao dai	1
+后张法	hou zhang fa	1
+护壁	hu bi	1
+护栏	hu lan	1
+护栏标准段	hu lan biao zhun duan	1
+护栏端头	hu lan duan tou	1
+护栏过渡段	hu lan guo du duan	1
+护栏渐变段	hu lan jian bian duan	1
+护林防火道路	hu lin fang huo dao lu	1
+护路林	hu lu lin	1
+护坡	hu po	1
+护坡道	hu po dao	1
+护墙	hu qiang	1
+互通式立体交叉	hu tong shi li ti jiao cha	1
+护桩	hu zhuang	1
+化粪池	hua fen chi	1
+滑模铺筑	hua mu pu zhu	1
+滑坡	hua po	1
+化学需氧量	hua xue xu yang liang	1
+滑移	hua yi	1
+环道试验	huan dao shi yan	1
+缓和坡段	huan he po duan	1
+缓和曲线	huan he qu xian	1
+环境公害	huan jing gong hai	1
+环境影响	huan jing ying xiang	1
+环境影响评价	huan jing ying xiang ping jia	1
+环境影响评价报告	huan jing ying xiang ping jia bao gao	1
+环评	huan ping	1
+缓蚀	huan shi	1
+缓蚀剂	huan shi ji	1
+环形辐射式道路系统	huan xing fu she shi dao lu xi tong	1
+环形交叉	huan xing jiao cha	1
+环形立体交叉	huan xing li ti jiao cha	1
+环形通气管	huan xing tong qi guan	1
+环形匝道	huan xing za dao	1
+环氧	huan yang	1
+缓胀性	huan zhang xing	1
+环状管网	huan zhuang guan wang	1
+磺化煤	huang hua mei	1
+黄土	huang tu	1
+回车场	hui che chang	1
+回车道	hui che dao	1
+回流污泥	hui liu wu ni	1
+回流污染	hui liu wu ran	1
+会签	hui qian	1
+回砂	hui sha	1
+回砂机	hui sha ji	1
+回水管	hui shui guan	1
+汇水面积	hui shui mian ji	1
+回弹	hui tan	1
+回弹模量	hui tan mo liang	1
+回弹弯沉	hui tan wan chen	1
+回弹再压缩	hui tan zai ya suo	1
+回弹指数	hui tan zhi shu	1
+回填	hui tian	1
+回填土	hui tian tu	1
+回头曲线	hui tou qu xian	1
+回旋钻	hui xuan zuan	1
+会议室	hui yi shi	1
+混合	hun he	1
+混合交通	hun he jiao tong	1
+混合离子交换器	hun he li zi jiao huan qi	1
+混合料	hun he liao	1
+混合式道路系统	hun he shi dao lu xi tong	1
+混合液	hun he ye	1
+混凝土	hun ning tu	1
+混凝土板	hun ning tu ban	1
+混凝土规范	hun ning tu gui fan	1
+混凝土结构设计规范	hun ning tu jie gou she ji gui fan	1
+混凝土异形柱结构技术规范	hun ning tu yi xing zhu jie gou ji shu gui fan	1
+混浊度	hun zhuo du	1
+活动布水器	huo dong bu shui qi	1
+活动护栏	huo dong hu lan	1
+活动支座	huo dong zhi zuo	1
+活荷载	huo he zai	1
+活门槛	huo men kan	1
+活性污泥	huo xing wu ni	1
+活性污泥法	huo xing wu ni fa	1
+活载	huo zai	1
+火灾与爆炸	huo zai yu bao zha	1
+基本风压	ji ben feng ya	1
+基本通行能力	ji ben tong xing neng li	1
+基本雪压	ji ben xue ya	1
+集材道路	ji cai dao lu	1
+基层	ji ceng	1
+基础	ji chu	1
+基床	ji chuang	1
+基床反力	ji chuang fan li	1
+基床反力系数	ji chuang fan li xi shu	1
+基底	ji di	1
+机动车道	ji dong che dao	1
+机房层	ji fang ceng	1
+几何参数标准值	ji he can shu biao zhun zhi	1
+机毁人亡	ji hui ren wang	1
+季节性冻土	ji jie xing dong tu	1
+极距	ji ju	1
+基坑支护	ji keng zhi hu	1
+集料	ji liao	1
+集料剥落试验	ji liao bo luo shi yan	1
+急流槽	ji liu cao	1
+级配	ji pei	1
+级配路面	ji pei lu mian	1
+级配碎石	ji pei sui shi	1
+极软岩	ji ruan yan	1
+击实试验	ji shi shi yan	1
+击实仪	ji shi yi	1
+技术事故	ji shu shi gu	1
+给水额定流量	ji shui e ding liu liang	1
+集水坑	ji shui keng	1
+计算高度	ji suan gao du	1
+计算行车速度	ji suan xing che su du	1
+积土	ji tu	1
+基线	ji xian	1
+极限	ji xian	1
+极限压力	ji xian ya li	1
+极限状态	ji xian zhuang tai	1
+机械表面曝气	ji xie biao mian bao qi	1
+机械冲孔	ji xie chong kong	1
+机械搅拌澄清池	ji xie jiao ban cheng qing chi	1
+机械连接	ji xie lian jie	1
+机械锚固	ji xie mao gu	1
+机械通风冷却塔	ji xie tong feng leng que ta	1
+机械循环	ji xie xun huan	1
+基岩	ji yan	1
+集中标注	ji zhong biao zhu	1
+集中热水供应系统	ji zhong re shui gong ying xi tong	1
+基准水泥混凝土	ji zhun shui ni hun ning tu	1
+夹层	jia ceng	1
+假缝	jia feng	1
+加固地基	jia gu di ji	1
+加荷速率	jia he su lv	1
+加价水费	jia jia shui fei	1
+加劲	jia jin	1
+加劲板	jia jin ban	1
+加劲肋	jia jin lei	1
+加劲梁	jia jin liang	1
+加筋土挡土墙	jia jin tu dang tu qiang	1
+夹具	jia ju	1
+加宽缓和段	jia kuan huan he duan	1
+加宽转角式交叉口	jia kuan zhuan jiao shi jiao cha kou	1
+架立钢筋	jia li gang jin	1
+架立筋	jia li jin	1
+加密区	jia mi qu	1
+加气	jia qi	1
+加气混凝土	jia qi hun ning tu	1
+加气块	jia qi kuai	1
+架桥机	jia qiao ji	1
+加速车道	jia su che dao	1
+加酸处理	jia suan chu li	1
+家庭安全计划	jia ting an quan ji hua	1
+加腋	jia ye	1
+加腋梁	jia ye liang	1
+加州承载比	jia zhou cheng zai bi	1
+加桩	jia zhuang	1
+监测试片	jian ce shi pian	1
+检查井	jian cha jing	1
+检查口	jian cha kou	1
+简单立体交叉	jian dan li ti jiao cha	1
+剪刀式楼梯	jian dao shi lou ti	1
+监督管理	jian du guan li	1
+监督管理机构	jian du guan li ji gou	1
+监督检查任务	jian du jian cha ren wu	1
+间断级配	jian duan ji pei	1
+间断级配沥青混合料	jian duan ji pei li qing hun he liao	1
+碱含量	jian han liang	1
+间接冷却水	jian jie leng que shui	1
+间接冷却水循环率	jian jie leng que shui xun huan lv	1
+间接排水管	jian jie pai shui guan	1
+剪跨比	jian kua bi	1
+剪力	jian li	1
+监理单位	jian li dan wei	1
+剪力墙	jian li qiang	1
+监理人员	jian li ren yuan	1
+剪扭	jian niu	1
+剪切	jian qie	1
+剪切波波速	jian qie bo bo su	1
+剪切模量	jian qie mo liang	1
+剪切破坏	jian qie po huai	1
+建设单位	jian she dan wei	1
+减水剂	jian shui ji	1
+溅水喷嘴	jian shui pen zui	1
+减速车道	jian su che dao	1
+简图	jian tu	1
+间歇处理	jian xie chu li	1
+间歇式逆流清洗	jian xie shi ni liu qing xi	1
+碱性氯化法	jian xing lv hua fa	1
+检修孔	jian xiu kong	1
+剪压比	jian ya bi	1
+建议权	jian yi quan	1
+坚硬	jian ying	1
+剪应力	jian ying li	1
+坚硬岩	jian ying yan	1
+建造师	jian zao shi	1
+简支	jian zhi	1
+简支端	jian zhi duan	1
+简支梁	jian zhi liang	1
+简支梁桥	jian zhi liang qiao	1
+剪重比	jian zhong bi	1
+建筑地基处理技术规范	jian zhu di ji chu li ji shu gui fan	1
+建筑地基基础设计规范	jian zhu di ji ji chu she ji gui fan	1
+建筑结构荷载规范	jian zhu jie gou he zai gui fan	1
+建筑抗震设计规范	jian zhu kang zhen she ji gui fan	1
+建筑面积	jian zhu mian ji	1
+建筑条件	jian zhu tiao jian	1
+降板	jiang ban	1
+降解	jiang jie	1
+降温池	jiang wen chi	1
+降雨历时	jiang yu li shi	1
+搅拌桩	jiao ban zhuang	1
+交叉角	jiao cha jiao	1
+交叉口	jiao cha kou	1
+交叉口出口	jiao cha kou chu kou	1
+交叉口进口	jiao cha kou jin kou	1
+交叉口平面图	jiao cha kou ping mian tu	1
+交叉口设计	jiao cha kou she ji	1
+交叉口通行能力	jiao cha kou tong xing neng li	1
+交底	jiao di	1
+交点	jiao dian	1
+校对	jiao dui	1
+角钢	jiao gang	1
+浇灌	jiao guan	1
+角焊缝	jiao han feng	1
+校核	jiao he	1
+交换流速	jiao huan liu su	1
+铰接	jiao jie	1
+角筋	jiao jin	1
+郊区道路	jiao qu dao lu	1
+较软岩	jiao ruan yan	1
+浇洒道路用水	jiao sa dao lu yong shui	1
+交通安全	jiao tong an quan	1
+交通安全设施	jiao tong an quan she shi	1
+交通标线	jiao tong biao xian	1
+交通标志牌	jiao tong biao zhi pai	1
+交通岛	jiao tong dao	1
+交通调查	jiao tong diao cha	1
+交通发生	jiao tong fa sheng	1
+交通方式划分	jiao tong fang shi hua fen	1
+交通分布	jiao tong fen bu	1
+交通广场	jiao tong guang chang	1
+交通量	jiao tong liang	1
+交通量调查	jiao tong liang diao cha	1
+交通量分配	jiao tong liang fen pei	1
+交通量观测站	jiao tong liang guan ce zhan	1
+交通量预测	jiao tong liang yu ce	1
+交通流	jiao tong liu	1
+交通密度	jiao tong mi du	1
+交通肇事罪	jiao tong zhao shi zui	1
+交通组成	jiao tong zu cheng	1
+侥幸心理	jiao xing xin li	1
+较硬岩	jiao ying yan	1
+焦油沥青	jiao you li qing	1
+交织	jiao zhi	1
+交织点	jiao zhi dian	1
+交织路段	jiao zhi lu duan	1
+角柱	jiao zhu	1
+浇筑	jiao zhu	1
+浇筑混凝土	jiao zhu hun ning tu	1
+接触消毒池	jie chu xiao du chi	1
+街道	jie dao	1
+街道绿化	jie dao lv hua	1
+街道排水	jie dao pai shui	1
+节点	jie dian	1
+节点核心区	jie dian he xin qu	1
+节点域	jie dian yu	1
+截断	jie duan	1
+阶段曝气	jie duan bao qi	1
+街沟	jie gou	1
+结垢	jie gou	1
+结构布置	jie gou bu zhi	1
+结构交底	jie gou jiao di	1
+结构验收	jie gou yan shou	1
+结构重要性系数	jie gou zhong yao xing xi shu	1
+结合料	jie he liao	1
+结合通气管	jie he tong qi guan	1
+截角	jie jiao	1
+截流倍数	jie liu bei shu	1
+截留井	jie liu jing	1
+截面	jie mian	1
+截水沟	jie shui gou	1
+节水器具	jie shui qi ju	1
+解体消能设施	jie ti xiao neng she shi	1
+接头面积百分率	jie tou mian ji bai fen lv	1
+借土	jie tu	1
+进度控制	jin du kong zhi	1
+进风竖井	jin feng shu jing	1
+紧急避难权	jin ji bi nan quan	1
+紧急情况	jin ji qing kuang	1
+紧急停车带	jin ji ting che dai	1
+进水间	jin shui jian	1
+劲度	jing du	1
+净高	jing gao	1
+经济车速	jing ji che su	1
+净空	jing kong	1
+净空断面	jing kong duan mian	1
+净跨	jing kua	1
+静力触探	jing li chu tan	1
+径流系数	jing liu xi shu	1
+境内交通	jing nei jiao tong	1
+井群	jing qun	1
+净水构筑物	jing shui gou zhu wu	1
+井探	jing tan	1
+静止土压力	jing zhi tu ya li	1
+井字梁	jing zi liang	1
+局部腐蚀	ju bu fu shi	1
+局部振动	ju bu zhen dong	1
+巨块状	ju kuai zhuang	1
+聚四氟乙烯滑板式橡胶支座	ju si fu yi xi hua ban shi xiang jiao zhi zuo	1
+矩形	ju xing	1
+矩形截面	ju xing jie mian	1
+举一反三	ju yi fan san	1
+居住区道路	ju zhu qu dao lu	1
+绝对高差	jue dui gao cha	1
+绝对基面	jue dui ji mian	1
+均布	jun bu	1
+均布荷载	jun bu he zai	1
+竣工测量	jun gong ce liang	1
+均匀级配	jun yun ji pei	1
+菌藻处理	jun zao chu li	1
+开槽	kai cao	1
+开洞	kai dong	1
+开放式冷却塔	kai fang shi leng que ta	1
+开级配沥青混合料	kai ji pei li qing hun he liao	1
+开裂弯矩	kai lie wan ju	1
+开启桥	kai qi qiao	1
+开式热水供应系统	kai shi re shui gong ying xi tong	1
+勘察报告	kan cha bao gao	1
+勘察单位	kan cha dan wei	1
+抗拔	kang ba	1
+抗拔承载力	kang ba cheng zai li	1
+抗拔桩	kang ba zhuang	1
+抗冲切	kang chong qie	1
+抗风柱	kang feng zhu	1
+抗浮	kang fu	1
+抗浮水位	kang fu shui wei	1
+抗规	kang gui	1
+抗滑移	kang hua yi	1
+抗滑桩	kang hua zhuang	1
+抗剪	kang jian	1
+抗剪强度	kang jian qiang du	1
+抗拉	kang la	1
+抗拉强度结构系数	kang la qiang du jie gou xi shu	1
+抗扭	kang niu	1
+抗扭转	kang niu zhuan	1
+抗倾覆	kang qing fu	1
+抗弯强度	kang wan qiang du	1
+抗压	kang ya	1
+抗震	kang zhen	1
+抗震等级	kang zhen deng ji	1
+抗震规范	kang zhen gui fan	1
+可变荷载	ke bian he zai	1
+可焊性	ke han xing	1
+刻痕钢丝	ke hen gang si	1
+可靠度	ke kao du	1
+颗粒组成	ke li zu cheng	1
+可能通行能力	ke neng tong xing neng li	1
+可塑	ke su	1
+可行性研究报告	ke xing xing yan jiu bao gao	1
+坑探	keng tan	1
+空腹拱桥	kong fu gong qiao	1
+空间流速	kong jian liu su	1
+空间平均速度	kong jian ping jun su du	1
+空气顶压逆流再生	kong qi ding ya ni liu zai sheng	1
+空气间歇	kong qi jian xie	1
+空气扩散曝气	kong qi kuo san bao qi	1
+空调板	kong tiao ban	1
+孔隙	kong xi	1
+孔隙比	kong xi bi	1
+空隙率	kong xi lv	1
+孔隙水	kong xi shui	1
+空隙水	kong xi shui	1
+空心楼板	kong xin lou ban	1
+空心砌块	kong xin qi kuai	1
+扣索	kou suo	1
+跨度	kua du	1
+跨径	kua jing	1
+跨中	kua zhong	1
+块料路面	kuai liao lu mian	1
+快滤池	kuai lv chi	1
+块石	kuai shi	1
+块石基层	kuai shi ji ceng	1
+快速车道	kuai su che dao	1
+快速路	kuai su lu	1
+宽厚比	kuan hou bi	1
+矿粉	kuang fen	1
+框架	kuang jia	1
+框架梁	kuang jia liang	1
+框架柱	kuang jia zhu	1
+框剪	kuang jian	1
+矿料	kuang liao	1
+矿山安全生产	kuang shan an quan sheng chan	1
+矿山法	kuang shan fa	1
+框筒	kuang tong	1
+框支	kuang zhi	1
+框支梁	kuang zhi liang	1
+框支柱	kuang zhi zhu	1
+扩初	kuo chu	1
+扩大基础	kuo da ji chu	1
+扩底	kuo di	1
+扩散室	kuo san shi	1
+喇叭形立体交叉	la ba xing li ti jiao cha	1
+拉杆	la gan	1
+拉结筋	la jie jin	1
+拉筋	la jin	1
+拉索	la suo	1
+拉通	la tong	1
+拉弯	la wan	1
+栏板	lan ban	1
+缆索	lan suo	1
+缆索吊装	lan suo diao zhuang	1
+缆索吊装设备	lan suo diao zhuang she bei	1
+缆索施工	lan suo shi gong	1
+滥用职权罪	lan yong zhi quan zui	1
+劳动安全意识	lao dong an quan yi shi	1
+劳动保护	lao dong bao hu	1
+劳动保护技能	lao dong bao hu ji neng	1
+劳动合同	lao dong he tong	1
+老化	lao hua	1
+冷拌法	leng ban fa	1
+冷加工	leng jia gong	1
+冷拉钢筋	leng la gang jin	1
+冷铺法	leng pu fa	1
+冷却池	leng que chi	1
+冷却水处理	leng que shui chu li	1
+冷却水温差	leng que shui wen cha	1
+冷却塔	leng que ta	1
+冷却塔配水竖件	leng que ta pei shui shu jian	1
+冷却塔配水系统	leng que ta pei shui xi tong	1
+冷轧	leng zha	1
+冷轧带肋	leng zha dai lei	1
+里程碑	li cheng bei	1
+立管	li guan	1
+李国豪	li guo hao	1
+李国强	li guo qiang	1
+李国胜	li guo sheng	1
+立交桥	li jiao qiao	1
+力矩	li ju	1
+粒料	li liao	1
+立面	li mian	1
+沥青	li qing	1
+沥青表面处治	li qing biao mian chu zhi	1
+沥青贯入式路面	li qing guan ru shi lu mian	1
+沥青混合料	li qing hun he liao	1
+沥青混合料拌和设备	li qing hun he liao ban huo she bei	1
+沥青混合料摊铺机	li qing hun he liao tan pu ji	1
+沥青混凝土混合料	li qing hun ning tu hun he liao	1
+沥青混凝土路面	li qing hun ning tu lu mian	1
+沥青结合料	li qing jie he liao	1
+沥青路面	li qing lu mian	1
+沥青玛蹄脂碎石混合料	li qing ma ti zhi sui shi hun he liao	1
+沥青撒布车	li qing sa bu che	1
+沥青撒布机	li qing sa bu ji	1
+沥青砂	li qing sha	1
+沥青碎石混合料	li qing sui shi hun he liao	1
+沥青碎石路面	li qing sui shi lu mian	1
+沥青稳定碎石混合料	li qing wen ding sui shi hun he liao	1
+砾石	li shi	1
+立体交叉	li ti jiao cha	1
+离析	li xi	1
+立缘石	li yuan shi	1
+理正	li zheng	1
+立柱	li zhu	1
+离子交换剂	li zi jiao huan ji	1
+离子交换剂床层膨胀率	li zi jiao huan ji chuang ceng peng zhang lv	1
+离子交换树脂	li zi jiao huan shu zhi	1
+离子交换柱	li zi jiao huan zhu	1
+连拱隧道	lian gong sui dao	1
+联合基础	lian he ji chu	1
+联合梁桥	lian he liang qiao	1
+联结层	lian jie ceng	1
+连接道路	lian jie dao lu	1
+连接器	lian jie qi	1
+连梁	lian liang	1
+连梁表	lian liang biao	1
+联络线	lian luo xian	1
+连体	lian ti	1
+连续处理	lian xu chu li	1
+连续梁	lian xu liang	1
+连续梁桥	lian xu liang qiao	1
+连续式逆流清洗	lian xu shi ni liu qing xi	1
+连续现浇箱梁	lian xu xian jiao xiang liang	1
+梁板	liang ban	1
+梁板式	liang ban shi	1
+梁底	liang di	1
+梁底钢筋	liang di gang jin	1
+梁顶	liang ding	1
+梁高	liang gao	1
+良好级配	liang hao ji pei	1
+梁截面	liang jie mian	1
+梁宽	liang kuan	1
+两跑	liang pao	1
+梁墙	liang qiang	1
+梁桥	liang qiao	1
+梁式楼梯	liang shi lou ti	1
+料石	liao shi	1
+烈度	lie du	1
+裂隙	lie xi	1
+临界单元	lin jie dan yuan	1
+临界速度	lin jie su du	1
+临空墙	lin kong qiang	1
+林区道路	lin qu dao lu	1
+林区公路	lin qu gong lu	1
+临时设施	lin shi she shi	1
+临时用地	lin shi yong di	1
+淋水密度	lin shui mi du	1
+淋水面积	lin shui mian ji	1
+淋水填料	lin shui tian liao	1
+临塑压力	lin su ya li	1
+林同炎	lin tong yan	1
+临战封堵	lin zhan feng du	1
+龄期	ling qi	1
+菱形立体交叉	ling xing li ti jiao cha	1
+流出水头	liu chu shui tou	1
+留洞	liu dong	1
+留洞图	liu dong tu	1
+流沙	liu sha	1
+流塑	liu su	1
+楼板	lou ban	1
+楼层	lou ceng	1
+漏斗	lou dou	1
+楼盖	lou gai	1
+楼面	lou mian	1
+路拌	lu ban	1
+路拌法	lu ban fa	1
+路槽	lu cao	1
+路侧安全净区	lu ce an quan jing qu	1
+路侧带	lu ce dai	1
+路侧护栏	lu ce hu lan	1
+路床	lu chuang	1
+路堤	lu di	1
+路幅	lu fu	1
+路拱	lu gong	1
+路拱曲线	lu gong qu xian	1
+路基	lu ji	1
+路基护栏	lu ji hu lan	1
+路基宽度	lu ji kuan du	1
+路基排水	lu ji pai shui	1
+路基设计标高	lu ji she ji biao gao	1
+路基设计高程	lu ji she ji gao cheng	1
+路肩	lu jian	1
+路肩宽度	lu jian kuan du	1
+路口截角	lu kou jie jiao	1
+路口视距	lu kou shi ju	1
+路况	lu kuang	1
+路况调查	lu kuang diao cha	1
+路面	lu mian	1
+路面板唧泥	lu mian ban ji ni	1
+路面病害	lu mian bing hai	1
+路面补强	lu mian bu qiang	1
+路面沉陷	lu mian chen xian	1
+路面粗糙度	lu mian cu cao du	1
+路面冻胀	lu mian dong zhang	1
+路面翻修	lu mian fan xiu	1
+路面厚度	lu mian hou du	1
+路面滑溜	lu mian hua liu	1
+路面结构	lu mian jie gou	1
+路面结构层	lu mian jie gou ceng	1
+路面锯缝机	lu mian ju feng ji	1
+路面龟裂	lu mian jun lie	1
+路面坑槽	lu mian keng cao	1
+路面平整度	lu mian ping zheng du	1
+路面平整度测定仪	lu mian ping zheng du ce ding yi	1
+路面切缝机	lu mian qie feng ji	1
+路面清缝机	lu mian qing feng ji	1
+路面松散	lu mian song san	1
+路面弹簧	lu mian tan huang	1
+路面填缝机	lu mian tian feng ji	1
+路面透水度测定仪	lu mian tou shui du ce ding yi	1
+路面网裂	lu mian wang lie	1
+路堑	lu qian	1
+路容	lu rong	1
+露天矿山道路	lu tian kuang shan dao lu	1
+路网通行能力	lu wang tong xing neng li	1
+路线交叉	lu xian jiao cha	1
+路线控制点	lu xian kong zhi dian	1
+路缘带	lu yuan dai	1
+路缘石	lu yuan shi	1
+卵石	luan shi	1
+轮廓标	lun kuo biao	1
+轮压	lun ya	1
+洛杉矶磨耗试验机	luo shan ji mo hao shi yan ji	1
+螺旋箍	luo xuan gu	1
+螺旋箍筋	luo xuan gu jin	1
+螺旋肋钢丝	luo xuan lei gang si	1
+滤池冲洗水量	lv chi chong xi shui liang	1
+滤池配水系统	lv chi pei shui xi tong	1
+绿化带	lv hua dai	1
+绿化带宽度	lv hua dai kuan du	1
+绿化用水	lv hua yong shui	1
+绿篱	lv li	1
+氯离子含量	lv li zi han liang	1
+滤料	lv liao	1
+滤速	lv su	1
+麻痹思想	ma bi si xiang	1
+马歇尔试验	ma xie er shi yan	1
+马歇尔稳定度义	ma xie er wen ding du yi	1
+马牙槎	ma ya cha	1
+脉冲澄清池	mai chong cheng qing chi	1
+脉冲电解	mai chong dian jie	1
+埋弧焊	mai hu han	1
+埋件	mai jian	1
+埋入式	mai ru shi	1
+埋置式桥台	mai zhi shi qiao tai	1
+满布	man bu	1
+满铺	man pu	1
+漫水桥	man shui qiao	1
+慢速车道	man su che dao	1
+盲沟	mang gou	1
+猫道	mao dao	1
+锚碇	mao ding	1
+锚定板挡土墙	mao ding ban dang tu qiang	1
+锚锭板式挡土墙	mao ding ban shi dang tu qiang	1
+锚碇板式桥台	mao ding ban shi qiao tai	1
+毛洞	mao dong	1
+锚杆式挡土墙	mao gan shi dang tu qiang	1
+锚固	mao gu	1
+锚固长度	mao gu chang du	1
+锚具	mao ju	1
+帽梁	mao liang	1
+锚入	mao ru	1
+锚室	mao shi	1
+锚栓	mao shuan	1
+锚头	mao tou	1
+毛细水	mao xi shui	1
+冒险作业	mao xian zuo ye	1
+煤沥青	mei li qing	1
+门框墙	men kuang qiang	1
+门厅	men ting	1
+密闭门	mi bi men	1
+密闭式循环冷却水系统	mi bi shi xun huan leng que shui xi tong	1
+密级配沥青混合料	mi ji pei li qing hun he liao	1
+泌水率	mi shui lv	1
+面层	mian ceng	1
+描图	miao tu	1
+民用爆炸物品	min yong bao zha wu pin	1
+民用航空安全	min yong hang kong an quan	1
+明洞	ming dong	1
+明设	ming she	1
+明挖法	ming wa fa	1
+模板	mo ban	1
+摩擦系数	mo ca xi shu	1
+摩擦桩	mo ca zhuang	1
+磨耗层	mo hao ceng	1
+磨耗度	mo hao du	1
+末级清洗槽浓度	mo ji qing xi cao nong du	1
+抹角	mo jiao	1
+模量	mo liang	1
+模量比	mo liang bi	1
+模数式伸缩装置	mo shu shi shen suo zhuang zhi	1
+木排道	mu pai dao	1
+木桥	mu qiao	1
+苜蓿叶形立体交叉	mu xu ye xing li ti jiao cha	1
+墓穴	mu xue	1
+内侧车道	nei ce che dao	1
+内力	nei li	1
+内力重分布	nei li zhong fen bu	1
+内力重分配	nei li zhong fen pei	1
+内摩擦角	nei mo ca jiao	1
+内排水系统	nei pai shui xi tong	1
+内墙	nei qiang	1
+内审	nei shen	1
+泥饼产率	ni bing chan lv	1
+泥浆	ni jiang	1
+泥结碎石路面	ni jie sui shi lu mian	1
+逆流式冷却塔	ni liu shi leng que ta	1
+逆流再生	ni liu zai sheng	1
+泥石流	ni shi liu	1
+泥炭	ni tan	1
+泥炭质土	ni tan zhi tu	1
+年第位最大小时交通量	nian di wei zui da xiao shi jiao tong liang	1
+粘度	nian du	1
+粘聚力	nian ju li	1
+年平均日交通量	nian ping jun ri jiao tong liang	1
+粘土	nian tu	1
+粘性土	nian xing tu	1
+碾压混凝土	nian ya hun ning tu	1
+碾压混凝土路面铺筑	nian ya hun ning tu lu mian pu zhu	1
+碾压式水泥混凝土	nian ya shi shui ni hun ning tu	1
+年最大小时交通量	nian zui da xiao shi jiao tong liang	1
+凝胶型离子交换树脂	ning jiao xing li zi jiao huan shu zhi	1
+凝聚	ning ju	1
+凝聚沉淀	ning ju chen dian	1
+凝聚剂	ning ju ji	1
+扭矩	niu ju	1
+扭转	niu zhuan	1
+农民工	nong min gong	1
+浓缩倍数	nong suo bei shu	1
+女儿墙	nv er qiang	1
+偶偏	ou pian	1
+偶然荷载	ou ran he zai	1
+偶然偏心	ou ran pian xin	1
+爬坡车道	pa po che dao	1
+排出管	pai chu guan	1
+排风竖井	pai feng shu jing	1
+排架	pai jia	1
+排架桩墩	pai jia zhuang dun	1
+排水沟	pai shui gou	1
+排水砂垫层	pai shui sha dian ceng	1
+排水制度	pai shui zhi du	1
+排污	pai wu	1
+排桩	pai zhuang	1
+旁流	pang liu	1
+旁流过滤	pang liu guo lv	1
+旁流水处理	pang liu shui chu li	1
+旁压试验	pang ya shi yan	1
+抛石	pao shi	1
+抛石挤於	pao shi ji yu	1
+抛掷爆破	pao zhi bao po	1
+配电室	pei dian shi	1
+配箍	pei gu	1
+配箍率	pei gu lv	1
+配箍特征值	pei gu te zheng zhi	1
+配筋	pei jin	1
+配筋率	pei jin lv	1
+配水点	pei shui dian	1
+配水管网	pei shui guan wang	1
+喷锚支护	pen mao zhi hu	1
+喷砂	pen sha	1
+盆式橡胶支座	pen shi xiang jiao zhi zuo	1
+喷水池	pen shui chi	1
+膨胀螺栓	peng zhang luo shuan	1
+膨胀率	peng zhang lv	1
+膨胀土	peng zhang tu	1
+疲劳破坏	pi lao po huai	1
+疲劳强度	pi lao qiang du	1
+劈裂试验	pi lie shi yan	1
+劈裂注浆	pi lie zhu jiang	1
+偏沟	pian gou	1
+偏角	pian jiao	1
+片石	pian shi	1
+片石混凝土	pian shi hun ning tu	1
+偏心距	pian xin ju	1
+偏压	pian ya	1
+飘窗	piao chuang	1
+飘滴	piao di	1
+漂石	piao shi	1
+贫混凝土	pin hun ning tu	1
+平板式	ping ban shi	1
+平地机	ping di ji	1
+平法	ping fa	1
+评估体系	ping gu ti xi	1
+平均稠度	ping jun chou du	1
+平均日供水	ping jun ri gong shui	1
+平均纵坡	ping jun zong po	1
+平流沉淀池	ping liu chen dian chi	1
+平面	ping mian	1
+平面交叉	ping mian jiao cha	1
+平面交叉口	ping mian jiao cha kou	1
+平面设计	ping mian she ji	1
+平面示意图	ping mian shi yi tu	1
+平面图	ping mian tu	1
+平面线形	ping mian xian xing	1
+平曲线	ping qu xian	1
+平曲线横净距	ping qu xian heng jing ju	1
+平曲线加宽	ping qu xian jia kuan	1
+平石	ping shi	1
+平台	ping tai	1
+平台板	ping tai ban	1
+平台梁	ping tai liang	1
+平原区	ping yuan qu	1
+平缘石	ping yuan shi	1
+坡长限制	po chang xian zhi	1
+坡顶	po ding	1
+坡积土	po ji tu	1
+坡脚	po jiao	1
+坡桥	po qiao	1
+坡屋顶	po wu ding	1
+坡屋面	po wu mian	1
+剖面	pou mian	1
+普遍钎探	pu bian qian tan	1
+铺砌法	pu qi fa	1
+铺砂试验	pu sha shi yan	1
+普通曝气	pu tong bao qi	1
+普通混凝土路面	pu tong hun ning tu lu mian	1
+普通螺栓	pu tong luo shuan	1
+汽车坡道	qi che po dao	1
+汽车最小转弯半径	qi che zui xiao zhuan wan ban jing	1
+气浮池	qi fu chi	1
+气浮接触室	qi fu jie chu shi	1
+气浮溶气罐	qi fu rong qi guan	1
+起拱	qi gong	1
+七股钢绞线	qi gu gang jiao xian	1
+起居室	qi ju shi	1
+器具通气管	qi ju tong qi guan	1
+企口缝	qi kou feng	1
+砌块	qi kuai	1
+棋盘式道路系统	qi pan shi dao lu xi tong	1
+起迄点调查	qi qi dian diao cha	1
+气水冲洗	qi shui chong xi	1
+砌体	qi ti	1
+砌体结构设计规范	qi ti jie gou she ji gui fan	1
+弃土	qi tu	1
+弃土堆	qi tu dui	1
+气象灾害	qi xiang zai hai	1
+气压焊	qi ya han	1
+气压给水设备	qi ya ji shui she bei	1
+企业安全文化	qi ye an quan wen hua	1
+企业职工伤害事故	qi ye zhi gong shang hai shi gu	1
+企业职工伤亡事故分类	qi ye zhi gong shang wang shi gu fen lei	1
+企业资质	qi ye zi zhi	1
+气硬性	qi ying xing	1
+起重调运指挥信号	qi zhong diao yun zhi hui xin hao	1
+起重机械安全规程	qi zhong ji xie an quan gui cheng	1
+起重设备	qi zhong she bei	1
+起重作业安全	qi zhong zuo ye an quan	1
+砌筑	qi zhu	1
+浅层曝气	qian ceng bao qi	1
+前处理	qian chu li	1
+嵌固	qian gu	1
+嵌固端	qian gu duan	1
+千斤顶	qian jin ding	1
+前室	qian shi	1
+潜蚀	qian shi	1
+潜水	qian shui	1
+浅水型冷却池	qian shui xing leng que chi	1
+潜水堰	qian shui yan	1
+钎探	qian tan	1
+嵌岩桩	qian yan zhuang	1
+前置钢筋支架法	qian zhi gang jin zhi jia fa	1
+强夯法	qiang hang fa	1
+墙厚	qiang hou	1
+强碱性阴离子交换树脂	qiang jian xing yin li zi jiao huan shu zhi	1
+强令冒险作业	qiang ling mao xian zuo ye	1
+强迫命令	qiang po ming ling	1
+强屈比	qiang qu bi	1
+墙身	qiang shen	1
+强酸性阳离子交换树脂	qiang suan xing yang li zi jiao huan shu zhi	1
+墙体	qiang ti	1
+强条	qiang tiao	1
+墙肢	qiang zhi	1
+强制滤速	qiang zhi lv su	1
+墙柱	qiang zhu	1
+桥墩	qiao dun	1
+桥墩局部冲刷	qiao dun ju bu chong shua	1
+桥梁	qiao liang	1
+桥梁断裂	qiao liang duan lie	1
+桥梁护网	qiao liang hu wang	1
+桥梁建筑高度	qiao liang jian zhu gao du	1
+桥面净空	qiao mian jing kong	1
+桥面铺装	qiao mian pu zhuang	1
+桥面伸缩装置	qiao mian shen suo zhuang zhi	1
+桥面系	qiao mian xi	1
+翘曲	qiao qu	1
+桥台	qiao tai	1
+桥头搭板	qiao tou da ban	1
+桥位	qiao wei	1
+桥下净空	qiao xia jing kong	1
+桥下一般冲刷	qiao xia yi ban chong shua	1
+切缝	qie feng	1
+切线长	qie xian chang	1
+清底	qing di	1
+倾覆	qing fu	1
+倾覆力矩	qing fu li ju	1
+倾覆弯矩	qing fu wan ju	1
+轻墙	qing qiang	1
+清扫口	qing sao kou	1
+清水池	qing shui chi	1
+清洗倍率	qing xi bei lv	1
+清洗槽	qing xi cao	1
+清洗用水定额	qing xi yong shui ding e	1
+轻型圆锥动力触探	qing xing yuan zhui dong li chu tan	1
+轻质混凝土	qing zhi hun ning tu	1
+球形支座	qiu xing zhi zuo	1
+渠道排水	qu dao pai shui	1
+屈服	qu fu	1
+屈服台阶	qu fu tai jie	1
+渠化交通	qu hua jiao tong	1
+区间速度	qu jian su du	1
+取水构筑和物	qu shui gou zhu he wu	1
+取水口	qu shui kou	1
+取水头部	qu shui tou bu	1
+取土坑	qu tu keng	1
+曲线长	qu xian chang	1
+全高	quan gao	1
+全高加密	quan gao jia mi	1
+全厚式沥青混凝土路面	quan hou shi li qing hun ning tu lu mian	1
+全厚式路面	quan hou shi lu mian	1
+全截面	quan jie mian	1
+泉室	quan shi	1
+裙房	qun fang	1
+群锚	qun mao	1
+绕行公路	rao xing gong lu	1
+热拌法	re ban fa	1
+热拌沥青混合料	re ban li qing hun he liao	1
+热铺法	re pu fa	1
+热水循环流量	re shui xun huan liu liang	1
+热稳性	re wen xing	1
+热源法	re yuan fa	1
+热轧	re zha	1
+人的不安全行为	ren de bu an quan xing wei	1
+人防	ren fang	1
+人工挖孔	ren gong wa kong	1
+人工挖孔桩	ren gong wa kong zhuang	1
+人行地道	ren hang di dao	1
+人行天桥	ren hang tian qiao	1
+人均道路面积	ren jun dao lu mian ji	1
+人孔	ren kong	1
+人身权	ren shen quan	1
+人为灾害	ren wei zai hai	1
+人行道	ren xing dao	1
+人行道宽度	ren xing dao kuan du	1
+人行横道	ren xing heng dao	1
+人中当量	ren zhong dang liang	1
+日变化系数	ri bian hua xi shu	1
+溶槽	rong cao	1
+溶沟	rong gou	1
+容积负荷	rong ji fu he	1
+溶解度	rong jie du	1
+容许拉应力	rong xu la ying li	1
+容许弯沉	rong xu wan chen	1
+容重	rong zhong	1
+柔度	rou du	1
+柔性墩	rou xing dun	1
+柔性护栏	rou xing hu lan	1
+柔性路基	rou xing lu ji	1
+柔性路面	rou xing lu mian	1
+乳化沥青	ru hua li qing	1
+入境交通	ru jing jiao tong	1
+入口	ru kou	1
+软化点	ruan hua dian	1
+软化水	ruan hua shui	1
+软弱地基	ruan ruo di ji	1
+软弱下卧层	ruan ruo xia wo ceng	1
+软塑	ruan su	1
+软土	ruan tu	1
+软土路基	ruan tu lu ji	1
+软岩	ruan yan	1
+弱碱性阴离子交换树脂	ruo jian xing yin li zi jiao huan shu zhi	1
+弱酸性慢离子交换树脂	ruo suan xing man li zi jiao huan shu zhi	1
+三层	san ceng	1
+三股钢绞线	san gu gang jiao xian	1
+三滚轴机组铺筑	san gun zhou ji zu pu zhu	1
+三级钢	san ji gang	1
+三级工程	san ji gong cheng	1
+三类场地	san lei chang di	1
+散水	san shui	1
+三同时	san tong shi	1
+三肢箍	san zhi gu	1
+三轴剪切	san zhou jian qie	1
+沙害	sha hai	1
+砂浆	sha jiang	1
+砂井	sha jing	1
+砂砾	sha li	1
+砂率	sha lv	1
+杀生物剂	sha sheng wu ji	1
+砂土	sha tu	1
+砂性土	sha xing tu	1
+砂桩	sha zhuang	1
+筛分	shai fen	1
+闪点	shan dian	1
+闪点义	shan dian yi	1
+闪光对焊	shan guang dui han	1
+闪光对焊接头	shan guang dui han jie tou	1
+山脊线	shan ji xian	1
+山岭区	shan ling qu	1
+山坡线	shan po xian	1
+山墙	shan qiang	1
+扇形布置	shan xing bu zhi	1
+上拌下贯式路面	shang ban xia guan shi lu mian	1
+上部结构	shang bu jie gou	1
+上承式桥	shang cheng shi qiao	1
+上挡	shang dang	1
+上挡墙	shang dang qiang	1
+上节点高	shang jie dian gao	1
+上跨铁路立体交叉	shang kua tie lu li ti jiao cha	1
+上排	shang pai	1
+商品混凝土	shang pin hun ning tu	1
+上人屋面	shang ren wu mian	1
+上铁	shang tie	1
+上铁上	shang tie shang	1
+上铁下	shang tie xia	1
+上网	shang wang	1
+上行下给式	shang xing xia gei shi	1
+上柱墩	shang zhu dun	1
+设备夹层	she bei jia ceng	1
+设防	she fang	1
+设防烈度	she fang lie du	1
+社会治安	she hui zhi an	1
+设计车辆	she ji che liang	1
+设计车速	she ji che su	1
+设计重现期	she ji chong xian qi	1
+设计单位	she ji dan wei	1
+设计费	she ji fei	1
+设计高程	she ji gao cheng	1
+设计洪水频率	she ji hong shui pin lv	1
+设计基准期	she ji ji zhun qi	1
+设计秒流量	she ji miao liu liang	1
+设计年限	she ji nian xian	1
+设计水位	she ji shui wei	1
+设计通行能力	she ji tong xing neng li	1
+设计弯沉值	she ji wan chen zhi	1
+设计小时耗热量	she ji xiao shi hao re liang	1
+设计小时交通量	she ji xiao shi jiao tong liang	1
+设计值	she ji zhi	1
+设计状况	she ji zhuang kuang	1
+设施带宽度	she shi dai kuan du	1
+摄影测量	she ying ce liang	1
+伸长率	shen chang lv	1
+审定	shen ding	1
+伸顶通气管	shen ding tong qi guan	1
+审核	shen he	1
+深梁	shen liang	1
+渗漏损失	shen lou sun shi	1
+渗渠	shen qu	1
+伸入	shen ru	1
+深受弯	shen shou wan	1
+渗水井	shen shui jing	1
+深水型冷却池	shen shui xing leng que chi	1
+伸缩缝	shen suo feng	1
+伸缩装置	shen suo zhuang zhi	1
+渗透系数	shen tou xi shu	1
+渗透注浆	shen tou zhu jiang	1
+审图	shen tu	1
+沈祖炎	shen zu yan	1
+生产安全	sheng chan an quan	1
+生产安全事故	sheng chan an quan shi gu	1
+生产场所	sheng chan chang suo	1
+生产废水	sheng chan fei shui	1
+生产干线	sheng chan gan xian	1
+生产经营场所	sheng chan jing ying chang suo	1
+生产经营单位	sheng chan jing ying dan wei	1
+生产污水	sheng chan wu shui	1
+生产用水	sheng chan yong shui	1
+生产指挥人员	sheng chan zhi hui ren yuan	1
+生产支线	sheng chan zhi xian	1
+省道	sheng dao	1
+省干线公路	sheng gan xian gong lu	1
+生化需氧量	sheng hua xu yang liang	1
+生活废水	sheng huo fei shui	1
+生活污水	sheng huo wu shui	1
+生活用水	sheng huo yong shui	1
+生命安全	sheng ming an quan	1
+生命财产	sheng ming cai chan	1
+生物处理	sheng wu chu li	1
+生物接触氧化	sheng wu jie chu yang hua	1
+生物滤池	sheng wu lv chi	1
+生物膜法	sheng wu mo fa	1
+生物灾害	sheng wu zai hai	1
+生物粘泥	sheng wu zhan ni	1
+生物粘泥量	sheng wu zhan ni liang	1
+生物转盘	sheng wu zhuan pan	1
+剩余污泥	sheng yu wu ni	1
+时变化系数	shi bian hua xi shu	1
+时程	shi cheng	1
+时程分析	shi cheng fen xi	1
+实腹拱桥	shi fu gong qiao	1
+施工安全	shi gong an quan	1
+施工便道	shi gong bian dao	1
+施工测量	shi gong ce liang	1
+施工单位	shi gong dan wei	1
+施工缝	shi gong feng	1
+施工荷载	shi gong he zai	1
+施工机具	shi gong ji ju	1
+施工机械	shi gong ji xie	1
+施工监控	shi gong jian kong	1
+施工监控单位	shi gong jian kong dan wei	1
+施工模拟二	shi gong mo ni er	1
+施工模拟三	shi gong mo ni san	1
+施工模拟一	shi gong mo ni yi	1
+施工人员	shi gong ren yuan	1
+施工图	shi gong tu	1
+施工图设计	shi gong tu she ji	1
+施工图设计文件	shi gong tu she ji wen jian	1
+施工图设计文件审查	shi gong tu she ji wen jian shen cha	1
+施工图审查	shi gong tu shen cha	1
+施工图审查单位	shi gong tu shen cha dan wei	1
+施工图预算	shi gong tu yu suan	1
+施工用地	shi gong yong di	1
+事故调查	shi gu diao cha	1
+事故调查处理	shi gu diao cha chu li	1
+事故排出口	shi gu pai chu kou	1
+事故频发	shi gu pin fa	1
+事故上报	shi gu shang bao	1
+事故隐患	shi gu yin huan	1
+事故责任	shi gu ze ren	1
+事故责任追究	shi gu ze ren zhui jiu	1
+石灰浆	shi hui jiang	1
+石灰乳	shi hui ru	1
+石灰桩	shi hui zhuang	1
+时间平均速度	shi jian ping jun su du	1
+湿接缝	shi jie feng	1
+世界卫生组织	shi jie wei sheng zu zhi	1
+视距	shi ju	1
+视距三角形	shi ju san jiao xing	1
+湿空气回流	shi kong qi hui liu	1
+试块	shi kuai	1
+石料级配	shi liao ji pei	1
+石料磨光值	shi liao mo guang zhi	1
+石笼	shi long	1
+室内试验	shi nei shi yan	1
+室外直通	shi wai zhi tong	1
+失稳	shi wen	1
+视线	shi xian	1
+湿陷	shi xian	1
+湿陷性黄土	shi xian xing huang tu	1
+石屑	shi xie	1
+视野	shi ye	1
+使用面积	shi yong mian ji	1
+使用年限	shi yong nian xian	1
+石油沥青	shi you li qing	1
+十字板	shi zi ban	1
+十字形交叉	shi zi xing jiao cha	1
+首层	shou ceng	1
+收发室	shou fa shi	1
+受剪	shou jian	1
+受拉	shou la	1
+受拉区	shou la qu	1
+寿命评估	shou ming ping gu	1
+受扭	shou niu	1
+受压	shou ya	1
+受压区	shou ya qu	1
+竖井	shu jing	1
+书库	shu ku	1
+竖曲线	shu qu xian	1
+疏散时间	shu san shi jian	1
+竖向	shu xiang	1
+竖向分区	shu xiang fen qu	1
+竖向筋	shu xiang jin	1
+竖向设计	shu xiang she ji	1
+梳形钢板伸缩装置	shu xing gang ban shen suo zhuang zhi	1
+树脂	shu zhi	1
+树脂捕捉器	shu zhi bu zhuo qi	1
+树脂降解	shu zhi jiang jie	1
+树脂交换容量	shu zhi jiao huan rong liang	1
+树脂污染	shu zhi wu ran	1
+双层沉淀池	shuang ceng chen dian chi	1
+双层床	shuang ceng chuang	1
+双极性电极	shuang ji xing dian ji	1
+双面焊	shuang mian han	1
+双排	shuang pai	1
+双排双向	shuang pai shuang xiang	1
+双曲拱桥	shuang qu gong qiao	1
+双室床	shuang shi chuang	1
+双塔连续再生移动床	shuang ta lian xu zai sheng yi dong chuang	1
+双向板	shuang xiang ban	1
+双向地震	shuang xiang di zhen	1
+双向供水	shuang xiang gong shui	1
+双向双排	shuang xiang shuang pai	1
+双向匝道	shuang xiang za dao	1
+双肢箍	shuang zhi gu	1
+双柱	shuang zhu	1
+水保	shui bao	1
+水顶压逆流再生	shui ding ya ni liu zai sheng	1
+水法	shui fa	1
+水封	shui feng	1
+水管支墩	shui guan zhi dun	1
+水毁	shui hui	1
+水灰比	shui hui bi	1
+水结碎石路面	shui jie sui shi lu mian	1
+水力计算	shui li ji suan	1
+水力循环澄清池	shui li xun huan cheng qing chi	1
+水量平衡测试	shui liang ping heng ce shi	1
+水流转角	shui liu zhuan jiao	1
+水落斗	shui luo dou	1
+水面综合散热系数	shui mian zong he san re xi shu	1
+水泥混凝土拌和设备	shui ni hun ning tu ban huo she bei	1
+水泥混凝土泵	shui ni hun ning tu beng	1
+水泥混凝土路面	shui ni hun ning tu lu mian	1
+水泥混凝土摊铺机	shui ni hun ning tu tan pu ji	1
+水泥稳定碎石	shui ni wen ding sui shi	1
+水平筋	shui ping jin	1
+水平向固结系数	shui ping xiang gu jie xi shu	1
+水上交通安全	shui shang jiao tong an quan	1
+水体自净	shui ti zi jing	1
+水土保持	shui tu bao chi	1
+水土保持报告	shui tu bao chi bao gao	1
+水土压力	shui tu ya li	1
+水文计算	shui wen ji suan	1
+水稳性	shui wen xing	1
+水箱间	shui xiang jian	1
+水硬性	shui ying xing	1
+水准测量	shui zhun ce liang	1
+水准点	shui zhun dian	1
+顺流再生	shun liu zai sheng	1
+四层	si ceng	1
+四氟板	si fu ban	1
+四类场地	si lei chang di	1
+四肢箍	si zhi gu	1
+松动爆破	song dong bao po	1
+松散压力	song san ya li	1
+松土机	song tu ji	1
+素混凝土	su hun ning tu	1
+塑限	su xian	1
+塑性铰	su xing jiao	1
+塑性指数	su xing zhi shu	1
+酸洗	suan xi	1
+隧道	sui dao	1
+隧道掘进机	sui dao jue jin ji	1
+隧道埋深	sui dao mai shen	1
+隧道支撑	sui dao zhi cheng	1
+碎块状	sui kuai zhuang	1
+碎落台	sui luo tai	1
+碎石	sui shi	1
+碎石机	sui shi ji	1
+碎石撒布机	sui shi sa bu ji	1
+碎石土	sui shi tu	1
+索鞍	suo an	1
+缩缝	suo feng	1
+索夹	suo jia	1
+索塔	suo ta	1
+缩限	suo xian	1
+踏步	ta bu	1
+踏勘	ta kan	1
+塔式生物滤池	ta shi sheng wu lv chi	1
+台地	tai di	1
+台口式路基	tai kou shi lu ji	1
+坍方	tan fang	1
+弹簧现象	tan huang xian xiang	1
+坍落度	tan luo du	1
+摊铺机	tan pu ji	1
+摊铺设备	tan pu she bei	1
+弹塑性	tan su xing	1
+探索者	tan suo zhe	1
+弹性板	tan xing ban	1
+弹性地基梁	tan xing di ji liang	1
+弹性后效	tan xing hou xiao	1
+弹性楼板	tan xing lou ban	1
+弹性模量	tan xing mo liang	1
+弹性体材料填充式伸缩装置	tan xing ti cai liao tian chong shi shen suo zhuang zhi	1
+陶粒	tao li	1
+特大火灾	te da huo zai	1
+特殊路基	te shu lu ji	1
+特种车辆	te zhong che liang	1
+特种设备安全监察条例	te zhong she bei an quan jian cha tiao li	1
+特种作业	te zhong zuo ye	1
+梯段板	ti duan ban	1
+梯井	ti jing	1
+梯梁	ti liang	1
+梯跑	ti pao	1
+提条件	ti tiao jian	1
+体系转换	ti xi zhuan huan	1
+体型	ti xing	1
+填充墙	tian chong qiang	1
+填充体积率	tian chong ti ji lv	1
+填方	tian fang	1
+添加剂	tian jia ji	1
+天然地基	tian ran di ji	1
+天然沥青	tian ran li qing	1
+填石路堤	tian shi lu di	1
+填土	tian tu	1
+天正	tian zheng	1
+挑板	tiao ban	1
+调幅	tiao fu	1
+调幅系数	tiao fu xi shu	1
+条基	tiao ji	1
+挑梁	tiao liang	1
+调平层	tiao ping ceng	1
+条形基础	tiao xing ji chu	1
+调治构造物	tiao zhi gou zao wu	1
+铁路道口	tie lu dao kou	1
+铁路交通安全	tie lu jiao tong an quan	1
+铁路运营安全事故罪	tie lu yun ying an quan shi gu zui	1
+铁氧体法	tie yang ti fa	1
+停车场	ting che chang	1
+停车车道	ting che che dao	1
+停车视距	ting che shi ju	1
+停止作业	ting zhi zuo ye	1
+通长	tong chang	1
+通长筋	tong chang jin	1
+砼规	tong gui	1
+通航水位	tong hang shui wei	1
+同粒径集料	tong li jing ji liao	1
+通气管	tong qi guan	1
+同时设计	tong shi she ji	1
+同时使用	tong shi shi yong	1
+同时投产	tong shi tou chan	1
+筒体	tong ti	1
+同向流斜板沉淀池	tong xiang liu xie ban chen dian chi	1
+同向曲线	tong xiang qu xian	1
+通行能力	tong xing neng li	1
+投标单位	tou biao dan wei	1
+透层	tou ceng	1
+透水度试验	tou shui du shi yan	1
+透水事故	tou shui shi gu	1
+投药	tou yao	1
+投资控制	tou zi kong zhi	1
+土钉	tu ding	1
+土钉墙	tu ding qiang	1
+土方调配	tu fang tiao pei	1
+土方调配图	tu fang tiao pei tu	1
+土工布	tu gong bu	1
+土工织物	tu gong zhi wu	1
+图集	tu ji	1
+土基干湿类型	tu ji gan shi lei xing	1
+土基回弹模量	tu ji hui tan mo liang	1
+图框	tu kuang	1
+图名	tu ming	1
+图签	tu qian	1
+土石方爆破	tu shi fang bao po	1
+凸形竖曲线	tu xing shu qu xian	1
+推流曝气	tui liu bao qi	1
+退台	tui tai	1
+驮道	tuo dao	1
+托架	tuo jia	1
+脱碱	tuo jian	1
+拓宽路口式交叉口	tuo kuan lu kou shi jiao cha kou	1
+挖方	wa fang	1
+挖沟机	wa gou ji	1
+挖孔桩	wa kong zhuang	1
+外侧车道	wai ce che dao	1
+外加剂	wai jia ji	1
+外距	wai ju	1
+外露式	wai lu shi	1
+外排水系统	wai pai shui xi tong	1
+外墙	wai qiang	1
+外审	wai shen	1
+弯沉试验	wan chen shi yan	1
+弯沉综合修正系数	wan chen zong he xiu zheng xi shu	1
+玩忽职守罪	wan hu zhi shou zui	1
+弯剪扭	wan jian niu	1
+弯矩	wan ju	1
+弯拉应力	wan la ying li	1
+弯起	wan qi	1
+弯起钢筋	wan qi gang jin	1
+弯桥	wan qiao	1
+完全混合曝气	wan quan hun he bao qi	1
+网架	wang jia	1
+网络安全	wang luo an quan	1
+网络图	wang luo tu	1
+网片	wang pian	1
+微表处	wei biao chu	1
+违反劳动纪律	wei fan lao dong ji lv	1
+危害公共安全罪	wei hai gong gong an quan zui	1
+围焊	wei han	1
+微孔过滤器	wei kong guo lv qi	1
+微丘区	wei qiu qu	1
+卫生间	wei sheng jian	1
+卫生器具	wei sheng qi ju	1
+卫生器具当量	wei sheng qi ju dang liang	1
+危险化学品	wei xian hua xue pin	1
+危险化学品泄漏	wei xian hua xue pin xie lou	1
+危险物品	wei xian wu pin	1
+危险物品肇事罪	wei xian wu pin zhao shi zui	1
+危险物质泄露	wei xian wu zhi xie lou	1
+危险有害因素	wei xian you hai yin su	1
+微形环交	wei xing huan jiao	1
+围岩	wei yan	1
+围岩压力	wei yan ya li	1
+位移	wei yi	1
+位移比	wei yi bi	1
+未预见用水量	wei yu jian yong shui liang	1
+违章生产	wei zhang sheng chan	1
+违章指挥	wei zhang zhi hui	1
+温差异重流	wen cha yi zhong liu	1
+稳定塘	wen ding tang	1
+稳定土拌和机	wen ding tu ban huo ji	1
+稳定土基层	wen ding tu ji ceng	1
+稳定指数	wen ding zhi shu	1
+温度应力	wen du ying li	1
+温式冷却塔	wen shi leng que ta	1
+无侧限抗压强度	wu ce xian kang ya qiang du	1
+五层	wu ceng	1
+物的不安全状态	wu de bu an quan zhuang tai	1
+无顶压逆流再生	wu ding ya ni liu zai sheng	1
+无阀滤池	wu fa lv chi	1
+圬工桥	wu gong qiao	1
+污垢	wu gou	1
+污垢热阻	wu gou re zu	1
+无机结合料	wu ji jie he liao	1
+无梁楼盖	wu liang lou gai	1
+污泥焚烧	wu ni fen shao	1
+污泥负荷	wu ni fu he	1
+污泥干化	wu ni gan hua	1
+污泥回流比	wu ni hui liu bi	1
+污泥浓度	wu ni nong du	1
+污泥浓缩	wu ni nong suo	1
+污泥气	wu ni qi	1
+污泥淘洗	wu ni tao xi	1
+污泥脱水	wu ni tuo shui	1
+污泥消化	wu ni xiao hua	1
+污泥压滤	wu ni ya lv	1
+污泥真空过滤	wu ni zhen kong guo lv	1
+物探	wu tan	1
+无压力式涵洞	wu ya li shi han dong	1
+屋檐	wu yan	1
+细长柱	xi chang zhu	1
+细度	xi du	1
+细度模数	xi du mo shu	1
+吸附再生曝气	xi fu zai sheng bao qi	1
+系杆拱桥	xi gan gong qiao	1
+稀浆封层	xi jiang feng ceng	1
+细菌总数	xi jun zong shu	1
+细粒土	xi li tu	1
+细砂	xi sha	1
+吸水井	xi shui jing	1
+系统容积	xi tong rong ji	1
+洗脱液	xi tuo ye	1
+下部结构	xia bu jie gou	1
+下插	xia cha	1
+下承式桥	xia cheng shi qiao	1
+下穿桥	xia chuan qiao	1
+下穿铁路立体交叉	xia chuan tie lu li ti jiao cha	1
+下挡墙	xia dang qiang	1
+下伏基岩	xia fu ji yan	1
+下排	xia pai	1
+下铁	xia tie	1
+下铁上	xia tie shang	1
+下铁下	xia tie xia	1
+下网	xia wang	1
+下卧层	xia wo ceng	1
+下行上给式	xia xing shang gei shi	1
+下柱墩	xia zhu dun	1
+现场焊	xian chang han	1
+现场监测	xian chang jian ce	1
+现场检验	xian chang jian yan	1
+县道	xian dao	1
+县公路	xian gong lu	1
+线荷载	xian he zai	1
+现浇	xian jiao	1
+现浇层	xian jiao ceng	1
+现浇混凝土	xian jiao hun ning tu	1
+先期固结压力	xian qi gu jie ya li	1
+线弹性	xian tan xing	1
+纤维混凝土	xian wei hun ning tu	1
+线形设计	xian xing she ji	1
+线形要素	xian xing yao su	1
+线载	xian zai	1
+先张法	xian zhang fa	1
+限值	xian zhi	1
+乡村道路	xiang cun dao lu	1
+乡道	xiang dao	1
+相对高差	xiang dui gao cha	1
+相对含水量	xiang dui han shui liang	1
+乡公路	xiang gong lu	1
+项海帆	xiang hai fan	1
+箱涵	xiang han	1
+橡胶伸缩装置	xiang jiao shen suo zhuang zhi	1
+橡胶支座	xiang jiao zhi zuo	1
+箱梁	xiang liang	1
+项目建议书	xiang mu jian yi shu	1
+像片索引图	xiang pian suo yin tu	1
+详图	xiang tu	1
+详细勘察	xiang xi kan cha	1
+象限角	xiang xian jiao	1
+消防安全	xiao fang an quan	1
+消防疏散	xiao fang shu san	1
+消防用水	xiao fang yong shui	1
+消化污泥	xiao hua wu ni	1
+小净距隧道	xiao jing ju sui dao	1
+消泡剂	xiao pao ji	1
+小偏拉	xiao pian la	1
+小偏心	xiao pian xin	1
+小偏压	xiao pian ya	1
+小型机具铺筑	xiao xing ji ju pu zhu	1
+小修保护	xiao xiu bao hu	1
+斜板	xie ban	1
+泄爆	xie bao	1
+斜撑	xie cheng	1
+斜交桥	xie jiao qiao	1
+斜截面	xie jie mian	1
+斜井	xie jing	1
+斜拉桥	xie la qiao	1
+泄漏事故	xie lou shi gu	1
+斜桥	xie qiao	1
+泄水管	xie shui guan	1
+泄水孔	xie shui kong	1
+泄水口	xie shui kou	1
+斜张桥	xie zhang qiao	1
+新奥法	xin ao fa	1
+信息犯罪	xin xi fan zui	1
+行车安全	xing che an quan	1
+行车道	xing che dao	1
+行道树	xing dao shu	1
+型钢	xing gang	1
+型钢混凝土	xing gang hun ning tu	1
+行洪	xing hong	1
+行洪影响	xing hong ying xiang	1
+行洪影响评价	xing hong ying xiang ping jia	1
+形交叉	xing jiao cha	1
+行驶速度	xing shi su du	1
+星形布置	xing xing bu zhi	1
+锈蚀	xiu shi	1
+徐变	xu bian	1
+虚交点	xu jiao dian	1
+絮凝	xu ning	1
+需氧量	xu yang liang	1
+悬板活门	xuan ban huo men	1
+悬臂	xuan bi	1
+悬臂板	xuan bi ban	1
+悬臂浇筑	xuan bi jiao zhu	1
+悬臂梁	xuan bi liang	1
+悬臂梁桥	xuan bi liang qiao	1
+悬臂拼装	xuan bi pin zhuang	1
+悬臂式挡土墙	xuan bi shi dang tu qiang	1
+悬吊管	xuan diao guan	1
+悬浮澄清池	xuan fu cheng qing chi	1
+悬浮固体	xuan fu gu ti	1
+悬索桥	xuan suo qiao	1
+悬挑	xuan tiao	1
+悬挑板	xuan tiao ban	1
+悬挑构件	xuan tiao gou jian	1
+悬挑梁	xuan tiao liang	1
+选线	xuan xian	1
+旋转布水器	xuan zhuan bu shui qi	1
+雪害	xue hai	1
+雪压	xue ya	1
+循环附加流量	xun huan fu jia liu liang	1
+循环冷却水	xun huan leng que shui	1
+循环冷却水系统	xun huan leng que shui xi tong	1
+循环水系统	xun huan shui xi tong	1
+巡回养护	xun hui yang hu	1
+压浆	ya jiang	1
+垭口	ya kou	1
+压力流	ya li liu	1
+压力滤池	ya li lv chi	1
+压力式涵洞	ya li shi han dong	1
+压路机	ya lu ji	1
+压密注浆	ya mi zhu jiang	1
+压实	ya shi	1
+压实度	ya shi du	1
+压实度试验	ya shi du shi yan	1
+压实系数	ya shi xi shu	1
+压碎值	ya sui zhi	1
+压缩比	ya suo bi	1
+压缩波波速	ya suo bo bo su	1
+压缩参数	ya suo can shu	1
+压缩模量	ya suo mo liang	1
+压缩指数	ya suo zhi shu	1
+压弯	ya wan	1
+验槽	yan cao	1
+延度	yan du	1
+堰负荷	yan fu he	1
+檐沟	yan gou	1
+验筋	yan jin	1
+檐口	yan kou	1
+堰门	yan men	1
+岩溶	yan rong	1
+延时曝气	yan shi bao qi	1
+验算	yan suan	1
+岩土工程勘察报告	yan tu gong cheng kan cha bao gao	1
+岩土工程勘察规范	yan tu gong cheng kan cha gui fan	1
+岩土物理性质	yan tu wu li xing zhi	1
+延误	yan wu	1
+沿溪线	yan xi xian	1
+厌氧消化	yan yang xiao hua	1
+盐渍土	yan zi tu	1
+盐渍岩土	yan zi yan tu	1
+仰拱	yang gong	1
+养护	yang hu	1
+养护期	yang hu qi	1
+氧化沟	yang hua gou	1
+氧化塘	yang hua tang	1
+阳角	yang jiao	1
+阳离子乳化沥青	yang li zi ru hua li qing	1
+氧能力	yang neng li	1
+氧转移率	yang zhuan yi lv	1
+羊足压路机	yang zu ya lu ji	1
+咬合桩	yao he zhuang	1
+药剂固定储备量	yao ji gu ding chu bei liang	1
+药剂周转储备量	yao ji zhou zhuan chu bei liang	1
+腰筋	yao jin	1
+液化	ye hua	1
+液面负荷	ye mian fu he	1
+液体沥青	ye ti li qing	1
+液限	ye xian	1
+易爆物品	yi bao wu pin	1
+移动床	yi dong chuang	1
+移动罩滤池	yi dong zhao lv chi	1
+移动支架逐跨施工法	yi dong zhi jia zhu kua shi gong fa	1
+一级处理	yi ji chu li	1
+一级除盐系统	yi ji chu yan xi tong	1
+一级钢	yi ji gang	1
+一级工程	yi ji gong cheng	1
+一级氧化处理	yi ji yang hua chu li	1
+一类场地	yi lei chang di	1
+一类环境	yi lei huan jing	1
+衣帽间	yi mao jian	1
+一跑	yi pao	1
+翼墙	yi qiang	1
+易燃固体	yi ran gu ti	1
+易燃液体	yi ran ye ti	1
+易燃易爆物品	yi ran yi bao wu pin	1
+异向流斜管	yi xiang liu xie guan	1
+异形板	yi xing ban	1
+异形柱	yi xing zhu	1
+翼缘	yi yuan	1
+隐伏体	yin fu ti	1
+隐化池	yin hua chi	1
+阴角	yin jiao	1
+阴离子乳化沥青	yin li zi ru hua li qing	1
+引桥	yin qiao	1
+引入管	yin ru guan	1
+应变	ying bian	1
+应变片	ying bian pian	1
+硬度	ying du	1
+硬化	ying hua	1
+应急分析系统	ying ji fen xi xi tong	1
+应急救援	ying ji jiu yuan	1
+应急救援体系	ying ji jiu yuan ti xi	1
+应急平台	ying ji ping tai	1
+膺架	ying jia	1
+应力	ying li	1
+硬路肩	ying lu jian	1
+硬塑	ying su	1
+影响半径	ying xiang ban jing	1
+影像地图	ying xiang di tu	1
+影响区域	ying xiang qu yu	1
+影响因素	ying xiang yin su	1
+永久荷载	yong jiu he zai	1
+用水定额	yong shui ding e	1
+有毒有害气体	you du you hai qi ti	1
+有机结合料	you ji jie he liao	1
+有机质含量	you ji zhi han liang	1
+有机质土	you ji zhi tu	1
+油石比	you shi bi	1
+预沉池	yu chen chi	1
+隅撑	yu cheng	1
+预防为主	yu fang wei zhu	1
+预拱度	yu gong du	1
+淤积	yu ji	1
+淤积土	yu ji tu	1
+余氯	yu lv	1
+预埋件	yu mai jian	1
+预膜	yu mo	1
+预膜剂	yu mo ji	1
+淤泥	yu ni	1
+淤泥质土	yu ni zhi tu	1
+浴室	yu shi	1
+雨水泵站	yu shui beng zhan	1
+雨水斗	yu shui dou	1
+雨水口	yu shui kou	1
+雨水口支管	yu shui kou zhi guan	1
+雨水量	yu shui liang	1
+遇水燃烧物品	yu shui ran shao wu pin	1
+预算	yu suan	1
+预算员	yu suan yuan	1
+余同	yu tong	1
+预压法	yu ya fa	1
+预压时间	yu ya shi jian	1
+预应力	yu ying li	1
+预应力钢筋	yu ying li gang jin	1
+预应力混凝土	yu ying li hun ning tu	1
+预应力混凝土桥	yu ying li hun ning tu qiao	1
+预应力锚杆	yu ying li mao gan	1
+预应力锚索	yu ying li mao suo	1
+预制	yu zhi	1
+预制方桩	yu zhi fang zhuang	1
+预制混凝土	yu zhi hun ning tu	1
+预制桩	yu zhi zhuang	1
+圆曲线	yuan qu xian	1
+原水引水管渠保护	yuan shui yin shui guan qu bao hu	1
+原位标注	yuan wei biao zhu	1
+原位测试	yuan wei ce shi	1
+原污泥	yuan wu ni	1
+圆形截面	yuan xing jie mian	1
+越岭线	yue ling xian	1
+月平均日交通量	yue ping jun ri jiao tong liang	1
+约束边缘构件	yue shu bian yuan gou jian	1
+跃水井	yue shui jing	1
+运材道路	yun cai dao lu	1
+运输设备	yun shu she bei	1
+运行速度	yun xing su du	1
+匝道	za dao	1
+杂填土	za tian tu	1
+载荷试验	zai he shi yan	1
+再生	zai sheng	1
+再生剂耗量	zai sheng ji hao liang	1
+再生剂计量	zai sheng ji ji liang	1
+再生剂量	zai sheng ji liang	1
+再生沥青混合料	zai sheng li qing hun he liao	1
+再生沥青路面	zai sheng li qing lu mian	1
+再生液置换	zai sheng ye zhi huan	1
+再生周期	zai sheng zhou qi	1
+早强剂	zao qiang ji	1
+凿岩机	zao yan ji	1
+粘层	zhan ceng	1
+展线	zhan xian	1
+粘质粉土	zhan zhi fen tu	1
+粘质土	zhan zhi tu	1
+胀缝	zhang feng	1
+张拉	zhang la	1
+张拉千斤顶	zhang la qian jin ding	1
+张拉设备	zhang la she bei	1
+张拉预应力钢筋千斤顶	zhang la yu ying li gang jin qian jin ding	1
+招标	zhao biao	1
+招标单位	zhao biao dan wei	1
+罩面	zhao mian	1
+找平	zhao ping	1
+找平层	zhao ping ceng	1
+找坡	zhao po	1
+招投标	zhao tou biao	1
+折倒剖	zhe dao pou	1
+折倒剖面	zhe dao pou mian	1
+遮光栅	zhe guang shan	1
+折减	zhe jian	1
+折减系数	zhe jian xi shu	1
+折梁	zhe liang	1
+振捣	zhen dao	1
+振捣棒	zhen dao bang	1
+振动粘度系数	zhen dong nian du xi shu	1
+振动压路机	zhen dong ya lu ji	1
+真缝	zhen feng	1
+真空脱水工艺	zhen kong tuo shui gong yi	1
+针入度	zhen ru du	1
+振型	zhen xing	1
+征地	zheng di	1
+征地拆迁	zheng di chai qian	1
+蒸发池	zheng fa chi	1
+蒸发损失	zheng fa sun shi	1
+正交桥	zheng jiao qiao	1
+正截面	zheng jie mian	1
+整平层	zheng ping ceng	1
+正桥	zheng qiao	1
+整体稳定	zheng ti wen ding	1
+支撑式桥台	zhi cheng shi qiao tai	1
+制动墩	zhi dong dun	1
+肢高肢厚比	zhi gao zhi hou bi	1
+直接冷却水	zhi jie leng que shui	1
+质量第一	zhi liang di yi	1
+质量控制	zhi liang kong zhi	1
+质量密度	zhi liang mi du	1
+直流冷却水	zhi liu leng que shui	1
+直流冷却水系统	zhi liu leng que shui xi tong	1
+直流水系统	zhi liu shui xi tong	1
+支路	zhi lu	1
+致密状	zhi mi zhuang	1
+支模	zhi mo	1
+知情权	zhi qing quan	1
+纸上定线	zhi shang ding xian	1
+肢数	zhi shu	1
+滞水	zhi shui	1
+制图	zhi tu	1
+支线公路	zhi xian gong lu	1
+职业危害	zhi ye wei hai	1
+枝状管网	zhi zhuang guan wang	1
+支座	zhi zuo	1
+中部筋	zhong bu jin	1
+中承式桥	zhong cheng shi qiao	1
+中粗砂	zhong cu sha	1
+重大安全生产事故	zhong da an quan sheng chan shi gu	1
+重大飞行事故罪	zhong da fei xing shi gu zui	1
+重大危险源	zhong da wei xian yuan	1
+重大危险源辨识	zhong da wei xian yuan bian shi	1
+重大责任事故罪	zhong da ze ren shi gu zui	1
+重分配	zhong fen pei	1
+中国公共安全	zhong guo gong gong an quan	1
+中国灾害防御协会	zhong guo zai hai fang yu xie hui	1
+中和轴	zhong he zhou	1
+中华人民共和国安全生产法	zhong hua ren min gong he guo an quan sheng chan fa	1
+中华人民共和国电力法	zhong hua ren min gong he guo dian li fa	1
+中华人民共和国劳动法	zhong hua ren min gong he guo lao dong fa	1
+中华人民共和国民用爆炸物品安全管理条例	zhong hua ren min gong he guo min yong bao zha wu pin an quan guan li tiao li	1
+中华人民共和国职业病防治法	zhong hua ren min gong he guo zhi ye bing fang zhi fa	1
+中级路面	zhong ji lu mian	1
+中间车道	zhong jian che dao	1
+中间支座	zhong jian zhi zuo	1
+中介机构	zhong jie ji gou	1
+重力二阶效应	zhong li er jie xiao ying	1
+重力流	zhong li liu	1
+重力密度	zhong li mi du	1
+重力式挡土墙	zhong li shi dang tu qiang	1
+重力式墩	zhong li shi dun	1
+重力式台	zhong li shi tai	1
+重丘区	zhong qiu qu	1
+中砂	zhong sha	1
+中温消化	zhong wen xiao hua	1
+中线测量	zhong xian ce liang	1
+中心岛	zhong xin dao	1
+重型圆锥动力触探	zhong xing yuan zhui dong li chu tan	1
+中修	zhong xiu	1
+中央分隔带护栏	zhong yang fen ge dai hu lan	1
+中液限土	zhong ye xian tu	1
+重于泰山	zhong yu tai shan	1
+种植屋面	zhong zhi wu mian	1
+中柱	zhong zhu	1
+中桩	zhong zhuang	1
+中桩填挖高度	zhong zhuang tian wa gao du	1
+轴侧	zhou ce	1
+轴力	zhou li	1
+周期比	zhou qi bi	1
+周期换向	zhou qi huan xiang	1
+轴网	zhou wang	1
+周锡元	zhou xi yuan	1
+轴线	zhou xian	1
+轴向力	zhou xiang li	1
+轴压	zhou ya	1
+轴压比	zhou ya bi	1
+轴载谱	zhou zai pu	1
+柱表	zhu biao	1
+注册监理工程师	zhu ce jian li gong cheng shi	1
+注册建造师	zhu ce jian zao shi	1
+注册建筑师	zhu ce jian zhu shi	1
+注册结构工程师	zhu ce jie gou gong cheng shi	1
+注册造价师	zhu ce zao jia shi	1
+注册章	zhu ce zhang	1
+主持人	zhu chi ren	1
+柱底	zhu di	1
+柱顶	zhu ding	1
+主动土压力	zhu dong tu ya li	1
+柱墩	zhu dun	1
+主干路	zhu gan lu	1
+柱脚	zhu jiao	1
+柱截面	zhu jie mian	1
+主筋	zhu jin	1
+柱距	zhu ju	1
+柱宽	zhu kuan	1
+主梁	zhu liang	1
+柱帽	zhu mao	1
+助凝剂	zhu ning ji	1
+主桥	zhu qiao	1
+柱式桥墩	zhu shi qiao dun	1
+主通气立管	zhu tong qi li guan	1
+柱肢	zhu zhi	1
+柱状图	zhu zhuang tu	1
+转点	zhuan dian	1
+转换层	zhuan huan ceng	1
+转换梁	zhuan huan liang	1
+转角	zhuan jiao	1
+转角柱	zhuan jiao zhu	1
+转体	zhuan ti	1
+转体施工	zhuan ti shi gong	1
+专用车道	zhuan yong che dao	1
+专用通气立管	zhuan yong tong qi li guan	1
+专职安全生产管理人员	zhuan zhi an quan sheng chan guan li ren yuan	1
+桩板式挡土墙	zhuang ban shi dang tu qiang	1
+桩长	zhuang chang	1
+桩基	zhuang ji	1
+桩基础	zhuang ji chu	1
+桩径	zhuang jing	1
+桩径比	zhuang jing bi	1
+装配式钢桥	zhuang pei shi gang qiao	1
+装配整体式	zhuang pei zheng ti shi	1
+桩身	zhuang shen	1
+锥坡	zhui po	1
+锥形块石	zhui xing kuai shi	1
+准永久	zhun yong jiu	1
+准永久值	zhun yong jiu zhi	1
+准永久组合	zhun yong jiu zu he	1
+自拌混凝土	zi ban hun ning tu	1
+子筏板	zi fa ban	1
+自灌充水	zi guan chong shui	1
+自然沉淀	zi ran chen dian	1
+自然通风冷却塔	zi ran tong feng leng que ta	1
+自燃物品	zi ran wu pin	1
+自然循环	zi ran xun huan	1
+自然灾害	zi ran zai hai	1
+自我保护	zi wo bao hu	1
+自行车道	zi xing che dao	1
+自用水量	zi yong shui liang	1
+自由车速	zi you che su	1
+自由式道路系统	zi you shi dao lu xi tong	1
+自振周期	zi zhen zhou qi	1
+总变化系数	zong bian hua xi shu	1
+纵断面设计	zong duan mian she ji	1
+纵断面图	zong duan mian tu	1
+纵缝	zong feng	1
+综合法测图	zong he fa ce tu	1
+综合管道	zong he guan dao	1
+综合管廊	zong he guan lang	1
+纵筋	zong jin	1
+纵梁	zong liang	1
+纵面线形	zong mian xian xing	1
+纵坡	zong po	1
+纵坡折减	zong po zhe jian	1
+纵向拖拉法	zong xiang tuo la fa	1
+走廊	zou lang	1
+阻车堤	zu che di	1
+阻垢	zu gou	1
+阻垢剂	zu gou ji	1
+组合梁	zu he liang	1
+组合值	zu he zhi	1
+组合值系数	zu he zhi xi shu	1
+钻孔灌注桩	zuan kong guan zhu zhuang	1
+钻孔机	zuan kong ji	1
+钻探	zuan tan	1
+最不利季节	zui bu li ji jie	1
+最大干密度	zui da gan mi du	1
+最大粒径	zui da li jing	1
+最大水灰比	zui da shui hui bi	1
+最大纵坡	zui da zong po	1
+最高日供水量	zui gao ri gong shui liang	1
+最佳含水量	zui jia han shui liang	1
+最佳级配	zui jia ji pei	1
+最小服务水头	zui xiao fu wu shui tou	1
+最小配筋率	zui xiao pei jin lv	1
+最小平曲线半径	zui xiao ping qu xian ban jing	1
+最小填挖高度	zui xiao tian wa gao du	1
+最小纵坡	zui xiao zong po	1
+作用标准值	zuo yong biao zhun zhi	1
+作用长期效应组合	zuo yong chang qi xiao ying zu he	1
+作用短期效应组合	zuo yong duan qi xiao ying zu he	1
+作用频遇值	zuo yong pin yu zhi	1
+作用设计值	zuo yong she ji zhi	1
+作用效应	zuo yong xiao ying	1
+作用效应组合	zuo yong xiao ying zu he	1
+作用效应组合设计值	zuo yong xiao ying zu he she ji zhi	1

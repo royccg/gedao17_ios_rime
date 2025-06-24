@@ -1,0 +1,66 @@
+IMG1:
+  rect:
+    x: 0
+    y: 160
+    width: 130
+    height: 130
+IMG2:
+  rect:
+    x: 320
+    y: 160
+    width: 130
+    height: 130
+IMG3:
+  rect:
+    x: 0
+    y: 0
+    width: 130
+    height: 130
+IMG4:
+  rect:
+    x: 160
+    y: 0
+    width: 130
+    height: 130
+IMG5:
+  rect:
+    x: 320
+    y: 0
+    width: 130
+    height: 130
+IMG6:
+  rect:
+    x: 480
+    y: 0
+    width: 130
+    height: 130
+IMG7:
+  rect:
+    x: 640
+    y: 0
+    width: 130
+    height: 130
+IMG8:
+  rect:
+    x: 800
+    y: 0
+    width: 130
+    height: 130
+IMG9:
+  rect:
+    x: 960
+    y: 0
+    width: 130
+    height: 130
+IMG10:
+  rect:
+    x: 640
+    y: 160
+    width: 130
+    height: 130
+IMG11:
+  rect:
+    x: 960
+    y: 160
+    width: 130
+    height: 130

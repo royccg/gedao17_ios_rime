@@ -1,0 +1,54 @@
+IMG1:
+  rect:
+    x: 0
+    y: 0
+    width: 88
+    height: 88
+IMG2:
+  rect:
+    x: 130
+    y: 0
+    width: 88
+    height: 88
+IMG3:
+  rect:
+    x: 260
+    y: 0
+    width: 88
+    height: 88
+IMG4:
+  rect:
+    x: 390
+    y: 0
+    width: 88
+    height: 88
+IMG5:
+  rect:
+    x: 520
+    y: 0
+    width: 88
+    height: 88
+IMG6:
+  rect:
+    x: 910
+    y: 0
+    width: 40
+    height: 65
+IMG7:
+  rect:
+    x: 910
+    y: 65
+    width: 40
+    height: 65
+IMG8:
+  rect:
+    x: 650
+    y: 0
+    width: 88
+    height: 88
+IMG9:
+  rect:
+    x: 780
+    y: 0
+    width: 88
+    height: 88

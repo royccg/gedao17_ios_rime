@@ -1,0 +1,470 @@
+keyboardHeight: 160
+
+keyboard:
+  style: keyboardStyle
+  subviews:
+    - HStack:
+        style: HStackStyle1
+        subviews:
+          - Cell: categoryCollection
+          - Cell: descriptionCollection
+    - HStack:
+        style: HStackStyle2
+        subviews:
+          - Cell: returnButton
+          - Cell: pageUpButton
+          - Cell: pageDownButton
+          - Cell: lockButton
+          - Cell: backspaceButton
+
+keyboardStyle:
+  # 键盘内距
+  insets: { top: 3, bottom: 3, left: 4, right: 4 }
+  backgroundStyle: keyboardBackgroundStyle
+
+keyboardBackgroundStyle:
+  normalImage:
+    file: bj
+    image: IMG2
+
+# width 与 height 有多种表示方式
+# 1. 浮点数，用于表示精确的高度或宽度，如 `height: 162`，`height: 57.8`，`width: 162`，`width: 57.8` 等;
+#    注意：不要使用小数表示百分比，如 0.1，0.2 等等，这样会导致解析为浮点数，而不是百分比，应该使用字符串类型的分数表示，即第二条。
+# 2. 字符串类型，并且使用数学中的分数表示，意思是总高度或总宽度的百分比，如：`height: 1/2`，`height: 1/3`，`height: 1/4`，`width: 1/2`，`width: 1/3`，`width: 1/4` 等;
+# 3. `available` 表示剩余的高度或宽度，此时高度或宽度会按剩余的高度或宽度在同级别的 `available` 中平均分配;
+# 4. `percentage` 表示总高度或宽度的百分比，与使用字符串类型的分数表示的效果相同，唯一区别是可以使用小数表示；
+# 5. 空，即不设置宽度或高度，此时默认为 `available`，效果与 `width: available` 或 `height: available` 相同。
+
+# 宽度与高度表示方式, 以下使用 width 为例，height 同理
+# width: 162
+# width: 1/5
+# width: available
+# width:
+#   percentage: 1
+#   percentage: 0.1
+#   percentage: 1/7
+HStackStyle1:
+  size:
+    height: 227/281
+HStackStyle2:
+  size:
+    height: 54/281
+
+categoryCollection:
+  size:
+    width: 60/375
+  backgroundStyle: listBackgroundStyle
+  type: classifiedSymbols
+  dataSource: category
+  cellStyle: collectionCellStyle
+
+# listBackgroundStyle:
+#   normalImage:
+#     file: anjian
+#     image: IMG7
+#   highlightImage:
+#
+
+listBackgroundStyle:
+  normalImage:
+    file: anjian
+    image: IMG6
+
+collectionCellStyle:
+  backgroundStyle: collectionCellBackgroundStyle
+  foregroundStyle: collectionCellForegroundStyle
+
+collectionCellBackgroundStyle:
+  highlightImage:
+    file: anjian
+    image: IMG13
+
+collectionCellForegroundStyle:
+  textColor: 575757
+  fontSize: 18
+  fontWeight: 0
+
+descriptionCollection:
+  size:
+    width: 315/375
+  backgroundStyle: descriptionCollectionBackgroundStyle
+  type: subClassifiedSymbols
+  cellStyle: collectionCellStyle
+
+descriptionCollectionBackgroundStyle:
+  normalImage:
+    file: anjian
+    image: IMG6
+
+returnButton:
+  size:
+    width: 60/375
+  backgroundStyle: systemButtonBackgroundStyle
+  foregroundStyle:
+    - returnButtonForegroundStyle
+  backgroundAnimation: animation
+  action: { keyboardType: chinese }
+
+systemButtonBackgroundStyle:
+  normalImage:
+    file: anjian
+    image: IMG7
+  highlightImage:
+    file: anjian
+    image: IMG8
+
+returnButtonForegroundStyle:
+  normalImage:
+    file: letter
+    image: IMG73
+  highlightImage:
+    file: letter
+    image: IMG73
+  targetScale: 0.7
+
+pageUpButton:
+  size:
+    width: 85/375
+  backgroundStyle: systemButtonBackgroundStyle
+  foregroundStyle: pageUpButtonForegroundStyle
+  backgroundAnimation: animation
+  action: pageUp
+
+pageUpButtonForegroundStyle:
+  normalImage:
+    file: sym
+    image: IMG2
+  highlightImage:
+    file: sym2
+    image: IMG2
+  targetScale: 0.6
+
+pageDownButton:
+  size:
+    width: 85/375
+  backgroundStyle: systemButtonBackgroundStyle
+  foregroundStyle: pageDownButtonForegroundStyle
+  backgroundAnimation: animation
+  action: pageDown
+
+pageDownButtonForegroundStyle:
+  normalImage:
+    file: sym
+    image: IMG3
+  highlightImage:
+    file: sym2
+    image: IMG3
+  targetScale: 0.6
+
+lockButton:
+  size:
+    width: 85/375
+  backgroundStyle: systemButtonBackgroundStyle
+  foregroundStyle: |-
+    // JavaScript
+    function getText() {
+      return $getSymbolicKeyboardLockState() ? "lockButtonForegroundStyle" : "unlockButtonForegroundStyle";
+    }
+  backgroundAnimation: animation
+  action: symbolicKeyboardLockStateToggle
+
+lockButtonForegroundStyle:
+  normalImage:
+    file: sym
+    image: IMG9
+  highlightImage:
+    file: sym2
+    image: IMG9
+  targetScale: 0.6
+
+unlockButtonForegroundStyle:
+  normalImage:
+    file: sym
+    image: IMG8
+  highlightImage:
+    file: sym2
+    image: IMG8
+  targetScale: 0.6
+
+backspaceButton:
+  size:
+    width: 60/375
+  backgroundStyle: systemButtonBackgroundStyle
+  foregroundStyle:
+    - backspaceButtonForegroundStyle
+  backgroundAnimation: animation
+  action: backspace
+  repeatAction: backspace
+
+backspaceButtonForegroundStyle:
+  normalImage:
+    file: more
+    image: IMG2
+  highlightImage:
+    file: more2
+    image: IMG2
+  targetScale: 0.7
+
+# 字母按键背景动画
+animation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 40 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.87
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.87
+    toScale: 1
+
+dataSource:
+  category:
+    - 常用
+    - 中文
+    - 英文
+    - 表情
+  常用:
+    - "，"
+    - "。"
+    - "？"
+    - "！"
+    - "、"
+    - "."
+    - "……"
+    - "："
+    - ">"
+    - "@"
+  中文:
+    - "《》"
+    - "‘’"
+    - "〈〉"
+    - "·"
+    - "-"
+    - "ˉ"
+    - "ˇ"
+    - "¨"
+    - "々"
+    - "‖"
+    - "∶"
+    - "＂"
+    - "＇"
+    - "｀"
+    - "｜"
+    - "〃"
+    - "〔〕"
+    - "「」"
+    - "『』"
+    - "．"
+    - "〖〗"
+    - "【】"
+    - "［］"
+    - "｛｝"
+    - "："
+    - "；"
+    - "（）"
+    - "——"
+    - "“”"
+    - "……"
+    - "～"
+    - "、"
+    - "？"
+    - "！"
+    - "，"
+    - "。"
+    - "㊊"
+    - "㊋"
+    - "㊌"
+    - "㊍"
+    - "㊎"
+    - "㊏"
+    - "㊐"
+    - "㊑"
+    - "㊒"
+    - "㊓"
+    - "㊔"
+    - "㊕"
+    - "㊖"
+    - "㊗"
+    - "㊘"
+    - "㊙"
+    - "㊚"
+    - "㊛"
+    - "㊜"
+    - "㊝"
+    - "㊞"
+    - "㊟"
+    - "㊠"
+    - "㊡"
+    - "㊢"
+    - "㊤"
+    - "㊥"
+    - "㊦"
+    - "㊧"
+    - "㊨"
+    - "㊩"
+    - "㊪"
+    - "㊫"
+    - "㊬"
+    - "㊭"
+    - "㊮"
+    - "㊯"
+    - "㊰"
+  英文:
+    - ","
+    - "."
+    - "?"
+    - "!"
+    - ":"
+    - "/"
+    - "@"
+    - "."
+    - "."
+    - "."
+    - '"'
+    - ";"
+    - "'"
+    - "~"
+    - "()"
+    - "<>"
+    - "()"
+    - "[]"
+    - "{}"
+    - "<>"
+    - "*"
+    - "&"
+    - "["
+    - "]"
+    - '"'
+    - "`"
+    - "#"
+    - "%"
+    - "^"
+    - "_"
+    - "+"
+    - "-"
+    - "="
+    - "{"
+    - "}"
+    - "|"
+    - "¥"
+    - "£"
+    - "€"
+    - "﹉"
+    - "–"
+    - "."
+    - "."
+    - "´"
+    - "＂"
+    - "＇"
+    - "¢"
+    - "฿"
+    - "Ａ"
+    - "Ｂ"
+    - "Ｃ"
+    - "Ｄ"
+    - "Ｅ"
+    - "Ｆ"
+    - "Ｇ"
+    - "Ｈ"
+    - "Ｉ"
+    - "Ｊ"
+    - "Ｋ"
+    - "Ｌ"
+    - "Ｍ"
+    - "Ｎ"
+    - "Ｏ"
+    - "Ｐ"
+    - "Ｑ"
+    - "Ｒ"
+    - "Ｓ"
+    - "Ｔ"
+    - "Ｕ"
+    - "Ｖ"
+    - "Ｗ"
+    - "Ｘ"
+    - "Ｙ"
+    - "Ｚ"
+    - "ａ"
+    - "ｂ"
+    - "ｃ"
+    - "ｄ"
+    - "ｅ"
+    - "ｆ"
+    - "ｇ"
+    - "ｈ"
+    - "ｉ"
+    - "ｊ"
+    - "ｋ"
+    - "ｌ"
+    - "ｍ"
+    - "ｎ"
+    - "ｏ"
+    - "ｐ"
+    - "ｑ"
+    - "ｒ"
+    - "ｓ"
+    - "ｔ"
+    - "ｕ"
+    - "ｖ"
+    - "ｗ"
+    - "ｘ"
+    - "ｙ"
+    - "ｚ"
+  表情:
+    - :-D
+    - :-)
+    - :-(
+    - :-P
+    - :-O
+    - ;-)
+    - (⌒▽⌒)
+    - (｡◕‿◕｡)
+    - (◕‿◕✿)
+    - (◠‿◠)
+    - (✿◠‿◠)
+    - (>‿◠)✌
+    - (∩_∩)
+    - (｡♥‿♥｡)
+    - (●'◡'●)
+    - ಥ‿ಥ
+    - (✖╭╮✖)
+    - (╥_╥)
+    - (╯°□°)╯
+    - (╯°□°)╯︵
+    - ┬─┬ノ( º
+    - (；一_一)
+    - (--;)
+    - (￣▽￣*)ゞ
+    - (＾▽＾)
+    - (⊙ω⊙)
+    - (°ー°〃)
+    - (｡•́︿•̀｡
+    - (´･･)
+    - (｀_´)ゞ
+    - (・∀・)
+    - (￣ω￣)
+    - (｀・ω・´)
+    - (´･ω･)
+    - o(≧▽≦)o
+    - ヽ(✿ﾟ▽ﾟ)ノ
+    - (=^･ω･^=)
+    - (◕ᴗ◕✿)
+    - (｡♥‿♥｡)
+    - (っ˘ω˘ς)
+    - ╮(╯▽╰)╭
+    - ╮(╯_╰)╭
+    - (ㆆᴗㆆ)
+    - (๑•́ ₃ •
+    - (´･･`)
+    - ᕙ(⇀‸↼‶)ᕗ
+    - (｡◕‿◕｡)
+    - (●ˇ∀ˇ●)
+    - (<<)
+    - (>_>)
+    - (∪ ω ∪)
+    - (￣(oo)￣)ﾉ
+    - (○｀（●●）´○)ﾉ
+    - ＼（＾∀＾）メ（＾∀＾）ノ

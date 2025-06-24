@@ -1,0 +1,865 @@
+rimeSchema: rime_ice
+
+未展开候选字体选中字体大小: &f1 19
+未展开comment字体大小: &f2 14
+展开候选字体选中字体大小: &f3 19
+展开comment字体大小: &f4 13
+
+preedit区字体大小: &preedit_fontsize 16
+
+候选字体选中字体颜色: &cand_select_color BFD9CB
+候选字体未选中字体颜色: &cand_unselect_color F2F2F2
+
+toolbar按键颜色: &toolbar_button_color b6b7b9
+
+toolbar前景偏移量: &toolbar_button_offset
+  center:
+    x: 0.5
+    y: 0.55
+
+按键前景缩放: &button_fore_scale 0.47
+# 按键大写前景缩放: &button_upper_fore_scale 0.6
+
+preeditHeight: 22
+toolbarHeight: 40
+keyboardHeight: 226
+
+preedit:
+  insets: { left: 8, top: 2 }
+  backgroundStyle: preeditBackgroundStyle
+  foregroundStyle: preeditForegroundStyle
+
+preeditBackgroundStyle:
+  normalImage:
+    file: bj
+    image: IMG3
+
+preeditForegroundStyle:
+  textColor: *cand_unselect_color
+  fontSize: *preedit_fontsize
+  fontWeight: 0
+
+toolbar:
+  backgroundStyle: toolbarBackgroundStyle
+  primaryButtonStyle: primaryButtonStyle
+  secondaryButtonStyle:
+    - toolbarButton1Style
+    - toolbarButton2Style
+    - toolbarButton3Style
+    - toolbarButton4Style
+    - toolbarButton5Style
+    - toolbarButton6Style
+    - toolbarButton7Style
+  horizontalCandidateStyle: horizontalCandidateStyle
+  verticalCandidateStyle: verticalCandidateStyle
+
+toolbarBackgroundStyle:
+  normalImage:
+    file: bj
+    image: IMG1
+
+primaryButtonStyle:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: primaryButtonFgStyle
+  action: { floatKeyboardType: panel }
+
+
+toolbarButton1Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton1FgStyle
+  action: dismissKeyboard
+
+toolbarButton2Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton2FgStyle
+  action: { shortcutCommand: "#showPasteboardView" } #常用语
+
+toolbarButton3Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("ascii_mode") ? "toolbarButton3FgStyle_English" : "toolbarButton3FgStyle_Chinese";
+    }
+  action: { shortcutCommand: "#中英切换" } #中英
+
+
+toolbarButton4Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton4FgStyle
+  action: { runTranslateScript: "有道翻译" } #脚本
+  
+toolbarButton5Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("ascii_punct") ? "toolbarButton5FgStyle_Y" : "toolbarButton5FgStyle_Z";
+    }
+  action: { sendKeys: Control+period } #中英标点
+
+toolbarButton6Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton6FgStyle
+  action: { floatKeyboardType: floatswitch } #浮动数字键盘
+
+toolbarButton7Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton7FgStyle
+  action: { floatKeyboardType: floatsearch } #emoji键盘
+
+#工具栏样式>>>>>>>>>>
+
+#工具栏按键背景样式
+toolbarButtonBgStyle:
+  normalColor: 00000000
+  highlightColor: 00000000
+
+#工具栏主按钮样式
+primaryButtonFgStyle:
+  systemImageName: "gear"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+  
+#工具栏按钮1-7样式
+toolbarButton1FgStyle:
+  systemImageName: "chevron.down.circle"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton2FgStyle:
+  systemImageName: "scissors.circle"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton3FgStyle_Chinese:
+    assetImageName: "chineseState"
+    normalColor: BA4438
+    highlightColor: BA4438
+    fontSize: 16
+
+toolbarButton3FgStyle_English:
+    assetImageName: "englishState"
+    normalColor: BA4438
+    highlightColor: BA4438
+    fontSize: 16
+
+toolbarButton4FgStyle:
+  systemImageName: "shoeprints.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton5FgStyle_Z:
+  systemImageName: "microbe.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+
+toolbarButton5FgStyle_Y:
+  systemImageName: "moon.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+
+toolbarButton6FgStyle:
+  systemImageName: "hand.thumbsup.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton7FgStyle:
+  systemImageName: "magnifyingglass.circle"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+#工具栏样式<<<<<<<<<<
+
+horizontalCandidateStyle:
+  insets: { top: 5, left: 5 }
+  candidateStateButtonStyle: candidateStateButtonStyle
+  highlightBackgroundColor: 00000000
+  preferredBackgroundColor: ffffff00
+  preferredIndexColor: *cand_select_color
+  preferredTextColor: *cand_select_color
+  preferredCommentColor: *cand_select_color
+  indexColor: *cand_unselect_color
+  textColor: *cand_unselect_color
+  commentColor: *cand_unselect_color
+  indexFontSize: *f1
+  indexFontWeight: 0
+  textFontSize: *f1
+  textFontWeight: 0
+  commentFontSize: *f2
+  commentFontWeight: 0
+
+candidateStateButtonStyle:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle: candidateStateButtonForegroundStyle
+
+# 有候选时，展开候选的按键 前景
+candidateStateButtonForegroundStyle:
+  normalImage:
+    file: cand
+    image: IMG3
+  highlightImage:
+    file: cand2
+    image: IMG3
+  targetScale: 1.2
+
+# 展开候选页样式
+verticalCandidateStyle:
+  insets: { top: 3, bottom: 3, left: 4, right: 4 }
+  bottomRowHeight: 50
+  # 背景
+  backgroundStyle: verticalCandidateBackgroundStyle
+  # 候选项
+  candidateStyle: verticalCandidateOfCandidateStyle
+  # 上一页按键
+  pageUpButtonStyle: verticalCandidatePageUpButtonStyle
+  # 下一页按键
+  pageDownButtonStyle: verticalCandidatePageDownButtonStyle
+  # 返回
+  returnButtonStyle: verticalCandidateReturnButtonStyle
+  # 退格
+  backspaceButtonStyle: verticalCandidateBackspaceButtonStyle
+
+verticalCandidateBackgroundStyle:
+  normalImage:
+    file: anjian
+    image: IMG13
+
+verticalCandidateOfCandidateStyle:
+  insets: { top: 8, bottom: 8, left: 8, right: 8 }
+  cornerRadius: 15
+  backgroundColor: 00000000
+  separatorColor: 00000000
+  highlightBackgroundColor: 00000000
+  preferredBackgroundColor: ffffff00
+  preferredIndexColor: *cand_select_color
+  preferredTextColor: *cand_select_color
+  preferredCommentColor: *cand_select_color
+  indexColor: *cand_unselect_color
+  textColor: *cand_unselect_color
+  commentColor: *cand_unselect_color
+  indexFontSize: *f3
+  indexFontWeight: 0
+  textFontSize: *f3
+  textFontWeight: 0
+  commentFontSize: *f4
+  commentFontWeight: 0
+
+# 展开候选上一页按键样式 前景+背景
+verticalCandidatePageUpButtonStyle:
+  backgroundStyle: systemButtonBackgroundStyle # 用systembutton
+  foregroundStyle: verticalCandidatePageUpButtonForegroundStyle
+
+# 展开候选下一页按键样式 前景+背景
+verticalCandidatePageDownButtonStyle:
+  backgroundStyle: systemButtonBackgroundStyle
+  foregroundStyle: verticalCandidatePageDownButtonForegroundStyle
+
+# 展开候选页背景（不用）
+verticalCandidateButtonBackgroundStyle:
+  normalImage:
+    file: anjian123
+    image: IMG16
+  highlightImage:
+    file: anjian123ax
+    image: IMG16
+
+# 展开候选上一页按键前景
+verticalCandidatePageUpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG2
+  highlightImage:
+    file: sym2
+    image: IMG2
+  targetScale: 0.6
+
+# 展开候选下一页按键前景
+verticalCandidatePageDownButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG3
+  highlightImage:
+    file: sym2
+    image: IMG3
+  targetScale: 0.6
+
+# 展开候选返回按键样式
+verticalCandidateReturnButtonStyle:
+  backgroundStyle: verticalCandidateReturnButtongroundStyle
+  foregroundStyle: verticalCandidateReturnButtonForegroundStyle
+
+# 展开候选返回按键背景
+verticalCandidateReturnButtongroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG15
+  highlightImage:
+    file: anjian9ax
+    image: IMG15
+
+# # 展开候选返回按键前景
+verticalCandidateReturnButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG73
+  highlightImage:
+    file: letter2
+    image: IMG73
+  targetScale: 0.6
+
+# # 展开候选退格按键样式 前景+背景
+verticalCandidateBackspaceButtonStyle:
+  backgroundStyle: verticalCandidateBackspaceButtonBackgroundStyle
+  foregroundStyle: backspaceButtonForegroundStyle # 用键盘上的退格的前景
+
+# 展开候选退格按键背景样式
+verticalCandidateBackspaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian
+    image: IMG9
+  highlightImage:
+    file: anjian
+    image: IMG10
+
+# 展开候选退格按键前景样式
+verticalCandidateBackspaceButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG10
+  highlightImage:
+    file: sym2
+    image: IMG10
+  targetScale: 0.6
+
+# 按键音
+keySounds:
+  - inputKeySound: "sounds/aj.aiff"
+  - deleteKeySound: "sounds/aj.aiff"
+  - systemKeySound: "sounds/aj.aiff"
+
+keyboard:
+  style: keyboardStyle
+  subviews:
+    - VStack:
+        style: VStackStyle1
+        subviews:
+          - Cell: collection
+          - Cell: symbolButton
+    - VStack:
+        style: VStackStyle2
+        subviews:
+          - Cell: number1Button
+          - Cell: number4Button
+          - Cell: number7Button
+          - Cell: returnButton
+    - VStack:
+        style: VStackStyle2
+        subviews:
+          - Cell: number2Button
+          - Cell: number5Button
+          - Cell: number8Button
+          - Cell: number0Button
+    - VStack:
+        style: VStackStyle2
+        subviews:
+          - Cell: number3Button
+          - Cell: number6Button
+          - Cell: number9Button
+          - Cell: spaceButton
+    - VStack:
+        style: VStackStyle1
+        subviews:
+          - Cell: backspaceButton
+          - Cell: periodButton
+          - Cell: atButton
+          - Cell: enterButton
+
+keyboardStyle:
+  # 键盘内距
+  insets: { top: 3, bottom: 3, left: 4, right: 4 }
+  backgroundStyle: keyboardBackgroundStyle
+
+keyboardBackgroundStyle:
+  normalImage:
+    file: bj
+    image: IMG2
+
+VStackStyle1:
+  size:
+    width: 29/183
+VStackStyle2:
+  size:
+    width: 125/549
+
+collection:
+  size:
+    height: 3/4
+  backgroundStyle: collectionBackgroundStyle
+  type: symbols
+  dataSource: symbols
+  cellStyle: collectionCellStyle
+
+collectionBackgroundStyle:
+  normalImage:
+    file: anjian123
+    image: IMG1
+
+listBackgroundStyle:
+  normalImage:
+    file: anjian26
+    image: IMG15
+
+collectionCellStyle:
+  backgroundStyle: collectionCellBackgroundStyle
+  foregroundStyle: collectionCellForegroundStyle
+
+collectionCellBackgroundStyle:
+  highlightImage:
+    file: anjian26
+    image: IMG13
+
+collectionCellForegroundStyle:
+  textColor: *cand_unselect_color
+  fontSize: 18
+  fontWeight: 0
+
+returnButton:
+  size:
+    height: 1/4
+  backgroundStyle: returnButtonBackgroundStyle
+  foregroundStyle:
+    - returnButtonForegroundStyle
+  action: returnPrimaryKeyboard
+
+returnButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG16
+  highlightImage:
+    file: anjian123ax
+    image: IMG16
+
+returnButtonForegroundStyle:
+  normalImage:
+    file: letter
+    image: IMG73
+  highlightImage:
+    file: letter2
+    image: IMG73
+  targetScale: 0.5
+
+number1Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number1ButtonForegroundStyle
+  action: { symbol: 1 }
+
+number1ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG62
+  highlightImage:
+    file: letter2
+    image: IMG62
+  targetScale: *button_fore_scale
+
+number4Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number4ButtonForegroundStyle
+  action: { symbol: 4 }
+
+number4ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG65
+  highlightImage:
+    file: letter2
+    image: IMG65
+  targetScale: *button_fore_scale
+
+number7Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number7ButtonForegroundStyle
+  action: { symbol: 7 }
+
+number7ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG68
+  highlightImage:
+    file: letter2
+    image: IMG68
+  targetScale: *button_fore_scale
+
+symbolButton:
+  size:
+    height: 1/4
+  backgroundStyle: symbolButtonBackgroundStyle
+  foregroundStyle:
+    - symbolButtonForegroundStyle
+  action: { floatKeyboardType: symbolic }
+
+symbolButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG13
+  highlightImage:
+    file: anjian9ax
+    image: IMG13
+
+symbolButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG3
+  highlightImage:
+    file: more2
+    image: IMG3
+  targetScale: 0.5
+
+number2Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number2ButtonForegroundStyle
+  action: { symbol: 2 }
+
+number2ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG63
+  highlightImage:
+    file: letter2
+    image: IMG63
+  targetScale: *button_fore_scale
+
+number5Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number5ButtonForegroundStyle
+  action: { symbol: 5 }
+
+number5ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG66
+  highlightImage:
+    file: letter2
+    image: IMG66
+  targetScale: *button_fore_scale
+
+number8Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number8ButtonForegroundStyle
+  action: { symbol: 8 }
+
+number8ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG69
+  highlightImage:
+    file: letter2
+    image: IMG69
+  targetScale: *button_fore_scale
+
+number0Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number0ButtonForegroundStyle
+  action: { symbol: 0 }
+
+number0ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG71
+  highlightImage:
+    file: letter2
+    image: IMG71
+  targetScale: *button_fore_scale
+
+number3Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number3ButtonForegroundStyle
+  action: { symbol: 3 }
+
+number3ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG64
+  highlightImage:
+    file: letter2
+    image: IMG64
+  targetScale: *button_fore_scale
+
+number6Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number6ButtonForegroundStyle
+  action: { symbol: 6 }
+
+number6ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG67
+  highlightImage:
+    file: letter2
+    image: IMG67
+  targetScale: *button_fore_scale
+
+number9Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number9ButtonForegroundStyle
+  action: { symbol: 9 }
+
+number9ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG70
+  highlightImage:
+    file: letter2
+    image: IMG70
+  targetScale: *button_fore_scale
+
+spaceButton:
+  size:
+    height: 1/4
+  backgroundStyle: spaceButtonBackgroundStyle
+  foregroundStyle: spaceButtonForegroundStyle
+  action: space
+
+spaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG17
+  highlightImage:
+    file: anjian123ax
+    image: IMG17
+
+spaceButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG74
+  highlightImage:
+    file: letter2
+    image: IMG74
+  targetScale: 0.6
+
+backspaceButton:
+  size:
+    height: 1/4
+  backgroundStyle: backspaceButtonBackgroundStyle
+  foregroundStyle:
+    - backspaceButtonForegroundStyle
+    # - backspaceButtonForegroundStyle2
+  action: backspace
+  repeatAction: backspace
+  swipeUpAction: { shortcutCommand: "#重输" }
+
+backspaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG12
+  highlightImage:
+    file: anjian123ax
+    image: IMG12
+
+backspaceButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG2
+  highlightImage:
+    file: more2
+    image: IMG2
+  targetScale: 0.7
+
+periodButton:
+  size:
+    height: 1/4
+  backgroundStyle: periodButtonBackgroundStyle
+  foregroundStyle: periodButtonForegroundStyle
+  action: { symbol: "." }
+
+periodButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG13
+  highlightImage:
+    file: anjian123ax
+    image: IMG13
+
+periodButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG72
+  highlightImage:
+    file: letter2
+    image: IMG72
+  targetScale: 0.7
+
+atButton:
+  size:
+    height: 1/4
+  backgroundStyle: atButtonBackgroundStyle
+  foregroundStyle: atButtonForegroundStyle
+  action: { character: "@" }
+
+atButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG14
+  highlightImage:
+    file: anjian123ax
+    image: IMG14
+
+atButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  text: "@"
+  normalColor: *cand_unselect_color
+  highlightColor: *cand_unselect_color
+  fontSize: 18
+  fontWeight: 0
+  offset:
+    x: 0
+    y: 18
+
+enterButton:
+  size:
+    height: 1/4
+  backgroundStyle: enterButtonBackgroundStyle
+  foregroundStyle:
+    - enterButtonForegroundStyle
+  action: enter
+
+enterButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG18
+  highlightImage:
+    file: anjian123ax
+    image: IMG18
+
+enterButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG25
+  highlightImage:
+    file: more2
+    image: IMG25
+  targetScale: 0.7
+
+numberButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG3
+  highlightImage:
+    file: anjian9ax
+    image: IMG3
+
+systemButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG17
+  highlightImage:
+    file: anjian123ax
+    image: IMG17
+
+# 字母按键背景动画
+alphabeticBackgroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 60 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.87
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.87
+    toScale: 1
+
+# 按键前景动画
+ButtonForegroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 60 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.82
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.82
+    toScale: 1
+
+dataSource:
+  symbols:
+    - "="
+    - "+"
+    - "*"
+    - "-"
+    - "/"
+    - "()"
+    - "."
+    - "@"
+    - ","
+    - "#"
+    - ":"
+    - "_"
+    - "?"
+    - "￥"

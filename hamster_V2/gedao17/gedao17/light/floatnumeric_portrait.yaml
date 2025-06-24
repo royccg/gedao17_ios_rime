@@ -1,0 +1,354 @@
+
+按键前景缩放: &button_fore_scale 0.47
+候选字体选中字体颜色: &cand_select_color BFD9CB
+候选字体未选中字体颜色: &cand_unselect_color F2F2F2
+
+keyboard:
+  style: keyboardStyle
+  subviews:
+    - VStack:
+        style: VStackStyle1
+        subviews:
+          - Cell: collection
+    - VStack:
+        subviews:
+          - Cell: number1Button
+          - Cell: number4Button
+          - Cell: number7Button
+          - Cell: periodButton
+    - VStack:
+        subviews:
+          - Cell: number2Button
+          - Cell: number5Button
+          - Cell: number8Button
+          - Cell: number0Button
+    - VStack:
+        subviews:
+          - Cell: number3Button
+          - Cell: number6Button
+          - Cell: number9Button
+          - Cell: backspaceButton
+
+floatTargetScale: 0.7
+
+keyboardStyle:
+  backgroundStyle: keyboardBackgroundStyle
+
+keyboardBackgroundStyle:
+  type: original
+  normalColor: 74787a80
+  cornerRadius: 15
+
+VStackStyle1: 
+  size:
+    width: 1/5
+
+collection:
+  size:
+    height: 3/4
+  backgroundStyle: collectionBackgroundStyle
+  type: symbols
+  dataSource: symbols
+  cellStyle: collectionCellStyle
+
+collectionBackgroundStyle:
+  normalImage:
+    file: anjian123
+    image: IMG1
+
+listBackgroundStyle:
+  normalImage:
+    file: anjian26
+    image: IMG15
+
+collectionCellStyle:
+  backgroundStyle: collectionCellBackgroundStyle
+  foregroundStyle: collectionCellForegroundStyle
+
+collectionCellBackgroundStyle:
+  highlightImage:
+    file: anjian26
+    image: IMG13
+
+collectionCellForegroundStyle:
+  textColor: *cand_unselect_color
+  fontSize: 18
+  fontWeight: 0
+
+number1Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number1ButtonForegroundStyle
+  action: { symbol: "1" }
+
+number1ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG62
+  highlightImage:
+    file: letter2
+    image: IMG62
+  targetScale: *button_fore_scale
+
+number4Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number4ButtonForegroundStyle
+  action: { symbol: "4" }
+
+number4ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG65
+  highlightImage:
+    file: letter2
+    image: IMG65
+  targetScale: *button_fore_scale
+
+number7Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number7ButtonForegroundStyle
+  action: { symbol: "7" }
+
+number7ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG68
+  highlightImage:
+    file: letter2
+    image: IMG68
+  targetScale: *button_fore_scale
+
+number2Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number2ButtonForegroundStyle
+  action: { symbol: "2" }
+
+number2ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG63
+  highlightImage:
+    file: letter2
+    image: IMG63
+  targetScale: *button_fore_scale
+  
+number5Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number5ButtonForegroundStyle
+  action: { symbol: "5" }
+
+number5ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG66
+  highlightImage:
+    file: letter2
+    image: IMG66
+  targetScale: *button_fore_scale
+
+number8Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number8ButtonForegroundStyle
+  action: { symbol: "8" }
+
+number8ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG69
+  highlightImage:
+    file: letter2
+    image: IMG69
+  targetScale: *button_fore_scale
+
+number3Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number3ButtonForegroundStyle
+  action: { symbol: "3" }
+
+number3ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG64
+  highlightImage:
+    file: letter2
+    image: IMG64
+  targetScale: *button_fore_scale
+
+
+number6Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number6ButtonForegroundStyle
+  action: { symbol: "6" }
+
+number6ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG67
+  highlightImage:
+    file: letter2
+    image: IMG67
+  targetScale: *button_fore_scale
+  
+number9Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number9ButtonForegroundStyle
+  action: { symbol: "9" }
+
+number9ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG70
+  highlightImage:
+    file: letter2
+    image: IMG70
+  targetScale: *button_fore_scale
+
+periodButton:
+  size:
+    height: 1/4
+  backgroundStyle: periodButtonBackgroundStyle
+  foregroundStyle: periodButtonForegroundStyle
+  action: { symbol: . }
+
+periodButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG13
+  highlightImage:
+    file: anjian123ax
+    image: IMG13
+    
+periodButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG72
+  highlightImage:
+    file: letter2
+    image: IMG72
+  targetScale: 0.7
+
+number0Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number0ButtonForegroundStyle
+  action: { symbol: "0" }
+
+number0ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG71
+  highlightImage:
+    file: letter2
+    image: IMG71
+  targetScale: *button_fore_scale
+
+backspaceButton:
+  size:
+    height: 1/4
+  backgroundStyle: backspaceButtonBackgroundStyle
+  foregroundStyle:
+    - backspaceButtonForegroundStyle
+  action: backspace
+  repeatAction: backspace
+  swipeLeftAction: { shortcutCommand: "#重输" }
+
+backspaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG12
+  highlightImage:
+    file: anjian123ax
+    image: IMG12
+
+backspaceButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG2
+  highlightImage:
+    file: more2
+    image: IMG2
+  targetScale: 0.7
+
+# 字母按键背景样式
+numberButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG3
+  highlightImage:
+    file: anjian9ax
+    image: IMG3
+
+
+# 字母按键背景动画
+alphabeticBackgroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 60 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.87
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.87
+    toScale: 1
+
+# 按键前景动画
+ButtonForegroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 60 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.82
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.82
+    toScale: 1
+
+dataSource:
+  symbols:
+  - "+"
+  - "-"
+  - "*"
+  - "/"
+  - "("
+  - ")"
+  - "^"
+  - "="

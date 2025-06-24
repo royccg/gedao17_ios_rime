@@ -1,0 +1,1154 @@
+rimeSchema: rime_ice
+
+
+未展开候选字体选中字体大小: &f1 16
+未展开comment字体大小: &f2 12
+展开候选字体选中字体大小: &f3 16
+展开comment字体大小: &f4 12
+
+preedit区字体大小: &preedit_fontsize 16
+列表字体大小: &list_fontsize 12
+
+候选字体选中字体颜色: &cand_select_color BFD9CB
+候选字体未选中字体颜色: &cand_unselect_color F2F2F2
+
+toolbar按键颜色: &toolbar_button_color b6b7b9
+
+toolbar前景偏移量: &toolbar_button_offset
+  offset:
+    x: 0
+    y: 3
+
+按键前景缩放: &button_fore_scale 0.47
+# 按键大写前景缩放: &button_upper_fore_scale 0.6
+
+preeditHeight: 14
+
+toolbarHeight: 30
+
+keyboardHeight: 35vh
+  
+preedit:
+  insets: { left: 8, top: 2 }
+  backgroundStyle: preeditBackgroundStyle
+  foregroundStyle: preeditForegroundStyle
+
+preeditBackgroundStyle:
+  normalImage:
+    file: bj
+    image: IMG3
+
+preeditForegroundStyle:
+  textColor: *cand_unselect_color
+  fontSize: *preedit_fontsize
+  fontWeight: 0
+
+toolbar:
+  backgroundStyle: toolbarBackgroundStyle
+  primaryButtonStyle: primaryButtonStyle
+  secondaryButtonStyle:
+    - toolbarButton1Style
+    - toolbarButton2Style
+    - toolbarButton3Style
+    - toolbarButton4Style
+    - toolbarButton5Style
+    - toolbarButton6Style
+    - toolbarButton7Style
+  horizontalCandidateStyle: horizontalCandidateStyle
+  verticalCandidateStyle: verticalCandidateStyle
+
+toolbarBackgroundStyle:
+  normalImage:
+    file: bj
+    image: IMG1
+
+primaryButtonStyle:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: primaryButtonFgStyle
+  action: { floatKeyboardType: panel }
+
+
+toolbarButton1Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton1FgStyle
+  action: dismissKeyboard
+
+toolbarButton2Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton2FgStyle
+  action: { shortcutCommand: "#showPasteboardView" } #常用语
+
+toolbarButton3Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("ascii_mode") ? "toolbarButton3FgStyle_English" : "toolbarButton3FgStyle_Chinese";
+    }
+  action: { shortcutCommand: "#中英切换" } #中英
+
+
+toolbarButton4Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton4FgStyle
+  action: { runTranslateScript: "有道翻译" } #脚本
+  
+toolbarButton5Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("ascii_punct") ? "toolbarButton5FgStyle_Y" : "toolbarButton5FgStyle_Z";
+    }
+  action: { sendKeys: Control+period } #中英标点
+
+toolbarButton6Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton6FgStyle
+  action: { floatKeyboardType: floatswitch } #浮动数字键盘
+
+toolbarButton7Style:
+  backgroundStyle: toolbarButtonBgStyle
+  foregroundStyle: toolbarButton7FgStyle
+  action: { floatKeyboardType: floatsearch } #emoji键盘
+
+#工具栏样式>>>>>>>>>>
+
+#工具栏按键背景样式
+toolbarButtonBgStyle:
+  normalColor: 00000000
+  highlightColor: 00000000
+
+#工具栏主按钮样式
+primaryButtonFgStyle:
+  systemImageName: "gear"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+  
+#工具栏按钮1-7样式
+toolbarButton1FgStyle:
+  systemImageName: "chevron.down.circle"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton2FgStyle:
+  systemImageName: "scissors.circle"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton3FgStyle_Chinese:
+    assetImageName: "chineseState"
+    normalColor: BA4438
+    highlightColor: BA4438
+    fontSize: 16
+
+toolbarButton3FgStyle_English:
+    assetImageName: "englishState"
+    normalColor: BA4438
+    highlightColor: BA4438
+    fontSize: 16
+
+toolbarButton4FgStyle:
+  systemImageName: "shoeprints.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton5FgStyle_Z:
+  systemImageName: "microbe.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+
+toolbarButton5FgStyle_Y:
+  systemImageName: "moon.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+
+toolbarButton6FgStyle:
+  systemImageName: "hand.thumbsup.fill"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+toolbarButton7FgStyle:
+  systemImageName: "magnifyingglass.circle"
+  normalColor: BA4438
+  highlightColor: BA4438
+  fontSize: 16
+
+#工具栏样式<<<<<<<<<<
+
+horizontalCandidateStyle:
+  insets: { top: 5, left: 5}
+  candidateStateButtonStyle: candidateStateButtonStyle
+  highlightBackgroundColor: 00000000
+  preferredBackgroundColor: ffffff00
+  preferredIndexColor: *cand_select_color
+  preferredTextColor: *cand_select_color
+  preferredCommentColor: *cand_select_color
+  indexColor: *cand_unselect_color
+  textColor: *cand_unselect_color
+  commentColor: *cand_unselect_color
+  indexFontSize: *f1
+  indexFontWeight: 0
+  textFontSize: *f1
+  textFontWeight: 0
+  commentFontSize: *f2
+  commentFontWeight: 0
+
+candidateStateButtonStyle:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle: candidateStateButtonForegroundStyle
+
+# 有候选时，展开候选的按键 前景
+candidateStateButtonForegroundStyle:
+  normalImage:
+    file: cand
+    image: IMG3
+  highlightImage:
+    file: cand2
+    image: IMG3
+  targetScale: 1.2
+
+# 展开候选页样式
+verticalCandidateStyle:
+  insets: { top: 3, bottom: 3, left: 4, right: 4 }
+  bottomRowHeight: 50
+  # 背景
+  backgroundStyle: verticalCandidateBackgroundStyle
+  # 候选项
+  candidateStyle: verticalCandidateOfCandidateStyle
+  # 上一页按键
+  pageUpButtonStyle: verticalCandidatePageUpButtonStyle
+  # 下一页按键
+  pageDownButtonStyle: verticalCandidatePageDownButtonStyle
+  # 返回
+  returnButtonStyle: verticalCandidateReturnButtonStyle
+  # 退格
+  backspaceButtonStyle: verticalCandidateBackspaceButtonStyle
+
+verticalCandidateBackgroundStyle:
+  normalImage:
+    file: anjian
+    image: IMG13
+
+verticalCandidateOfCandidateStyle:
+  insets: { top: 8, bottom: 8, left: 8, right: 8 }
+  cornerRadius: 15
+  backgroundColor: 00000000
+  separatorColor: 00000000
+  highlightBackgroundColor: 00000000
+  preferredBackgroundColor: ffffff00
+  preferredIndexColor: *cand_select_color
+  preferredTextColor: *cand_select_color
+  preferredCommentColor: *cand_select_color
+  indexColor: *cand_unselect_color
+  textColor: *cand_unselect_color
+  commentColor: *cand_unselect_color
+  indexFontSize: *f3
+  indexFontWeight: 0
+  textFontSize: *f3
+  textFontWeight: 0
+  commentFontSize: *f4
+  commentFontWeight: 0
+
+# 展开候选上一页按键样式 前景+背景
+verticalCandidatePageUpButtonStyle:
+  backgroundStyle: systemButtonBackgroundStyle # 用systembutton
+  foregroundStyle: verticalCandidatePageUpButtonForegroundStyle
+
+# 展开候选下一页按键样式 前景+背景
+verticalCandidatePageDownButtonStyle:
+  backgroundStyle: systemButtonBackgroundStyle
+  foregroundStyle: verticalCandidatePageDownButtonForegroundStyle
+
+# 展开候选页背景（不用）
+verticalCandidateButtonBackgroundStyle:
+  normalImage:
+    file: anjian123
+    image: IMG16
+  highlightImage:
+    file: anjian123ax
+    image: IMG16
+
+# 展开候选上一页按键前景
+verticalCandidatePageUpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG2
+  highlightImage:
+    file: sym2
+    image: IMG2
+  targetScale: 0.6
+
+# 展开候选下一页按键前景
+verticalCandidatePageDownButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG3
+  highlightImage:
+    file: sym2
+    image: IMG3
+  targetScale: 0.6
+
+# 展开候选返回按键样式
+verticalCandidateReturnButtonStyle:
+  backgroundStyle: verticalCandidateReturnButtongroundStyle
+  foregroundStyle: verticalCandidateReturnButtonForegroundStyle
+
+# 展开候选返回按键背景
+verticalCandidateReturnButtongroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG15
+  highlightImage:
+    file: anjian9ax
+    image: IMG15
+
+# # 展开候选返回按键前景
+verticalCandidateReturnButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG73
+  highlightImage:
+    file: letter2
+    image: IMG73
+  targetScale: 0.6
+
+# # 展开候选退格按键样式 前景+背景
+verticalCandidateBackspaceButtonStyle:
+  backgroundStyle: verticalCandidateBackspaceButtonBackgroundStyle
+  foregroundStyle: backspaceButtonForegroundStyle # 用键盘上的退格的前景
+
+# 展开候选退格按键背景样式
+verticalCandidateBackspaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian
+    image: IMG9
+  highlightImage:
+    file: anjian
+    image: IMG10
+
+# 展开候选退格按键前景样式
+verticalCandidateBackspaceButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG10
+  highlightImage:
+    file: sym2
+    image: IMG10
+  targetScale: 0.6
+
+# 键盘
+keyboard:
+  style: keyboardStyle
+  subviews:
+    - VStack:
+        style: columnStyle1
+        subviews:
+          - VStack:
+              style: VStackStyle1
+              subviews:
+                - Cell: collection
+                - Cell: symbolButton
+          - VStack:
+              style: VStackStyle2
+              subviews:
+                - Cell: number1Button
+                - Cell: number4Button
+                - Cell: number7Button
+                - Cell: returnButton      
+          - VStack:
+              style: VStackStyle2
+              subviews:
+                - Cell: number2Button
+                - Cell: number5Button
+                - Cell: number8Button
+                - Cell: number0Button
+          - VStack:
+              style: VStackStyle2
+              subviews:
+                - Cell: number3Button
+                - Cell: number6Button
+                - Cell: number9Button
+                - Cell: spaceButton
+          - VStack:
+              style: VStackStyle1
+              subviews:
+                - Cell: backspaceButton
+                - Cell: periodButton
+                - Cell: atButton
+                - Cell: enterButton
+    - VStack:
+        style: columnStyle2
+    - VStack:
+        style: columnStyle3
+        subviews:
+          - HStack:
+              style: HStackStyle1
+              subviews:
+                - Cell: categoryCollection
+                - Cell: descriptionCollection
+          - HStack:
+              style: HStackStyle2
+              subviews:
+                - Cell: returnButton
+                - Cell: pageUpButton
+                - Cell: pageDownButton
+                - Cell: lockButton
+                - Cell: backspaceButton
+
+keyboardStyle:
+  insets: { top: 3, bottom: 3, left: 4, right: 4 }
+  backgroundStyle: keyboardBackgroundStyle
+
+keyboardBackgroundStyle:
+  normalImage:
+    file: bj
+    image: IMG2
+
+columnStyle1:
+  size:
+    width: 9/20
+
+columnStyle2:
+  size:
+    width: 2/20
+
+columnStyle3:
+  size:
+    width: 9/20
+HStackStyle1:
+  size:
+    height: 227/281
+HStackStyle2:
+  size:
+    height: 54/281
+
+VStackStyle1:
+  size:
+    width: 29/183
+VStackStyle2:
+  size:
+    width: 125/549
+
+collection:
+  size:
+    height: 3/4
+  backgroundStyle: collectionBackgroundStyle
+  type: symbols
+  dataSource: symbols
+  cellStyle: collectionCellStyle
+  
+collectionBackgroundStyle:
+  normalImage:
+    file: anjian123
+    image: IMG1
+
+collectionCellStyle:
+  backgroundStyle: collectionCellBackgroundStyle
+  foregroundStyle: collectionCellForegroundStyle
+
+collectionCellBackgroundStyle:
+  highlightImage:
+    file: anjian26
+    image: IMG13
+
+collectionCellForegroundStyle:
+  textColor: *cand_unselect_color
+  fontSize: 18
+  fontWeight: 0
+
+returnButton:
+  size:
+    height: 1/4
+  backgroundStyle: returnButtonBackgroundStyle
+  foregroundStyle:
+    - returnButtonForegroundStyle
+  action: { keyboardType: chinese }
+  
+returnButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG16
+  highlightImage:
+    file: anjian123ax
+    image: IMG16
+
+returnButtonForegroundStyle:
+  normalImage:
+    file: letter
+    image: IMG73
+  highlightImage:
+    file: letter2
+    image: IMG73
+  targetScale: 0.5
+
+number1Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number1ButtonForegroundStyle
+  action: { character: 1 }
+
+number1ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG62
+  highlightImage:
+    file: letter2
+    image: IMG62
+  targetScale: *button_fore_scale
+
+number4Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number4ButtonForegroundStyle
+  action: { character: 4 }
+
+number4ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG65
+  highlightImage:
+    file: letter2
+    image: IMG65
+  targetScale: *button_fore_scale
+
+number7Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number7ButtonForegroundStyle
+  action: { character: 7 }
+
+number7ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG68
+  highlightImage:
+    file: letter2
+    image: IMG68
+  targetScale: *button_fore_scale
+
+symbolButton:
+  size:
+    height: 1/4
+  backgroundStyle: symbolButtonBackgroundStyle
+  foregroundStyle:
+    - symbolButtonForegroundStyle
+  # action: { keyboardType: symbolic }
+  
+symbolButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG13
+  highlightImage:
+    file: anjian9ax
+    image: IMG13
+
+symbolButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG3
+  highlightImage:
+    file: more2
+    image: IMG3
+  targetScale: 0.5
+
+number2Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number2ButtonForegroundStyle
+  action: { character: 2 }
+
+number2ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG63
+  highlightImage:
+    file: letter2
+    image: IMG63
+  targetScale: *button_fore_scale
+
+number5Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number5ButtonForegroundStyle
+  action: { character: 5 }
+
+number5ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG66
+  highlightImage:
+    file: letter2
+    image: IMG66
+  targetScale: *button_fore_scale
+
+number8Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number8ButtonForegroundStyle
+  action: { character: 8 }
+
+number8ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG69
+  highlightImage:
+    file: letter2
+    image: IMG69
+  targetScale: *button_fore_scale
+
+number0Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number0ButtonForegroundStyle
+  action: { character: 0 }
+
+number0ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG71
+  highlightImage:
+    file: letter2
+    image: IMG71
+  targetScale: *button_fore_scale
+
+number3Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number3ButtonForegroundStyle
+  action: { character: 3 }
+
+number3ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG64
+  highlightImage:
+    file: letter2
+    image: IMG64
+  targetScale: *button_fore_scale
+
+number6Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number6ButtonForegroundStyle
+  action: { character: 6 }
+
+number6ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG67
+  highlightImage:
+    file: letter2
+    image: IMG67
+  targetScale: *button_fore_scale
+
+number9Button:
+  size:
+    height: 1/4
+  backgroundStyle: numberButtonBackgroundStyle
+  foregroundStyle: number9ButtonForegroundStyle
+  action: { character: 9 }
+
+number9ButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG70
+  highlightImage:
+    file: letter2
+    image: IMG70
+  targetScale: *button_fore_scale
+
+spaceButton:
+  size:
+    height: 1/4
+  backgroundStyle: spaceButtonBackgroundStyle
+  foregroundStyle: spaceButtonForegroundStyle
+  action: space
+
+spaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG17
+  highlightImage:
+    file: anjian123ax
+    image: IMG17
+
+spaceButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG20
+  highlightImage:
+    file: more2
+    image: IMG20
+  targetScale: 0.6
+
+backspaceButton:
+  size:
+    height: 1/4
+  backgroundStyle: backspaceButtonBackgroundStyle
+  foregroundStyle:
+    - backspaceButtonForegroundStyle
+    # - backspaceButtonForegroundStyle2
+  action: backspace
+  repeatAction: backspace
+
+backspaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG12
+  highlightImage:
+    file: anjian123ax
+    image: IMG12
+
+backspaceButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG2
+  highlightImage:
+    file: more2
+    image: IMG2
+  targetScale: 0.7
+
+
+periodButton:
+  size:
+    height: 1/4
+  backgroundStyle: periodButtonBackgroundStyle
+  foregroundStyle: periodButtonForegroundStyle
+  action: { symbol: "." }
+
+periodButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG13
+  highlightImage:
+    file: anjian123ax
+    image: IMG13
+
+periodButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG72
+  highlightImage:
+    file: letter2
+    image: IMG72
+  targetScale: 0.7
+
+atButton:
+  size:
+    height: 1/4
+  backgroundStyle: atButtonBackgroundStyle
+  foregroundStyle: atButtonForegroundStyle
+  action: { character: "@" }
+
+atButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG14
+  highlightImage:
+    file: anjian123ax
+    image: IMG14
+
+atButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  text: "@"
+  normalColor: *cand_unselect_color
+  highlightColor: *cand_unselect_color
+  fontSize: 16
+  center:
+    y: 0.7
+
+enterButton:
+  size:
+    height: 1/4
+  backgroundStyle: enterButtonBackgroundStyle
+  foregroundStyle:
+    - enterButtonForegroundStyle
+  action: enter
+
+enterButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG18
+  highlightImage:
+    file: anjian123ax
+    image: IMG18
+
+enterButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG25
+  highlightImage:
+    file: more2
+    image: IMG25
+  targetScale: 0.7
+
+numberButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG3
+  highlightImage:
+    file: anjian9ax
+    image: IMG3
+
+systemButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG17
+  highlightImage:
+    file: anjian123ax
+    image: IMG17
+
+# 字母按键背景动画
+alphabeticBackgroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 60 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.87
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.87
+    toScale: 1
+
+# 按键前景动画
+ButtonForegroundAnimation:
+  # type: 动画类型
+  # - bounds: 尺寸大小变化动画
+  - type: bounds
+    duration: 60 # 动画时长，单位毫秒
+    repeatCount: 1
+    fromScale: 1
+    toScale: 0.82
+  - type: bounds
+    duration: 80
+    repeatCount: 1
+    fromScale: 0.82
+    toScale: 1
+
+
+categoryCollection:
+  size:
+    width: 56/375
+  backgroundStyle: listBackgroundStyle
+  type: classifiedSymbols
+  dataSource: category
+  cellStyle: symbolcollectionCellStyle
+
+listBackgroundStyle:
+  normalImage:
+    file: anjian26
+    image: IMG27
+
+symbolcollectionCellStyle:
+  backgroundStyle: symbolcollectionCellBackgroundStyle
+  foregroundStyle: symbolcollectionCellForegroundStyle
+
+symbolcollectionCellBackgroundStyle:
+  highlightImage:
+    file: anjian26
+    image: IMG13
+
+symbolcollectionCellForegroundStyle:
+  normalColor: *cand_unselect_color
+  highlightColor: *cand_select_color
+  fontSize: *list_fontsize
+  fontWeight: 0
+
+descriptionCollection:
+  size:
+    width: 319/375
+  backgroundStyle: descriptionCollectionBackgroundStyle
+  type: subClassifiedSymbols
+  cellStyle: symbolcollectionCellStyle
+
+descriptionCollectionBackgroundStyle:
+  normalImage:
+    file: anjian26
+    image: IMG32
+
+symbolreturnButton:
+  size:
+    width: 56/375
+  backgroundStyle: symbolreturnButtonBackgroundStyle
+  foregroundStyle:
+    - symbolreturnButtonForegroundStyle
+  action: { keyboardType: chinese }
+
+symbolreturnButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian26
+    image: IMG29
+  highlightImage:
+    file: anjian26ax
+    image: IMG29
+
+symbolreturnButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: letter
+    image: IMG73
+  highlightImage:
+    file: letter2
+    image: IMG73
+  targetScale: 0.7
+
+pageUpButton:
+  size:
+    width: 87/375
+  backgroundStyle: systemButtonBackgroundStyle
+  foregroundStyle: pageUpButtonForegroundStyle
+  action: pageUp
+
+pageUpButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG2
+  highlightImage:
+    file: sym2
+    image: IMG2
+  targetScale: 0.5
+
+pageDownButton:
+  size:
+    width: 87/375
+  backgroundStyle: systemButtonBackgroundStyle
+  foregroundStyle: pageDownButtonForegroundStyle
+  action: pageDown
+
+pageDownButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG3
+  highlightImage:
+    file: sym2
+    image: IMG3
+  targetScale: 0.5
+
+lockButton:
+  size:
+    width: 87/375
+  backgroundStyle: lockButtonBackgroundStyle
+  foregroundStyle: |-
+    // JavaScript
+    function getText() {
+      return $getSymbolicKeyboardLockState() ? "lockButtonForegroundStyle" : "unlockButtonForegroundStyle";
+    }
+  action: symbolicKeyboardLockStateToggle
+
+lockButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian123
+    image: IMG17
+  highlightImage:
+    file: anjian123ax
+    image: IMG17
+
+lockButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG9
+  highlightImage:
+    file: sym2
+    image: IMG9
+  targetScale: 0.5
+
+unlockButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: sym
+    image: IMG8
+  highlightImage:
+    file: sym2
+    image: IMG8
+  targetScale: 0.5
+
+symbolbackspaceButton:
+  size:
+    width: 60/375
+  backgroundStyle: backspaceButtonBackgroundStyle
+  foregroundStyle:
+    - backspaceButtonForegroundStyle
+  action: backspace
+  repeatAction: backspace
+
+symbolbackspaceButtonBackgroundStyle:
+  animation: alphabeticBackgroundAnimation
+  normalImage:
+    file: anjian9
+    image: IMG11
+  highlightImage:
+    file: anjian9ax
+    image: IMG11
+
+symbolbackspaceButtonForegroundStyle:
+  animation: ButtonForegroundAnimation
+  normalImage:
+    file: more
+    image: IMG2
+  highlightImage:
+    file: more2
+    image: IMG2
+  targetScale: 0.7
+
+
+dataSource:
+  symbols:
+    - "="
+    - "+"
+    - "*"
+    - "-"
+    - "/"
+    - "()"
+    - "."
+    - "@"
+    - ","
+    - "#"
+    - ":"
+    - "_"
+    - "?"
+    - "￥"
+  category: ["常用","中文","英文","数学","角标","序号","音标","平假","片假","箭头","特殊","拼音","注音","竖标","部首","俄文","希腊","拉丁","制表","土音","表情"]
+  常用:
+    - "，"
+    - "。"
+    - "？"
+    - "！"
+    - "、"
+    - "."
+    - "……"
+    - "："
+    - ">"
+    - "@"
+  中文: ["《》","‘’","〈〉","·","-","ˉ","ˇ","¨","々","‖","∶","＂","＇","｀","｜","〃","〔〕","「」","『』","．","〖〗","【】","［］","｛｝","：","；","（）","——","“”","……","～","、","？","！","，","。","㊊","㊋","㊌","㊍","㊎","㊏","㊐","㊑","㊒","㊓","㊔","㊕","㊖","㊗","㊘","㊙","㊚","㊛","㊜","㊝","㊞","㊟","㊠","㊡","㊢","㊤","㊥","㊦","㊧","㊨","㊩","㊪","㊫","㊬","㊭","㊮","㊯","㊰"]
+
+  英文: [",",".","?","!",":","/","@",".",".",".",'"',";","'","~","()","<>","()","[]","{}","<>","*","&","[","]",'"',"`","#","%","^","_","+","-","=","{","}","|","¥","£","€","﹉","–",".",".","´","＂","＇","¢","฿"]
+  表情:
+    - :-D
+    - :-)
+    - :-(
+    - :-P
+    - :-O
+    - ;-)
+    - (⌒▽⌒)
+    - (｡◕‿◕｡)
+    - (◕‿◕✿)
+    - (◠‿◠)
+    - (✿◠‿◠)
+    - (>‿◠)✌
+    - (∩_∩)
+    - (｡♥‿♥｡)
+    - (●'◡'●)
+    - ಥ‿ಥ
+    - (✖╭╮✖)
+    - (╥_╥)
+    - (╯°□°)╯
+    - (╯°□°)╯︵
+    - ┬─┬ノ( º
+    - (；一_一)
+    - (--;)
+    - (￣▽￣*)ゞ
+    - (＾▽＾)
+    - (⊙ω⊙)
+    - (°ー°〃)
+    - (｡•́︿•̀｡
+    - (´･･)
+    - (｀_´)ゞ
+    - (・∀・)
+    - (￣ω￣)
+    - (｀・ω・´)
+    - (´･ω･)
+    - o(≧▽≦)o
+    - ヽ(✿ﾟ▽ﾟ)ノ
+    - (=^･ω･^=)
+    - (◕ᴗ◕✿)
+    - (｡♥‿♥｡)
+    - (っ˘ω˘ς)
+    - ╮(╯▽╰)╭
+    - ╮(╯_╰)╭
+    - (ㆆᴗㆆ)
+    - (๑•́ ₃ •
+    - (´･･`)
+    - ᕙ(⇀‸↼‶)ᕗ
+    - (｡◕‿◕｡)
+    - (●ˇ∀ˇ●)
+    - (<<)
+    - (>_>)
+    - (∪ ω ∪)
+    - (￣(oo)￣)ﾉ
+    - (○｀（●●）´○)ﾉ
+    - ＼（＾∀＾）メ（＾∀＾）ノ
+  俄文: [ "а" , "б" , "в" , "г" , "д" , "е" , "ё" , "ж" , "з" , "и" , "й" , "к" , "л" , "м" , "н" , "о" , "п" , "р" , "с" , "т" , "у" , "ф" , "х" , "ц" , "ч" , "ш" , "щ" , "ъ" , "ы" , "ь" , "э" , "ю" , "я" , "А" , "Б" , "В" , "Г" , "Д" , "Е" , "Ё" , "Ж" , "З" , "И" , "Й" , "К" , "Л" , "М" , "Н" , "О" , "П" , "Р" , "С" , "Т" , "У" , "Ф" , "Х" , "Ц" , "Ч" , "Ш" , "Щ" , "Ъ" , "Ы" , "Ь" , "Э" , "Ю" , "Я" ]
+  制表: [ "┝" , "┞" , "┟" , "┠" , "┡" , "┢" , "═" , "╞" , "╟" , "╡" , "╢" , "╪" , "┭" , "┮" , "┯" , "┰" , "┱" , "┲" , "║" , "╤" , "╥" , "╧" , "╨" , "╫" , "┥" , "┦" , "┧" , "┨" , "┩" , "┪" , "┽" , "┾" , "┿" , "╀" , "╁" , "╂" , "┵" , "┶" , "┷" , "┸" , "┹" , "┺" , "╄" , "╅" , "╆" , "╇" , "╈" , "╉" , "┈" , "┉" , "┊" , "┋" , "╃" , "╊" , "┍" , "┑" , "┕" , "┙" , "┎" , "┒" , "┖" , "┚" , "╒" , "╕" , "╘" , "╛" , "╓" , "╖" , "╙" , "╜" , "┄" , "┅" , "┆" , "┇" , "┌" , "┬" , "┐" , "├" , "┼" , "┤" , "└" , "┴" , "┘" , "┏" , "┳" , "┓" , "┣" , "╋" , "┫" , "┗" , "┻" , "┛" , "╔" , "╦" , "╗" , "╠" , "╬" , "╣" , "╚" , "╩" , "╝" ]
+  土音: [ "ᐁ" , "ᐂ" , "ᐃ" , "ᐄ" , "ᐅ" , "ᐆ" , "ᐇ" , "ᐈ" , "ᐉ" , "ᐊ" , "ᐋ" , "ᐒ" , "ᐓ" , "ᐜ" , "ᐷ" , "ᐶ" , "ᐵ" , "ᐴ" , "ᐳ" , "ᑄ" , "ᑅ" , "ᑌ" , "ᑍ" , "ᑏ" , "ᑎ" , "ᑒ" , "ᑓ" , "ᑔ" , "ᑞ" , "ᑡ" , "ᑫ" , "ᑬ" , "ᑭ" , "ᑮ" , "ᑯ" , "ᑱ" , "ᑰ" , "ᑳ" , "ᑴ" , "ᑷ" , "ᒎ" , "ᒏ" , "ᒑ" , "ᒠ" , "ᒢ" , "ᒡ" , "ᒤ" , "ᒥ" , "ᒦ" , "ᓀ" , "ᓂ" , "ᓁ" , "ᓃ" , "ᓄ" , "ᓉ" , "ᓋ" , "ᓔ" , "ᓖ" , "ᓙ" , "ᓛ" , "ᓳ" , "ᓻ" , "ᓵ" , "ᓲ" , "ᓰ" , "ᔂ" , "ᓿ" , "ᓾ" , "ᗤ" , "ᗥ" , "ᗦ" , "ᘑ" , "ᘗ" , "ᘜ" , "ᘲ" , "ᙀ" , "ᙁ" ]
+  希腊: [ "Α" , "Β" , "Γ" , "Δ" , "Ε" , "Ζ" , "Η" , "Θ" , "Ι" , "Κ" , "Λ" , "Μ" , "Ν" , "Ξ" , "Ο" , "Π" , "Ρ" , "Σ" , "Τ" , "Υ" , "Φ" , "Χ" , "Ψ" , "Ω" , "α" , "β" , "γ" , "δ" , "ε" , "ζ" , "η" , "θ" , "ι" , "κ" , "λ" , "μ" , "ν" , "ξ" , "ο" , "π" , "ρ" , "σ" , "τ" , "υ" , "φ" , "χ" , "ψ" , "ω" ]
+  平假: [ "あ" , "い" , "う" , "え" , "お" , "ぁ" , "ぃ" , "ぅ" , "ぇ" , "ぉ" , "か" , "き" , "く" , "け" , "こ" , "が" , "ぎ" , "ぐ" , "げ" , "ご" , "さ" , "し" , "す" , "せ" , "そ" , "ざ" , "じ" , "ず" , "ぜ" , "ぞ" , "た" , "ち" , "つ" , "て" , "と" , "だ" , "ぢ" , "づ" , "で" , "ど" , "っ" , "な" , "に" , "ぬ" , "ね" , "の" , "は" , "ひ" , "ふ" , "へ" , "ほ" , "ば" , "び" , "ぶ" , "べ" , "ぼ" , "ぱ" , "ぴ" , "ぷ" , "ぺ" , "ぽ" , "ま" , "み" , "む" , "め" , "も" , "や" , "ゆ" , "よ" , "ゃ" , "ゅ" , "ょ" , "ら" , "り" , "る" , "れ" , "ろ" , "わ" , "を" , "ん" , "ゎ" ]
+  序号: [ "①" , "②" , "③" , "④" , "⑤" , "⑥" , "⑦" , "⑧" , "⑨" , "⑩" , "❶" , "❷" , "❸" , "❹" , "❺" , "❻" , "❼" , "❽" , "❾" , "❿" , "⓵" , "⓶" , "⓷" , "⓸" , "⓹" , "⓺" , "⓻" , "⓼" , "⓽" , "⓾" , "⒈" , "⒉" , "⒊" , "⒋" , "⒌" , "⒍" , "⒎" , "⒏" , "⒐" , "⒑" , "⑴" , "⑵" , "⑶" , "⑷" , "⑸" , "⑹" , "⑺" , "⑻" , "⑼" , "⑽" , "㈠" , "㈡" , "㈢" , "㈣" , "㈤" , "㈥" , "㈦" , "㈧" , "㈨" , "㈩" , "壹" , "贰" , "叁" , "肆" , "伍" , "陆" , "柒" , "捌" , "玖" , "拾" , "佰" , "仟" , "萬" , "億" , "ⅰ" , "ⅱ" , "ⅲ" , "ⅳ" , "ⅴ" , "ⅵ" , "ⅶ" , "ⅷ" , "ⅸ" , "ⅹ" , "Ⅰ" , "Ⅱ" , "Ⅲ" , "Ⅳ" , "Ⅴ" , "Ⅵ" , "Ⅶ" , "Ⅷ" , "Ⅸ" , "Ⅹ" , "Ⅺ" , "Ⅻ" ]
+  拉丁: [ "À" , "Á" , "Â" , "Ã" , "Ä" , "Å" , "Ā" , "Æ" , "Ç" , "È" , "É" , "Ê" , "Ë" , "Ē" , "Ì" , "Í" , "Î" , "Ï" , "Ī" , "Ð" , "Ñ" , "Ò" , "Ó" , "Ô" , "Õ" , "Ö" , "Ō" , "Ø" , "Œ" , "Ù" , "Ú" , "Û" , "Ü" , "Ū" , "Ý" , "Ÿ" , "Þ" , "Š" , "à" , "á" , "â" , "ã" , "ä" , "å" , "æ" , "ç" , "è" , "é" , "ê" , "ë" , "ē" , "ì" , "í" , "î" , "ǐ" , "ï" , "ī" , "ð" , "ñ" , "ò" , "ó" , "õ" , "ǒ" , "ô" , "ö" , "ō" , "ø" , "œ" , "ù" , "ú" , "ǔ" , "û" , "ü" , "ū" , "ý" , "þ" , "š" , "ÿ" ]
+  拼音: [ "ā" , "á" , "ǎ" , "à" , "ō" , "ó" , "ǒ" , "ò" , "ē" , "é" , "ě" , "è" , "ī" , "í" , "ǐ" , "ì" , "ū" , "ú" , "ǔ" , "ù" , "ǖ" , "ǘ" , "ǚ" , "ǜ" , "ü" ]
+  数学: [ "=" , "+" , "-" , "·" , "/" , "×" , "÷" , "^" , "＞" , "＜" , "≥" , "≤" , "≮" , "≯" , "≡" , "≠" , "≈" , "≒" , "±" , "√" , "³" , "√" , "π" , "%" , "‰" , "％" , "℅" , "½" , "⅓" , "⅔" , "¼" , "¾" , "∶" , "∵" , "∴" , "∷" , "㏒" , "㏑" , "∫" , "∬" , "∭" , "∮" , "∯" , "∰" , "∂" , "∑" , "∏" , "∈" , "∉" , "∅" , "⊂" , "⊃" , "⊆" , "⊇" , "⊄" , "⊅" , "⊊" , "⊈" , "⫋" , "⫌" , "∀" , "∃" , "∩" , "∪" , "∧" , "∨" , "⊙" , "⊕" , "∥" , "⊥" , "⌒" , "∟" , "∠" , "△" , "⊿" , "∝" , "∽" , "∞" , "≌" , "°" , "℃" , "℉" , "㎎" , "㎏" , "μ" , "m" , "㎜" , "㎝" , "㎞" , "㎡" , "m" , "³" , "㏄" , "㏕" ]
+  注音: [ "ㄅ" , "ㄆ" , "ㄇ" , "ㄈ" , "ㄉ" , "ㄊ" , "ㄋ" , "ㄌ" , "ㄍ" , "ㄎ" , "ㄏ" , "ㄐ" , "ㄑ" , "ㄒ" , "ㄓ" , "ㄔ" , "ㄕ" , "ㄖ" , "ㄗ" , "ㄘ" , "ㄙ" , "ㄧ" , "ㄨ" , "ㄩ" , "ㄚ" , "ㄛ" , "ㄜ" , "ㄝ" , "ㄞ" , "ㄟ" , "ㄠ" , "ㄡ" , "ㄢ" , "ㄣ" , "ㄤ" , "ㄥ" , "ㄦ" ]
+  片假: [ "ア" , "イ" , "ウ" , "エ" , "オ" , "ァ" , "ィ" , "ゥ" , "ェ" , "ォ" , "カ" , "キ" , "ク" , "ケ" , "コ" , "ガ" , "ギ" , "グ" , "ゲ" , "ゴ" , "サ" , "シ" , "ス" , "セ" , "ソ" , "ザ" , "ジ" , "ズ" , "ゼ" , "ゾ" , "タ" , "チ" , "ツ" , "テ" , "ト" , "ダ" , "ヂ" , "ヅ" , "デ" , "ド" , "ッ" , "ナ" , "ニ" , "ヌ" , "ネ" , "ノ" , "ハ" , "ヒ" , "フ" , "ヘ" , "ホ" , "バ" , "ビ" , "ブ" , "ベ" , "ボ" , "パ" , "ピ" , "プ" , "ペ" , "ポ" , "マ" , "ミ" , "ム" , "メ" , "モ" , "ヤ" , "ユ" , "ヨ" , "ャ" , "ュ" , "ョ" , "ラ" , "リ" , "ル" , "レ" , "ロ" , "ワ" , "ヲ" , "ン" , "ヮ" ]
+  特殊: [ "△" , "▽" , "○" , "◇" , "□" , "☆" , "▷" , "◁" , "♤" , "♡" , "♢" , "♧" , "▲" , "▼" , "●" , "◆" , "■" , "★" , "▶" , "◀" , "♠" , "♥" , "♦" , "♣" , "囍" , "☼" , "☽" , "☺" , "◐" , "☑" , "√" , "✔" , "㏂" , "☀" , "☾" , "♂" , "☹" , "◑" , "×" , "✕" , "✘" , "☚" , "☛" , "㏘" , "▪" , "•" , "‥" , "…" , "▁" , "▂" , "▃" , "▄" , "▅" , "▆" , "▇" , "█" , "∷" , "※" , "░" , "▒" , "▓" , "▏" , "▎" , "▍" , "▌" , "▋" , "▊" , "▉" , "♩" , "♪" , "♫" , "♬" , "§" , "〼" , "◎" , "¤" , "۞" , "℗" , "®" , "©" , "♭" , "♯" , "♮" , "‖" , "¶" , "卍" , "卐" , "▬" , "〓" , "℡" , "™" , "㏇" , "☌" , "☍" , "☋" , "☊" , "㉿" , "◮" , "◪" , "◔" , "◕" , "@" , "㈱" , "№" , "♈" , "♉" , "♊" , "♋" , "♌" , "♎" , "♏" , "♐" , "♑" , "♓" , "♒" , "♍" , "☰" , "☱" , "☲" , "☳" , "☯" , "☴" , "☵" , "☶" , "☷" , "*" , "＊" , "✲" , "❈" , "❉" , "✿" , "❀" , "❃" , "❁" , "☸" , "✖" , "✚" , "✪" , "❤" , "ღ" , "❦" , "❧" , "₪" , "✎" , "✍" , "📝" , "✌" , "☁" , "☂" , "☃" , "☄" , "♨" , "☇" , "☈" , "☡" , "➷" , "⊹" , "✉" , "☏" , "☢" , "☣" , "☠" , "☮" , "〄" , "➹" , "☩" , "ஐ" , "☎" , "✈" , "〠" , "۩" , "✙" , "✟" , "☤" , "☥" , "☦" , "☧" , "☨" , "☫" , "☬" , "♟" , "♙" , "♜" , "♖" , "♞" , "♘" , "♝" , "♗" , "♛" , "♕" , "♚" , "♔" , "✄" , "✁" , "✃" , "❥" , "✪" , "☒" , "❅" , "✣" , "✰" , "⚀" , "⚁" , "⚂" , "⚃" , "⚄" , "⚅" ]
+  竖标: [ "︐" , "︑" , "︒" , "︓" , "︔" , "︕" , "︖" , "︵" , "︶" , "︷" , "︸" , "︹" , "︺" , "︿" , "﹀" , "︽" , "︾" , "﹁" , "﹂" , "﹃" , "﹄" , "︻" , "︼" , "︗" , "︘" , "_" , "¯" , "＿" , "￣" , "﹏" , "﹋" , "﹍" , "﹉" , "﹎" , "﹊" , "¦" , "︴" , "¡" , "¿" , "^" , "ˇ" , "¨" , "ˊ" ]
+  箭头: [ "→" , "←" , "↑" , "↓" , "↖" , "↗" , "↙" , "↘" , "↔" , "↕" , "⇞" , "⇟" , "⇆" , "⇅" , "⇔" , "⇕" , "↰" , "↱" , "↲" , "↴" , "↶" , "↷" , "↺" , "↻" , "↜" , "↝" , "↞" , "↟" , "↠" , "↡" , "➺" , "➻" , "➼" , "➳" , "➽" , "➸" , "➹" , "➷" , "⇎" , "➠" , "↣" , "☞" , "☜" , "☟" , "⇦" , "⇧" , "⇨" , "⇩" , "⇪" , "➩" , "➪" , "➫" , "➬" , "➯" , "➱" , "➮" , "➭" , "➠" , "➡" , "➢" , "➣" , "➤" , "➥" , "➦" , "➧" , "➨" ]
+  角标: [ "º" , "⁰" , "¹" , "²" , "³" , "⁴" , "⁵" , "⁶" , "⁷" , "⁸" , "⁹" , "ⁱ" , "⁺" , "⁻" , "⁼" , "⁽" , "⁾" , "ˣ" , "ʸ" , "ⁿ" , "ᶻ" , "ˢ" , "₀" , "₁" , "₂" , "₃" , "₄" , "₅" , "₆" , "₇" , "₈" , "₉" , "₊" , "₋" , "₌" , "₍" , "₎" , "ₐ" , "ₑ" , "ₒ" , "ₓ" , "ᵧ" , "ₔ" , "ᴬ" , "ᴮ" , "ᶜ" , "ᴰ" , "ᴱ" , "ᶠ" , "ᴳ" , "ᴴ" , "ᴵ" , "ᴶ" , "ᴷ" , "ᴸ" , "ᴹ" , "ᴺ" , "ᴼ" , "ᴾ" , "ᶞ" , "ᴿ" , "ᵀ" , "ᵁ" , "ᵛ" , "ᵂ" , "ᵃ" , "ᵇ" , "ᶜ" , "ᵈ" , "ᵉ" , "ᶠ" , "ᵍ" , "ʰ" , "ⁱ" , "ʲ" , "ᵏ" , "ˡ" , "ᵐ" , "ⁿ" , "ᵒ" , "ᵖ" , "ʳ" , "ˢ" , "ᵗ" , "ᵘ" , "ᵛ" , "ʷ" , "ˣ" , "ʸ" , "ᶻ" ]
+  部首: [ "丨" , "亅" , "丿" , "乛" , "一" , "乙" , "乚" , "丶" , "八" , "勹" , "匕" , "冫" , "卜" , "厂" , "刀" , "刂" , "儿" , "二" , "匚" , "阝" , "丷" , "几" , "卩" , "冂" , "力" , "冖" , "凵" , "人" , "亻" , "入" , "十" , "厶" , "亠" , "匸" , "讠" , "廴" , "又" , "艹" , "屮" , "彳" , "巛" , "川" , "辶" , "寸" , "大" , "飞" , "干" , "工" , "弓" , "廾" , "广" , "己" , "彐" , "彑" , "巾" , "口" , "马" , "门" , "宀" , "女" , "犭" , "山" , "彡" , "尸" , "饣" , "士" , "扌" , "氵" , "纟" , "巳" , "土" , "囗" , "兀" , "夕" , "小" , "忄" , "幺" , "弋" , "尢" , "夂" , "子" , "贝" , "比" , "灬" , "长" , "车" , "歹" , "斗" , "厄" , "方" , "风" , "父" , "戈" , "卝" , "户" , "火" , "旡" , "见" , "斤" , "耂" , "毛" , "木" , "肀" , "牛" , "牜" , "爿" , "片" , "攴" , "攵" , "气" , "欠" , "犬" , "日" , "氏" , "礻" , "手" , "殳" , "水" , "瓦" , "尣" , "王" , "韦" , "文" , "毋" , "心" , "牙" , "爻" , "曰" , "月" , "爫" , "支" , "止" , "爪" , "白" , "癶" , "歺" , "甘" , "瓜" , "禾" , "钅" , "立" , "龙" , "矛" , "皿" , "母" , "目" , "疒" , "鸟" , "皮" , "生" , "石" , "矢" , "示" , "罒" , "田" , "玄" , "穴" , "疋" , "业" , "衤" , "用" , "玉" , "耒" , "艸" , "臣" , "虫" , "而" , "耳" , "缶" , "艮" , "虍" , "臼" , "米" , "齐" , "肉" , "色" , "舌" , "覀" , "页" , "先" , "行" , "血" , "羊" , "聿" , "至" , "舟" , "衣" , "竹" , "自" , "羽" , "糸" , "糹" , "貝" , "采" , "镸" , "車" , "辰" , "赤" , "辵" , "豆" , "谷" , "見" , "角" , "克" , "里" , "卤" , "麦" , "身" , "豕" , "辛" , "言" , "邑" , "酉" , "豸" , "走" , "足" , "青" , "靑" , "雨" , "齿" , "長" , "非" , "阜" , "金" , "釒" , "隶" , "門" , "靣" , "飠" , "鱼" , "隹" , "風" , "革" , "骨" , "鬼" , "韭" , "面" , "首" , "韋" , "香" , "頁" , "音" , "髟" , "鬯" , "鬥" , "高" , "鬲" , "馬" , "黄" , "鹵" , "鹿" , "麻" , "麥" , "鳥" , "魚" , "鼎" , "黑" , "黽" , "黍" , "黹" , "鼓" , "鼠" , "鼻" , "齊" , "齒" , "龍" , "龠" ]
+  音标: [ "ɑː" , "ɔ:" , "ɜː" , "i:" , "u:" , "ʌ" , "ɒ" , "ə" , "ɪ" , "ʊ" , "e" , "æ" , "eɪ" , "aɪ" , "ɔɪ" , "ɪə" , "eə" , "ʊə" , "əʊ" , "aʊ" , "p" , "t" , "k" , "f" , "θ" , "s" , "b" , "d" , "g" , "v" , "ð" , "z" , "ʃ" , "h" , "ts" , "tʃ" , "j" , "tr" , "ʒ" , "r" , "dz" , "dʒ" , "dr" , "w" , "m" , "n" , "ŋ" , "l" ]
+
